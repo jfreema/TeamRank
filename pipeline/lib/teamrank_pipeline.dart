@@ -8,5 +8,6 @@ export 'src/identity.dart';
 export 'src/links.dart';
 export 'src/model.dart';
 export 'src/season.dart';
+export 'src/sources/grandslam.dart';
 export 'src/sources/otc.dart';
 export 'src/sources/twod.dart';

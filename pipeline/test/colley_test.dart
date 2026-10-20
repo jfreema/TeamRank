@@ -33,10 +33,21 @@ void main() {
     expect(r[y], greaterThan(r[x]));
   });
 
-  test('margin of victory does not matter', () {
+  test('a bigger win counts more, up to the cap', () {
     final close = colleyRatings(2, [Result(0, 1, 3, 2)]);
+    final big = colleyRatings(2, [Result(0, 1, 9, 2)]);
+    final capped = colleyRatings(2, [Result(0, 1, 12, 2)]);
     final blowout = colleyRatings(2, [Result(0, 1, 20, 0)]);
-    expect(close[0], closeTo(blowout[0], 1e-12));
+    expect(big[0], greaterThan(close[0]));
+    expect(capped[0], greaterThan(big[0]));
+    expect(blowout[0], closeTo(capped[0], 1e-12), reason: 'no credit past 10 runs');
+  });
+
+  test('a one-run win still counts as most of a win', () {
+    expect(winShare(3, 2), closeTo(0.82, 1e-9));
+    expect(winShare(2, 3), closeTo(0.18, 1e-9));
+    expect(winShare(15, 0), 1);
+    expect(winShare(4, 4), 0.5);
   });
 
   test('a tie leaves both teams level', () {

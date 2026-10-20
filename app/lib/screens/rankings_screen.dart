@@ -146,6 +146,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                               (null, 'All orgs'),
                               ('otc', 'OTC'),
                               ('2d', '2D'),
+                              ('gs', 'Grand Slam'),
                             ])
                               Pill(
                                 label: label,
@@ -387,8 +388,8 @@ void showAboutRankings(BuildContext context) {
                     'rates above A.\n\n'
                     'Margin of victory does not count, so running up the score gains nothing. '
                     'Ties count as half a win.\n\n'
-                    'Results come from 11U to 14U divisions at OTC Sports and 2D Sports '
-                    'events this season (August to July). Out-of-state opponents count '
+                    'Results come from 11U to 14U divisions at OTC Sports, 2D Sports and '
+                    'Grand Slam events this season (August to July). Out-of-state opponents count '
                     'toward ratings, but only Louisiana teams are ranked. A team '
                     'listed by both orgs is combined into one entry, and games reported '
                     'twice are counted once.\n\n'

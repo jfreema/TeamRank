@@ -12,16 +12,33 @@ class Result {
   final double weight;
 }
 
-/// Colley Matrix ratings (Wesley Colley, 2002).
+/// How much of a win a result is worth, from 0.5 (a tie) to 1. A win is
+/// worth at least [baseWin] and the rest grows with the run differential up
+/// to [marginCap] runs, so winning matters most, winning big matters some,
+/// and running up the score past the cap gains nothing.
+const baseWin = 0.8, marginCap = 10;
+
+double winShare(int scoreFor, int scoreAgainst) {
+  final diff = scoreFor - scoreAgainst;
+  if (diff == 0) return 0.5;
+  final m = min(diff.abs(), marginCap) / marginCap;
+  final win = baseWin + (1 - baseWin) * m;
+  return diff > 0 ? win : 1 - win;
+}
+
+/// Colley Matrix ratings (Wesley Colley, 2002), with margin of victory.
 ///
 /// Each team's rating is 0.5 plus half its net wins, adjusted by the ratings
-/// of the teams it played. Solving the whole system at once means beating a
-/// team that beat good teams is worth a lot, and beating a winless team is
-/// worth little. Margin of victory is ignored on purpose, so running up the
-/// score on a weak team gains nothing. Ties count as half a win each.
+/// of the teams it played. Solving the whole system at once means every
+/// opponent's rating depends on its own opponents, and theirs on theirs, all
+/// the way through the schedule: beating a team that beat good teams is
+/// worth a lot, and beating a winless team is worth little. A win counts as
+/// [winShare] of a win (0.8 for one run, a full win at 10 or more runs), and
+/// the loser gets the rest. Ties count as half a win each.
 ///
 /// Solves `C r = b` where `C[i][i] = 2 + games_i`, `C[i][j] = -games(i,j)` and
-/// `b[i] = 1 + (wins_i - losses_i) / 2`. `C` is symmetric positive definite,
+/// `b[i] = 1 + (wins_i - losses_i) / 2`, where a game's win and loss are
+/// split by [winShare]. `C` is symmetric positive definite,
 /// so Cholesky decomposition works. A game with weight `w` counts as `w`
 /// games in `C` and `w` wins or losses in `b`.
 List<double> colleyRatings(int teamCount, List<Result> results) {
@@ -37,7 +54,8 @@ List<double> colleyRatings(int teamCount, List<Result> results) {
     c[r.b][r.b] += w;
     c[r.a][r.b] -= w;
     c[r.b][r.a] -= w;
-    final diff = r.scoreA > r.scoreB ? w / 2 : (r.scoreA < r.scoreB ? -w / 2 : 0.0);
+    // Net wins for A: 2 * share - 1, from -1 (a full loss) to 1 (a full win).
+    final diff = w * (2 * winShare(r.scoreA, r.scoreB) - 1) / 2;
     b[r.a] += diff;
     b[r.b] -= diff;
   }

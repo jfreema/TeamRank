@@ -200,8 +200,8 @@ const minAge = 11, maxAge = 14;
 bool inAgeRange(int? age) => age != null && age >= minAge && age <= maxAge;
 
 /// The age group in a division or class label: 12 for `12U-AA`, `12u Open`
-/// or `12U`; null when there is none.
+/// `12U` or `12 & Under AAA`; null when there is none.
 int? ageOf(String label) {
-  final m = RegExp(r'\b(\d{1,2})\s*u\b', caseSensitive: false).firstMatch(label);
+  final m = RegExp(r'\b(\d{1,2})\s*(?:u\b|&\s*under\b)', caseSensitive: false).firstMatch(label);
   return m == null ? null : int.parse(m.group(1)!);
 }

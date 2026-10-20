@@ -1,8 +1,9 @@
 # TeamRank
 
 Rankings for Louisiana 11U to 14U travel baseball teams, built from game results at
-[OTC Sports](https://offthecrosssports.com/baseball) and
-[2D Sports](https://youth.2dsports.org) events.
+[OTC Sports](https://offthecrosssports.com/baseball),
+[2D Sports](https://youth.2dsports.org) and
+[Grand Slam](https://grandslamtournaments.com/baseball) events.
 
 ## How it works
 
@@ -13,10 +14,13 @@ app/        Flutter web app that shows the rankings
 ```
 
 1. **Scrape.** `pipeline` collects every finished game from 11U to 14U divisions this
-   season (August 1 to July 31) at OTC and 2D events, with each team's
+   season (August 1 to July 31) at OTC, 2D and Grand Slam events, with each team's
    hometown. Events that ended more than three days ago are saved to
-   `data/otc.json` and `data/2d.json` and never fetched again. Requests are
+   `data/otc.json`, `data/2d.json` and `data/gs.json` and never fetched again. Requests are
    sent one at a time with a pause between them.
+   Grand Slam runs nationwide and lists only upcoming events, so its scraper
+   walks event IDs (they count up) and keeps Louisiana events plus the games
+   Louisiana teams played at Grand Slam events in other states.
 2. **Remove duplicates.**
    - Games: a game listed on both teams' pages, or in two divisions'
      schedules (crossover games), is counted once. Games that two orgs both

@@ -202,6 +202,7 @@ String levelLabel(String level) => level == 'AAA' ? 'AAA / Majors' : level;
 String sourceLabel(String source) => switch (source) {
       'otc' => 'OTC Sports',
       '2d' => '2D Sports',
+      'gs' => 'Grand Slam',
       _ => source,
     };
 
