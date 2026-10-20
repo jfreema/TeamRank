@@ -60,21 +60,19 @@ Team keys are `otc:<id>` (from the OTC team page URL) or `2d:<uuid>` (from
 the 2D team page URL). `data/review.md` lists automatic merges and likely
 duplicates after each run.
 
-## Setting up Firebase Hosting (free Spark plan)
+## Hosting
 
-1. Create a project at <https://console.firebase.google.com> (no billing
-   needed) and open **Hosting** > **Get started**.
-2. In Google Cloud console > IAM > Service accounts for that project, create a
-   key for an account with the **Firebase Hosting Admin** role and download
-   the JSON. (Or run `firebase init hosting:github` locally, which does this
-   for you.)
-3. In the GitHub repo, open **Settings** > **Secrets and variables** >
-   **Actions**:
-   - add a secret `FIREBASE_SERVICE_ACCOUNT` with the JSON key, and
-   - add a variable `FIREBASE_PROJECT_ID` with the project ID.
-4. Run the **Update rankings** workflow from the Actions tab.
+The site is live at <https://teamrank-la.web.app> (Firebase project
+`teamrank-la`, free Spark plan).
 
-The site is then live at `https://<project-id>.web.app`.
+The nightly workflow deploys with Workload Identity Federation: GitHub's
+OIDC token is exchanged for short-lived credentials of the
+`github-deploy@teamrank-la.iam.gserviceaccount.com` service account, which
+only has the Firebase Hosting Admin and Service Usage Consumer roles and only accepts tokens from
+`jfreema/TeamRank`. No keys or GitHub secrets are involved.
+
+To deploy by hand: `firebase deploy --only hosting` after
+`cd app && flutter build web --release`.
 
 ## Running locally
 

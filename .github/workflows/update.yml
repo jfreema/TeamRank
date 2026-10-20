@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write # keyless sign-in to Google Cloud for the deploy
 
 concurrency:
   group: update-rankings
@@ -28,8 +29,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    env:
-      HAS_FIREBASE: ${{ secrets.FIREBASE_SERVICE_ACCOUNT != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -66,15 +65,13 @@ jobs:
           flutter pub get
           flutter build web --release
 
-      - name: Deploy to Firebase Hosting
-        if: env.HAS_FIREBASE == 'true'
-        uses: FirebaseExtended/action-hosting-deploy@v0
+      # Workload Identity Federation: GitHub's OIDC token is exchanged for
+      # short-lived credentials of the deploy service account. Only this
+      # repository may use it, and no key is stored anywhere.
+      - uses: google-github-actions/auth@v2
         with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
-          channelId: live
+          workload_identity_provider: projects/161376992197/locations/global/workloadIdentityPools/github/providers/github
+          service_account: github-deploy@teamrank-la.iam.gserviceaccount.com
 
-      - name: Firebase not set up yet
-        if: env.HAS_FIREBASE != 'true'
-        run: echo "::notice::Add the FIREBASE_SERVICE_ACCOUNT secret and FIREBASE_PROJECT_ID variable to deploy. See README."
+      - name: Deploy to Firebase Hosting
+        run: npx -y firebase-tools@14 deploy --only hosting --project teamrank-la --non-interactive
