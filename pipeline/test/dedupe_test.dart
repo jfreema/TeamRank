@@ -232,7 +232,50 @@ void main() {
     expect(byName['Big']!['level'], 'AAA');
     expect(byName['Big']!['levelRank'], 1, reason: 'AAA list ranks separately');
     expect(byName['Low']!['level'], 'AAA', reason: 'aliases can override the level');
-    expect(rankings['levels'], {'AA': 1, 'AAA': 3});
+    expect(rankings['ages'], {
+      '12': {'teams': 4, 'AA': 1, 'AAA': 3}
+    });
+  });
+
+  test('teams stay at their registered age and only 11U-14U are ranked', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
+    final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:up': t('otc:up', '11U-AA'),
+      'otc:a': t('otc:a', '12U-AA'),
+      'otc:b': t('otc:b', '12U-AA'),
+      'otc:old': t('otc:old', '15U-AA'),
+    }, events: {
+      '1': EventRecord(
+        id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-11',
+        isFinal: true, teamKeys: [],
+        games: [
+          // An 11U team playing up in a 12U division.
+          game('otc', '1', 'otc:up', 'otc:a', 6, 2),
+          game('otc', '1', 'otc:a', 'otc:b', 6, 2),
+          game('otc', '1', 'otc:old', 'otc:b', 6, 2),
+        ],
+      ),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final byName = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']: x
+    };
+    expect(byName['otc:up']!['age'], 11);
+    expect(byName['otc:up']!['rank'], 1, reason: 'ranked within 11U');
+    expect(byName['otc:a']!['age'], 12);
+    expect(byName['otc:a']!['rank'], 1);
+    expect(byName['otc:old']!['rank'], isNull, reason: '15U is outside the covered ages');
+    expect(byName['otc:old']!['age'], 15, reason: 'still listed as an opponent');
+    expect(rankings['ages'], {
+      '11': {'teams': 1, 'AA': 1, 'AAA': 0},
+      '12': {'teams': 2, 'AA': 2, 'AAA': 0},
+    });
   });
 
   test('beating a AAA team counts more than beating an AA team with the same record', () {

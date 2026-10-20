@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:html/parser.dart' as html;
 
 import '../http.dart';
+import '../identity.dart';
 import '../model.dart';
 import '../season.dart';
 
@@ -62,11 +63,11 @@ class TwoDScraper {
         final page = await client.get('$base/events/$key/schedule');
         token = _metaToken(page) ?? token;
         final divisions = <TwoDDivision>[];
-        for (final slug in parseDivisionLinks(page, key).where(is12U)) {
+        for (final slug in parseDivisionLinks(page, key).where(isAgeDivision)) {
           final divPage = await client.get('$base/events/$key/$slug');
           token = _metaToken(divPage) ?? token;
           divisions.addAll(parseDivisions(divPage)
-              .where((d) => d.urlKey == slug && is12U(d.label))
+              .where((d) => d.urlKey == slug && isAgeDivision(d.label))
               .where((d) => divisions.every((x) => x.eventPriceId != d.eventPriceId)));
         }
         final games = <Game>[];
@@ -165,8 +166,8 @@ class TwoDScraper {
   static String? _metaToken(String page) =>
       RegExp(r'name="csrf-token" content="([^"]+)"').firstMatch(page)?.group(1);
 
-  static bool is12U(String label) =>
-      RegExp(r'^\s*12u\b', caseSensitive: false).hasMatch(label);
+  /// An age-group division such as `12u AA` (url key `12u-aa-`).
+  static bool isAgeDivision(String label) => inAgeRange(ageOf(label.replaceAll('-', ' ')));
 
   /// Division url keys (like `12u-aa-`) linked from an event's schedule page.
   static List<String> parseDivisionLinks(String page, String eventKey) {

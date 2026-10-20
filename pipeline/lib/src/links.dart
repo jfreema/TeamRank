@@ -5,9 +5,9 @@ import 'package:http/http.dart' as http;
 import 'identity.dart';
 
 /// Team links saved in the admin console, stored in Firestore's `links`
-/// collection. Each document has a `type` (`merge`, `split`, `name` or
-/// `level`), the team `keys` it applies to, and for `name` and `level` a
-/// `value`.
+/// collection. Each document has a `type` (`merge`, `split`, `name`, `level`
+/// or `age`), the team `keys` it applies to, and for `name`, `level` and
+/// `age` a `value`.
 Future<Aliases> fetchAdminLinks({
   required String projectId,
   required String accessToken,
@@ -43,6 +43,7 @@ Aliases linksToAliases(Iterable<Map<String, dynamic>> fields) {
   final split = <List<String>>[];
   final names = <String, String>{};
   final levels = <String, String>{};
+  final ages = <String, int>{};
   for (final f in fields) {
     final type = f['type']?['stringValue'] as String?;
     final keys = [
@@ -64,7 +65,11 @@ Aliases linksToAliases(Iterable<Map<String, dynamic>> fields) {
         for (final k in keys) {
           levels[k] = value;
         }
+      case 'age' when int.tryParse(value) != null:
+        for (final k in keys) {
+          ages[k] = int.parse(value);
+        }
     }
   }
-  return Aliases(merge: merge, split: split, names: names, levels: levels);
+  return Aliases(merge: merge, split: split, names: names, levels: levels, ages: ages);
 }

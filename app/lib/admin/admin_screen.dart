@@ -334,6 +334,10 @@ class _EditorState extends State<_Editor> {
             OutlinedButton(onPressed: () => widget.onSave('level', _keys(a), 'AA'), child: const Text('Move to AA list')),
             OutlinedButton(
                 onPressed: () => widget.onSave('level', _keys(a), 'AAA'), child: const Text('Move to AAA / Majors list')),
+            for (var age = 11; age <= 14; age++)
+              if (age != a.age)
+                OutlinedButton(
+                    onPressed: () => widget.onSave('age', _keys(a), '$age'), child: Text('List as ${ageLabel(age)}')),
             if (a.sources.length > 1)
               OutlinedButton(
                 onPressed: () => widget.onSave('split', _keys(a)),
@@ -423,6 +427,7 @@ class _SavedLinks extends StatelessWidget {
               'split' => 'Different teams: ${l.keys.map(_name).join(' / ')}',
               'name' => 'Rename ${l.keys.map(_name).join(', ')} to "${l.value}"',
               'level' => 'Put ${l.keys.map(_name).join(', ')} in ${levelLabel(l.value)}',
+              'age' => 'List ${l.keys.map(_name).join(', ')} as ${l.value}U',
               _ => l.type,
             }),
             subtitle: Text([

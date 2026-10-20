@@ -89,20 +89,61 @@ const aaaWinWeight = 1.5;
 
   final ranked = ids.where(isHome).toList()
     ..sort((a, b) => ratings[index[b]!].compareTo(ratings[index[a]!]));
-  final rankOf = {for (var i = 0; i < ranked.length; i++) ranked[i]: i + 1};
 
-  final levelOfTeam = {for (final id in ranked) id: levelFor(id)};
-  final levelRank = <String, int>{};
-  for (final level in ['AA', 'AAA']) {
-    var n = 0;
-    for (final id in ranked) {
-      if (levelOfTeam[id] == level) levelRank[id] = ++n;
+  // Each team is listed at the age it registered as, even when it plays up.
+  // The ratings still come from one pool across ages.
+  final divisionAges = <String, Map<int, int>>{};
+  for (final g in games) {
+    final age = ageOf(g.division);
+    if (age == null) continue;
+    for (final k in [g.teamA, g.teamB]) {
+      final m = divisionAges.putIfAbsent(groupOf[k]!, () => {});
+      m[age] = (m[age] ?? 0) + 1;
     }
+  }
+  int? ageFor(String id) {
+    final list = members[id] ?? [];
+    for (final t in list) {
+      if (aliases.ages[t.key] case final a?) return a;
+    }
+    int? mostCommon(Iterable<int> ages) {
+      final counts = <int, int>{};
+      for (final a in ages) {
+        counts[a] = (counts[a] ?? 0) + 1;
+      }
+      if (counts.isEmpty) return null;
+      // Ties go to the younger age, since teams play up, not down.
+      return (counts.entries.toList()
+            ..sort((x, y) => y.value != x.value ? y.value - x.value : x.key - y.key))
+          .first
+          .key;
+    }
+
+    return mostCommon(list.map((t) => ageOf(t.ageClass)).whereType<int>()) ??
+        mostCommon(divisionAges[id]?.entries.expand((e) => List.filled(e.value, e.key)) ?? []);
+  }
+
+  final ageOfTeam = {for (final id in ranked) id: ageFor(id)};
+  // Only the covered ages are ranked; other ages still count as opponents.
+  ranked.removeWhere((id) => !inAgeRange(ageOfTeam[id]));
+  final levelOfTeam = {for (final id in ranked) id: levelFor(id)};
+  final ageRank = <String, int>{};
+  final levelRank = <String, int>{};
+  final ageCounts = <int, Map<String, int>>{};
+  for (final id in ranked) {
+    final age = ageOfTeam[id];
+    if (age == null) continue;
+    final c = ageCounts.putIfAbsent(age, () => {'teams': 0, 'AA': 0, 'AAA': 0});
+    ageRank[id] = c['teams'] = c['teams']! + 1;
+    if (levelOfTeam[id] case final level?) levelRank[id] = c[level] = c[level]! + 1;
   }
 
   // Teams the app needs: every ranked team plus their opponents.
+  final rankedSet = ranked.toSet();
   final homeGames = games
-      .where((g) => isHome(groupOf[g.teamA]!) || isHome(groupOf[g.teamB]!))
+      .where((g) =>
+          rankedSet.contains(groupOf[g.teamA]!) ||
+          rankedSet.contains(groupOf[g.teamB]!))
       .toList();
   final needed = {
     ...ranked,
@@ -137,8 +178,9 @@ const aaaWinWeight = 1.5;
       'name': displayName(id),
       'city': _titleCase(home.city),
       'state': home.state,
-      'rank': rankOf[id],
-      'level': rankOf.containsKey(id) ? levelOfTeam[id] : levelFor(id),
+      'age': ageOfTeam[id] ?? ageFor(id),
+      'rank': ageRank[id],
+      'level': levelOfTeam[id] ?? levelFor(id),
       'levelRank': levelRank[id],
       'rating': _round(ratings[index[id]!]),
       'sos': _round(s.sos),
@@ -170,9 +212,8 @@ const aaaWinWeight = 1.5;
     'state': state,
     'method': 'colley',
     'aaaWinWeight': aaaWinWeight,
-    'levels': {
-      for (final level in ['AA', 'AAA'])
-        level: levelOfTeam.values.where((l) => l == level).length,
+    'ages': {
+      for (final a in ageCounts.keys.toList()..sort()) '$a': ageCounts[a],
     },
     'sources': {
       for (final c in caches)

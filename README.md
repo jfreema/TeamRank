@@ -1,6 +1,6 @@
 # TeamRank
 
-Rankings for Louisiana 12U travel baseball teams, built from game results at
+Rankings for Louisiana 11U to 14U travel baseball teams, built from game results at
 [OTC Sports](https://offthecrosssports.com/baseball) and
 [2D Sports](https://youth.2dsports.org) events.
 
@@ -12,7 +12,7 @@ data/       What the scrapers found (committed so each run only fetches new even
 app/        Flutter web app that shows the rankings
 ```
 
-1. **Scrape.** `pipeline` collects every finished game from 12U divisions this
+1. **Scrape.** `pipeline` collects every finished game from 11U to 14U divisions this
    season (August 1 to July 31) at OTC and 2D events, with each team's
    hometown. Events that ended more than three days ago are saved to
    `data/otc.json` and `data/2d.json` and never fetched again. Requests are
@@ -36,6 +36,11 @@ app/        Flutter web app that shows the rankings
    `data/aliases.json` if its class is wrong or missing. A win over a
    AAA / Majors team counts as 1.5 games (`aaaWinWeight` in
    `pipeline/lib/src/build.dart`).
+   Each team is listed at the age it registered as (11U to 14U), even when
+   it plays up, and ranked within that age. All ages share one rating pool,
+   so games across ages count. Set a team's age with `ages` in
+   `data/aliases.json` if needed (`minAge` and `maxAge` in
+   `pipeline/lib/src/identity.dart` set the covered ages).
 4. **Publish.** The result is `app/web/data/rankings.json`, which the app
    loads when it opens.
 
@@ -61,6 +66,7 @@ redeploys without re-scraping.
   "split": [["otc:7069", "2d:60f64dd6-053c-4598-a639-047bc69816cd"]],
   "names": {"otc:7158": "Slidell Raptors"},
   "levels": {"otc:7158": "AAA"},
+  "ages": {"otc:7158": 12},
   "exclude": []
 }
 ```
@@ -69,6 +75,7 @@ redeploys without re-scraping.
 - `split`: these listings were merged automatically but are different teams.
 - `names`: the display name to use.
 - `levels`: put a team in the `AA` or `AAA` (AAA / Majors) list.
+- `ages`: the age group to list a team in.
 - `exclude`: drop a listing and its games.
 
 Team keys are `otc:<id>` (from the OTC team page URL) or `2d:<uuid>` (from

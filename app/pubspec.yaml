@@ -1,5 +1,5 @@
 name: teamrank
-description: "Louisiana 12U travel baseball rankings."
+description: "Louisiana 11U to 14U travel baseball rankings."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -22,3 +22,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Lilita
+      fonts:
+        - asset: fonts/LilitaOne-Regular.ttf
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito.ttf

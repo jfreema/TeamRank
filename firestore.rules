@@ -19,7 +19,7 @@ service cloud.firestore {
     match /links/{id} {
       allow read, delete: if isAdmin();
       allow create: if isAdmin()
-        && request.resource.data.type in ['merge', 'split', 'name', 'level']
+        && request.resource.data.type in ['merge', 'split', 'name', 'level', 'age']
         && request.resource.data.keys is list
         && request.resource.data.keys.size() >= 1
         && request.resource.data.keys.size() <= 10

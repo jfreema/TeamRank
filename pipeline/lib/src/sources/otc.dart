@@ -1,7 +1,10 @@
+import 'dart:math';
+
 import 'package:html/dom.dart';
 import 'package:html/parser.dart' as html;
 
 import '../http.dart';
+import '../identity.dart';
 import '../model.dart';
 import '../season.dart';
 
@@ -10,7 +13,7 @@ import '../season.dart';
 /// Every page is plain server-rendered HTML. Each team has a stable numeric ID
 /// and a team page listing its hometown, every event it played (with the
 /// event date and division) and every game score, including bracket games.
-/// So the scraper finds the 12U teams of each event from the division
+/// So the scraper finds the teams of each event from the division
 /// schedule, then reads the games off those team pages.
 class OtcScraper {
   OtcScraper(this.client, {this.base = 'https://offthecrosssports.com'});
@@ -44,13 +47,13 @@ class OtcScraper {
     }
 
     final todo = listings.values.where((l) {
-      if (!l.has12U) return false;
+      if (!l.hasAges) return false;
       if (l.start != null && (!season.contains(l.start!) || l.start!.isAfter(today))) {
         return false;
       }
       return !(cache.events[l.id]?.isFinal ?? false);
     }).toList();
-    log('otc: ${listings.length} events listed, ${todo.length} 12U events to fetch');
+    log('otc: ${listings.length} events listed, ${todo.length} events to fetch');
     if (todo.isNotEmpty) await _scrapeEvents(cache, todo, today, log);
 
     // Teams saved before logos were collected.
@@ -67,12 +70,12 @@ class OtcScraper {
   Future<void> _scrapeEvents(SourceCache cache, List<OtcListing> todo, DateTime today,
       void Function(String) log) async {
 
-    // 1. Which 12U teams played in each event.
+    // 1. Which teams played in each event.
     final eventTeams = <String, Set<String>>{};
     for (final l in todo) {
       final details = await client.get('$base/Baseball/Events/Details/${l.id}/${l.slug}');
       final teams = <String>{};
-      for (final division in parseDivisions(details).where(is12U)) {
+      for (final division in parseDivisions(details).where(isAgeDivision)) {
         final sched = await client.get(
             '$base/Baseball/Events/Schedule/${l.id}/${l.slug}?division=${Uri.encodeQueryComponent(division)}');
         teams.addAll(parseTeamIds(sched));
@@ -131,8 +134,19 @@ class OtcScraper {
     }
   }
 
-  static bool is12U(String division) =>
-      division.toUpperCase().startsWith('12U');
+  /// An age-group division such as `12U-AA` or `14U-OPEN 60/90`.
+  /// Whether a listing's ages, such as `8U - 14U`, overlap the covered ages.
+  static bool _overlapsAgeRange(String ages) {
+    final found = RegExp(r'\b(\d{1,2})U', caseSensitive: false)
+        .allMatches(ages)
+        .map((m) => int.parse(m.group(1)!))
+        .toList();
+    return found.isNotEmpty &&
+        found.reduce(min) <= maxAge &&
+        found.reduce(max) >= minAge;
+  }
+
+  static bool isAgeDivision(String division) => inAgeRange(ageOf(division));
 
   /// Events on an OTC events or past-events page.
   static List<OtcListing> parseListings(String body, {required DateTime today}) {
@@ -157,7 +171,7 @@ class OtcScraper {
         name: _text(link),
         start: start,
         lengthDays: length,
-        has12U: RegExp(r'\b12U', caseSensitive: false).hasMatch(ages),
+        hasAges: _overlapsAgeRange(ages),
       ));
     }
     return out;
@@ -286,7 +300,7 @@ class OtcScraper {
     final samples = <String, (OtcTeamGame, String, DateTime)>{};
     for (final p in pages) {
       final ev = p.events[l.id];
-      if (ev == null || !is12U(ev.division)) continue;
+      if (ev == null || !isAgeDivision(ev.division)) continue;
       final seen = <String, int>{};
       for (final g in p.games.where((g) => g.eventId == l.id)) {
         final k = g.canonicalKey;
@@ -328,7 +342,7 @@ class OtcListing {
     required this.name,
     required this.start,
     required this.lengthDays,
-    required this.has12U,
+    required this.hasAges,
   });
 
   final String id;
@@ -336,7 +350,9 @@ class OtcListing {
   final String name;
   final DateTime? start;
   final int lengthDays;
-  final bool has12U;
+
+  /// Whether the listing names any age groups.
+  final bool hasAges;
 }
 
 class OtcTeamEvent {

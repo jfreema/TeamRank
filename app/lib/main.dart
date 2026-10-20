@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'admin/admin_screen.dart';
 import 'models.dart';
 import 'screens/rankings_screen.dart';
+import 'widgets/chunky.dart';
 
 void main() {
   runApp(const TeamRankApp());
@@ -31,18 +32,21 @@ class TeamRankApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeData theme(Brightness b) => ThemeData(
-          colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color(0xFF1B3A6B),
-            brightness: b,
-          ),
-          useMaterial3: true,
-        );
+    // One bright look in light and dark mode alike.
+    final theme = ThemeData(
+      colorScheme: ColorScheme.fromSeed(
+        seedColor: Palette.blue,
+        primary: Palette.blue,
+        secondary: Palette.pink,
+        tertiary: Palette.yellow,
+      ),
+      fontFamily: 'Nunito',
+      useMaterial3: true,
+    );
     return MaterialApp(
-      title: 'TeamRank: Louisiana 12U',
+      title: 'TeamRank: Louisiana Baseball',
       debugShowCheckedModeBanner: false,
-      theme: theme(Brightness.light),
-      darkTheme: theme(Brightness.dark),
+      theme: theme,
       home: Uri.base.path.startsWith('/admin')
           ? AdminScreen(loader: loader)
           : RankingsScreen(loader: loader),

@@ -8,6 +8,7 @@ import 'model.dart';
 ///   "split":  [["otc:7069", "2d:60f64dd6-..."]],
 ///   "names":  {"otc:7158": "Slidell Raptors"},
 ///   "levels": {"otc:7158": "AAA"},
+///   "ages":   {"otc:7158": 12},
 ///   "exclude": ["2d:..."]
 /// }
 /// ```
@@ -15,13 +16,15 @@ import 'model.dart';
 /// `merge` joins source teams that are the same real team, `split` stops an
 /// automatic match, `names` overrides the display name, and `exclude` drops a
 /// team and its games. `levels` sets which ranking list (`AA` or `AAA`) a
-/// team appears in when its registered class is wrong or missing.
+/// team appears in when its registered class is wrong or missing, and `ages`
+/// sets the age group it is listed under.
 class Aliases {
   Aliases({
     this.merge = const [],
     this.split = const [],
     this.names = const {},
     this.levels = const {},
+    this.ages = const {},
     this.exclude = const {},
   });
 
@@ -29,6 +32,7 @@ class Aliases {
   final List<List<String>> split;
   final Map<String, String> names;
   final Map<String, String> levels;
+  final Map<String, int> ages;
   final Set<String> exclude;
 
   factory Aliases.fromJson(Map<String, dynamic> j) => Aliases(
@@ -40,6 +44,7 @@ class Aliases {
             .toList(),
         names: (j['names'] as Map? ?? {}).cast<String, String>(),
         levels: (j['levels'] as Map? ?? {}).cast<String, String>(),
+        ages: (j['ages'] as Map? ?? {}).map((k, v) => MapEntry(k as String, (v as num).toInt())),
         exclude: (j['exclude'] as List? ?? []).cast<String>().toSet(),
       );
 
@@ -49,6 +54,7 @@ class Aliases {
         split: [...split, ...other.split],
         names: {...names, ...other.names},
         levels: {...levels, ...other.levels},
+        ages: {...ages, ...other.ages},
         exclude: {...exclude, ...other.exclude},
       );
 }
@@ -74,8 +80,8 @@ int? _ageInName(String name) {
 /// or registered twice with one org) is only counted once.
 ///
 /// Teams are matched automatically when their normalized names and hometowns
-/// agree, their names don't state different ages (an 11U and a 12U squad of
-/// one club), and they never played in the same event, since one team cannot
+/// agree, their names or registered classes don't give different ages (an
+/// 11U and a 12U squad of one club), and they never played in the same event, since one team cannot
 /// be in two dugouts at once. If any two candidates did share an event (say two
 /// squads from one club with the same name), the whole group is left alone
 /// and reported in [GroupResult.ambiguous] for a manual alias.
@@ -132,8 +138,10 @@ GroupResult groupTeams(Iterable<SourceTeam> teams, Aliases aliases,
         final a = eventsOf[group[i].key] ?? const {};
         final b = eventsOf[group[j].key] ?? const {};
         final ageA = _ageInName(group[i].name), ageB = _ageInName(group[j].name);
+        final classA = ageOf(group[i].ageClass), classB = ageOf(group[j].ageClass);
         clash = a.any(b.contains) ||
             (ageA != null && ageB != null && ageA != ageB) ||
+            (classA != null && classB != null && classA != classB) ||
             blocked.contains('${group[i].key}|${group[j].key}');
       }
     }
@@ -184,4 +192,16 @@ String? levelOf(String ageClass) {
   if (RegExp(r'\bMAJORS?\b|AAA').hasMatch(c)) return 'AAA';
   if (RegExp(r'(^|[^A])AA?\b').hasMatch(c.replaceAll(RegExp(r'\d+U'), ''))) return 'AA';
   return null;
+}
+
+/// The youngest and oldest age groups the site covers.
+const minAge = 11, maxAge = 14;
+
+bool inAgeRange(int? age) => age != null && age >= minAge && age <= maxAge;
+
+/// The age group in a division or class label: 12 for `12U-AA`, `12u Open`
+/// or `12U`; null when there is none.
+int? ageOf(String label) {
+  final m = RegExp(r'\b(\d{1,2})\s*u\b', caseSensitive: false).firstMatch(label);
+  return m == null ? null : int.parse(m.group(1)!);
 }

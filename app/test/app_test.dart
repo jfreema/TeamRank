@@ -11,11 +11,13 @@ RankingsData sample() => RankingsData.fromJson({
         'otc': {'events': 1, 'games': 2},
       },
       'teams': [
-        {'id': 'otc:1', 'name': 'Slidell Raptors', 'city': 'Slidell', 'state': 'LA', 'rank': 1, 'level': 'AAA', 'levelRank': 1,
+        {'id': 'otc:1', 'name': 'Slidell Raptors', 'city': 'Slidell', 'state': 'LA', 'age': 12, 'rank': 1, 'level': 'AAA', 'levelRank': 1,
          'rating': 0.61, 'sos': 0.5, 'wins': 2, 'losses': 0, 'ties': 0, 'runsFor': 15, 'runsAgainst': 5,
          'sources': [{'source': 'otc', 'name': 'Slidell Raptors', 'ageClass': '12U-AA', 'url': ''}]},
-        {'id': 'otc:2', 'name': 'Walker Elite', 'city': 'Walker', 'state': 'LA', 'rank': 2, 'level': 'AA', 'levelRank': 1,
+        {'id': 'otc:2', 'name': 'Walker Elite', 'city': 'Walker', 'state': 'LA', 'age': 12, 'rank': 2, 'level': 'AA', 'levelRank': 1,
          'rating': 0.45, 'sos': 0.55, 'wins': 0, 'losses': 1, 'ties': 0, 'runsFor': 3, 'runsAgainst': 12, 'sources': []},
+        {'id': 'otc:4', 'name': 'Houma Heat', 'city': 'Houma', 'state': 'LA', 'age': 13, 'rank': 1, 'level': 'AA', 'levelRank': 1,
+         'rating': 0.52, 'sos': 0.5, 'wins': 0, 'losses': 0, 'ties': 0, 'runsFor': 0, 'runsAgainst': 0, 'sources': []},
         {'id': 'otc:3', 'name': 'Mississippi Vice', 'city': 'Biloxi', 'state': 'MS', 'rank': null,
          'rating': 0.44, 'sos': 0.6, 'wins': 0, 'losses': 1, 'ties': 0, 'runsFor': 2, 'runsAgainst': 3, 'sources': []},
       ],
@@ -32,9 +34,17 @@ void main() {
     await tester.pumpWidget(TeamRankApp(loader: () async => sample()));
     await tester.pumpAndSettle();
 
-    // Opens on the AA list.
+    // Opens on the 12U AA list.
     expect(find.text('Walker Elite'), findsOneWidget);
     expect(find.text('Slidell Raptors'), findsNothing);
+    expect(find.text('Houma Heat'), findsNothing);
+
+    await tester.tap(find.text('13U'));
+    await tester.pumpAndSettle();
+    expect(find.text('Houma Heat'), findsOneWidget);
+    expect(find.text('Walker Elite'), findsNothing);
+    await tester.tap(find.text('12U'));
+    await tester.pumpAndSettle();
 
     await tester.tap(find.text('AAA / Majors'));
     await tester.pumpAndSettle();
@@ -58,6 +68,7 @@ void main() {
     expect(find.text('Games (2)'), findsOneWidget);
     expect(find.text('12-3 vs #1 AA Walker Elite'), findsOneWidget);
     expect(find.text('AAA / Majors rank'), findsOneWidget);
+    expect(find.text('12U rank'), findsOneWidget);
     expect(find.text('3-2 vs Mississippi Vice (MS)'), findsOneWidget);
   });
 }

@@ -68,14 +68,14 @@ void main() {
   group('OTC', () {
     final today = DateTime(2026, 10, 20);
 
-    test('reads event listings, dates and 12U divisions', () {
+    test('reads event listings, dates and age groups', () {
       final l = OtcScraper.parseListings(otcListing, today: today);
       expect(l.map((e) => e.id), ['1141', '996']);
       expect(l[0].start, DateTime(2026, 10, 10));
       expect(l[0].lengthDays, 2);
-      expect(l[0].has12U, isTrue);
+      expect(l[0].hasAges, isTrue);
       expect(l[1].start, DateTime(2025, 5, 10));
-      expect(l[1].has12U, isFalse);
+      expect(l[1].hasAges, isFalse, reason: '8U and 9U only');
     });
 
     test('team logos skip the placeholder image', () {
@@ -124,9 +124,9 @@ void main() {
       expect(games.single.date, '2026-10-10');
 
       final playUp = OtcListing(
-          id: '1130', slug: 'play-up', name: 'Play Up', start: null, lengthDays: 2, has12U: true);
-      expect(OtcScraper.collectEventGames(playUp, [raptors]), isEmpty,
-          reason: 'a 13U division game is not a 12U result');
+          id: '1130', slug: 'play-up', name: 'Play Up', start: null, lengthDays: 2, hasAges: true);
+      final up = OtcScraper.collectEventGames(playUp, [raptors]);
+      expect(up.single.division, '13U-OPEN', reason: 'games in other age groups count too');
     });
   });
 
@@ -140,7 +140,8 @@ void main() {
       </script>''';
       final d = TwoDScraper.parseDivisions(page);
       expect(d, hasLength(2));
-      expect(d.where((x) => TwoDScraper.is12U(x.label)).single.scheduleId, 27469);
+      expect(d.where((x) => TwoDScraper.isAgeDivision(x.label)), hasLength(2));
+      expect(d.firstWhere((x) => x.label == '12u AA').scheduleId, 27469);
     });
 
     test('finds division links on the schedule page', () {
@@ -150,8 +151,8 @@ void main() {
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/12u-open-">12u Open</a>
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/10u-aa-">10u AA</a>
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/schedule/all">All</a>''';
-      expect(TwoDScraper.parseDivisionLinks(page, 'hit-fest-la-10-17-2026').where(TwoDScraper.is12U),
-          ['12u-aa-', '12u-open-']);
+      expect(TwoDScraper.parseDivisionLinks(page, 'hit-fest-la-10-17-2026').where(TwoDScraper.isAgeDivision),
+          ['12u-aa-', '12u-open-'], reason: '10U is outside the covered ages');
     });
 
     test('reads team hometowns from the teams page', () {

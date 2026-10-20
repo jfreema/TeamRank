@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../models.dart';
+import '../widgets/chunky.dart';
 import '../widgets/team_logo.dart';
 
 class TeamScreen extends StatelessWidget {
@@ -12,81 +13,106 @@ class TeamScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme;
     final games = data.gamesFor(team.id);
     final dates = MaterialLocalizations.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text(team.name)),
-      body: Center(
-        child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 900),
-          child: ListView(
-            padding: const EdgeInsets.symmetric(vertical: 16),
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        TeamLogo(team: team, size: 64),
-                        const SizedBox(width: 16),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(team.name, style: t.headlineSmall),
-                              if (team.hometown.isNotEmpty) Text(team.hometown, style: t.titleSmall),
+      backgroundColor: Palette.blue,
+      body: SafeArea(
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 900),
+            child: ListView(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 40),
+              children: [
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Tooltip(
+                    message: 'Back',
+                    child: Chunky(
+                      radius: 999,
+                      color: Palette.yellow,
+                      padding: const EdgeInsets.all(8),
+                      onTap: () => Navigator.of(context).maybePop(),
+                      child: const Icon(Icons.arrow_back_rounded, color: Palette.ink),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Chunky(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      TeamLogo(team: team, size: 72),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(team.name, style: display(30)),
+                            if (team.hometown.isNotEmpty) ...[
+                              const SizedBox(height: 4),
+                              Text(team.hometown, style: body(15, weight: 800, color: Palette.ink.withValues(alpha: 0.7))),
                             ],
-                          ),
+                          ],
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 12,
-                      runSpacing: 12,
-                      children: [
-                        if (team.level != null && team.levelRank != null)
-                          _Stat(label: '${levelLabel(team.level!)} rank', value: '#${team.levelRank}'),
-                        _Stat(label: 'Overall rank', value: team.rank == null ? 'Not ranked' : '#${team.rank}'),
-                        _Stat(label: 'Record', value: team.record),
-                        _Stat(label: 'Rating', value: team.rating.toStringAsFixed(3)),
-                        _Stat(label: 'Schedule strength', value: team.sos.toStringAsFixed(3)),
-                        _Stat(
-                          label: 'Runs',
-                          value: '${team.runsFor}-${team.runsAgainst} '
-                              '(${team.runDiff >= 0 ? '+' : ''}${team.runDiff})',
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 8,
-                      children: [
-                        for (final s in team.sources)
-                          if (s.url.isNotEmpty)
-                            ActionChip(
-                              avatar: const Icon(Icons.open_in_new, size: 16),
-                              label: Text('${s.label}${s.name != team.name ? ': ${s.name}' : ''}'),
-                              onPressed: () => launchUrl(Uri.parse(s.url)),
-                            )
-                          else
-                            Chip(label: Text('${s.label}: ${s.name}')),
-                      ],
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Wrap(
+                  spacing: 12,
+                  runSpacing: 12,
+                  children: [
+                    if (team.level != null && team.levelRank != null)
+                      _Stat(label: '${levelLabel(team.level!)} rank', value: '#${team.levelRank}', color: Palette.yellow),
+                    _Stat(
+                        label: team.age == null ? 'Rank' : '${ageLabel(team.age)} rank',
+                        value: team.rank == null ? 'Not ranked' : '#${team.rank}',
+                        color: Palette.pink),
+                    _Stat(label: 'Record', value: team.record, color: Palette.green),
+                    _Stat(label: 'Rating', value: team.rating.toStringAsFixed(3)),
+                    _Stat(label: 'Schedule strength', value: team.sos.toStringAsFixed(3)),
+                    _Stat(
+                      label: 'Runs',
+                      value: '${team.runsFor}-${team.runsAgainst} '
+                          '(${team.runDiff >= 0 ? '+' : ''}${team.runDiff})',
+                      color: Palette.orange,
                     ),
                   ],
                 ),
-              ),
-              const SizedBox(height: 16),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Text('Games (${games.length})', style: t.titleMedium),
-              ),
-              for (final g in games) _GameTile(data: data, team: team, game: g, dates: dates),
-            ],
+                const SizedBox(height: 16),
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 8,
+                  children: [
+                    for (final s in team.sources)
+                      Chunky(
+                        radius: 999,
+                        shadow: 2,
+                        border: 2,
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                        onTap: s.url.isEmpty ? null : () => launchUrl(Uri.parse(s.url)),
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                          if (s.url.isNotEmpty) ...[
+                            const Icon(Icons.open_in_new, size: 15, color: Palette.ink),
+                            const SizedBox(width: 6),
+                          ],
+                          Text('${s.label}${s.name != team.name ? ': ${s.name}' : ''}', style: body(13, weight: 800)),
+                        ]),
+                      ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+                Shout('Games (${games.length})', size: 30),
+                const SizedBox(height: 12),
+                for (final g in games) ...[
+                  _GameTile(data: data, team: team, game: g, dates: dates),
+                  const SizedBox(height: 10),
+                ],
+              ],
+            ),
           ),
         ),
       ),
@@ -104,64 +130,81 @@ class _GameTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final scheme = Theme.of(context).colorScheme;
     final (:opponent, :us, :them) = game.from(team.id);
     final opp = data.teamsById[opponent];
     final (letter, color) = us > them
-        ? ('W', Colors.green.shade700)
+        ? ('W', Palette.green)
         : us < them
-            ? ('L', scheme.error)
-            : ('T', scheme.outline);
+            ? ('L', Palette.pink)
+            : ('T', Palette.sky);
+    // Name the opponent's age only when it differs, e.g. a team playing up.
+    final oppAge = opp?.age != null && opp!.age != team.age ? ' ${ageLabel(opp.age)}' : '';
     final oppLabel = [
-      if (opp?.levelRank != null) '#${opp!.levelRank} ${opp.level}'
-      else if (opp?.rank != null) '#${opp!.rank}',
+      if (opp?.levelRank != null) '#${opp!.levelRank}$oppAge ${opp.level}'
+      else if (opp?.rank != null) '#${opp!.rank}$oppAge',
       opp?.name ?? 'Unknown team',
       if (opp != null && opp.state.isNotEmpty && opp.state != data.state) '(${opp.state})',
     ].join(' ');
 
-    return ListTile(
-      leading: CircleAvatar(
-        backgroundColor: color,
-        foregroundColor: Colors.white,
-        child: Text(letter),
-      ),
-      trailing: opp == null
-          ? null
-          : Row(mainAxisSize: MainAxisSize.min, children: [
-              Text(opp.record),
-              const SizedBox(width: 12),
-              TeamLogo(team: opp, size: 28),
-            ]),
-      title: Text('$us-$them vs $oppLabel'),
-      subtitle: Text('${dates.formatShortDate(game.date)} · ${game.event} · ${sourceLabel(game.source)}'),
+    return Chunky(
+      padding: const EdgeInsets.all(10),
+      shadow: 3,
       onTap: opp == null
           ? null
           : () => Navigator.of(context).push(MaterialPageRoute(
                 builder: (_) => TeamScreen(data: data, team: opp),
               )),
+      child: Row(
+        children: [
+          Chunky(
+            color: color,
+            radius: 12,
+            shadow: 0,
+            border: 2.5,
+            padding: EdgeInsets.zero,
+            child: SizedBox(width: 40, height: 40, child: Center(child: Text(letter, style: display(22)))),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('$us-$them vs $oppLabel', style: display(17)),
+                const SizedBox(height: 2),
+                Text('${dates.formatShortDate(game.date)} · ${game.event} · ${sourceLabel(game.source)}',
+                    style: body(12, weight: 700, color: Palette.ink.withValues(alpha: 0.65))),
+              ],
+            ),
+          ),
+          if (opp != null) ...[
+            const SizedBox(width: 8),
+            Text(opp.record, style: body(13, weight: 900)),
+            const SizedBox(width: 10),
+            TeamLogo(team: opp, size: 30),
+          ],
+        ],
+      ),
     );
   }
 }
 
 class _Stat extends StatelessWidget {
-  const _Stat({required this.label, required this.value});
+  const _Stat({required this.label, required this.value, this.color = Palette.white});
   final String label;
   final String value;
+  final Color color;
 
   @override
-  Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme;
-    return Card.outlined(
-      child: Padding(
+  Widget build(BuildContext context) => Chunky(
+        color: color,
+        radius: 14,
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(label, style: t.labelSmall),
-            Text(value, style: t.titleMedium),
+            Text(label, style: body(12, weight: 900)),
+            Text(value, style: display(24)),
           ],
         ),
-      ),
-    );
-  }
+      );
 }

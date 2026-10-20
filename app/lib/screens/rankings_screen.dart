@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models.dart';
+import '../widgets/chunky.dart';
 import '../widgets/team_logo.dart';
 import 'team_screen.dart';
 
@@ -22,19 +23,13 @@ class _RankingsScreenState extends State<RankingsScreen> {
   /// `AA`, `AAA`, or null for everyone.
   String? _level = 'AA';
 
+  /// The age group shown; null until the data loads, then 12U if present.
+  int? _age;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Louisiana 12U Rankings'),
-        actions: [
-          IconButton(
-            tooltip: 'How rankings work',
-            icon: const Icon(Icons.info_outline),
-            onPressed: () => showAboutRankings(context),
-          ),
-        ],
-      ),
+      backgroundColor: Palette.blue,
       body: FutureBuilder<RankingsData>(
         future: _data,
         builder: (context, snap) {
@@ -42,14 +37,15 @@ class _RankingsScreenState extends State<RankingsScreen> {
             return _Message(
               icon: Icons.cloud_off,
               text: 'Could not load rankings.\n${snap.error}',
-              action: FilledButton(
-                onPressed: () => setState(() => _data = widget.loader()),
-                child: const Text('Try again'),
+              action: Pill(
+                label: 'Try again',
+                selected: true,
+                onTap: () => setState(() => _data = widget.loader()),
               ),
             );
           }
           if (!snap.hasData) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator(color: Palette.yellow));
           }
           return _buildList(context, snap.data!);
         },
@@ -58,8 +54,11 @@ class _RankingsScreenState extends State<RankingsScreen> {
   }
 
   Widget _buildList(BuildContext context, RankingsData data) {
+    final age = _age ??
+        (data.ages.contains(12) ? 12 : (data.ages.isEmpty ? null : data.ages.first));
     final q = _query.trim().toLowerCase();
     final teams = data.ranked.where((t) {
+      if (t.age != age) return false;
       if (_level != null && t.level != _level) return false;
       if (t.games < _minGames) return false;
       if (_source != null && !t.sources.any((s) => s.source == _source)) return false;
@@ -67,87 +66,131 @@ class _RankingsScreenState extends State<RankingsScreen> {
       return t.name.toLowerCase().contains(q) || t.city.toLowerCase().contains(q);
     }).toList();
 
-    return Center(
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: 900),
-        child: CustomScrollView(
-          slivers: [
-            SliverToBoxAdapter(child: _Header(data: data)),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                child: SegmentedButton<String?>(
-                  showSelectedIcon: false,
-                  segments: const [
-                    ButtonSegment(value: 'AA', label: Text('AA')),
-                    ButtonSegment(value: 'AAA', label: Text('AAA / Majors')),
-                    ButtonSegment(value: null, label: Text('All')),
-                  ],
-                  selected: {_level},
-                  onSelectionChanged: (v) => setState(() => _level = v.first),
-                ),
-              ),
-            ),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
-                child: TextField(
-                  decoration: const InputDecoration(
-                    prefixIcon: Icon(Icons.search),
-                    hintText: 'Search team or town',
-                    border: OutlineInputBorder(),
-                    isDense: true,
+    return SafeArea(
+      child: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 900),
+          child: CustomScrollView(
+            slivers: [
+              SliverToBoxAdapter(child: _Header(data: data, age: age)),
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                  child: Chunky(
+                    padding: const EdgeInsets.all(14),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: [
+                            for (final a in data.ages)
+                              Pill(
+                                label: ageLabel(a),
+                                size: 20,
+                                selected: age == a,
+                                onTap: () => setState(() => _age = a),
+                              ),
+                          ],
+                        ),
+                        const SizedBox(height: 10),
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: [
+                            for (final (value, label) in [
+                              ('AA', 'AA'),
+                              ('AAA', 'AAA / Majors'),
+                              (null, 'All'),
+                            ])
+                              Pill(
+                                label: label,
+                                color: Palette.pink,
+                                selected: _level == value,
+                                onTap: () => setState(() => _level = value),
+                              ),
+                          ],
+                        ),
+                        const SizedBox(height: 12),
+                        TextField(
+                          style: body(16),
+                          decoration: InputDecoration(
+                            prefixIcon: const Icon(Icons.search, color: Palette.ink),
+                            hintText: 'Search team or town',
+                            hintStyle: body(16, weight: 600, color: Palette.ink.withValues(alpha: 0.5)),
+                            filled: true,
+                            fillColor: Palette.sky,
+                            isDense: true,
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(14),
+                              borderSide: const BorderSide(color: Palette.ink, width: 2.5),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(14),
+                              borderSide: const BorderSide(color: Palette.ink, width: 2.5),
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(14),
+                              borderSide: const BorderSide(color: Palette.blue, width: 3),
+                            ),
+                          ),
+                          onChanged: (v) => setState(() => _query = v),
+                        ),
+                        const SizedBox(height: 12),
+                        Wrap(
+                          spacing: 6,
+                          runSpacing: 6,
+                          children: [
+                            for (final (value, label) in [
+                              (null, 'All orgs'),
+                              ('otc', 'OTC'),
+                              ('2d', '2D'),
+                            ])
+                              Pill(
+                                label: label,
+                                size: 13,
+                                color: Palette.orange,
+                                selected: _source == value,
+                                onTap: () => setState(() => _source = value),
+                              ),
+                            const SizedBox(width: 6),
+                            for (final (value, label) in [(0, 'Any games'), (3, '3+ games'), (6, '6+ games')])
+                              Pill(
+                                label: label,
+                                size: 13,
+                                color: Palette.green,
+                                selected: _minGames == value,
+                                onTap: () => setState(() => _minGames = value),
+                              ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
-                  onChanged: (v) => setState(() => _query = v),
                 ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                child: Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    for (final (value, label) in [
-                      (null, 'All orgs'),
-                      ('otc', 'OTC'),
-                      ('2d', '2D'),
-                    ])
-                      ChoiceChip(
-                        label: Text(label),
-                        selected: _source == value,
-                        onSelected: (_) => setState(() => _source = value),
-                      ),
-                    const SizedBox(width: 8),
-                    for (final (value, label) in [(0, 'Any games'), (3, '3+ games'), (6, '6+ games')])
-                      ChoiceChip(
-                        label: Text(label),
-                        selected: _minGames == value,
-                        onSelected: (_) => setState(() => _minGames = value),
-                      ),
-                  ],
+              if (teams.isEmpty)
+                const SliverToBoxAdapter(
+                  child: _Message(icon: Icons.search_off, text: 'No teams match.'),
+                ),
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+                sliver: SliverList.separated(
+                  itemCount: teams.length,
+                  separatorBuilder: (_, _) => const SizedBox(height: 12),
+                  itemBuilder: (context, i) => _TeamRow(
+                    team: teams[i],
+                    showLevel: _level == null,
+                    onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                      builder: (_) => TeamScreen(data: data, team: teams[i]),
+                    )),
+                  ),
                 ),
               ),
-            ),
-            const SliverToBoxAdapter(child: _ColumnHeader()),
-            if (teams.isEmpty)
-              const SliverToBoxAdapter(
-                child: _Message(icon: Icons.search_off, text: 'No teams match.'),
-              ),
-            SliverList.separated(
-              itemCount: teams.length,
-              separatorBuilder: (_, _) => const Divider(height: 1),
-              itemBuilder: (context, i) => _TeamRow(
-                team: teams[i],
-                showLevel: _level == null,
-                onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                  builder: (_) => TeamScreen(data: data, team: teams[i]),
-                )),
-              ),
-            ),
-            const SliverToBoxAdapter(child: SizedBox(height: 32)),
-          ],
+              const SliverToBoxAdapter(child: SizedBox(height: 40)),
+            ],
+          ),
         ),
       ),
     );
@@ -155,49 +198,53 @@ class _RankingsScreenState extends State<RankingsScreen> {
 }
 
 class _Header extends StatelessWidget {
-  const _Header({required this.data});
+  const _Header({required this.data, required this.age});
   final RankingsData data;
+  final int? age;
 
   @override
   Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme;
     final updated = MaterialLocalizations.of(context).formatMediumDate(data.generatedAt);
-    final sources = data.sources.entries
-        .map((e) => '${sourceLabel(e.key)}: ${e.value.games} games')
-        .join(' · ');
+    final count = data.ranked.where((x) => x.age == age).length;
+    final narrow = MediaQuery.sizeOf(context).width < 420;
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+      padding: const EdgeInsets.fromLTRB(16, 20, 16, 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('${data.season} season · ${data.ranked.length} Louisiana teams', style: t.titleMedium),
-          const SizedBox(height: 4),
-          Text('Updated $updated · $sources', style: t.bodySmall),
-        ],
-      ),
-    );
-  }
-}
-
-class _ColumnHeader extends StatelessWidget {
-  const _ColumnHeader();
-
-  @override
-  Widget build(BuildContext context) {
-    final style = Theme.of(context).textTheme.labelMedium?.copyWith(
-          color: Theme.of(context).colorScheme.onSurfaceVariant,
-        );
-    final wide = MediaQuery.sizeOf(context).width >= 600;
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      child: Row(
-        children: [
-          SizedBox(width: 44, child: Text('#', style: style)),
-          const SizedBox(width: 48),
-          Expanded(child: Text('Team', style: style)),
-          SizedBox(width: 64, child: Text('Record', style: style, textAlign: TextAlign.end)),
-          if (wide) SizedBox(width: 64, child: Text('Sched.', style: style, textAlign: TextAlign.end)),
-          SizedBox(width: 64, child: Text('Rating', style: style, textAlign: TextAlign.end)),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Shout('TEAMRANK', size: narrow ? 44 : 60),
+                    const SizedBox(height: 8),
+                    const Sticker('LOUISIANA BASEBALL RANKINGS'),
+                  ],
+                ),
+              ),
+              Tooltip(
+                message: 'How rankings work',
+                child: Chunky(
+                  radius: 999,
+                  padding: const EdgeInsets.all(8),
+                  color: Palette.yellow,
+                  onTap: () => showAboutRankings(context),
+                  child: const Icon(Icons.question_mark_rounded, color: Palette.ink),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          Text('${data.season} season · ${['$count Louisiana', if (age != null) ageLabel(age), 'teams'].join(' ')}',
+              style: body(16, weight: 900, color: Palette.white)),
+          const SizedBox(height: 2),
+          Text(
+            'Updated $updated · ${data.sources.entries.map((e) => '${sourceLabel(e.key)}: ${e.value.games} games').join(' · ')}',
+            style: body(13, weight: 600, color: Palette.white.withValues(alpha: 0.85)),
+          ),
         ],
       ),
     );
@@ -208,65 +255,87 @@ class _TeamRow extends StatelessWidget {
   const _TeamRow({required this.team, required this.onTap, required this.showLevel});
   final Team team;
 
-  /// On the combined list, show overall ranks and each team's level.
+  /// On the combined list, show ranks within the age and each team's level.
   final bool showLevel;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme;
-    final wide = MediaQuery.sizeOf(context).width >= 600;
-    return InkWell(
+    final width = MediaQuery.sizeOf(context).width;
+    final wide = width >= 600;
+    final badge = width < 420 ? 38.0 : 46.0;
+    final rank = showLevel ? team.rank : team.levelRank;
+    return Chunky(
       onTap: onTap,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-        child: Row(
-          children: [
-            SizedBox(
-              width: 44,
-              child: Text('${showLevel ? team.rank : team.levelRank}',
-                  style: t.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
+      padding: const EdgeInsets.fromLTRB(10, 10, 14, 10),
+      child: Row(
+        children: [
+          Chunky(
+            color: rankColor(rank),
+            radius: 999,
+            shadow: 0,
+            border: 2.5,
+            padding: EdgeInsets.zero,
+            child: SizedBox(
+              width: badge,
+              height: badge,
+              child: Center(child: Text('$rank', style: display(badge * (rank != null && rank > 99 ? 0.36 : 0.48)))),
             ),
-            TeamLogo(team: team),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(team.name, style: t.bodyLarge, overflow: TextOverflow.ellipsis),
-                  Text(
-                    [
-                      team.hometown,
-                      if (showLevel && team.level != null) team.level!,
-                      team.sources.map((s) => s.source.toUpperCase()).toSet().join(' + '),
-                    ]
-                        .where((s) => s.isNotEmpty)
-                        .join(' · '),
-                    style: t.bodySmall,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
-              ),
-            ),
-            SizedBox(width: 64, child: Text(team.record, textAlign: TextAlign.end)),
-            if (wide)
-              SizedBox(
-                width: 64,
-                child: Tooltip(
-                  message: 'Strength of schedule: average rating of opponents',
-                  child: Text(team.sos.toStringAsFixed(3), textAlign: TextAlign.end),
+          ),
+          const SizedBox(width: 10),
+          TeamLogo(team: team, size: badge - 4),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(team.name, style: display(19), overflow: TextOverflow.ellipsis),
+                const SizedBox(height: 2),
+                Text(
+                  [
+                    team.hometown,
+                    if (showLevel && team.level != null) team.level!,
+                    team.sources.map((s) => s.source.toUpperCase()).toSet().join(' + '),
+                  ].where((s) => s.isNotEmpty).join(' · '),
+                  style: body(13, weight: 700, color: Palette.ink.withValues(alpha: 0.7)),
+                  overflow: TextOverflow.ellipsis,
                 ),
-              ),
-            SizedBox(
-              width: 64,
-              child: Text(team.rating.toStringAsFixed(3),
-                  textAlign: TextAlign.end, style: const TextStyle(fontFeatures: [FontFeature.tabularFigures()])),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          _Number(label: 'W-L', value: team.record),
+          if (wide) ...[
+            const SizedBox(width: 14),
+            Tooltip(
+              message: 'Strength of schedule: average rating of opponents',
+              child: _Number(label: 'SCHED', value: team.sos.toStringAsFixed(3)),
             ),
           ],
-        ),
+          const SizedBox(width: 14),
+          _Number(label: 'RATING', value: team.rating.toStringAsFixed(3), highlight: true),
+        ],
       ),
     );
   }
+}
+
+class _Number extends StatelessWidget {
+  const _Number({required this.label, required this.value, this.highlight = false});
+  final String label;
+  final String value;
+  final bool highlight;
+
+  @override
+  Widget build(BuildContext context) => Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          Text(label, style: body(10, weight: 900, color: Palette.ink.withValues(alpha: 0.55))),
+          Text(value,
+              style: display(18, color: highlight ? Palette.blue : Palette.ink)
+                  .copyWith(fontFeatures: const [FontFeature.tabularFigures()])),
+        ],
+      );
 }
 
 class _Message extends StatelessWidget {
@@ -281,10 +350,10 @@ class _Message extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(icon, size: 40),
+            Icon(icon, size: 44, color: Palette.white),
             const SizedBox(height: 12),
-            Text(text, textAlign: TextAlign.center),
-            if (action != null) ...[const SizedBox(height: 12), action!],
+            Text(text, textAlign: TextAlign.center, style: body(17, weight: 800, color: Palette.white)),
+            if (action != null) ...[const SizedBox(height: 16), action!],
           ],
         ),
       );
@@ -293,35 +362,62 @@ class _Message extends StatelessWidget {
 void showAboutRankings(BuildContext context) {
   showDialog<void>(
     context: context,
-    builder: (context) => AlertDialog(
-      title: const Text('How rankings work'),
-      content: const SingleChildScrollView(
-        child: Text(
-          'Teams are ranked with the Colley Matrix method, which rates every team '
-          'from its wins and losses and the strength of the teams it played.\n\n'
-          'Beating a team that has beaten good teams moves you up a lot. Beating a '
-          'team that rarely wins barely moves you. If A beats B and C beats A, C '
-          'rates above A.\n\n'
-          'Margin of victory does not count, so running up the score gains nothing. '
-          'Ties count as half a win.\n\n'
-          'Results come from 12U divisions at OTC Sports and 2D Sports events this '
-          'season (August to July). Out-of-state opponents count toward ratings, '
-          'but only Louisiana teams are ranked. A team listed by both orgs is '
-          'combined into one entry, and games reported twice are counted once.\n\n'
-          'AA and AAA / Majors teams are listed separately, based on the class each '
-          'team registered in (A teams are listed with AA). All teams are still '
-          'rated together in one pool, so when an AA team beats a AAA team, the '
-          'win counts against AAA-level competition. "All" shows the overall order.\n\n'
-          'A win over a AAA / Majors team counts as one and a half games, so '
-          'beating AAA competition is worth extra.\n\n'
-          'Ratings center on 0.500. "Sched." is strength of schedule: the average '
-          'rating of a team\'s opponents. Teams with only a few games are less '
-          'certain, so use the games filter to hide them.',
+    builder: (context) => Dialog(
+      backgroundColor: Colors.transparent,
+      elevation: 0,
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 560),
+        child: Chunky(
+          shadow: 6,
+          radius: 22,
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('How rankings work', style: display(28)),
+              const SizedBox(height: 12),
+              Flexible(
+                child: SingleChildScrollView(
+                  child: Text(
+                    'Teams are ranked with the Colley Matrix method, which rates every team '
+                    'from its wins and losses and the strength of the teams it played.\n\n'
+                    'Beating a team that has beaten good teams moves you up a lot. Beating a '
+                    'team that rarely wins barely moves you. If A beats B and C beats A, C '
+                    'rates above A.\n\n'
+                    'Margin of victory does not count, so running up the score gains nothing. '
+                    'Ties count as half a win.\n\n'
+                    'Results come from 11U to 14U divisions at OTC Sports and 2D Sports '
+                    'events this season (August to July). Out-of-state opponents count '
+                    'toward ratings, but only Louisiana teams are ranked. A team '
+                    'listed by both orgs is combined into one entry, and games reported '
+                    'twice are counted once.\n\n'
+                    'Each team is listed at the age it registered as, even when it plays up '
+                    'in an older division. Every age is rated in one pool, so an 11U team '
+                    'that beats 12U teams gets full credit for those wins.\n\n'
+                    'AA and AAA / Majors teams are listed separately, based on the class each '
+                    'team registered in (A teams are listed with AA). All teams are still '
+                    'rated together in one pool, so when an AA team beats a AAA team, the '
+                    'win counts against AAA-level competition. "All" shows the overall order '
+                    'for the age.\n\n'
+                    'A win over a AAA / Majors team counts as one and a half games, so '
+                    'beating AAA competition is worth extra.\n\n'
+                    'Ratings center on 0.500. "Sched." is strength of schedule: the average '
+                    'rating of a team\'s opponents. Teams with only a few games are less '
+                    'certain, so use the games filter to hide them.',
+                    style: body(15, weight: 600),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              Align(
+                alignment: Alignment.centerRight,
+                child: Pill(label: 'Got it', selected: true, onTap: () => Navigator.pop(context)),
+              ),
+            ],
+          ),
         ),
       ),
-      actions: [
-        TextButton(onPressed: () => Navigator.pop(context), child: const Text('Close')),
-      ],
     ),
   );
 }

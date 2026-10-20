@@ -1,11 +1,11 @@
 {
-    "name": "TeamRank: Louisiana 12U",
+    "name": "TeamRank: Louisiana Baseball",
     "short_name": "TeamRank",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#1B3A6B",
-    "theme_color": "#1B3A6B",
-    "description": "Louisiana 12U travel baseball rankings",
+    "background_color": "#1E5BFF",
+    "theme_color": "#1E5BFF",
+    "description": "Louisiana 11U to 14U travel baseball rankings",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

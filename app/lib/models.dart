@@ -22,10 +22,14 @@ class RankingsData {
 
   late final Map<String, Team> teamsById = {for (final t in teams) t.id: t};
 
-  /// Louisiana teams in rank order.
+  /// Louisiana teams, best rating first.
   late final List<Team> ranked =
       teams.where((t) => t.rank != null).toList()
-        ..sort((a, b) => a.rank!.compareTo(b.rank!));
+        ..sort((a, b) => b.rating.compareTo(a.rating));
+
+  /// The age groups that have ranked teams, youngest first.
+  late final List<int> ages =
+      ranked.map((t) => t.age).whereType<int>().toSet().toList()..sort();
 
   List<GameResult> gamesFor(String teamId) =>
       games.where((g) => g.a == teamId || g.b == teamId).toList()
@@ -57,6 +61,7 @@ class Team {
     required this.name,
     required this.city,
     required this.state,
+    required this.age,
     required this.rank,
     required this.level,
     required this.levelRank,
@@ -75,13 +80,17 @@ class Team {
   final String name;
   final String city;
   final String state;
-  /// Overall rank among Louisiana teams; null for out-of-state teams.
+  /// The age group the team registered in, such as 12 for 12U.
+  final int? age;
+
+  /// Rank among Louisiana teams of the same [age]; null for teams that are
+  /// not ranked (out of state, or outside the covered ages).
   final int? rank;
 
   /// `AA` (AA and A teams), `AAA` (AAA and Majors), or null if unknown.
   final String? level;
 
-  /// Rank within [level].
+  /// Rank within [age] and [level].
   final int? levelRank;
   final double rating;
   final double sos;
@@ -104,6 +113,7 @@ class Team {
         name: j['name'] as String,
         city: j['city'] as String? ?? '',
         state: j['state'] as String? ?? '',
+        age: j['age'] as int?,
         rank: j['rank'] as int?,
         level: j['level'] as String?,
         levelRank: j['levelRank'] as int?,
@@ -184,6 +194,8 @@ class GameResult {
         sb: j['sb'] as int,
       );
 }
+
+String ageLabel(int? age) => age == null ? '' : '${age}U';
 
 String levelLabel(String level) => level == 'AAA' ? 'AAA / Majors' : level;
 
