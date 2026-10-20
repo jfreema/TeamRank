@@ -1,0 +1,80 @@
+name: Update rankings
+
+# Nightly: scrape OTC and 2D, rebuild the rankings, commit the data, then
+# build the Flutter site and deploy it to Firebase Hosting.
+# A push to main redeploys without scraping (for example after editing
+# data/aliases.json).
+on:
+  schedule:
+    - cron: "0 10 * * *" # 5:00 AM Central (CDT)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "pipeline/**"
+      - "data/aliases.json"
+      - "firebase.json"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-rankings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HAS_FIREBASE: ${{ secrets.FIREBASE_SERVICE_ACCOUNT != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Scrape and rank
+        working-directory: pipeline
+        run: |
+          dart pub get
+          if [ "${{ github.event_name }}" = "push" ]; then
+            dart run bin/teamrank.dart rank
+          else
+            dart run bin/teamrank.dart all
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data app/web/data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update rankings data $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Build site
+        working-directory: app
+        run: |
+          flutter pub get
+          flutter build web --release
+
+      - name: Deploy to Firebase Hosting
+        if: env.HAS_FIREBASE == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
+          channelId: live
+
+      - name: Firebase not set up yet
+        if: env.HAS_FIREBASE != 'true'
+        run: echo "::notice::Add the FIREBASE_SERVICE_ACCOUNT secret and FIREBASE_PROJECT_ID variable to deploy. See README."

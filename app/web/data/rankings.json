@@ -1,0 +1,6034 @@
+{
+ "generatedAt": "2026-10-20T16:27:01.089235Z",
+ "season": "2026-27",
+ "state": "LA",
+ "method": "colley",
+ "sources": {
+  "otc": {
+   "events": 7,
+   "games": 131
+  },
+  "2d": {
+   "events": 43,
+   "games": 589
+  }
+ },
+ "teams": [
+  {
+   "id": "2d:bc719bfe-7bb5-4b18-9b94-1504dc94539a",
+   "name": "SBG Sox 12u Dartez",
+   "city": "Gulfport",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.9381,
+   "sos": 0.5355,
+   "wins": 9,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 93,
+   "runsAgainst": 12,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "SBG Sox 12u Dartez",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/bc719bfe-7bb5-4b18-9b94-1504dc94539a"
+    }
+   ]
+  },
+  {
+   "id": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "name": "Knights Knation - Cenla 12u",
+   "city": "Alexandria",
+   "state": "LA",
+   "rank": 1,
+   "rating": 0.9282,
+   "sos": 0.5995,
+   "wins": 5,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 34,
+   "runsAgainst": 7,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Knights Knation - Cenla 12u",
+     "ageClass": "12u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0"
+    }
+   ]
+  },
+  {
+   "id": "otc:6967",
+   "name": "LA Bulls - Howell",
+   "city": "Livingston",
+   "state": "LA",
+   "rank": 2,
+   "rating": 0.9117,
+   "sos": 0.5941,
+   "wins": 9,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 98,
+   "runsAgainst": 40,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "LA Bulls - Howell",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6967"
+    }
+   ]
+  },
+  {
+   "id": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "name": "Renegades 12u",
+   "city": "Ragley",
+   "state": "LA",
+   "rank": 3,
+   "rating": 0.8949,
+   "sos": 0.5528,
+   "wins": 5,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 53,
+   "runsAgainst": 13,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Renegades 12u",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/5fb236d6-89bf-4fc0-b918-4c8fbe496ff9"
+    }
+   ]
+  },
+  {
+   "id": "otc:7177",
+   "name": "MYB Gators Green",
+   "city": "Madisonville",
+   "state": "LA",
+   "rank": 4,
+   "rating": 0.8883,
+   "sos": 0.5437,
+   "wins": 5,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 74,
+   "runsAgainst": 6,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "MYB Gators Green",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7177"
+    }
+   ]
+  },
+  {
+   "id": "otc:7096",
+   "name": "Louisiana Stars - Nations",
+   "city": "St. Francisville",
+   "state": "LA",
+   "rank": 5,
+   "rating": 0.8589,
+   "sos": 0.5025,
+   "wins": 5,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 55,
+   "runsAgainst": 20,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Louisiana Stars - Nations",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7096"
+    }
+   ]
+  },
+  {
+   "id": "2d:4d8739a6-cf20-4f8d-a681-5c4507dbb418",
+   "name": "Petal Select",
+   "city": "Petal",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.8274,
+   "sos": 0.57,
+   "wins": 10,
+   "losses": 2,
+   "ties": 1,
+   "runsFor": 103,
+   "runsAgainst": 64,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Petal Select",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/4d8739a6-cf20-4f8d-a681-5c4507dbb418"
+    }
+   ]
+  },
+  {
+   "id": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "name": "Ironclad Elite Black 11u",
+   "city": "Carriere",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.8181,
+   "sos": 0.5454,
+   "wins": 4,
+   "losses": 0,
+   "ties": 1,
+   "runsFor": 35,
+   "runsAgainst": 8,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Ironclad Elite Black 11u",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/4a8c928b-ec2a-4cd1-8335-938ecd620130"
+    }
+   ]
+  },
+  {
+   "id": "2d:185768c0-9788-4d4b-8754-f9322405d6d2",
+   "name": "Athletes-Performance Baseball",
+   "city": "Port Neches",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.8167,
+   "sos": 0.6333,
+   "wins": 2,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 15,
+   "runsAgainst": 10,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Athletes-Performance Baseball",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/185768c0-9788-4d4b-8754-f9322405d6d2"
+    }
+   ]
+  },
+  {
+   "id": "2d:02f08a87-440e-47ad-8c17-cd45ddf6843d",
+   "name": "Ms Yankees- 12u White",
+   "city": "Madison",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.7845,
+   "sos": 0.5394,
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 99,
+   "runsAgainst": 49,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Ms Yankees- 12u White",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/02f08a87-440e-47ad-8c17-cd45ddf6843d"
+    }
+   ]
+  },
+  {
+   "id": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
+   "name": "USA Scout National MS",
+   "city": "Flowood",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.775,
+   "sos": 0.6625,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 28,
+   "runsAgainst": 11,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "USA Scout National MS",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/e46b2def-0888-49b0-ba89-5e3aba6e1f8f"
+    }
+   ]
+  },
+  {
+   "id": "otc:7172",
+   "name": "Hammond Yankees - Ricard",
+   "city": "Hammond",
+   "state": "LA",
+   "rank": 6,
+   "rating": 0.7746,
+   "sos": 0.5369,
+   "wins": 3,
+   "losses": 0,
+   "ties": 1,
+   "runsFor": 33,
+   "runsAgainst": 16,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Hammond Yankees - Ricard",
+     "ageClass": "11U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7172"
+    }
+   ]
+  },
+  {
+   "id": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "name": "Victus Elite",
+   "city": "Pineville",
+   "state": "LA",
+   "rank": 7,
+   "rating": 0.7709,
+   "sos": 0.5793,
+   "wins": 4,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 48,
+   "runsAgainst": 20,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Victus Elite",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/24b2d74d-3380-4154-b3ac-ee79da97ea0b"
+    }
+   ]
+  },
+  {
+   "id": "2d:ffff9556-bc27-47d0-b59f-36e91da22dce",
+   "name": "New Orleans Naturals 11u",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 8,
+   "rating": 0.7696,
+   "sos": 0.4044,
+   "wins": 4,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 37,
+   "runsAgainst": 14,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "New Orleans Naturals 11u",
+     "ageClass": "11u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/ffff9556-bc27-47d0-b59f-36e91da22dce"
+    }
+   ]
+  },
+  {
+   "id": "otc:7173",
+   "name": "Bandits",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 9,
+   "rating": 0.764,
+   "sos": 0.646,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 30,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Bandits",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173"
+    }
+   ]
+  },
+  {
+   "id": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "name": "New Orleans Sun Devils",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 10,
+   "rating": 0.7607,
+   "sos": 0.4509,
+   "wins": 7,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 45,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "New Orleans Sun Devils",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf"
+    }
+   ]
+  },
+  {
+   "id": "2d:cb44b06f-c783-411b-84af-bca4fac20adb",
+   "name": "Port City Pelicans",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 11,
+   "rating": 0.751,
+   "sos": 0.3765,
+   "wins": 4,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 43,
+   "runsAgainst": 5,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Port City Pelicans",
+     "ageClass": "11u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/cb44b06f-c783-411b-84af-bca4fac20adb"
+    }
+   ]
+  },
+  {
+   "id": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+   "name": "Team Louisiana 12U Gold",
+   "city": "Erath",
+   "state": "LA",
+   "rank": 12,
+   "rating": 0.7459,
+   "sos": 0.6188,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 33,
+   "runsAgainst": 24,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Team Louisiana 12U Gold",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/25f451f1-97fb-4402-a51d-6c50f0c68957"
+    }
+   ]
+  },
+  {
+   "id": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "name": "LA Bulls Black 12U - Howell",
+   "city": "Livingston",
+   "state": "LA",
+   "rank": 13,
+   "rating": 0.7376,
+   "sos": 0.5469,
+   "wins": 6,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 83,
+   "runsAgainst": 43,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Bulls Black 12U - Howell",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/382932ef-4a56-498c-b548-6600e6c47007"
+    }
+   ]
+  },
+  {
+   "id": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "name": "BIRDGANG",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 14,
+   "rating": 0.7311,
+   "sos": 0.5236,
+   "wins": 4,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 26,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "BIRDGANG",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/7a9a4477-c5af-443c-bfee-e2087b9ccab7"
+    }
+   ]
+  },
+  {
+   "id": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "name": "Velocity Baseball",
+   "city": "Colfax",
+   "state": "LA",
+   "rank": 15,
+   "rating": 0.73,
+   "sos": 0.4386,
+   "wins": 6,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 93,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Velocity Baseball",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/86831ae5-f67e-466b-8f59-134cfafdf022"
+    }
+   ]
+  },
+  {
+   "id": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "name": "Gold Culture",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 16,
+   "rating": 0.7231,
+   "sos": 0.5913,
+   "wins": 5,
+   "losses": 2,
+   "ties": 1,
+   "runsFor": 59,
+   "runsAgainst": 52,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gold Culture",
+     "ageClass": "11u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/07cbed17-407e-4045-bcde-00cc3fa09219"
+    }
+   ]
+  },
+  {
+   "id": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
+   "name": "Prime Baseball",
+   "city": "Gulfport",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.7194,
+   "sos": 0.6014,
+   "wins": 6,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 61,
+   "runsAgainst": 32,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Prime Baseball",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/62f32053-36ca-44ea-bea3-dfea4e2ae281"
+    }
+   ]
+  },
+  {
+   "id": "otc:6968",
+   "name": "Ripzz Baseball Academy",
+   "city": "Denham Springs",
+   "state": "LA",
+   "rank": 17,
+   "rating": 0.7143,
+   "sos": 0.5715,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 34,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Ripzz Baseball Academy",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6968"
+    }
+   ]
+  },
+  {
+   "id": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "name": "Gold Culture 12u",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 18,
+   "rating": 0.7103,
+   "sos": 0.7004,
+   "wins": 4,
+   "losses": 3,
+   "ties": 1,
+   "runsFor": 45,
+   "runsAgainst": 41,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gold Culture 12u",
+     "ageClass": "12u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a8ae461a-c12d-4a08-b100-89dec165fd0f"
+    }
+   ]
+  },
+  {
+   "id": "otc:7191",
+   "name": "The Show",
+   "city": "Amite",
+   "state": "LA",
+   "rank": 19,
+   "rating": 0.7044,
+   "sos": 0.6741,
+   "wins": 2,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 18,
+   "runsAgainst": 14,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "The Show",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7191"
+    }
+   ]
+  },
+  {
+   "id": "otc:7023",
+   "name": "Central Cyclone",
+   "city": "Central",
+   "state": "LA",
+   "rank": 20,
+   "rating": 0.695,
+   "sos": 0.2926,
+   "wins": 4,
+   "losses": 0,
+   "ties": 0,
+   "runsFor": 36,
+   "runsAgainst": 15,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Central Cyclone",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7023"
+    }
+   ]
+  },
+  {
+   "id": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+   "name": "Bandits",
+   "city": "Terrytown",
+   "state": "LA",
+   "rank": 21,
+   "rating": 0.6897,
+   "sos": 0.6495,
+   "wins": 2,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 19,
+   "runsAgainst": 9,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Bandits",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/18ffe190-4206-4ec8-aeeb-337aebce2605"
+    }
+   ]
+  },
+  {
+   "id": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "name": "Full Flight Baseball",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 22,
+   "rating": 0.6876,
+   "sos": 0.4845,
+   "wins": 6,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 45,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Full Flight Baseball",
+     "ageClass": "11U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6973"
+    },
+    {
+     "source": "2d",
+     "name": "Full Flight Baseball",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/f13d5c56-d132-44c2-95ef-8d6d818f4878"
+    }
+   ]
+  },
+  {
+   "id": "2d:3232034d-404a-4181-8068-a30150a76bcf",
+   "name": "Savage Baseball",
+   "city": "Hallsville",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.6769,
+   "sos": 0.6281,
+   "wins": 2,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 29,
+   "runsAgainst": 17,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Savage Baseball",
+     "ageClass": "12u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/3232034d-404a-4181-8068-a30150a76bcf"
+    }
+   ]
+  },
+  {
+   "id": "otc:7244",
+   "name": "Shockers",
+   "city": "Lake Charles",
+   "state": "LA",
+   "rank": 23,
+   "rating": 0.6717,
+   "sos": 0.5622,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 49,
+   "runsAgainst": 33,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Shockers",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7244"
+    }
+   ]
+  },
+  {
+   "id": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "name": "Louisiana Catahoulas",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 24,
+   "rating": 0.6663,
+   "sos": 0.4328,
+   "wins": 4,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 43,
+   "runsAgainst": 24,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Louisiana Catahoulas",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/e4b46642-0415-4b8d-b571-6a5f6988b277"
+    }
+   ]
+  },
+  {
+   "id": "otc:7184",
+   "name": "LA Elite",
+   "city": "Berwick",
+   "state": "LA",
+   "rank": 25,
+   "rating": 0.6568,
+   "sos": 0.4195,
+   "wins": 4,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 42,
+   "runsAgainst": 20,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "LA Elite",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7184"
+    }
+   ]
+  },
+  {
+   "id": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
+   "name": "Clinton Reds - Black",
+   "city": "Clinton",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.6507,
+   "sos": 0.6109,
+   "wins": 3,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 49,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Clinton Reds - Black",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/0f0c475d-b15b-4a9a-a675-7ff8fc1c387b"
+    }
+   ]
+  },
+  {
+   "id": "2d:cce2883b-e125-4431-98aa-92711eed232a",
+   "name": "Gulf Coast Reapers",
+   "city": "Ocean Springs",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.6407,
+   "sos": 0.6208,
+   "wins": 6,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 75,
+   "runsAgainst": 52,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gulf Coast Reapers",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/cce2883b-e125-4431-98aa-92711eed232a"
+    }
+   ]
+  },
+  {
+   "id": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+   "name": "Storm Chasers Ford 11u",
+   "city": "Bridge City",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.6388,
+   "sos": 0.4582,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 25,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Storm Chasers Ford 11u",
+     "ageClass": "11u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a3f7b931-2489-40ff-8e7b-1fe36312ec71"
+    }
+   ]
+  },
+  {
+   "id": "2d:3362f937-7f69-41fb-816a-9317ff1b0245",
+   "name": "Purple Reign Baseball",
+   "city": "Purvis",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.6326,
+   "sos": 0.4562,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 52,
+   "runsAgainst": 50,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Purple Reign Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/3362f937-7f69-41fb-816a-9317ff1b0245"
+    }
+   ]
+  },
+  {
+   "id": "otc:7016",
+   "name": "Diamond Baseball",
+   "city": "Gretna",
+   "state": "LA",
+   "rank": 26,
+   "rating": 0.6304,
+   "sos": 0.6038,
+   "wins": 5,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 56,
+   "runsAgainst": 42,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Diamond Baseball",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016"
+    }
+   ]
+  },
+  {
+   "id": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "name": "Prospect Baseball - Longmire",
+   "city": "Central",
+   "state": "LA",
+   "rank": 27,
+   "rating": 0.628,
+   "sos": 0.442,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 38,
+   "runsAgainst": 16,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Prospect Baseball - Longmire",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/195c0919-e70e-4840-bc3a-b781c879ff9f"
+    }
+   ]
+  },
+  {
+   "id": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
+   "name": "Diamond Hogs",
+   "city": "Texarkana",
+   "state": "AR",
+   "rank": null,
+   "rating": 0.6247,
+   "sos": 0.437,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 28,
+   "runsAgainst": 16,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Diamond Hogs",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/af084bbf-4084-40df-bcad-3057df4ce483"
+    }
+   ]
+  },
+  {
+   "id": "otc:7178",
+   "name": "MYB Gators Navy",
+   "city": "Madisonville",
+   "state": "LA",
+   "rank": 28,
+   "rating": 0.6231,
+   "sos": 0.5385,
+   "wins": 2,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "MYB Gators Navy",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7178"
+    }
+   ]
+  },
+  {
+   "id": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "name": "New Orleans Renegades 11u Howell",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 29,
+   "rating": 0.6197,
+   "sos": 0.5352,
+   "wins": 5,
+   "losses": 3,
+   "ties": 1,
+   "runsFor": 52,
+   "runsAgainst": 32,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "New Orleans Renegades 11u Howell",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/2b197707-f5cd-4b1f-8576-732de74b4ad5"
+    },
+    {
+     "source": "otc",
+     "name": "New Orleans Renegades - Howell",
+     "ageClass": "11U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7055"
+    }
+   ]
+  },
+  {
+   "id": "otc:7069",
+   "name": "Hammond Yankees",
+   "city": "Hammond",
+   "state": "LA",
+   "rank": 30,
+   "rating": 0.6194,
+   "sos": 0.556,
+   "wins": 7,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 78,
+   "runsAgainst": 69,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Hammond Yankees",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069"
+    }
+   ]
+  },
+  {
+   "id": "2d:7e117b27-523b-429e-bc16-f370dc412d8a",
+   "name": "Pines Athletics",
+   "city": "Gladewater",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.6191,
+   "sos": 0.6787,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 27,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Pines Athletics",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/7e117b27-523b-429e-bc16-f370dc412d8a"
+    }
+   ]
+  },
+  {
+   "id": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "name": "Knights Knation 12u Mandeville",
+   "city": "Mandeville",
+   "state": "LA",
+   "rank": 31,
+   "rating": 0.6121,
+   "sos": 0.5569,
+   "wins": 3,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 37,
+   "runsAgainst": 48,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Knights Knation 12u Mandeville",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/8c90c829-6890-4c37-9509-4bb3b7e5ba8e"
+    }
+   ]
+  },
+  {
+   "id": "otc:7034",
+   "name": "Mandeville Revolution",
+   "city": "Mandeville",
+   "state": "LA",
+   "rank": 32,
+   "rating": 0.6114,
+   "sos": 0.3892,
+   "wins": 6,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 77,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Mandeville Revolution",
+     "ageClass": "11U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7034"
+    }
+   ]
+  },
+  {
+   "id": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "name": "409 Hype - Walden",
+   "city": "Newton",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.6097,
+   "sos": 0.5535,
+   "wins": 3,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 22,
+   "runsAgainst": 33,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "409 Hype - Walden",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/793e1c92-171a-4edb-9317-8a2fc2856b8c"
+    }
+   ]
+  },
+  {
+   "id": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "name": "NOR Cardinals",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 33,
+   "rating": 0.5976,
+   "sos": 0.6139,
+   "wins": 5,
+   "losses": 5,
+   "ties": 2,
+   "runsFor": 71,
+   "runsAgainst": 81,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "NOR Cardinals",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7188"
+    },
+    {
+     "source": "2d",
+     "name": "NOR Cardinals",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321"
+    }
+   ]
+  },
+  {
+   "id": "2d:ed1abfbc-37b3-4c1c-8186-698989047d0e",
+   "name": "LA Prime",
+   "city": "Cottonport",
+   "state": "LA",
+   "rank": 34,
+   "rating": 0.5896,
+   "sos": 0.6344,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 27,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Prime",
+     "ageClass": "11u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/ed1abfbc-37b3-4c1c-8186-698989047d0e"
+    }
+   ]
+  },
+  {
+   "id": "2d:2dcbc7d6-4145-45fb-b497-5e919a06162f",
+   "name": "Diamond State Legends",
+   "city": "Magnolia",
+   "state": "AR",
+   "rank": null,
+   "rating": 0.5882,
+   "sos": 0.6323,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 19,
+   "runsAgainst": 17,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Diamond State Legends",
+     "ageClass": "12u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/2dcbc7d6-4145-45fb-b497-5e919a06162f"
+    }
+   ]
+  },
+  {
+   "id": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "name": "Cresent City Wave",
+   "city": "Metairie",
+   "state": "LA",
+   "rank": 35,
+   "rating": 0.5755,
+   "sos": 0.7925,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 9,
+   "runsAgainst": 21,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Cresent City Wave",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a590e88c-231e-46ab-9fad-041cc42b4f36"
+    }
+   ]
+  },
+  {
+   "id": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "name": "Team Louisiana North - Newton",
+   "city": "Monroe",
+   "state": "LA",
+   "rank": 36,
+   "rating": 0.5709,
+   "sos": 0.5946,
+   "wins": 3,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 28,
+   "runsAgainst": 28,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Team Louisiana North - Newton",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/64b4df98-b487-4bd1-95be-1f807a9d514f"
+    }
+   ]
+  },
+  {
+   "id": "otc:7121",
+   "name": "RBI Academy",
+   "city": "Covington",
+   "state": "LA",
+   "rank": 37,
+   "rating": 0.5655,
+   "sos": 0.6556,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 36,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "RBI Academy",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121"
+    },
+    {
+     "source": "otc",
+     "name": "RBI Academy",
+     "ageClass": "11U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7127"
+    }
+   ]
+  },
+  {
+   "id": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
+   "name": "SBG Sox GC 12u Harris",
+   "city": "Vancleave",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.5589,
+   "sos": 0.5044,
+   "wins": 4,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 43,
+   "runsAgainst": 44,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "SBG Sox GC 12u Harris",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354"
+    }
+   ]
+  },
+  {
+   "id": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "name": "LA Heat",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 38,
+   "rating": 0.5503,
+   "sos": 0.4378,
+   "wins": 5,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 52,
+   "runsAgainst": 47,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Heat",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/bc489978-47fe-4c2c-8707-59514717b565"
+    }
+   ]
+  },
+  {
+   "id": "otc:7302",
+   "name": "Louisiana Slam Baseball",
+   "city": "Central",
+   "state": "LA",
+   "rank": 39,
+   "rating": 0.545,
+   "sos": 0.4312,
+   "wins": 5,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 69,
+   "runsAgainst": 44,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Louisiana Slam Baseball",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7302"
+    }
+   ]
+  },
+  {
+   "id": "otc:7132",
+   "name": "New Orleans Naturals - Blue",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 40,
+   "rating": 0.5238,
+   "sos": 0.6607,
+   "wins": 1,
+   "losses": 2,
+   "ties": 1,
+   "runsFor": 18,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "New Orleans Naturals - Blue",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7132"
+    }
+   ]
+  },
+  {
+   "id": "2d:6dd35752-497c-4432-aeb7-45119cbb8758",
+   "name": "Thunder",
+   "city": "Lake Charles",
+   "state": "LA",
+   "rank": 41,
+   "rating": 0.5218,
+   "sos": 0.5327,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 50,
+   "runsAgainst": 39,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Thunder",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/6dd35752-497c-4432-aeb7-45119cbb8758"
+    }
+   ]
+  },
+  {
+   "id": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
+   "name": "Pokes",
+   "city": "Lake Charles",
+   "state": "LA",
+   "rank": 42,
+   "rating": 0.5208,
+   "sos": 0.5311,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 22,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Pokes",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/faff48d8-e078-4de6-90e3-8fc0df6bd69e"
+    }
+   ]
+  },
+  {
+   "id": "otc:7205",
+   "name": "LA Lagniappe",
+   "city": "Luling",
+   "state": "LA",
+   "rank": 43,
+   "rating": 0.5204,
+   "sos": 0.5306,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 26,
+   "runsAgainst": 34,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "LA Lagniappe",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7205"
+    }
+   ]
+  },
+  {
+   "id": "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+   "name": "Louisiana Blast 12u - Pope",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "rank": 44,
+   "rating": 0.5196,
+   "sos": 0.5294,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 30,
+   "runsAgainst": 38,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Louisiana Blast 12u - Pope",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a231ae3f-6b4a-4dcf-9962-217db21724ea"
+    }
+   ]
+  },
+  {
+   "id": "2d:fffd902e-f1d2-41f2-9689-14ddd4a2b708",
+   "name": "BC Athletics",
+   "city": "Pine Prairie",
+   "state": "LA",
+   "rank": 45,
+   "rating": 0.5171,
+   "sos": 0.3618,
+   "wins": 2,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 15,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "BC Athletics",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/fffd902e-f1d2-41f2-9689-14ddd4a2b708"
+    }
+   ]
+  },
+  {
+   "id": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+   "name": "Elite Baseball",
+   "city": "Franklinton",
+   "state": "LA",
+   "rank": 46,
+   "rating": 0.5162,
+   "sos": 0.5243,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 32,
+   "runsAgainst": 22,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Elite Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/04af44f9-6d10-41e1-aaa8-00cc34e97f17"
+    }
+   ]
+  },
+  {
+   "id": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+   "name": "2D Fall Free Agents 12u",
+   "city": "Lake Charles",
+   "state": "LA",
+   "rank": 47,
+   "rating": 0.5103,
+   "sos": 0.5154,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 34,
+   "runsAgainst": 16,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "2D Fall Free Agents 12u",
+     "ageClass": "12u Open",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/07d215ca-16fa-43cf-b1eb-4a7a78ecd422"
+    }
+   ]
+  },
+  {
+   "id": "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
+   "name": "Strikeforce 12U",
+   "city": "Deridder",
+   "state": "LA",
+   "rank": 48,
+   "rating": 0.5096,
+   "sos": 0.5144,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 38,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Strikeforce 12U",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/4f772410-376b-4aa8-8a6e-348321a15ba1"
+    }
+   ]
+  },
+  {
+   "id": "otc:7246",
+   "name": "Outlaws Baseball",
+   "city": "Central",
+   "state": "LA",
+   "rank": 49,
+   "rating": 0.5087,
+   "sos": 0.297,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 54,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Outlaws Baseball",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7246"
+    }
+   ]
+  },
+  {
+   "id": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+   "name": "Dulins Dodgers 12u White",
+   "city": "Beaumont",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.5078,
+   "sos": 0.5155,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 6,
+   "runsAgainst": 9,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Dulins Dodgers 12u White",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/46622eaf-ef0f-4ebc-a899-d4a0feb66e0e"
+    }
+   ]
+  },
+  {
+   "id": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "name": "LA Outlaws Baseball",
+   "city": "Ruston",
+   "state": "LA",
+   "rank": 50,
+   "rating": 0.4994,
+   "sos": 0.4538,
+   "wins": 6,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 79,
+   "runsAgainst": 84,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Outlaws Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b"
+    }
+   ]
+  },
+  {
+   "id": "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd",
+   "name": "Northshore Elite",
+   "city": "Slidell",
+   "state": "LA",
+   "rank": 51,
+   "rating": 0.4948,
+   "sos": 0.658,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 19,
+   "runsAgainst": 21,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Northshore Elite",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/7df5abbd-df4e-4e52-94f4-d754642fc6bd"
+    }
+   ]
+  },
+  {
+   "id": "2d:1d7a870d-b323-420a-8617-ec7cb30e62c9",
+   "name": "Backyard Ballers SETX 12u Black",
+   "city": "Montgomery",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.4897,
+   "sos": 0.4846,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 26,
+   "runsAgainst": 39,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Backyard Ballers SETX 12u Black",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/1d7a870d-b323-420a-8617-ec7cb30e62c9"
+    }
+   ]
+  },
+  {
+   "id": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "name": "New Orleans Spice",
+   "city": "Metairie",
+   "state": "LA",
+   "rank": 52,
+   "rating": 0.4875,
+   "sos": 0.5625,
+   "wins": 5,
+   "losses": 7,
+   "ties": 1,
+   "runsFor": 52,
+   "runsAgainst": 82,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "New Orleans Spice",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/336d1445-200e-4867-8172-146b7dbb31de"
+    },
+    {
+     "source": "otc",
+     "name": "New Orleans Spice",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152"
+    }
+   ]
+  },
+  {
+   "id": "2d:a157d2c4-b301-4abb-870e-5b7132fe70c1",
+   "name": "Southern Dynasty",
+   "city": "Haughton",
+   "state": "LA",
+   "rank": 53,
+   "rating": 0.4852,
+   "sos": 0.4779,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 25,
+   "runsAgainst": 37,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Southern Dynasty",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a157d2c4-b301-4abb-870e-5b7132fe70c1"
+    }
+   ]
+  },
+  {
+   "id": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "name": "Crescent City Wave",
+   "city": "Metairie",
+   "state": "LA",
+   "rank": 54,
+   "rating": 0.4819,
+   "sos": 0.4767,
+   "wins": 3,
+   "losses": 3,
+   "ties": 1,
+   "runsFor": 40,
+   "runsAgainst": 44,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Crescent City Wave",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7022"
+    },
+    {
+     "source": "2d",
+     "name": "Crescent City Wave",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/39f39ebd-7b16-4bff-bd75-b9b008949abc"
+    }
+   ]
+  },
+  {
+   "id": "2d:2721f693-7329-4ac1-8ddb-f14ae73f3a39",
+   "name": "Canes Allen",
+   "city": "Brandon",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.4801,
+   "sos": 0.4768,
+   "wins": 6,
+   "losses": 6,
+   "ties": 0,
+   "runsFor": 73,
+   "runsAgainst": 81,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Canes Allen",
+     "ageClass": "12u A",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/2721f693-7329-4ac1-8ddb-f14ae73f3a39"
+    }
+   ]
+  },
+  {
+   "id": "otc:7133",
+   "name": "LA Outlaws",
+   "city": "Walker",
+   "state": "LA",
+   "rank": 55,
+   "rating": 0.4801,
+   "sos": 0.6334,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 8,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "LA Outlaws",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7133"
+    }
+   ]
+  },
+  {
+   "id": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+   "name": "Metry Mets 12U",
+   "city": "Metairie",
+   "state": "LA",
+   "rank": 56,
+   "rating": 0.4799,
+   "sos": 0.6332,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 19,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Metry Mets 12U",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/d31fea5f-03fd-4d22-bb0b-f6bed73a8b73"
+    }
+   ]
+  },
+  {
+   "id": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "name": "Ironclad Elite Black 12u",
+   "city": "Poplarville",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.4788,
+   "sos": 0.5746,
+   "wins": 4,
+   "losses": 6,
+   "ties": 0,
+   "runsFor": 58,
+   "runsAgainst": 52,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Ironclad Elite Black 12u",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/93ae2a2d-aaa7-4b33-a4ae-c50ffdace497"
+    }
+   ]
+  },
+  {
+   "id": "otc:6987",
+   "name": "Red Stick Select",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "rank": 57,
+   "rating": 0.4762,
+   "sos": 0.627,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 23,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Red Stick Select",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6987"
+    }
+   ]
+  },
+  {
+   "id": "2d:b7867e57-fe67-4cd2-a0b1-89a199f878a9",
+   "name": "ETX Titans",
+   "city": "Carthage",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.4743,
+   "sos": 0.6239,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 17,
+   "runsAgainst": 21,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "ETX Titans",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/b7867e57-fe67-4cd2-a0b1-89a199f878a9"
+    }
+   ]
+  },
+  {
+   "id": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+   "name": "Knights Knation 12u Wallet",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "rank": 58,
+   "rating": 0.4674,
+   "sos": 0.6124,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 23,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Knights Knation 12u Wallet",
+     "ageClass": "12u Open",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/150f0cbe-01c2-4e7c-9baf-59fc74d9c827"
+    }
+   ]
+  },
+  {
+   "id": "2d:34e0bf39-965d-41a1-af6b-1f03f9b99023",
+   "name": "FCA Force Wilbanks 12U",
+   "city": "Brandon",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.4596,
+   "sos": 0.4068,
+   "wins": 6,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 59,
+   "runsAgainst": 65,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "FCA Force Wilbanks 12U",
+     "ageClass": "12u A",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/34e0bf39-965d-41a1-af6b-1f03f9b99023"
+    }
+   ]
+  },
+  {
+   "id": "2d:8a8cf1e6-c4e9-4a68-a078-1fab75c53da5",
+   "name": "Outlawz",
+   "city": "Wesson",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.4529,
+   "sos": 0.4868,
+   "wins": 5,
+   "losses": 6,
+   "ties": 1,
+   "runsFor": 72,
+   "runsAgainst": 75,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Outlawz",
+     "ageClass": "12u A",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/8a8cf1e6-c4e9-4a68-a078-1fab75c53da5"
+    }
+   ]
+  },
+  {
+   "id": "2d:7ea98d6d-728c-4b8e-b0b7-3e8e6677c858",
+   "name": "Gold Culture Black",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 59,
+   "rating": 0.4453,
+   "sos": 0.5756,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 16,
+   "runsAgainst": 17,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gold Culture Black",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/7ea98d6d-728c-4b8e-b0b7-3e8e6677c858"
+    }
+   ]
+  },
+  {
+   "id": "otc:7056",
+   "name": "Mudbugs",
+   "city": "Jefferson",
+   "state": "LA",
+   "rank": 60,
+   "rating": 0.4431,
+   "sos": 0.5719,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 31,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Mudbugs",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7056"
+    }
+   ]
+  },
+  {
+   "id": "otc:7131",
+   "name": "Stitches",
+   "city": "Ponchatoula",
+   "state": "LA",
+   "rank": 61,
+   "rating": 0.4424,
+   "sos": 0.3545,
+   "wins": 4,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 56,
+   "runsAgainst": 53,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Stitches",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7131"
+    }
+   ]
+  },
+  {
+   "id": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "name": "Prospects 11u",
+   "city": "Texarkana",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.442,
+   "sos": 0.5189,
+   "wins": 2,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 36,
+   "runsAgainst": 33,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Prospects 11u",
+     "ageClass": "11u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/655eb85a-0eff-4b6b-9efd-cb6f24be9857"
+    }
+   ]
+  },
+  {
+   "id": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+   "name": "LA Sting 12u Gold",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 62,
+   "rating": 0.4383,
+   "sos": 0.6574,
+   "wins": 1,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Sting 12u Gold",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c4bf2e7e-3cb2-4e10-9821-f2c966a0c991"
+    }
+   ]
+  },
+  {
+   "id": "2d:cfe6f0dd-a6f7-43c5-be60-95f896db6908",
+   "name": "Tornado Athletics Blue",
+   "city": "Sulphur",
+   "state": "LA",
+   "rank": 63,
+   "rating": 0.4365,
+   "sos": 0.3731,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 19,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Tornado Athletics Blue",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/cfe6f0dd-a6f7-43c5-be60-95f896db6908"
+    }
+   ]
+  },
+  {
+   "id": "otc:7158",
+   "name": "Slidell Raptors",
+   "city": "Slidell",
+   "state": "LA",
+   "rank": 64,
+   "rating": 0.4316,
+   "sos": 0.5755,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 31,
+   "runsAgainst": 43,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Slidell Raptors",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158"
+    }
+   ]
+  },
+  {
+   "id": "2d:42ce8002-d4e5-46ce-aa3a-3d141db42ba9",
+   "name": "Benton 2033",
+   "city": "Benton",
+   "state": "LA",
+   "rank": 65,
+   "rating": 0.4313,
+   "sos": 0.647,
+   "wins": 1,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 24,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Benton 2033",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/42ce8002-d4e5-46ce-aa3a-3d141db42ba9"
+    }
+   ]
+  },
+  {
+   "id": "otc:7018",
+   "name": "Tri-City Sluggers",
+   "city": "Morgan City",
+   "state": "LA",
+   "rank": 66,
+   "rating": 0.425,
+   "sos": 0.375,
+   "wins": 1,
+   "losses": 1,
+   "ties": 1,
+   "runsFor": 17,
+   "runsAgainst": 20,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Tri-City Sluggers",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018"
+    }
+   ]
+  },
+  {
+   "id": "otc:7336",
+   "name": "Jesters Baseball",
+   "city": "Houma",
+   "state": "LA",
+   "rank": 67,
+   "rating": 0.4248,
+   "sos": 0.5122,
+   "wins": 1,
+   "losses": 2,
+   "ties": 1,
+   "runsFor": 19,
+   "runsAgainst": 29,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Jesters Baseball",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7336"
+    }
+   ]
+  },
+  {
+   "id": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "name": "Tsunami 12u Watch",
+   "city": "Gonzales",
+   "state": "LA",
+   "rank": 68,
+   "rating": 0.4139,
+   "sos": 0.4608,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 47,
+   "runsAgainst": 58,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Tsunami 12u Watch",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c08807d7-7ae3-4eb7-8b60-46abfb93aa1b"
+    }
+   ]
+  },
+  {
+   "id": "otc:7003",
+   "name": "Deleted",
+   "city": "Westwego",
+   "state": "LA",
+   "rank": 69,
+   "rating": 0.4108,
+   "sos": 0.3662,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 18,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Deleted",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003"
+    }
+   ]
+  },
+  {
+   "id": "otc:6958",
+   "name": "Bobcats",
+   "city": "Denham Springs",
+   "state": "LA",
+   "rank": 70,
+   "rating": 0.4072,
+   "sos": 0.331,
+   "wins": 5,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 73,
+   "runsAgainst": 61,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Bobcats",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6958"
+    }
+   ]
+  },
+  {
+   "id": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "name": "Chappapeela Chiefs",
+   "city": "Ponchatoula",
+   "state": "LA",
+   "rank": 71,
+   "rating": 0.3953,
+   "sos": 0.4534,
+   "wins": 2,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 17,
+   "runsAgainst": 31,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Chappapeela Chiefs",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c467ab22-5424-4f86-abfd-eeb2eb324997"
+    }
+   ]
+  },
+  {
+   "id": "otc:7252",
+   "name": "Walker Elite",
+   "city": "Walker",
+   "state": "LA",
+   "rank": 72,
+   "rating": 0.3776,
+   "sos": 0.414,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 41,
+   "runsAgainst": 60,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Walker Elite",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7252"
+    }
+   ]
+  },
+  {
+   "id": "otc:7222",
+   "name": "LP Shenanigans",
+   "city": "Pine Grove",
+   "state": "LA",
+   "rank": 73,
+   "rating": 0.3627,
+   "sos": 0.3284,
+   "wins": 4,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 54,
+   "runsAgainst": 54,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "LP Shenanigans",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7222"
+    }
+   ]
+  },
+  {
+   "id": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "name": "Astros",
+   "city": "Stonewall",
+   "state": "LA",
+   "rank": 74,
+   "rating": 0.3594,
+   "sos": 0.4792,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 32,
+   "runsAgainst": 50,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Astros",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/13a7674b-4d84-4773-bd44-fdf9055bf20c"
+    }
+   ]
+  },
+  {
+   "id": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "name": "Marucci Legacy NOLA 12u",
+   "city": "Westwego",
+   "state": "LA",
+   "rank": 75,
+   "rating": 0.3541,
+   "sos": 0.4721,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 37,
+   "runsAgainst": 57,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Marucci Legacy NOLA 12u",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/de98162d-e052-4a77-ba64-208bab310443"
+    }
+   ]
+  },
+  {
+   "id": "2d:a40f9ac5-5c5d-4d79-aff8-b3189f7278d5",
+   "name": "Cajun Heat Baseball",
+   "city": "New Iberia",
+   "state": "LA",
+   "rank": 76,
+   "rating": 0.3501,
+   "sos": 0.4169,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 21,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Cajun Heat Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a40f9ac5-5c5d-4d79-aff8-b3189f7278d5"
+    }
+   ]
+  },
+  {
+   "id": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+   "name": "Gold Culture Gold",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 77,
+   "rating": 0.3479,
+   "sos": 0.4131,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 25,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gold Culture Gold",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/206fb628-5b39-45a0-97f9-35c0d85ff458"
+    }
+   ]
+  },
+  {
+   "id": "2d:26e67955-aedc-4a59-926c-3ee0ddd31da7",
+   "name": "LA Troopers",
+   "city": "Frierson",
+   "state": "LA",
+   "rank": 78,
+   "rating": 0.3389,
+   "sos": 0.5084,
+   "wins": 1,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 21,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Troopers",
+     "ageClass": "11u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/26e67955-aedc-4a59-926c-3ee0ddd31da7"
+    }
+   ]
+  },
+  {
+   "id": "otc:7340",
+   "name": "Louisiana Blast - Pope",
+   "city": "Denham Springs",
+   "state": "LA",
+   "rank": 79,
+   "rating": 0.3313,
+   "sos": 0.3855,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 15,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Louisiana Blast - Pope",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7340"
+    }
+   ]
+  },
+  {
+   "id": "otc:7061",
+   "name": "St Bernard Braves",
+   "city": "Meraux",
+   "state": "LA",
+   "rank": 80,
+   "rating": 0.3131,
+   "sos": 0.6884,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 10,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "St Bernard Braves",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061"
+    }
+   ]
+  },
+  {
+   "id": "2d:c72f67d0-e1c2-4394-acc8-e52c98b2f65b",
+   "name": "SouthernChargers-Plessala",
+   "city": "New Iberia",
+   "state": "LA",
+   "rank": 81,
+   "rating": 0.3043,
+   "sos": 0.6739,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 10,
+   "runsAgainst": 38,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "SouthernChargers-Plessala",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c72f67d0-e1c2-4394-acc8-e52c98b2f65b"
+    }
+   ]
+  },
+  {
+   "id": "otc:7050",
+   "name": "ESA",
+   "city": "Mccomb",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.2969,
+   "sos": 0.5131,
+   "wins": 3,
+   "losses": 9,
+   "ties": 0,
+   "runsFor": 92,
+   "runsAgainst": 148,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "ESA",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7050"
+    }
+   ]
+  },
+  {
+   "id": "2d:628c1155-78bc-4252-bf3a-642aa9411783",
+   "name": "Lone Star Legends 12U",
+   "city": "Bridge City",
+   "state": "TX",
+   "rank": null,
+   "rating": 0.2899,
+   "sos": 0.5798,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 11,
+   "runsAgainst": 14,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Lone Star Legends 12U",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/628c1155-78bc-4252-bf3a-642aa9411783"
+    }
+   ]
+  },
+  {
+   "id": "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+   "name": "Strikeforce 11U",
+   "city": "Deridder",
+   "state": "LA",
+   "rank": 82,
+   "rating": 0.2873,
+   "sos": 0.5745,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 2,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Strikeforce 11U",
+     "ageClass": "11u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/aa6437b9-f818-4112-a42e-017d294c160d"
+    }
+   ]
+  },
+  {
+   "id": "otc:7045",
+   "name": "Renegades White",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 83,
+   "rating": 0.2851,
+   "sos": 0.5094,
+   "wins": 1,
+   "losses": 5,
+   "ties": 1,
+   "runsFor": 18,
+   "runsAgainst": 49,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Renegades White",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7045"
+    }
+   ]
+  },
+  {
+   "id": "2d:4c152705-6c48-490e-94fe-fb12e99ebcb5",
+   "name": "L.A.P. Pirates",
+   "city": "Carencro",
+   "state": "LA",
+   "rank": 84,
+   "rating": 0.2805,
+   "sos": 0.6341,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 8,
+   "runsAgainst": 37,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "L.A.P. Pirates",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/4c152705-6c48-490e-94fe-fb12e99ebcb5"
+    }
+   ]
+  },
+  {
+   "id": "otc:6988",
+   "name": "Southern Sting",
+   "city": "Raceland",
+   "state": "LA",
+   "rank": 85,
+   "rating": 0.2795,
+   "sos": 0.4658,
+   "wins": 0,
+   "losses": 2,
+   "ties": 1,
+   "runsFor": 7,
+   "runsAgainst": 15,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Southern Sting",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6988"
+    }
+   ]
+  },
+  {
+   "id": "otc:7012",
+   "name": "MS Jays",
+   "city": "Mccomb",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.272,
+   "sos": 0.6201,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 14,
+   "runsAgainst": 31,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "MS Jays",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7012"
+    }
+   ]
+  },
+  {
+   "id": "2d:8cfe5361-c7e2-4abf-b187-76f8fb664005",
+   "name": "Southern Impact Performance-Woods",
+   "city": "Saucier",
+   "state": "MS",
+   "rank": null,
+   "rating": 0.2626,
+   "sos": 0.5168,
+   "wins": 1,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 24,
+   "runsAgainst": 56,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Southern Impact Performance-Woods",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/8cfe5361-c7e2-4abf-b187-76f8fb664005"
+    }
+   ]
+  },
+  {
+   "id": "otc:6951",
+   "name": "Gonzales Tigers - Cornett",
+   "city": "Gonzales",
+   "state": "LA",
+   "rank": 86,
+   "rating": 0.2612,
+   "sos": 0.4135,
+   "wins": 3,
+   "losses": 7,
+   "ties": 0,
+   "runsFor": 40,
+   "runsAgainst": 69,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Gonzales Tigers - Cornett",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6951"
+    }
+   ]
+  },
+  {
+   "id": "2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b",
+   "name": "Naturals 12u Blue",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 87,
+   "rating": 0.2544,
+   "sos": 0.5906,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 18,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Naturals 12u Blue",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/39ab7f70-02c3-4187-b2ed-b88add2f2e7b"
+    }
+   ]
+  },
+  {
+   "id": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+   "name": "LA Drillers",
+   "city": "Bossier",
+   "state": "LA",
+   "rank": 88,
+   "rating": 0.2457,
+   "sos": 0.5762,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 11,
+   "runsAgainst": 44,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Drillers",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/88077be2-51df-44f4-ac76-eb443b3cac6f"
+    }
+   ]
+  },
+  {
+   "id": "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+   "name": "SWLA Outlaws 12u",
+   "city": "Lake Charles",
+   "state": "LA",
+   "rank": 89,
+   "rating": 0.2365,
+   "sos": 0.4731,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 15,
+   "runsAgainst": 31,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "SWLA Outlaws 12u",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/d8bf63c6-4841-42d1-8713-393148fa0557"
+    }
+   ]
+  },
+  {
+   "id": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "name": "Camellia City Cajuns",
+   "city": "Slidell",
+   "state": "LA",
+   "rank": 90,
+   "rating": 0.2311,
+   "sos": 0.4748,
+   "wins": 1,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 22,
+   "runsAgainst": 46,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Camellia City Cajuns",
+     "ageClass": "12u A",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/1ec0e63d-a3c8-4db0-8a52-947cf23b6d73"
+    }
+   ]
+  },
+  {
+   "id": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "name": "Louisiana Redbirds",
+   "city": "Kenner",
+   "state": "LA",
+   "rank": 91,
+   "rating": 0.2244,
+   "sos": 0.4659,
+   "wins": 1,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 20,
+   "runsAgainst": 43,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Louisiana Redbirds",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/2b632574-1f4d-4776-a9ad-d56e9def86b6"
+    }
+   ]
+  },
+  {
+   "id": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "name": "Tsunami 12u Warning",
+   "city": "Gonzales",
+   "state": "LA",
+   "rank": 92,
+   "rating": 0.2216,
+   "sos": 0.6288,
+   "wins": 0,
+   "losses": 6,
+   "ties": 0,
+   "runsFor": 23,
+   "runsAgainst": 76,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Tsunami 12u Warning",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c8f47c58-b52b-4259-b3cc-6d4f3441d06e"
+    }
+   ]
+  },
+  {
+   "id": "otc:7053",
+   "name": "Knights Knation - Pivach",
+   "city": "Mandeville",
+   "state": "LA",
+   "rank": 93,
+   "rating": 0.22,
+   "sos": 0.5333,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Knights Knation - Pivach",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053"
+    }
+   ]
+  },
+  {
+   "id": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+   "name": "LA Sting 12u Blue",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 94,
+   "rating": 0.2191,
+   "sos": 0.5319,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 9,
+   "runsAgainst": 29,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "LA Sting 12u Blue",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/d1b663be-2d55-471d-abbb-2fe0cd6ccf9b"
+    }
+   ]
+  },
+  {
+   "id": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "name": "Lakeview Vikings",
+   "city": "New Orleans",
+   "state": "LA",
+   "rank": 95,
+   "rating": 0.2162,
+   "sos": 0.4594,
+   "wins": 2,
+   "losses": 8,
+   "ties": 0,
+   "runsFor": 62,
+   "runsAgainst": 84,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Lakeview Vikings",
+     "ageClass": "12u A",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/d34b8c45-cf8a-415f-af10-100110a6ad8f"
+    }
+   ]
+  },
+  {
+   "id": "2d:715c7751-7eb1-4930-946a-5407c8b948fd",
+   "name": "Gold Culture",
+   "city": "Shreveport",
+   "state": "LA",
+   "rank": 96,
+   "rating": 0.1897,
+   "sos": 0.4828,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 14,
+   "runsAgainst": 35,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Gold Culture",
+     "ageClass": "10u Major",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/715c7751-7eb1-4930-946a-5407c8b948fd"
+    }
+   ]
+  },
+  {
+   "id": "otc:6964",
+   "name": "Nola Drip",
+   "city": "Jefferson",
+   "state": "LA",
+   "rank": 97,
+   "rating": 0.1797,
+   "sos": 0.4062,
+   "wins": 1,
+   "losses": 5,
+   "ties": 0,
+   "runsFor": 32,
+   "runsAgainst": 57,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Nola Drip",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6964"
+    }
+   ]
+  },
+  {
+   "id": "2d:188148f7-b52d-4558-a207-396083ff1523",
+   "name": "Alpha Baseball",
+   "city": "Rayne",
+   "state": "LA",
+   "rank": 98,
+   "rating": 0.1714,
+   "sos": 0.4523,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 22,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Alpha Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/188148f7-b52d-4558-a207-396083ff1523"
+    }
+   ]
+  },
+  {
+   "id": "2d:b68376dc-b8dc-4195-811e-a0c69a9e0e56",
+   "name": "Junior Gators Baseball",
+   "city": "St Amant",
+   "state": "LA",
+   "rank": 99,
+   "rating": 0.1364,
+   "sos": 0.394,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 18,
+   "runsAgainst": 32,
+   "sources": [
+    {
+     "source": "2d",
+     "name": "Junior Gators Baseball",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/b68376dc-b8dc-4195-811e-a0c69a9e0e56"
+    }
+   ]
+  },
+  {
+   "id": "otc:6993",
+   "name": "La Havoc - Oster",
+   "city": "Covington",
+   "state": "LA",
+   "rank": 100,
+   "rating": 0.1268,
+   "sos": 0.3779,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 29,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "La Havoc - Oster",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6993"
+    }
+   ]
+  },
+  {
+   "id": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "name": "Baton Rouge Astros - Terrell",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "rank": 101,
+   "rating": 0.1029,
+   "sos": 0.4035,
+   "wins": 1,
+   "losses": 8,
+   "ties": 0,
+   "runsFor": 45,
+   "runsAgainst": 91,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Baton Rouge Astros - Terrell",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7194"
+    },
+    {
+     "source": "2d",
+     "name": "Baton Rouge Astros - Terrell",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2"
+    }
+   ]
+  },
+  {
+   "id": "otc:7006",
+   "name": "Tritons",
+   "city": "Lottie",
+   "state": "LA",
+   "rank": 102,
+   "rating": 0.0543,
+   "sos": 0.4552,
+   "wins": 0,
+   "losses": 9,
+   "ties": 0,
+   "runsFor": 29,
+   "runsAgainst": 122,
+   "sources": [
+    {
+     "source": "otc",
+     "name": "Tritons",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7006"
+    }
+   ]
+  }
+ ],
+ "games": [
+  {
+   "date": "2026-08-29",
+   "source": "2d",
+   "event": "Petal Fall Opener",
+   "division": "12u Open",
+   "a": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "b": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
+   "sa": 5,
+   "sb": 4
+  },
+  {
+   "date": "2026-08-29",
+   "source": "2d",
+   "event": "Petal Fall Opener",
+   "division": "12u Open",
+   "a": "2d:4d8739a6-cf20-4f8d-a681-5c4507dbb418",
+   "b": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "sa": 5,
+   "sb": 4
+  },
+  {
+   "date": "2026-08-30",
+   "source": "2d",
+   "event": "Petal Fall Opener",
+   "division": "12u Open",
+   "a": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
+   "b": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "sa": 12,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "b": "2d:7ea98d6d-728c-4b8e-b0b7-3e8e6677c858",
+   "sa": 0,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:7050",
+   "sa": 21,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:7069",
+   "sa": 0,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:7222",
+   "sa": 9,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7069",
+   "b": "otc:7050",
+   "sa": 22,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7069",
+   "b": "otc:7222",
+   "sa": 13,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7222",
+   "b": "otc:7006",
+   "sa": 11,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7006",
+   "b": "otc:7069",
+   "sa": 6,
+   "sb": 13
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7069",
+   "b": "otc:7003",
+   "sa": 4,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7003",
+   "b": "otc:7034",
+   "sa": 1,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7003",
+   "b": "otc:7006",
+   "sa": 12,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7222",
+   "b": "otc:6964",
+   "sa": 11,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:7050",
+   "b": "otc:6964",
+   "sa": 17,
+   "sb": 18
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "b": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "sa": 5,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-12",
+   "source": "otc",
+   "event": "The Tangi Fall Tune Up!",
+   "division": "12U-AA",
+   "a": "otc:6964",
+   "b": "otc:7003",
+   "sa": 3,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "b": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "sa": 7,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 5,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "b": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "sa": 5,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "sa": 1,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "b": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+   "sa": 1,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+   "b": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "sa": 5,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+   "b": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+   "sa": 9,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 6,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 5,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "b": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "sa": 2,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 8,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 2,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "b": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "sa": 1,
+   "sb": 14
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 7,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "b": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "sa": 2,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "b": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "sa": 2,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:b7867e57-fe67-4cd2-a0b1-89a199f878a9",
+   "b": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "sa": 7,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "b": "2d:3232034d-404a-4181-8068-a30150a76bcf",
+   "sa": 7,
+   "sb": 12
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:b7867e57-fe67-4cd2-a0b1-89a199f878a9",
+   "b": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+   "sa": 6,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:2dcbc7d6-4145-45fb-b497-5e919a06162f",
+   "b": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "sa": 1,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+   "b": "2d:3232034d-404a-4181-8068-a30150a76bcf",
+   "sa": 1,
+   "sb": 13
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:7ea98d6d-728c-4b8e-b0b7-3e8e6677c858",
+   "b": "2d:2dcbc7d6-4145-45fb-b497-5e919a06162f",
+   "sa": 3,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "b": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "sa": 2,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:a157d2c4-b301-4abb-870e-5b7132fe70c1",
+   "b": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "sa": 11,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "b": "2d:a157d2c4-b301-4abb-870e-5b7132fe70c1",
+   "sa": 13,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "b": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+   "b": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "sa": 5,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+   "b": "2d:cb44b06f-c783-411b-84af-bca4fac20adb",
+   "sa": 0,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-12",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:cb44b06f-c783-411b-84af-bca4fac20adb",
+   "b": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "sa": 12,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:cb44b06f-c783-411b-84af-bca4fac20adb",
+   "b": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "sa": 10,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 12,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:cb44b06f-c783-411b-84af-bca4fac20adb",
+   "b": "2d:a157d2c4-b301-4abb-870e-5b7132fe70c1",
+   "sa": 11,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "b": "2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857",
+   "sa": 0,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u AA",
+   "a": "2d:a157d2c4-b301-4abb-870e-5b7132fe70c1",
+   "b": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+   "sa": 13,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "b": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+   "sa": 5,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:7ea98d6d-728c-4b8e-b0b7-3e8e6677c858",
+   "b": "2d:2dcbc7d6-4145-45fb-b497-5e919a06162f",
+   "sa": 3,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "b": "2d:b7867e57-fe67-4cd2-a0b1-89a199f878a9",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "b": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+   "sa": 12,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:3232034d-404a-4181-8068-a30150a76bcf",
+   "b": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "sa": 4,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "b": "2d:2dcbc7d6-4145-45fb-b497-5e919a06162f",
+   "sa": 5,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "b": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "sa": 2,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "b": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "sa": 3,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "b": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "sa": 2,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 8,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 6,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:4a8c928b-ec2a-4cd1-8335-938ecd620130",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 13,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "b": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "sa": 5,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "b": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "sa": 16,
+   "sb": 15
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AA",
+   "a": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "b": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "sa": 7,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 4,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+   "b": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "sa": 5,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "b": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "sa": 6,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 8,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Alario Fall Opener",
+   "division": "12u AAA",
+   "a": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+   "b": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "sa": 7,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-13",
+   "source": "2d",
+   "event": "Bossier Fall Opener",
+   "division": "12u Open",
+   "a": "2d:f70a2a7a-a62c-4f03-83a1-2fdb4e176fc0",
+   "b": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "sa": 4,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7131",
+   "b": "otc:6968",
+   "sa": 0,
+   "sb": 14
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:6968",
+   "b": "otc:7132",
+   "sa": 7,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:6968",
+   "b": "otc:7158",
+   "sa": 11,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:6968",
+   "b": "otc:7177",
+   "sa": 2,
+   "sb": 22
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7045",
+   "b": "otc:7131",
+   "sa": 5,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7158",
+   "b": "otc:7045",
+   "sa": 11,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-19",
+   "source": "2d",
+   "event": "The Quarry Fall Opener",
+   "division": "12u A",
+   "a": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "b": "2d:2721f693-7329-4ac1-8ddb-f14ae73f3a39",
+   "sa": 5,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-19",
+   "source": "2d",
+   "event": "The Quarry Fall Opener",
+   "division": "12u A",
+   "a": "2d:8a8cf1e6-c4e9-4a68-a078-1fab75c53da5",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 7,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7177",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 11,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7158",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 2,
+   "sb": 12
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "b": "otc:7132",
+   "sa": 7,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7177",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 17,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7131",
+   "b": "otc:7132",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7132",
+   "b": "otc:7177",
+   "sa": 4,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-19",
+   "source": "otc",
+   "event": "The Hammond Heater!",
+   "division": "12U-OPEN",
+   "a": "otc:7177",
+   "b": "otc:7045",
+   "sa": 17,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-20",
+   "source": "2d",
+   "event": "The Quarry Fall Opener",
+   "division": "12u A",
+   "a": "2d:34e0bf39-965d-41a1-af6b-1f03f9b99023",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 6,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 5,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+   "b": "2d:ffff9556-bc27-47d0-b59f-36e91da22dce",
+   "sa": 3,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:ffff9556-bc27-47d0-b59f-36e91da22dce",
+   "b": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "sa": 11,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "Ruston Fall Opener",
+   "division": "12u Open",
+   "a": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 14,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "Ruston Fall Opener",
+   "division": "12u Open",
+   "a": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 3,
+   "sb": 13
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "Ruston Fall Opener",
+   "division": "12u Open",
+   "a": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+   "b": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "sa": 1,
+   "sb": 19
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "Ruston Fall Opener",
+   "division": "12u Open",
+   "a": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "b": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+   "sa": 12,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "Ruston Fall Opener",
+   "division": "12u Open",
+   "a": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 11,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-26",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 10,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7244",
+   "b": "otc:7178",
+   "sa": 3,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7302",
+   "b": "otc:7246",
+   "sa": 3,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7222",
+   "b": "otc:7302",
+   "sa": 1,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7246",
+   "b": "otc:7222",
+   "sa": 14,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7246",
+   "b": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "sa": 7,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7302",
+   "b": "otc:7006",
+   "sa": 18,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7222",
+   "b": "otc:7006",
+   "sa": 13,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7006",
+   "b": "otc:7222",
+   "sa": 0,
+   "sb": 12
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:7302",
+   "b": "otc:6958",
+   "sa": 14,
+   "sb": 13
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:6958",
+   "b": "otc:7246",
+   "sa": 1,
+   "sb": 11
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "b": "otc:6958",
+   "sa": 3,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Central Wallbanger!",
+   "division": "12U-AA",
+   "a": "otc:6958",
+   "b": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "sa": 14,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7178",
+   "b": "otc:7244",
+   "sa": 4,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7173",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 6,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7173",
+   "b": "otc:7121",
+   "sa": 5,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7069",
+   "b": "otc:7173",
+   "sa": 1,
+   "sb": 11
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7121",
+   "b": "otc:7069",
+   "sa": 20,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7244",
+   "b": "otc:7061",
+   "sa": 8,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7172",
+   "b": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7172",
+   "b": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "sa": 2,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "otc:7053",
+   "sa": 9,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7050",
+   "b": "otc:7172",
+   "sa": 4,
+   "sb": 18
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "b": "otc:7050",
+   "sa": 11,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "2d:2b197707-f5cd-4b1f-8576-732de74b4ad5",
+   "b": "otc:7050",
+   "sa": 6,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:7172",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7061",
+   "b": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "sa": 3,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "b": "otc:7053",
+   "sa": 7,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7016",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 10,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7053",
+   "b": "otc:7016",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7016",
+   "b": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "sa": 12,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7012",
+   "b": "otc:7244",
+   "sa": 3,
+   "sb": 14
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7178",
+   "b": "otc:7012",
+   "sa": 9,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7121",
+   "b": "otc:7012",
+   "sa": 8,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:6993",
+   "sa": 16,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "otc:6987",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "b": "otc:6987",
+   "sa": 7,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:6967",
+   "b": "otc:7244",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7173",
+   "b": "otc:6967",
+   "sa": 8,
+   "sb": 15
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:6967",
+   "b": "otc:7121",
+   "sa": 6,
+   "sb": 1
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:6967",
+   "b": "otc:7069",
+   "sa": 10,
+   "sb": 0
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:6967",
+   "b": "otc:7061",
+   "sa": 13,
+   "sb": 3
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:6987",
+   "b": "otc:6967",
+   "sa": 9,
+   "sb": 10
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:7034",
+   "b": "otc:6951",
+   "sa": 8,
+   "sb": 2
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:6951",
+   "b": "otc:7034",
+   "sa": 1,
+   "sb": 8
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:6951",
+   "b": "otc:6993",
+   "sa": 8,
+   "sb": 7
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-AA",
+   "a": "otc:6993",
+   "b": "otc:6951",
+   "sa": 4,
+   "sb": 5
+  },
+  {
+   "date": "2026-09-26",
+   "source": "otc",
+   "event": "The Walk Off!",
+   "division": "12U-OPEN",
+   "a": "otc:7016",
+   "b": "otc:7244",
+   "sa": 8,
+   "sb": 9
+  },
+  {
+   "date": "2026-09-27",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "b": "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+   "sa": 10,
+   "sb": 11
+  },
+  {
+   "date": "2026-09-27",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:ffff9556-bc27-47d0-b59f-36e91da22dce",
+   "b": "2d:2b632574-1f4d-4776-a9ad-d56e9def86b6",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-09-27",
+   "source": "2d",
+   "event": "New Orleans Fall Brawl",
+   "division": "12u AA",
+   "a": "2d:ffff9556-bc27-47d0-b59f-36e91da22dce",
+   "b": "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+   "sa": 11,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-03",
+   "source": "2d",
+   "event": "The Quarry Fall Brawl",
+   "division": "12u Open",
+   "a": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "b": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
+   "sa": 6,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-03",
+   "source": "2d",
+   "event": "The Quarry Fall Brawl",
+   "division": "12u Open",
+   "a": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "b": "2d:02f08a87-440e-47ad-8c17-cd45ddf6843d",
+   "sa": 6,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "The Quarry Fall Brawl",
+   "division": "12u Open",
+   "a": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "b": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
+   "sa": 6,
+   "sb": 11
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #1",
+   "division": "12u Open",
+   "a": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+   "b": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #1",
+   "division": "12u Open",
+   "a": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+   "b": "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+   "sa": 6,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #1",
+   "division": "12u Open",
+   "a": "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
+   "b": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+   "sa": 6,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #1",
+   "division": "12u Open",
+   "a": "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+   "b": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+   "sa": 0,
+   "sb": 12
+  },
+  {
+   "date": "2026-10-04",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #1",
+   "division": "12u Open",
+   "a": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+   "b": "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
+   "sa": 9,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7096",
+   "b": "otc:7302",
+   "sa": 10,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:4c152705-6c48-490e-94fe-fb12e99ebcb5",
+   "b": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "sa": 0,
+   "sb": 12
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:1d7a870d-b323-420a-8617-ec7cb30e62c9",
+   "b": "2d:a40f9ac5-5c5d-4d79-aff8-b3189f7278d5",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:6dd35752-497c-4432-aeb7-45119cbb8758",
+   "b": "2d:ed1abfbc-37b3-4c1c-8186-698989047d0e",
+   "sa": 8,
+   "sb": 16
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:a40f9ac5-5c5d-4d79-aff8-b3189f7278d5",
+   "b": "2d:188148f7-b52d-4558-a207-396083ff1523",
+   "sa": 11,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "b": "2d:ed1abfbc-37b3-4c1c-8186-698989047d0e",
+   "sa": 8,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:fffd902e-f1d2-41f2-9689-14ddd4a2b708",
+   "b": "2d:c72f67d0-e1c2-4394-acc8-e52c98b2f65b",
+   "sa": 10,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:fffd902e-f1d2-41f2-9689-14ddd4a2b708",
+   "b": "2d:188148f7-b52d-4558-a207-396083ff1523",
+   "sa": 6,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7050",
+   "b": "otc:7131",
+   "sa": 10,
+   "sb": 15
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "b": "2d:7e117b27-523b-429e-bc16-f370dc412d8a",
+   "sa": 1,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7246",
+   "b": "otc:7050",
+   "sa": 5,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "b": "2d:7e117b27-523b-429e-bc16-f370dc412d8a",
+   "sa": 12,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "b": "otc:7050",
+   "sa": 11,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "b": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "sa": 7,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7252",
+   "b": "otc:7050",
+   "sa": 1,
+   "sb": 15
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7096",
+   "b": "otc:7069",
+   "sa": 10,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7069",
+   "b": "otc:7096",
+   "sa": 4,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "b": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "sa": 5,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:b68376dc-b8dc-4195-811e-a0c69a9e0e56",
+   "b": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "sa": 10,
+   "sb": 12
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:b68376dc-b8dc-4195-811e-a0c69a9e0e56",
+   "b": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "sa": 3,
+   "sb": 13
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "b": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "sa": 13,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "b": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+   "sa": 8,
+   "sb": 16
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "b": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "sa": 4,
+   "sb": 14
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:42ce8002-d4e5-46ce-aa3a-3d141db42ba9",
+   "b": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "sa": 7,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:26e67955-aedc-4a59-926c-3ee0ddd31da7",
+   "b": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
+   "sa": 0,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "b": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "sa": 6,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:26e67955-aedc-4a59-926c-3ee0ddd31da7",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 5,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "b": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
+   "sa": 7,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "b": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+   "sa": 9,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:715c7751-7eb1-4930-946a-5407c8b948fd",
+   "b": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "sa": 5,
+   "sb": 13
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:715c7751-7eb1-4930-946a-5407c8b948fd",
+   "b": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+   "sa": 8,
+   "sb": 14
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7096",
+   "b": "otc:7050",
+   "sa": 17,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7191",
+   "b": "otc:7016",
+   "sa": 3,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7133",
+   "b": "otc:7016",
+   "sa": 2,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7121",
+   "b": "otc:7016",
+   "sa": 3,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:6967",
+   "b": "otc:7191",
+   "sa": 4,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7121",
+   "b": "otc:6967",
+   "sa": 3,
+   "sb": 16
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7016",
+   "b": "otc:6967",
+   "sa": 2,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7016",
+   "b": "otc:6967",
+   "sa": 3,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:6951",
+   "b": "otc:7302",
+   "sa": 2,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:6951",
+   "b": "otc:7246",
+   "sa": 3,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7131",
+   "b": "otc:6951",
+   "sa": 9,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7252",
+   "b": "otc:7302",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+   "b": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "sa": 3,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7050",
+   "b": "otc:7131",
+   "sa": 12,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7246",
+   "b": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "sa": 12,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7158",
+   "b": "otc:7252",
+   "sa": 12,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7191",
+   "b": "otc:7133",
+   "sa": 10,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7131",
+   "b": "2d:386f3b1a-383d-4c3f-bc9a-5ac188a2f1e2",
+   "sa": 15,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-OPEN",
+   "a": "otc:7133",
+   "b": "otc:7121",
+   "sa": 1,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:42ce8002-d4e5-46ce-aa3a-3d141db42ba9",
+   "b": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "sa": 1,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "b": "2d:4c152705-6c48-490e-94fe-fb12e99ebcb5",
+   "sa": 3,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "b": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "sa": 0,
+   "sb": 18
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:1d7a870d-b323-420a-8617-ec7cb30e62c9",
+   "b": "2d:6dd35752-497c-4432-aeb7-45119cbb8758",
+   "sa": 9,
+   "sb": 15
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7069",
+   "b": "otc:7158",
+   "sa": 3,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7302",
+   "b": "otc:7069",
+   "sa": 3,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-10",
+   "source": "otc",
+   "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+   "division": "12U-AA",
+   "a": "otc:7096",
+   "b": "otc:7158",
+   "sa": 12,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-10",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "b": "2d:c72f67d0-e1c2-4394-acc8-e52c98b2f65b",
+   "sa": 19,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "b": "2d:ed1abfbc-37b3-4c1c-8186-698989047d0e",
+   "sa": 7,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #2",
+   "division": "12u Open",
+   "a": "2d:628c1155-78bc-4252-bf3a-642aa9411783",
+   "b": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
+   "sa": 5,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #2",
+   "division": "12u Open",
+   "a": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
+   "b": "2d:185768c0-9788-4d4b-8754-f9322405d6d2",
+   "sa": 4,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #2",
+   "division": "12u Open",
+   "a": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+   "b": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+   "sa": 11,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #2",
+   "division": "12u Open",
+   "a": "2d:185768c0-9788-4d4b-8754-f9322405d6d2",
+   "b": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+   "sa": 10,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:13a7674b-4d84-4773-bd44-fdf9055bf20c",
+   "b": "2d:26e67955-aedc-4a59-926c-3ee0ddd31da7",
+   "sa": 5,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "b": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+   "sa": 10,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "b": "2d:715c7751-7eb1-4930-946a-5407c8b948fd",
+   "sa": 8,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
+   "b": "2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b",
+   "sa": 9,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:26e67955-aedc-4a59-926c-3ee0ddd31da7",
+   "b": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u AA",
+   "a": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
+   "b": "2d:bc489978-47fe-4c2c-8707-59514717b565",
+   "sa": 7,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
+   "b": "2d:42ce8002-d4e5-46ce-aa3a-3d141db42ba9",
+   "sa": 6,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:a8ae461a-c12d-4a08-b100-89dec165fd0f",
+   "b": "2d:7e117b27-523b-429e-bc16-f370dc412d8a",
+   "sa": 4,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "b": "2d:42ce8002-d4e5-46ce-aa3a-3d141db42ba9",
+   "sa": 7,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "North LA Fall Championship",
+   "division": "12u Open",
+   "a": "2d:07cbed17-407e-4045-bcde-00cc3fa09219",
+   "b": "2d:7e117b27-523b-429e-bc16-f370dc412d8a",
+   "sa": 9,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "b": "2d:b68376dc-b8dc-4195-811e-a0c69a9e0e56",
+   "sa": 7,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "b": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "sa": 12,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "b": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "b": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "sa": 5,
+   "sb": 11
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "b": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "sa": 4,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:fffd902e-f1d2-41f2-9689-14ddd4a2b708",
+   "b": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "sa": 4,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+   "b": "2d:1d7a870d-b323-420a-8617-ec7cb30e62c9",
+   "sa": 11,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+   "b": "2d:de98162d-e052-4a77-ba64-208bab310443",
+   "sa": 9,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:24b2d74d-3380-4154-b3ac-ee79da97ea0b",
+   "b": "2d:6dd35752-497c-4432-aeb7-45119cbb8758",
+   "sa": 6,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "b": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "sa": 3,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Alario Fall Throwdown",
+   "division": "12u AA",
+   "a": "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
+   "b": "2d:e4b46642-0415-4b8d-b571-6a5f6988b277",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:793e1c92-171a-4edb-9317-8a2fc2856b8c",
+   "b": "2d:c72f67d0-e1c2-4394-acc8-e52c98b2f65b",
+   "sa": 9,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:ed1abfbc-37b3-4c1c-8186-698989047d0e",
+   "b": "2d:a40f9ac5-5c5d-4d79-aff8-b3189f7278d5",
+   "sa": 4,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:1d7a870d-b323-420a-8617-ec7cb30e62c9",
+   "b": "2d:188148f7-b52d-4558-a207-396083ff1523",
+   "sa": 8,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-11",
+   "source": "2d",
+   "event": "Acadiana Fall Opener",
+   "division": "12u AA",
+   "a": "2d:6dd35752-497c-4432-aeb7-45119cbb8758",
+   "b": "2d:4c152705-6c48-490e-94fe-fb12e99ebcb5",
+   "sa": 22,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:6988",
+   "b": "otc:7336",
+   "sa": 3,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7018",
+   "b": "otc:7205",
+   "sa": 3,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7018",
+   "b": "otc:7336",
+   "sa": 8,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7184",
+   "b": "otc:7045",
+   "sa": 6,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "b": "otc:7056",
+   "sa": 13,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "b": "otc:7056",
+   "sa": 13,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7056",
+   "b": "otc:7205",
+   "sa": 12,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "b": "otc:7336",
+   "sa": 8,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 7,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "b": "otc:7184",
+   "sa": 10,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "b": "otc:7045",
+   "sa": 5,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
+   "b": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "sa": 12,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:6988",
+   "b": "2d:f13d5c56-d132-44c2-95ef-8d6d818f4878",
+   "sa": 2,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:bc719bfe-7bb5-4b18-9b94-1504dc94539a",
+   "b": "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd",
+   "sa": 10,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7184",
+   "b": "otc:7205",
+   "sa": 12,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7336",
+   "b": "otc:7184",
+   "sa": 6,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7205",
+   "b": "2d:505b9ae8-b2cf-40f2-b9d5-7d18dd7bd321",
+   "sa": 11,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:8cfe5361-c7e2-4abf-b187-76f8fb664005",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 14,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 4,
+   "sb": 14
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:3362f937-7f69-41fb-816a-9317ff1b0245",
+   "b": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "sa": 12,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "b": "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd",
+   "sa": 0,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7184",
+   "b": "otc:6964",
+   "sa": 14,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7045",
+   "b": "otc:6964",
+   "sa": 5,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:6964",
+   "b": "otc:7018",
+   "sa": 5,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7023",
+   "b": "otc:7340",
+   "sa": 6,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7023",
+   "b": "otc:7252",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7340",
+   "b": "otc:7006",
+   "sa": 12,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7006",
+   "b": "otc:7023",
+   "sa": 3,
+   "sb": 12
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7252",
+   "b": "otc:6958",
+   "sa": 8,
+   "sb": 4
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7023",
+   "b": "otc:6958",
+   "sa": 11,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:6958",
+   "b": "otc:7006",
+   "sa": 19,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7252",
+   "b": "otc:6951",
+   "sa": 7,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:6951",
+   "b": "otc:7252",
+   "sa": 10,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:6958",
+   "b": "otc:6951",
+   "sa": 7,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "b": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "sa": 12,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "b": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "sa": 1,
+   "sb": 14
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "b": "2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b",
+   "sa": 11,
+   "sb": 10
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "b": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "sa": 13,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b",
+   "b": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "sa": 6,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "b": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "sa": 14,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+   "sa": 1,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 11,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-17",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+   "b": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "sa": 10,
+   "sb": 11
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "The Central Groundbreaker!",
+   "division": "12U-AA",
+   "a": "otc:7340",
+   "b": "otc:6958",
+   "sa": 4,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-17",
+   "source": "otc",
+   "event": "Battle For Bayou Country!",
+   "division": "12U-AA",
+   "a": "otc:7045",
+   "b": "otc:6988",
+   "sa": 2,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "b": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
+   "sa": 6,
+   "sb": 7
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:8cfe5361-c7e2-4abf-b187-76f8fb664005",
+   "b": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "sa": 1,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
+   "b": "2d:d34b8c45-cf8a-415f-af10-100110a6ad8f",
+   "sa": 10,
+   "sb": 9
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+   "b": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+   "sa": 8,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Gulfport Fall Championship",
+   "division": "12u Open",
+   "a": "2d:cce2883b-e125-4431-98aa-92711eed232a",
+   "b": "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd",
+   "sa": 11,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "b": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "sa": 3,
+   "sb": 15
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "b": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "sa": 4,
+   "sb": 11
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "b": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "sa": 10,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
+   "b": "2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b",
+   "sa": 17,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:382932ef-4a56-498c-b548-6600e6c47007",
+   "b": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "sa": 16,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "b": "2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e",
+   "sa": 7,
+   "sb": 0
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+   "b": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "sa": 4,
+   "sb": 6
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+   "b": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+   "sa": 4,
+   "sb": 3
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
+   "b": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+   "sa": 6,
+   "sb": 2
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+   "b": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
+   "sa": 13,
+   "sb": 5
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
+   "b": "2d:cfe6f0dd-a6f7-43c5-be60-95f896db6908",
+   "sa": 15,
+   "sb": 1
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:cfe6f0dd-a6f7-43c5-be60-95f896db6908",
+   "b": "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+   "sa": 18,
+   "sb": 8
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "SWLA Sunday Fall League #3",
+   "division": "12u Open",
+   "a": "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+   "b": "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
+   "sa": 7,
+   "sb": 13
+  },
+  {
+   "date": "2026-10-18",
+   "source": "2d",
+   "event": "Caleb Easterling Memorial Tournament",
+   "division": "12u Open",
+   "a": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "b": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "sa": 8,
+   "sb": 9
+  }
+ ]
+}
