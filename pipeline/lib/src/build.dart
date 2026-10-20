@@ -10,6 +10,13 @@ import 'model.dart';
 /// How many games a win over a AAA / Majors team counts as.
 const aaaWinWeight = 2.0;
 
+/// A win over a Majors team counts this many games, more than AAA.
+const majorsWinWeight = 2.5;
+
+/// How much of a loss counts when the winner is AAA or Majors: losing to a
+/// higher class costs less.
+const aaaLossScale = 0.6, majorsLossScale = 0.4;
+
 /// Which org's logo to show when a team has more than one (Jared's order).
 const logoOrder = ['2d', 'otc', 'gs'];
 
@@ -79,17 +86,41 @@ String? logoFor(Iterable<SourceTeam> listings) {
     return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
   }
 
-  // A win over a AAA / Majors team counts extra ([aaaWinWeight] games).
+  // Majors teams share the AAA list but count a little more.
+  bool isMajors(String id) =>
+      (members[id] ?? []).any((t) => RegExp(r'\bmajors?\b', caseSensitive: false).hasMatch(t.ageClass));
+
+  // 'Majors', 'AAA', or 'AA' for everyone else.
+  String tierOf(String id) =>
+      levelFor(id) != 'AAA' ? 'AA' : (isMajors(id) ? 'Majors' : 'AAA');
+
+  // A win over a Majors team counts [majorsWinWeight] games, over a AAA team
+  // [aaaWinWeight] games.
   double weightOf(Game g) {
     if (g.scoreA == g.scoreB) return 1;
-    final loser = g.scoreA > g.scoreB ? g.teamB : g.teamA;
-    return levelFor(groupOf[loser]!) == 'AAA' ? aaaWinWeight : 1;
+    final loser = groupOf[g.scoreA > g.scoreB ? g.teamB : g.teamA]!;
+    return switch (tierOf(loser)) {
+      'Majors' => majorsWinWeight,
+      'AAA' => aaaWinWeight,
+      _ => 1,
+    };
+  }
+
+  // A loss to a AAA or Majors team costs less than a loss to an AA team.
+  double lossScaleOf(Game g) {
+    if (g.scoreA == g.scoreB) return 1;
+    final winner = groupOf[g.scoreA > g.scoreB ? g.teamA : g.teamB]!;
+    return switch (tierOf(winner)) {
+      'Majors' => majorsLossScale,
+      'AAA' => aaaLossScale,
+      _ => 1,
+    };
   }
 
   final results = [
     for (final g in games)
       Result(index[groupOf[g.teamA]]!, index[groupOf[g.teamB]]!, g.scoreA, g.scoreB,
-          weight: weightOf(g))
+          weight: weightOf(g), lossScale: lossScaleOf(g))
   ];
   // Direct matchups count extra on top of the shared Colley pool.
   final ratings = headToHeadAdjusted(colleyRatings(ids.length, results), results);
@@ -226,6 +257,9 @@ String? logoFor(Iterable<SourceTeam> listings) {
     'state': state,
     'method': 'colley+h2h',
     'aaaWinWeight': aaaWinWeight,
+    'majorsWinWeight': majorsWinWeight,
+    'aaaLossScale': aaaLossScale,
+    'majorsLossScale': majorsLossScale,
     'ages': {
       for (final a in ageCounts.keys.toList()..sort()) '$a': ageCounts[a],
     },

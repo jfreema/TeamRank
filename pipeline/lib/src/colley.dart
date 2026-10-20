@@ -2,7 +2,7 @@ import 'dart:math';
 
 /// A head-to-head result between two teams, by index.
 class Result {
-  Result(this.a, this.b, this.scoreA, this.scoreB, {this.weight = 1});
+  Result(this.a, this.b, this.scoreA, this.scoreB, {this.weight = 1, this.lossScale = 1});
   final int a;
   final int b;
   final int scoreA;
@@ -10,6 +10,10 @@ class Result {
 
   /// How much this game counts; 1 is a normal game.
   final double weight;
+
+  /// How much of the loss the loser takes; below 1 softens a loss to a
+  /// stronger class of team.
+  final double lossScale;
 }
 
 /// How much of a win a result is worth, from 0.5 (a tie) to 1. A win is
@@ -56,8 +60,8 @@ List<double> colleyRatings(int teamCount, List<Result> results) {
     c[r.b][r.a] -= w;
     // Net wins for A: 2 * share - 1, from -1 (a full loss) to 1 (a full win).
     final diff = w * (2 * winShare(r.scoreA, r.scoreB) - 1) / 2;
-    b[r.a] += diff;
-    b[r.b] -= diff;
+    b[r.a] += diff < 0 ? diff * r.lossScale : diff;
+    b[r.b] -= diff > 0 ? diff * r.lossScale : diff;
   }
   return _choleskySolve(c, b);
 }

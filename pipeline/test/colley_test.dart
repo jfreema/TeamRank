@@ -78,4 +78,11 @@ void main() {
     final adj = headToHeadAdjusted([0.6, 0.5], [Result(1, 0, 3, 2), Result(0, 1, 3, 2)]);
     expect(adj, [0.6, 0.5]);
   });
+
+  test('a softened loss costs the loser less and leaves the winner alone', () {
+    final full = colleyRatings(2, [Result(0, 1, 3, 2)]);
+    final soft = colleyRatings(2, [Result(0, 1, 3, 2, lossScale: 0.4)]);
+    expect(soft[1], greaterThan(full[1]));
+    expect(soft[1], lessThan(0.5), reason: 'a loss is still a loss');
+  });
 }

@@ -321,6 +321,70 @@ void main() {
     expect(r['otc:x']!, greaterThan(r['otc:y']!));
   });
 
+  test('beating a Majors team counts more than beating a AAA team', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
+    final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:x': t('otc:x', '12U-AA'),
+      'otc:y': t('otc:y', '12U-AA'),
+      'otc:maj': t('otc:maj', '12u Major'),
+      'otc:aaa': t('otc:aaa', '12U-AAA'),
+    }, events: {
+      '1': EventRecord(
+        id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-11',
+        isFinal: true, teamKeys: [],
+        games: [
+          game('otc', '1', 'otc:x', 'otc:maj', 5, 2),
+          game('otc', '1', 'otc:y', 'otc:aaa', 5, 2),
+        ],
+      ),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final r = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['id']: x['rating'] as double
+    };
+    expect(r['otc:x']!, greaterThan(r['otc:y']!));
+  });
+
+  test('losing to a higher class costs less', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
+    final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:x': t('otc:x', '12U-AA'),
+      'otc:y': t('otc:y', '12U-AA'),
+      'otc:z': t('otc:z', '12U-AA'),
+      'otc:maj': t('otc:maj', '12u Major'),
+      'otc:aaa': t('otc:aaa', '12U-AAA'),
+      'otc:aa': t('otc:aa', '12U-AA'),
+    }, events: {
+      '1': EventRecord(
+        id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-11',
+        isFinal: true, teamKeys: [],
+        games: [
+          game('otc', '1', 'otc:maj', 'otc:x', 5, 2),
+          game('otc', '1', 'otc:aaa', 'otc:y', 5, 2),
+          game('otc', '1', 'otc:aa', 'otc:z', 5, 2),
+        ],
+      ),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final r = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['id']: x['rating'] as double
+    };
+    expect(r['otc:x']!, greaterThan(r['otc:y']!), reason: 'loss to Majors costs least');
+    expect(r['otc:y']!, greaterThan(r['otc:z']!), reason: 'loss to AAA costs less than to AA');
+  });
+
   test('logos come from 2D first, then OTC, then Grand Slam', () {
     SourceTeam t(String k, String? logo) => SourceTeam(key: k, name: 'X', logo: logo);
     expect(logoFor([t('gs:1', 'g'), t('otc:1', 'o'), t('2d:1', 'd')]), 'd');
