@@ -7,24 +7,28 @@ import 'model.dart';
 ///   "merge":  [["otc:7158", "2d:fc31e3be-..."]],
 ///   "split":  [["otc:7069", "2d:60f64dd6-..."]],
 ///   "names":  {"otc:7158": "Slidell Raptors"},
+///   "levels": {"otc:7158": "AAA"},
 ///   "exclude": ["2d:..."]
 /// }
 /// ```
 ///
 /// `merge` joins source teams that are the same real team, `split` stops an
 /// automatic match, `names` overrides the display name, and `exclude` drops a
-/// team and its games.
+/// team and its games. `levels` sets which ranking list (`AA` or `AAA`) a
+/// team appears in when its registered class is wrong or missing.
 class Aliases {
   Aliases({
     this.merge = const [],
     this.split = const [],
     this.names = const {},
+    this.levels = const {},
     this.exclude = const {},
   });
 
   final List<List<String>> merge;
   final List<List<String>> split;
   final Map<String, String> names;
+  final Map<String, String> levels;
   final Set<String> exclude;
 
   factory Aliases.fromJson(Map<String, dynamic> j) => Aliases(
@@ -35,6 +39,7 @@ class Aliases {
             .map((g) => (g as List).cast<String>())
             .toList(),
         names: (j['names'] as Map? ?? {}).cast<String, String>(),
+        levels: (j['levels'] as Map? ?? {}).cast<String, String>(),
         exclude: (j['exclude'] as List? ?? []).cast<String>().toSet(),
       );
 }
@@ -160,4 +165,14 @@ class GroupResult {
   /// Same name and hometown, but they played in the same event, so they were
   /// not merged.
   final List<List<String>> ambiguous;
+}
+
+/// Which ranking list a team belongs in, from its registered class such as
+/// `12U-AA`, `12u AAA` or `11u Major`: `AAA` for AAA and Majors, `AA` for AA
+/// and A, or null when the org only lists it as Open or gives no class.
+String? levelOf(String ageClass) {
+  final c = ageClass.toUpperCase();
+  if (RegExp(r'\bMAJORS?\b|AAA').hasMatch(c)) return 'AAA';
+  if (RegExp(r'(^|[^A])AA?\b').hasMatch(c.replaceAll(RegExp(r'\d+U'), ''))) return 'AA';
+  return null;
 }

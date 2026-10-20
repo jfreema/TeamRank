@@ -97,6 +97,16 @@ void main() {
     });
   });
 
+  test('levelOf groups AA with A, and AAA with Majors', () {
+    expect(levelOf('12U-AA'), 'AA');
+    expect(levelOf('12u A'), 'AA');
+    expect(levelOf('12u AAA'), 'AAA');
+    expect(levelOf('12U-AAA'), 'AAA');
+    expect(levelOf('11u Major'), 'AAA');
+    expect(levelOf('12u Open'), isNull);
+    expect(levelOf('12u'), isNull);
+  });
+
   group('dedupeGames', () {
     final ids = {
       'otc:1': 'otc:1',
@@ -184,6 +194,44 @@ void main() {
     expect(teams.firstWhere((t) => t['name'] == 'Vice')['rank'], isNull);
     expect(teams.firstWhere((t) => t['name'] == 'Stars')['rank'], 2);
     expect(rankings['games'], hasLength(2));
+    expect(raptors['level'], isNull, reason: 'no class given');
     expect(review, contains('Merged automatically (2)'));
+  });
+
+  test('AA and AAA teams get separate ranks from one shared rating pool', () {
+    SourceTeam t(String k, String name, String cls) =>
+        SourceTeam(key: k, name: name, city: name, state: 'LA', ageClass: cls);
+    final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:1': t('otc:1', 'Big', '12U-AAA'),
+      'otc:2': t('otc:2', 'Mid', '12U-AA'),
+      'otc:3': t('otc:3', 'Low', '12U-AA'),
+      'otc:4': t('otc:4', 'Low2', '12U-AAA'),
+    }, events: {
+      '1': EventRecord(
+        id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-11',
+        isFinal: true, teamKeys: [],
+        games: [
+          game('otc', '1', 'otc:2', 'otc:1', 6, 2), // AA team beats AAA team
+          game('otc', '1', 'otc:1', 'otc:4', 6, 2),
+          game('otc', '1', 'otc:2', 'otc:3', 6, 2),
+        ],
+      ),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(levels: {'otc:3': 'AAA'}),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final byName = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']: x
+    };
+    expect(byName['Mid']!['rank'], 1);
+    expect(byName['Mid']!['level'], 'AA');
+    expect(byName['Mid']!['levelRank'], 1);
+    expect(byName['Big']!['level'], 'AAA');
+    expect(byName['Big']!['levelRank'], 1, reason: 'AAA list ranks separately');
+    expect(byName['Low']!['level'], 'AAA', reason: 'aliases can override the level');
+    expect(rankings['levels'], {'AA': 1, 'AAA': 3});
   });
 }

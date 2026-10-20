@@ -30,6 +30,10 @@ app/        Flutter web app that shows the rankings
    beat, so beating a strong team counts for a lot and beating a winless team
    barely counts. Margin of victory is ignored. Out-of-state opponents count
    toward ratings, but only Louisiana teams are ranked.
+   AA teams (including A) and AAA / Majors teams get separate lists, based on
+   the class each team registered in. Everyone is still rated in one pool,
+   so games between levels count. Set a team's list with `levels` in
+   `data/aliases.json` if its class is wrong or missing.
 4. **Publish.** The result is `app/web/data/rankings.json`, which the app
    loads when it opens.
 
@@ -47,6 +51,7 @@ re-scraping.
   "merge": [["otc:7158", "2d:fc31e3be-7d40-4a36-a33a-9953e5697dbd"]],
   "split": [["otc:7069", "2d:60f64dd6-053c-4598-a639-047bc69816cd"]],
   "names": {"otc:7158": "Slidell Raptors"},
+  "levels": {"otc:7158": "AAA"},
   "exclude": []
 }
 ```
@@ -54,6 +59,7 @@ re-scraping.
 - `merge`: these listings are the same team.
 - `split`: these listings were merged automatically but are different teams.
 - `names`: the display name to use.
+- `levels`: put a team in the `AA` or `AAA` (AAA / Majors) list.
 - `exclude`: drop a listing and its games.
 
 Team keys are `otc:<id>` (from the OTC team page URL) or `2d:<uuid>` (from

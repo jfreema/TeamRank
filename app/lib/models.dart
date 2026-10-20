@@ -51,6 +51,8 @@ class Team {
     required this.city,
     required this.state,
     required this.rank,
+    required this.level,
+    required this.levelRank,
     required this.rating,
     required this.sos,
     required this.wins,
@@ -65,7 +67,14 @@ class Team {
   final String name;
   final String city;
   final String state;
+  /// Overall rank among Louisiana teams; null for out-of-state teams.
   final int? rank;
+
+  /// `AA` (AA and A teams), `AAA` (AAA and Majors), or null if unknown.
+  final String? level;
+
+  /// Rank within [level].
+  final int? levelRank;
   final double rating;
   final double sos;
   final int wins;
@@ -87,6 +96,8 @@ class Team {
         city: j['city'] as String? ?? '',
         state: j['state'] as String? ?? '',
         rank: j['rank'] as int?,
+        level: j['level'] as String?,
+        levelRank: j['levelRank'] as int?,
         rating: (j['rating'] as num).toDouble(),
         sos: (j['sos'] as num? ?? 0).toDouble(),
         wins: j['wins'] as int? ?? 0,
@@ -154,6 +165,8 @@ class GameResult {
         sb: j['sb'] as int,
       );
 }
+
+String levelLabel(String level) => level == 'AAA' ? 'AAA / Majors' : level;
 
 String sourceLabel(String source) => switch (source) {
       'otc' => 'OTC Sports',

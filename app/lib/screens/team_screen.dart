@@ -34,7 +34,9 @@ class TeamScreen extends StatelessWidget {
                       spacing: 12,
                       runSpacing: 12,
                       children: [
-                        _Stat(label: 'Rank', value: team.rank == null ? 'Not ranked' : '#${team.rank}'),
+                        if (team.level != null && team.levelRank != null)
+                          _Stat(label: '${levelLabel(team.level!)} rank', value: '#${team.levelRank}'),
+                        _Stat(label: 'Overall rank', value: team.rank == null ? 'Not ranked' : '#${team.rank}'),
                         _Stat(label: 'Record', value: team.record),
                         _Stat(label: 'Rating', value: team.rating.toStringAsFixed(3)),
                         _Stat(label: 'Schedule strength', value: team.sos.toStringAsFixed(3)),
@@ -96,7 +98,8 @@ class _GameTile extends StatelessWidget {
             ? ('L', scheme.error)
             : ('T', scheme.outline);
     final oppLabel = [
-      if (opp?.rank != null) '#${opp!.rank}',
+      if (opp?.levelRank != null) '#${opp!.levelRank} ${opp.level}'
+      else if (opp?.rank != null) '#${opp!.rank}',
       opp?.name ?? 'Unknown team',
       if (opp != null && opp.state.isNotEmpty && opp.state != data.state) '(${opp.state})',
     ].join(' ');

@@ -68,6 +68,27 @@ import 'model.dart';
     ..sort((a, b) => ratings[index[b]!].compareTo(ratings[index[a]!]));
   final rankOf = {for (var i = 0; i < ranked.length; i++) ranked[i]: i + 1};
 
+  // AA and AAA/Majors get their own lists, but the ratings behind them come
+  // from one pool so games between the levels still count.
+  String? levelFor(String id) {
+    final list = members[id] ?? [];
+    for (final t in list) {
+      if (aliases.levels[t.key] case final l?) return l.toUpperCase();
+    }
+    final levels = list.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
+    // A team listed at both levels plays up, so it goes with the higher one.
+    return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
+  }
+
+  final levelOfTeam = {for (final id in ranked) id: levelFor(id)};
+  final levelRank = <String, int>{};
+  for (final level in ['AA', 'AAA']) {
+    var n = 0;
+    for (final id in ranked) {
+      if (levelOfTeam[id] == level) levelRank[id] = ++n;
+    }
+  }
+
   // Teams the app needs: every ranked team plus their opponents.
   final homeGames = games
       .where((g) => isHome(groupOf[g.teamA]!) || isHome(groupOf[g.teamB]!))
@@ -106,6 +127,8 @@ import 'model.dart';
       'city': _titleCase(home.city),
       'state': home.state,
       'rank': rankOf[id],
+      'level': rankOf.containsKey(id) ? levelOfTeam[id] : levelFor(id),
+      'levelRank': levelRank[id],
       'rating': _round(ratings[index[id]!]),
       'sos': _round(s.sos),
       'wins': s.wins,
@@ -125,6 +148,10 @@ import 'model.dart';
     'season': season,
     'state': state,
     'method': 'colley',
+    'levels': {
+      for (final level in ['AA', 'AAA'])
+        level: levelOfTeam.values.where((l) => l == level).length,
+    },
     'sources': {
       for (final c in caches)
         c.source: {

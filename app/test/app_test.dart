@@ -11,10 +11,10 @@ RankingsData sample() => RankingsData.fromJson({
         'otc': {'events': 1, 'games': 2},
       },
       'teams': [
-        {'id': 'otc:1', 'name': 'Slidell Raptors', 'city': 'Slidell', 'state': 'LA', 'rank': 1,
+        {'id': 'otc:1', 'name': 'Slidell Raptors', 'city': 'Slidell', 'state': 'LA', 'rank': 1, 'level': 'AAA', 'levelRank': 1,
          'rating': 0.61, 'sos': 0.5, 'wins': 2, 'losses': 0, 'ties': 0, 'runsFor': 15, 'runsAgainst': 5,
          'sources': [{'source': 'otc', 'name': 'Slidell Raptors', 'ageClass': '12U-AA', 'url': ''}]},
-        {'id': 'otc:2', 'name': 'Walker Elite', 'city': 'Walker', 'state': 'LA', 'rank': 2,
+        {'id': 'otc:2', 'name': 'Walker Elite', 'city': 'Walker', 'state': 'LA', 'rank': 2, 'level': 'AA', 'levelRank': 1,
          'rating': 0.45, 'sos': 0.55, 'wins': 0, 'losses': 1, 'ties': 0, 'runsFor': 3, 'runsAgainst': 12, 'sources': []},
         {'id': 'otc:3', 'name': 'Mississippi Vice', 'city': 'Biloxi', 'state': 'MS', 'rank': null,
          'rating': 0.44, 'sos': 0.6, 'wins': 0, 'losses': 1, 'ties': 0, 'runsFor': 2, 'runsAgainst': 3, 'sources': []},
@@ -32,6 +32,17 @@ void main() {
     await tester.pumpWidget(TeamRankApp(loader: () async => sample()));
     await tester.pumpAndSettle();
 
+    // Opens on the AA list.
+    expect(find.text('Walker Elite'), findsOneWidget);
+    expect(find.text('Slidell Raptors'), findsNothing);
+
+    await tester.tap(find.text('AAA / Majors'));
+    await tester.pumpAndSettle();
+    expect(find.text('Slidell Raptors'), findsOneWidget);
+    expect(find.text('Walker Elite'), findsNothing);
+
+    await tester.tap(find.text('All'));
+    await tester.pumpAndSettle();
     expect(find.text('Slidell Raptors'), findsOneWidget);
     expect(find.text('Walker Elite'), findsOneWidget);
     expect(find.text('Mississippi Vice'), findsNothing, reason: 'out-of-state teams are not ranked');
@@ -45,7 +56,8 @@ void main() {
     await tester.tap(find.text('Slidell Raptors'));
     await tester.pumpAndSettle();
     expect(find.text('Games (2)'), findsOneWidget);
-    expect(find.text('12-3 vs #2 Walker Elite'), findsOneWidget);
+    expect(find.text('12-3 vs #1 AA Walker Elite'), findsOneWidget);
+    expect(find.text('AAA / Majors rank'), findsOneWidget);
     expect(find.text('3-2 vs Mississippi Vice (MS)'), findsOneWidget);
   });
 }

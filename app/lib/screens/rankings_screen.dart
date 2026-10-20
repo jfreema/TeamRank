@@ -18,6 +18,9 @@ class _RankingsScreenState extends State<RankingsScreen> {
   String? _source;
   int _minGames = 0;
 
+  /// `AA`, `AAA`, or null for everyone.
+  String? _level = 'AA';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,6 +59,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
   Widget _buildList(BuildContext context, RankingsData data) {
     final q = _query.trim().toLowerCase();
     final teams = data.ranked.where((t) {
+      if (_level != null && t.level != _level) return false;
       if (t.games < _minGames) return false;
       if (_source != null && !t.sources.any((s) => s.source == _source)) return false;
       if (q.isEmpty) return true;
@@ -68,6 +72,21 @@ class _RankingsScreenState extends State<RankingsScreen> {
         child: CustomScrollView(
           slivers: [
             SliverToBoxAdapter(child: _Header(data: data)),
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                child: SegmentedButton<String?>(
+                  showSelectedIcon: false,
+                  segments: const [
+                    ButtonSegment(value: 'AA', label: Text('AA')),
+                    ButtonSegment(value: 'AAA', label: Text('AAA / Majors')),
+                    ButtonSegment(value: null, label: Text('All')),
+                  ],
+                  selected: {_level},
+                  onSelectionChanged: (v) => setState(() => _level = v.first),
+                ),
+              ),
+            ),
             SliverToBoxAdapter(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
@@ -120,6 +139,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
               separatorBuilder: (_, _) => const Divider(height: 1),
               itemBuilder: (context, i) => _TeamRow(
                 team: teams[i],
+                showLevel: _level == null,
                 onTap: () => Navigator.of(context).push(MaterialPageRoute(
                   builder: (_) => TeamScreen(data: data, team: teams[i]),
                 )),
@@ -149,7 +169,7 @@ class _Header extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('${data.season} season · ${data.ranked.length} teams', style: t.titleMedium),
+          Text('${data.season} season · ${data.ranked.length} Louisiana teams', style: t.titleMedium),
           const SizedBox(height: 4),
           Text('Updated $updated · $sources', style: t.bodySmall),
         ],
@@ -183,8 +203,11 @@ class _ColumnHeader extends StatelessWidget {
 }
 
 class _TeamRow extends StatelessWidget {
-  const _TeamRow({required this.team, required this.onTap});
+  const _TeamRow({required this.team, required this.onTap, required this.showLevel});
   final Team team;
+
+  /// On the combined list, show overall ranks and each team's level.
+  final bool showLevel;
   final VoidCallback onTap;
 
   @override
@@ -199,7 +222,8 @@ class _TeamRow extends StatelessWidget {
           children: [
             SizedBox(
               width: 44,
-              child: Text('${team.rank}', style: t.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
+              child: Text('${showLevel ? team.rank : team.levelRank}',
+                  style: t.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
             ),
             Expanded(
               child: Column(
@@ -207,7 +231,11 @@ class _TeamRow extends StatelessWidget {
                 children: [
                   Text(team.name, style: t.bodyLarge, overflow: TextOverflow.ellipsis),
                   Text(
-                    [team.hometown, team.sources.map((s) => s.source.toUpperCase()).toSet().join(' + ')]
+                    [
+                      team.hometown,
+                      if (showLevel && team.level != null) team.level!,
+                      team.sources.map((s) => s.source.toUpperCase()).toSet().join(' + '),
+                    ]
                         .where((s) => s.isNotEmpty)
                         .join(' · '),
                     style: t.bodySmall,
@@ -276,6 +304,10 @@ void showAboutRankings(BuildContext context) {
           'season (August to July). Out-of-state opponents count toward ratings, '
           'but only Louisiana teams are ranked. A team listed by both orgs is '
           'combined into one entry, and games reported twice are counted once.\n\n'
+          'AA and AAA / Majors teams are listed separately, based on the class each '
+          'team registered in (A teams are listed with AA). All teams are still '
+          'rated together in one pool, so when an AA team beats a AAA team, the '
+          'win counts against AAA-level competition. "All" shows the overall order.\n\n'
           'Ratings center on 0.500. "Sched." is strength of schedule: the average '
           'rating of a team\'s opponents. Teams with only a few games are less '
           'certain, so use the games filter to hide them.',
