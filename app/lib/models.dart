@@ -95,8 +95,8 @@ class Team {
   final int? levelRank;
   final double rating;
 
-  /// The rating behind [levelRank]. AA lists blend in more of the team's own
-  /// record, so it can differ from [rating] there.
+  /// The rating behind [levelRank]. Class lists blend in some of the team's
+  /// own record, so it differs from [rating].
   final double? levelRating;
   final double sos;
   final int wins;

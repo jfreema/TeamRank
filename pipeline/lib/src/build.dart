@@ -129,9 +129,11 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final adjusted = closeGameBonuses(first, results);
   final colley = colleyRatings(ids.length, adjusted);
   final ratings = headToHeadAdjusted(blendWithRecord(colley, adjusted), adjusted);
-  // The AA lists lean more on each team's own record.
+  // The class lists lean more on each team's own record, AA most.
   final aaRatings = headToHeadAdjusted(
       blendWithRecord(colley, adjusted, weight: aaRecordWeight), adjusted);
+  final aaaRatings = headToHeadAdjusted(
+      blendWithRecord(colley, adjusted, weight: aaaRecordWeight), adjusted);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -187,7 +189,11 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final levelRank = <String, int>{};
   final ageCounts = <int, Map<String, int>>{};
   double listRating(String id) =>
-      (levelOfTeam[id] == 'AA' ? aaRatings : ratings)[index[id]!];
+      (switch (levelOfTeam[id]) {
+        'AA' => aaRatings,
+        'AAA' => aaaRatings,
+        _ => ratings,
+      })[index[id]!];
   for (final id in ranked) {
     final age = ageOfTeam[id];
     if (age == null) continue;
@@ -274,6 +280,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
     'method': 'colley+h2h',
     'aaaWinWeight': aaaWinWeight,
     'aaRecordWeight': aaRecordWeight,
+    'aaaRecordWeight': aaaRecordWeight,
     'majorsWinWeight': majorsWinWeight,
     'aaaLossScale': aaaLossScale,
     'majorsLossScale': majorsLossScale,
