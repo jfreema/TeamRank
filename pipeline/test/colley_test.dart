@@ -85,4 +85,23 @@ void main() {
     expect(soft[1], greaterThan(full[1]));
     expect(soft[1], lessThan(0.5), reason: 'a loss is still a loss');
   });
+
+  test('opponents of opponents count', () {
+    // X and Y are both 1-0, each beating a 1-1 team. X's victim beat a team
+    // that won its other games; Y's victim beat a team that lost them, so X
+    // rates higher even though X and Y never shared an opponent.
+    const x = 0, y = 1, vx = 2, vy = 3, strong = 4, weak = 5, s1 = 6, s2 = 7, w1 = 8;
+    final r = colleyRatings(9, [
+      Result(x, vx, 5, 4),
+      Result(y, vy, 5, 4),
+      Result(vx, strong, 5, 4),
+      Result(vy, weak, 5, 4),
+      Result(strong, s1, 5, 4),
+      Result(strong, s2, 5, 4),
+      Result(w1, weak, 5, 4),
+      Result(s1, w1, 5, 4),
+      Result(s2, w1, 5, 4),
+    ]);
+    expect(r[x], greaterThan(r[y]));
+  });
 }

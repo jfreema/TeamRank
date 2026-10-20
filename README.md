@@ -40,8 +40,8 @@ app/        Flutter web app that shows the rankings
    the class each team registered in. Everyone is still rated in one pool,
    so games between levels count. Set a team's list with `levels` in
    `data/aliases.json` if its class is wrong or missing. A win over a
-   AAA team counts as 2 games and over a Majors team as 2.5, and a loss to
-   a AAA team costs 60% of a normal loss, to a Majors team 40%
+   AAA team counts as 1.5 games and over a Majors team as 2, and a loss to
+   a AAA team costs 1/1.5 of a normal loss, to a Majors team half
    (`aaaWinWeight`, `majorsWinWeight`, `aaaLossScale`, `majorsLossScale` in
    `pipeline/lib/src/build.dart`).
    Direct matchups count extra (`headToHeadAdjusted` in
