@@ -201,7 +201,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                                 onTap: () => setState(() => _source = value),
                               ),
                             const SizedBox(width: 6),
-                            for (final (value, label) in [(0, 'Any games'), (3, '3+ games'), (6, '6+ games')])
+                            for (final (value, label) in [(0, 'Any games'), (6, '6+ games')])
                               Pill(
                                 label: label,
                                 size: 13,
