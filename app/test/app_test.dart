@@ -34,17 +34,19 @@ void main() {
     await tester.pumpWidget(TeamRankApp(loader: () async => sample()));
     await tester.pumpAndSettle();
 
-    // Opens on the 12U AA list.
-    expect(find.text('Walker Elite'), findsOneWidget);
-    expect(find.text('Slidell Raptors'), findsNothing);
-    expect(find.text('Houma Heat'), findsNothing);
-
-    await tester.tap(find.text('13U'));
-    await tester.pumpAndSettle();
+    // Opens on the oldest age (14U when there is one), on the All list.
     expect(find.text('Houma Heat'), findsOneWidget);
     expect(find.text('Walker Elite'), findsNothing);
+
     await tester.tap(find.text('12U'));
     await tester.pumpAndSettle();
+    expect(find.text('Walker Elite'), findsOneWidget, reason: 'a new age opens on All');
+    expect(find.text('Slidell Raptors'), findsOneWidget);
+
+    await tester.tap(find.text('AA'));
+    await tester.pumpAndSettle();
+    expect(find.text('Walker Elite'), findsOneWidget);
+    expect(find.text('Slidell Raptors'), findsNothing);
 
     await tester.tap(find.text('AAA / Majors'));
     await tester.pumpAndSettle();

@@ -45,7 +45,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
   int _minGames = 0;
 
   /// `AA`, `AAA`, or null for everyone.
-  String? _level = 'AA';
+  String? _level;
 
   /// The age group shown; null until the data loads, then 12U if present.
   int? _age;
@@ -79,7 +79,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
 
   Widget _buildList(BuildContext context, RankingsData data) {
     final age = _age ??
-        (data.ages.contains(12) ? 12 : (data.ages.isEmpty ? null : data.ages.first));
+        (data.ages.contains(14) ? 14 : (data.ages.isEmpty ? null : data.ages.last));
     final q = _query.trim().toLowerCase();
     final teams = data.ranked.where((t) {
       if (t.age != age) return false;
@@ -117,7 +117,10 @@ class _RankingsScreenState extends State<RankingsScreen> {
                                 label: ageLabel(a),
                                 size: 20,
                                 selected: age == a,
-                                onTap: () => setState(() => _age = a),
+                                onTap: () => setState(() {
+                                  _age = a;
+                                  _level = null; // each age opens on All
+                                }),
                               ),
                           ],
                         ),
