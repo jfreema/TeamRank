@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../models.dart';
@@ -17,6 +19,28 @@ class RankingsScreen extends StatefulWidget {
 class _RankingsScreenState extends State<RankingsScreen> {
   late Future<RankingsData> _data = widget.loader();
   String _query = '';
+  final _search = TextEditingController();
+
+  /// Waits for a pause in typing before filtering; emptying the box resets at once.
+  Timer? _searchDelay;
+
+  void _onSearch(String v) {
+    _searchDelay?.cancel();
+    if (v.trim().isEmpty) {
+      setState(() => _query = '');
+    } else {
+      _searchDelay = Timer(const Duration(milliseconds: 500), () {
+        if (mounted) setState(() => _query = v);
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _searchDelay?.cancel();
+    _search.dispose();
+    super.dispose();
+  }
   String? _source;
   int _minGames = 0;
 
@@ -117,9 +141,20 @@ class _RankingsScreenState extends State<RankingsScreen> {
                         ),
                         const SizedBox(height: 12),
                         TextField(
+                          controller: _search,
                           style: body(16),
                           decoration: InputDecoration(
                             prefixIcon: const Icon(Icons.search, color: Palette.ink),
+                            suffixIcon: _search.text.isEmpty
+                                ? null
+                                : IconButton(
+                                    tooltip: 'Clear search',
+                                    icon: const Icon(Icons.close_rounded, color: Palette.ink),
+                                    onPressed: () {
+                                      _search.clear();
+                                      _onSearch('');
+                                    },
+                                  ),
                             hintText: 'Search team or town',
                             hintStyle: body(16, weight: 600, color: Palette.ink.withValues(alpha: 0.5)),
                             filled: true,
@@ -138,7 +173,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                               borderSide: const BorderSide(color: Palette.blue, width: 3),
                             ),
                           ),
-                          onChanged: (v) => setState(() => _query = v),
+                          onChanged: _onSearch,
                         ),
                         const SizedBox(height: 12),
                         Wrap(
