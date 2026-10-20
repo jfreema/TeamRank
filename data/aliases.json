@@ -44,6 +44,10 @@
     [
       "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
       "gs:32997"
+    ],
+    [
+      "2d:de98162d-e052-4a77-ba64-208bab310443",
+      "otc:7003"
     ]
   ],
   "split": [],
@@ -52,7 +56,8 @@
     "2d:a590e88c-231e-46ab-9fad-041cc42b4f36": "Crescent City Wave",
     "otc:7169": "Mandeville Majors",
     "otc:7132": "New Orleans Naturals - Blue",
-    "otc:7200": "Knights Knation New Orleans"
+    "otc:7200": "Knights Knation New Orleans",
+    "otc:7003": "Marucci Legacy NOLA 12u"
   },
   "levels": {},
   "exclude": []
