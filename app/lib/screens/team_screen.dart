@@ -156,20 +156,30 @@ class _GameTile extends StatelessWidget {
               )),
       child: Row(
         children: [
+          // The result and score lead the card, big enough to read at a glance.
           Chunky(
             color: color,
             radius: 12,
             shadow: 0,
             border: 2.5,
-            padding: EdgeInsets.zero,
-            child: SizedBox(width: 40, height: 40, child: Center(child: Text(letter, style: display(22)))),
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+            child: SizedBox(
+              width: 64,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(letter, style: display(15)),
+                  FittedBox(child: Text('$us–$them', style: display(26))),
+                ],
+              ),
+            ),
           ),
           const SizedBox(width: 12),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('$us-$them vs $oppLabel', style: display(17)),
+                Text('vs $oppLabel', style: display(17)),
                 const SizedBox(height: 2),
                 Text('${dates.formatShortDate(game.date)} · ${game.event} · ${sourceLabel(game.source)}',
                     style: body(12, weight: 700, color: Palette.ink.withValues(alpha: 0.65))),
@@ -178,9 +188,14 @@ class _GameTile extends StatelessWidget {
           ),
           if (opp != null) ...[
             const SizedBox(width: 8),
-            Text(opp.record, style: body(13, weight: 900)),
-            const SizedBox(width: 10),
-            TeamLogo(team: opp, size: 30),
+            Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                TeamLogo(team: opp, size: 30),
+                const SizedBox(height: 4),
+                Text(opp.record, style: body(12, weight: 800, color: Palette.ink.withValues(alpha: 0.65))),
+              ],
+            ),
           ],
         ],
       ),
