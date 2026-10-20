@@ -36,6 +36,10 @@ app/        Flutter web app that shows the rankings
    `data/aliases.json` if its class is wrong or missing. A win over a
    AAA / Majors team counts as 1.5 games (`aaaWinWeight` in
    `pipeline/lib/src/build.dart`).
+   Direct matchups count extra (`headToHeadAdjusted` in
+   `pipeline/lib/src/colley.dart`): when a team beat a higher-rated team
+   (more wins than losses against it), each moves by 60% of the gap, at most
+   0.06, so a winner within 0.10 passes the team it beat.
    Each team is listed at the age it registered as (11U to 14U), even when
    it plays up, and ranked within that age. All ages share one rating pool,
    so games across ages count. Set a team's age with `ages` in

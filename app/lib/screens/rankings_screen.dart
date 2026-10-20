@@ -402,6 +402,9 @@ void showAboutRankings(BuildContext context) {
                     'for the age.\n\n'
                     'A win over a AAA / Majors team counts as one and a half games, so '
                     'beating AAA competition is worth extra.\n\n'
+                    'Direct matchups count extra. When a team beat a team rated above it, '
+                    'the winner moves up and the loser moves down. If they were within '
+                    '0.100 of each other, the winner passes the loser.\n\n'
                     'Ratings center on 0.500. "Sched." is strength of schedule: the average '
                     'rating of a team\'s opponents. Teams with only a few games are less '
                     'certain, so use the games filter to hide them.',

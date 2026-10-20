@@ -81,3 +81,35 @@ List<double> _choleskySolve(List<List<double>> a, List<double> b) {
   }
   return x;
 }
+
+/// Gives direct matchups extra weight on top of [ratings].
+///
+/// For every pair of teams that played, the team with more wins against the
+/// other is the head-to-head winner. When the winner is rated below the
+/// loser, the winner moves up and the loser down, each by [share] of the gap
+/// (at most [cap]). With the defaults, a head-to-head winner within 0.10 of
+/// the loser passes it; a bigger gap still shrinks by up to 0.12. Every
+/// adjustment is computed from the original ratings, so the order of games
+/// does not matter, and a team that beat several higher-rated teams gains
+/// from each of them.
+List<double> headToHeadAdjusted(List<double> ratings, List<Result> results,
+    {double share = 0.6, double cap = 0.10}) {
+  final net = <(int, int), int>{};
+  for (final r in results) {
+    if (r.a == r.b || r.scoreA == r.scoreB) continue;
+    final (lo, hi) = r.a < r.b ? (r.a, r.b) : (r.b, r.a);
+    final loWon = (r.scoreA > r.scoreB) == (r.a == lo);
+    net[(lo, hi)] = (net[(lo, hi)] ?? 0) + (loWon ? 1 : -1);
+  }
+  final out = List<double>.of(ratings);
+  net.forEach((pair, n) {
+    if (n == 0) return;
+    final (winner, loser) = n > 0 ? pair : (pair.$2, pair.$1);
+    final gap = ratings[loser] - ratings[winner];
+    if (gap <= 0) return;
+    final move = share * min(gap, cap);
+    out[winner] += move;
+    out[loser] -= move;
+  });
+  return out;
+}

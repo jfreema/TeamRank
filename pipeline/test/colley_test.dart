@@ -49,4 +49,22 @@ void main() {
     final heavy = colleyRatings(2, [Result(0, 1, 3, 2, weight: 1.5)]);
     expect(heavy[0], greaterThan(normal[0]));
   });
+
+  test('a head-to-head winner passes a close team it beat', () {
+    // Team 0 rates higher overall, but team 1 beat it directly.
+    final adj = headToHeadAdjusted([0.58, 0.52, 0.4], [Result(1, 0, 3, 2), Result(0, 2, 5, 1)]);
+    expect(adj[1], greaterThan(adj[0]));
+    expect(adj[2], 0.4, reason: 'expected results change nothing');
+  });
+
+  test('head-to-head only closes part of a big gap', () {
+    final adj = headToHeadAdjusted([0.9, 0.3], [Result(1, 0, 3, 2)]);
+    expect(adj[0], closeTo(0.84, 1e-9));
+    expect(adj[1], closeTo(0.36, 1e-9));
+  });
+
+  test('a split series gives no head-to-head edge', () {
+    final adj = headToHeadAdjusted([0.6, 0.5], [Result(1, 0, 3, 2), Result(0, 1, 3, 2)]);
+    expect(adj, [0.6, 0.5]);
+  });
 }

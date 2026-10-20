@@ -71,11 +71,13 @@ const aaaWinWeight = 1.5;
     return levelFor(groupOf[loser]!) == 'AAA' ? aaaWinWeight : 1;
   }
 
-  final ratings = colleyRatings(ids.length, [
+  final results = [
     for (final g in games)
       Result(index[groupOf[g.teamA]]!, index[groupOf[g.teamB]]!, g.scoreA, g.scoreB,
           weight: weightOf(g))
-  ]);
+  ];
+  // Direct matchups count extra on top of the shared Colley pool.
+  final ratings = headToHeadAdjusted(colleyRatings(ids.length, results), results);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -210,7 +212,7 @@ const aaaWinWeight = 1.5;
     'generatedAt': generatedAt.toUtc().toIso8601String(),
     'season': season,
     'state': state,
-    'method': 'colley',
+    'method': 'colley+h2h',
     'aaaWinWeight': aaaWinWeight,
     'ages': {
       for (final a in ageCounts.keys.toList()..sort()) '$a': ageCounts[a],
