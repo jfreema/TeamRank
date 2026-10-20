@@ -387,8 +387,9 @@ void showAboutRankings(BuildContext context) {
                     'TeamRank rates every team with an algorithm built on game results '
                     'from OTC Sports, 2D Sports and Grand Slam events this season.\n\n'
                     'It weighs who you beat, how strong their schedule was, head-to-head '
-                    'results and run differential. A close loss to a good team will help '
-                    'your ranking more than beating a weak team. Teams are listed by the age and class '
+                    'results and run differential. A close loss to a good team can help '
+                    'your ranking more than beating a weak team, so playing strong '
+                    'opponents pays off. Teams are listed by the age and class '
                     'they registered in, and only Louisiana teams are ranked.\n\n'
                     'Updated weekly.',
                     style: body(15, weight: 600),
