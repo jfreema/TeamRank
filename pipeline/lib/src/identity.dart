@@ -125,35 +125,58 @@ GroupResult groupTeams(Iterable<SourceTeam> teams, Aliases aliases,
   for (final t in all) {
     final name = normalizeTeamName(t.name);
     if (name.isEmpty || t.city.isEmpty) continue;
-    final sig = '$name|${t.city.toLowerCase().trim()}|${t.state.toUpperCase()}';
+    // Hometowns are typed by hand: 'Livingston,' and 'Livingston' match.
+    final city = t.city.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]+'), ' ').trim();
+    final sig = '$name|$city|${t.state.toUpperCase()}';
     bySignature.putIfAbsent(sig, () => []).add(t);
   }
   final merged = <List<String>>[];
   final ambiguous = <List<String>>[];
+  bool clashes(SourceTeam x, SourceTeam y) {
+    final a = eventsOf[x.key] ?? const {};
+    final b = eventsOf[y.key] ?? const {};
+    final ageA = _ageInName(x.name), ageB = _ageInName(y.name);
+    return a.any(b.contains) ||
+        (ageA != null && ageB != null && ageA != ageB) ||
+        _classClash(x, ageOf(x.ageClass), y, ageOf(y.ageClass)) ||
+        blocked.contains('${x.key}|${y.key}');
+  }
+
   for (final group in bySignature.values) {
     if (group.length < 2) continue;
-    var clash = false;
-    for (var i = 0; i < group.length && !clash; i++) {
-      for (var j = i + 1; j < group.length && !clash; j++) {
-        final a = eventsOf[group[i].key] ?? const {};
-        final b = eventsOf[group[j].key] ?? const {};
-        final ageA = _ageInName(group[i].name), ageB = _ageInName(group[j].name);
-        final classA = ageOf(group[i].ageClass), classB = ageOf(group[j].ageClass);
-        clash = a.any(b.contains) ||
-            (ageA != null && ageB != null && ageA != ageB) ||
-            _classClash(group[i], classA, group[j], classB) ||
-            blocked.contains('${group[i].key}|${group[j].key}');
+    // Same name and hometown, but possibly several squads (an 11U and a 12U
+    // team). First group listings at the same age, then join squads a year
+    // apart when nothing clashes (Grand Slam often lists a team a year older).
+    final squads = <List<SourceTeam>>[];
+    int? age(SourceTeam t) => ageOf(t.ageClass);
+    bool fits(List<SourceTeam> sq, SourceTeam t) => !sq.any((m) => clashes(t, m));
+    for (final t in group..sort((a, b) => a.key.compareTo(b.key))) {
+      final home = squads
+          .where((sq) => age(sq.first) == age(t) && fits(sq, t))
+          .firstOrNull;
+      if (home == null) {
+        squads.add([t]);
+      } else {
+        home.add(t);
       }
     }
-    final keys = group.map((t) => t.key).toList()..sort();
-    if (clash) {
-      ambiguous.add(keys);
-      continue;
+    squads.sort((a, b) => (age(a.first) ?? 0).compareTo(age(b.first) ?? 0));
+    for (var i = 0; i < squads.length; i++) {
+      for (var j = i + 1; j < squads.length; j++) {
+        if (squads[j].every((t) => fits(squads[i], t))) {
+          squads[i].addAll(squads.removeAt(j));
+          j--;
+        }
+      }
     }
-    for (final k in keys.skip(1)) {
-      union(keys.first, k);
+    for (final sq in squads.where((sq) => sq.length > 1)) {
+      final keys = sq.map((t) => t.key).toList()..sort();
+      for (final k in keys.skip(1)) {
+        union(keys.first, k);
+      }
+      merged.add(keys);
     }
-    merged.add(keys);
+    if (squads.length > 1) ambiguous.add(group.map((t) => t.key).toList()..sort());
   }
 
   for (final g in aliases.merge) {

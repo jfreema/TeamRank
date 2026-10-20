@@ -224,7 +224,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
     teamsOut.add({
       'id': id,
       'name': displayName(id),
-      'city': _titleCase(home.city),
+      'city': _titleCase(home.city.replaceAll(RegExp(r'[\s,.]+$'), '')),
       'state': home.state,
       'age': ageOfTeam[id] ?? ageFor(id),
       'rank': ageRank[id],

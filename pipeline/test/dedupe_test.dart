@@ -74,6 +74,15 @@ void main() {
       expect(g.groupOf['2d:aa'], isNot(g.groupOf['2d:bb']));
     });
 
+    test('matches each listing to the squad at its age', () {
+      SourceTeam t(String k, String cls) =>
+          SourceTeam(key: k, name: 'New Orleans Spice', city: 'Metairie', state: 'LA', ageClass: cls);
+      final g = groupTeams([t('otc:11', '11U-AA'), t('otc:12', '12U-AA'), t('2d:12', '12u AA')], Aliases());
+      expect(g.groupOf['2d:12'], g.groupOf['otc:12']);
+      expect(g.groupOf['otc:11'], isNot(g.groupOf['otc:12']));
+      expect(g.ambiguous, hasLength(1), reason: 'still listed for review');
+    });
+
     test('allows a one-year class gap across orgs, not within one', () {
       SourceTeam t(String k, String cls) =>
           SourceTeam(key: k, name: 'Raptors', city: 'Slidell', state: 'LA', ageClass: cls);
