@@ -8,7 +8,8 @@
    "city": "Gonzales",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6951"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6951",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6951-gonzales-tigers-cornett.png?v=1"
   },
   "otc:6958": {
    "key": "otc:6958",
@@ -16,7 +17,8 @@
    "city": "Denham Springs",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6958"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6958",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6958-bobcats.png?v=1"
   },
   "otc:6964": {
    "key": "otc:6964",
@@ -24,7 +26,8 @@
    "city": "Jefferson",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6964"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6964",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6964-nola-drip.png?v=1"
   },
   "otc:6967": {
    "key": "otc:6967",
@@ -32,7 +35,8 @@
    "city": "Livingston",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6967"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6967",
+   "logo": ""
   },
   "otc:6968": {
    "key": "otc:6968",
@@ -40,7 +44,8 @@
    "city": "Denham Springs",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6968"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6968",
+   "logo": ""
   },
   "otc:6973": {
    "key": "otc:6973",
@@ -48,7 +53,8 @@
    "city": "New Orleans",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6973"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6973",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6973-full-flight-baseball.jpeg?v=5"
   },
   "otc:6987": {
    "key": "otc:6987",
@@ -56,7 +62,8 @@
    "city": "Baton Rouge",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6987"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6987",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6987-red-stick-select.jpg?v=1"
   },
   "otc:6988": {
    "key": "otc:6988",
@@ -64,7 +71,8 @@
    "city": "Raceland",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6988"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6988",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6988-southern-sting.jpg?v=10"
   },
   "otc:6993": {
    "key": "otc:6993",
@@ -72,7 +80,8 @@
    "city": "Covington",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6993"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6993",
+   "logo": ""
   },
   "otc:7003": {
    "key": "otc:7003",
@@ -80,7 +89,8 @@
    "city": "Westwego",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003",
+   "logo": ""
   },
   "otc:7006": {
    "key": "otc:7006",
@@ -88,7 +98,8 @@
    "city": "Lottie",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7006"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7006",
+   "logo": ""
   },
   "otc:7012": {
    "key": "otc:7012",
@@ -104,7 +115,8 @@
    "city": "Gretna",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016",
+   "logo": ""
   },
   "otc:7018": {
    "key": "otc:7018",
@@ -112,7 +124,8 @@
    "city": "Morgan City",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7018-tri-city-sluggers.jpg?v=1"
   },
   "otc:7022": {
    "key": "otc:7022",
@@ -120,7 +133,8 @@
    "city": "Metairie",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7022"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7022",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7022-crescent-city-wave.jpg?v=1"
   },
   "otc:7023": {
    "key": "otc:7023",
@@ -128,7 +142,8 @@
    "city": "Central",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7023"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7023",
+   "logo": ""
   },
   "otc:7034": {
    "key": "otc:7034",
@@ -136,7 +151,8 @@
    "city": "Mandeville",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7034"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7034",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7034-mandeville-revolution.jpg?v=1"
   },
   "otc:7045": {
    "key": "otc:7045",
@@ -144,7 +160,8 @@
    "city": "Kenner",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7045"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7045",
+   "logo": ""
   },
   "otc:7050": {
    "key": "otc:7050",
@@ -160,7 +177,8 @@
    "city": "Mandeville",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053",
+   "logo": ""
   },
   "otc:7055": {
    "key": "otc:7055",
@@ -168,7 +186,8 @@
    "city": "Kenner",
    "state": "LA",
    "ageClass": "11U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7055"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7055",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7055-new-orleans-renegades-howell.png?v=1"
   },
   "otc:7056": {
    "key": "otc:7056",
@@ -176,7 +195,8 @@
    "city": "Jefferson",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7056"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7056",
+   "logo": ""
   },
   "otc:7061": {
    "key": "otc:7061",
@@ -184,7 +204,8 @@
    "city": "Meraux",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061",
+   "logo": ""
   },
   "otc:7069": {
    "key": "otc:7069",
@@ -192,7 +213,8 @@
    "city": "Hammond",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069",
+   "logo": ""
   },
   "otc:7084": {
    "key": "otc:7084",
@@ -200,7 +222,8 @@
    "city": "Zachary",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7084"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7084",
+   "logo": ""
   },
   "otc:7096": {
    "key": "otc:7096",
@@ -208,7 +231,8 @@
    "city": "St. Francisville",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7096"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7096",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7096-louisiana-stars-nations.jpeg?v=1"
   },
   "otc:7121": {
    "key": "otc:7121",
@@ -216,7 +240,8 @@
    "city": "Covington",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7121-rbi-academy.jpeg?v=1"
   },
   "otc:7127": {
    "key": "otc:7127",
@@ -224,7 +249,8 @@
    "city": "Covington",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7127"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7127",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7127-rbi-academy.jpeg?v=1"
   },
   "otc:7131": {
    "key": "otc:7131",
@@ -232,7 +258,8 @@
    "city": "Ponchatoula",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7131"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7131",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7131-stitches.jpg?v=7"
   },
   "otc:7132": {
    "key": "otc:7132",
@@ -240,7 +267,8 @@
    "city": "New Orleans",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7132"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7132",
+   "logo": ""
   },
   "otc:7133": {
    "key": "otc:7133",
@@ -248,7 +276,8 @@
    "city": "Walker",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7133"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7133",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7133-la-outlaws.png?v=1"
   },
   "otc:7148": {
    "key": "otc:7148",
@@ -256,7 +285,8 @@
    "city": "Livingston",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7148"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7148",
+   "logo": ""
   },
   "otc:7152": {
    "key": "otc:7152",
@@ -264,7 +294,8 @@
    "city": "Metairie",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152",
+   "logo": ""
   },
   "otc:7158": {
    "key": "otc:7158",
@@ -272,7 +303,8 @@
    "city": "Slidell",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158",
+   "logo": ""
   },
   "otc:7171": {
    "key": "otc:7171",
@@ -280,7 +312,8 @@
    "city": "Denham Springs",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7171"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7171",
+   "logo": ""
   },
   "otc:7172": {
    "key": "otc:7172",
@@ -288,7 +321,8 @@
    "city": "Hammond",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7172"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7172",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7172-hammond-yankees-ricard.jpeg?v=1"
   },
   "otc:7173": {
    "key": "otc:7173",
@@ -296,7 +330,8 @@
    "city": "New Orleans",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173",
+   "logo": ""
   },
   "otc:7177": {
    "key": "otc:7177",
@@ -304,7 +339,8 @@
    "city": "Madisonville",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7177"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7177",
+   "logo": ""
   },
   "otc:7178": {
    "key": "otc:7178",
@@ -312,7 +348,8 @@
    "city": "Madisonville",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7178"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7178",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7178-myb-gators-navy.png?v=1"
   },
   "otc:7184": {
    "key": "otc:7184",
@@ -320,7 +357,8 @@
    "city": "Berwick",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7184"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7184",
+   "logo": ""
   },
   "otc:7188": {
    "key": "otc:7188",
@@ -328,7 +366,8 @@
    "city": "Kenner",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7188"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7188",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7188-nor-cardinals.jpeg?v=1"
   },
   "otc:7191": {
    "key": "otc:7191",
@@ -336,7 +375,8 @@
    "city": "Amite",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7191"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7191",
+   "logo": ""
   },
   "otc:7194": {
    "key": "otc:7194",
@@ -344,7 +384,8 @@
    "city": "Baton Rouge",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7194"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7194",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7194-baton-rouge-astros-terrell.png?v=1"
   },
   "otc:7205": {
    "key": "otc:7205",
@@ -352,7 +393,8 @@
    "city": "Luling",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7205"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7205",
+   "logo": ""
   },
   "otc:7215": {
    "key": "otc:7215",
@@ -360,7 +402,8 @@
    "city": "Thibodaux",
    "state": "LA",
    "ageClass": "11U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7215"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7215",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7215-aces-baseball-black.png?v=1"
   },
   "otc:7222": {
    "key": "otc:7222",
@@ -368,7 +411,8 @@
    "city": "Pine Grove",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7222"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7222",
+   "logo": ""
   },
   "otc:7244": {
    "key": "otc:7244",
@@ -376,7 +420,8 @@
    "city": "Lake Charles",
    "state": "LA",
    "ageClass": "12U-AAA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7244"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7244",
+   "logo": ""
   },
   "otc:7246": {
    "key": "otc:7246",
@@ -384,7 +429,8 @@
    "city": "Central",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7246"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7246",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7246-outlaws-baseball.png?v=2"
   },
   "otc:7252": {
    "key": "otc:7252",
@@ -392,7 +438,8 @@
    "city": "Walker",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7252"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7252",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7252-walker-elite.png?v=1"
   },
   "otc:7302": {
    "key": "otc:7302",
@@ -400,7 +447,8 @@
    "city": "Central",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7302"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7302",
+   "logo": ""
   },
   "otc:7336": {
    "key": "otc:7336",
@@ -408,7 +456,8 @@
    "city": "Houma",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7336"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7336",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7336-jesters-baseball.png?v=1"
   },
   "otc:7340": {
    "key": "otc:7340",
@@ -416,7 +465,8 @@
    "city": "Denham Springs",
    "state": "LA",
    "ageClass": "12U-AA",
-   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7340"
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7340",
+   "logo": ""
   }
  },
  "events": {

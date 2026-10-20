@@ -33,7 +33,9 @@ app/        Flutter web app that shows the rankings
    AA teams (including A) and AAA / Majors teams get separate lists, based on
    the class each team registered in. Everyone is still rated in one pool,
    so games between levels count. Set a team's list with `levels` in
-   `data/aliases.json` if its class is wrong or missing.
+   `data/aliases.json` if its class is wrong or missing. A win over a
+   AAA / Majors team counts as 1.5 games (`aaaWinWeight` in
+   `pipeline/lib/src/build.dart`).
 4. **Publish.** The result is `app/web/data/rankings.json`, which the app
    loads when it opens.
 
@@ -43,8 +45,15 @@ Hosting.
 
 ## Fixing team matches
 
-Edit `data/aliases.json` and push to `main`. The site redeploys without
-re-scraping.
+The easiest way is the admin console at <https://teamrank-la.web.app/admin>.
+Sign in with Google (accounts listed in Firestore's `admins` collection) to
+link listings of the same team, split wrong matches, move a team between
+the AA and AAA / Majors lists, or rename it. Changes are saved to the
+Firestore `links` collection (free tier) and applied at the next nightly
+update.
+
+You can also edit `data/aliases.json` and push to `main`. The site
+redeploys without re-scraping.
 
 ```json
 {

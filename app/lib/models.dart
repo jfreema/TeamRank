@@ -7,6 +7,7 @@ class RankingsData {
     required this.teams,
     required this.games,
     required this.sources,
+    this.suggestions = const [],
   });
 
   final DateTime generatedAt;
@@ -15,6 +16,9 @@ class RankingsData {
   final List<Team> teams;
   final List<GameResult> games;
   final Map<String, ({int events, int games})> sources;
+
+  /// Listings that may be the same team, for the admin console.
+  final List<Suggestion> suggestions;
 
   late final Map<String, Team> teamsById = {for (final t in teams) t.id: t};
 
@@ -41,6 +45,9 @@ class RankingsData {
           final m = v as Map<String, dynamic>;
           return MapEntry(k, (events: m['events'] as int, games: m['games'] as int));
         }),
+        suggestions: (j['suggestions'] as List? ?? [])
+            .map((x) => Suggestion.fromJson(x as Map<String, dynamic>))
+            .toList(),
       );
 }
 
@@ -61,6 +68,7 @@ class Team {
     required this.runsFor,
     required this.runsAgainst,
     required this.sources,
+    this.logo,
   });
 
   final String id;
@@ -83,6 +91,7 @@ class Team {
   final int runsFor;
   final int runsAgainst;
   final List<TeamSource> sources;
+  final String? logo;
 
   int get games => wins + losses + ties;
   String get record => ties > 0 ? '$wins-$losses-$ties' : '$wins-$losses';
@@ -108,12 +117,21 @@ class Team {
         sources: (j['sources'] as List? ?? [])
             .map((s) => TeamSource.fromJson(s as Map<String, dynamic>))
             .toList(),
+        logo: j['logo'] as String?,
       );
 }
 
 class TeamSource {
-  TeamSource({required this.source, required this.name, required this.url, required this.ageClass});
+  TeamSource({
+    required this.key,
+    required this.source,
+    required this.name,
+    required this.url,
+    required this.ageClass,
+  });
 
+  /// `<source>:<id>`, the id the pipeline and admin links use.
+  final String key;
   final String source;
   final String name;
   final String url;
@@ -122,6 +140,7 @@ class TeamSource {
   String get label => sourceLabel(source);
 
   factory TeamSource.fromJson(Map<String, dynamic> j) => TeamSource(
+        key: j['key'] as String? ?? '',
         source: j['source'] as String,
         name: j['name'] as String? ?? '',
         url: j['url'] as String? ?? '',
@@ -173,3 +192,49 @@ String sourceLabel(String source) => switch (source) {
       '2d' => '2D Sports',
       _ => source,
     };
+
+class Suggestion {
+  Suggestion({required this.reason, required this.listings});
+
+  final String reason;
+  final List<Listing> listings;
+
+  List<String> get keys => [for (final l in listings) l.key];
+
+  factory Suggestion.fromJson(Map<String, dynamic> j) => Suggestion(
+        reason: j['reason'] as String? ?? '',
+        listings: (j['teams'] as List)
+            .map((t) => Listing.fromJson(t as Map<String, dynamic>))
+            .toList(),
+      );
+}
+
+/// One org's listing of a team.
+class Listing {
+  Listing({
+    required this.key,
+    required this.name,
+    required this.city,
+    required this.state,
+    required this.ageClass,
+    required this.events,
+  });
+
+  final String key;
+  final String name;
+  final String city;
+  final String state;
+  final String ageClass;
+  final int events;
+
+  String get source => key.split(':').first;
+
+  factory Listing.fromJson(Map<String, dynamic> j) => Listing(
+        key: j['key'] as String,
+        name: j['name'] as String? ?? '',
+        city: j['city'] as String? ?? '',
+        state: j['state'] as String? ?? '',
+        ageClass: j['ageClass'] as String? ?? '',
+        events: j['games'] as int? ?? 0,
+      );
+}

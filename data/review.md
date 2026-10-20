@@ -33,7 +33,7 @@ Add a `merge` entry if these are the same team.
 - `2d:a231ae3f-6b4a-4dcf-9962-217db21724ea` Louisiana Blast 12u - Pope (Baton Rouge, LA; 1 events) / `otc:7340` Louisiana Blast - Pope (Denham Springs, LA; 1 events)
 - `2d:01688a9f-68d2-4af0-a8f2-f6a833c068c5` Aces (Russellville, AL; 2 events) / `2d:f9bd126e-ff05-408b-926e-7c5f0c769915` Aces 12U (Mobile, AL; 2 events)
 - `2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17` Elite Baseball (Franklinton, LA; 1 events) / `2d:1b97b39c-48f3-4675-bbb5-bfe61c647558` Team Elite 12U (Gallatin, TN; 1 events)
-- `2d:4a8c928b-ec2a-4cd1-8335-938ecd620130` Ironclad Elite Black 11u (Carriere, MS; 1 events) / `2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497` Ironclad Elite Black 12u (Poplarville, MS; 3 events)
+- `2d:4a8c928b-ec2a-4cd1-8335-938ecd620130` Ironclad Elite Black 11u (Carriere, MS; 1 events) / `2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497` Ironclad Elite Black (Poplarville, MS; 3 events)
 
 ## Possible duplicates: similar name, same hometown (16)
 

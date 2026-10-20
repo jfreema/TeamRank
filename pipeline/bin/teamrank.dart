@@ -11,6 +11,8 @@ Usage: dart run bin/teamrank.dart [scrape|rank|all] [--source otc|2d] [--data DI
   all      scrape, then rank (default)
 ''';
 
+const firebaseProject = 'teamrank-la';
+
 Future<void> main(List<String> args) async {
   var command = 'all';
   var dataDir = '../data';
@@ -65,9 +67,22 @@ Future<void> main(List<String> args) async {
   if (command != 'scrape') {
     final caches = [for (final s in ['otc', '2d']) loadCache(dataDir, s, season.label)];
     final aliasFile = File('$dataDir/aliases.json');
-    final aliases = aliasFile.existsSync()
+    var aliases = aliasFile.existsSync()
         ? Aliases.fromJson(jsonDecode(aliasFile.readAsStringSync()) as Map<String, dynamic>)
         : Aliases();
+    // Links saved in the admin console. The nightly workflow provides a
+    // short-lived token; without one, only data/aliases.json is used.
+    final token = Platform.environment['FIRESTORE_ACCESS_TOKEN'] ?? '';
+    if (token.isNotEmpty) {
+      try {
+        final links = await fetchAdminLinks(projectId: firebaseProject, accessToken: token);
+        print('admin links: ${links.merge.length} merges, ${links.split.length} splits, '
+            '${links.names.length} names, ${links.levels.length} levels');
+        aliases = aliases.combine(links);
+      } catch (e) {
+        stderr.writeln('admin links not loaded: $e');
+      }
+    }
     final (:rankings, :review) = buildRankings(
       caches: caches,
       aliases: aliases,

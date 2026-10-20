@@ -43,4 +43,10 @@ void main() {
     final r = colleyRatings(2, [Result(0, 1, 4, 4)]);
     expect(r[0], closeTo(r[1], 1e-12));
   });
+
+  test('a weighted win counts more', () {
+    final normal = colleyRatings(2, [Result(0, 1, 3, 2)]);
+    final heavy = colleyRatings(2, [Result(0, 1, 3, 2, weight: 1.5)]);
+    expect(heavy[0], greaterThan(normal[0]));
+  });
 }

@@ -100,6 +100,7 @@ class TwoDScraper {
                 state: t.state.isNotEmpty ? t.state : (home?.state ?? ''),
                 ageClass: home?.ageClass ?? d.label,
                 url: '$base/team/details/${season.label}-season/${t.uuid}',
+                logo: cache.teams[k]?.logo,
               );
               teamKeys.add(k);
             }
@@ -137,6 +138,22 @@ class TwoDScraper {
         log('2d: event $id ($key) failed: $err');
       }
     }
+
+    // Logos are only on team pages, so fetch each Louisiana team's page once.
+    for (final t in cache.teams.values.where((t) => t.state == 'LA' && t.logo == null && t.url.isNotEmpty)) {
+      try {
+        t.logo = parseTeamLogo(await client.get(t.url));
+      } catch (err) {
+        log('2d: logo for ${t.key} failed: $err');
+      }
+    }
+  }
+
+  /// The logo on a 2D team page, or '' when it shows 2D's own logo instead.
+  static String parseTeamLogo(String page) {
+    final src = html.parse(page).querySelector('.team-logo-content img')?.attributes['src'] ?? '';
+    if (src.isEmpty || src.contains('/themes/')) return '';
+    return src;
   }
 
   Future<String> _csrf() async {

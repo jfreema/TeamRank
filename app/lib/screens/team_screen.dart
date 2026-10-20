@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../models.dart';
+import '../widgets/team_logo.dart';
 
 class TeamScreen extends StatelessWidget {
   const TeamScreen({super.key, required this.data, required this.team});
@@ -28,7 +29,21 @@ class TeamScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    if (team.hometown.isNotEmpty) Text(team.hometown, style: t.titleSmall),
+                    Row(
+                      children: [
+                        TeamLogo(team: team, size: 64),
+                        const SizedBox(width: 16),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(team.name, style: t.headlineSmall),
+                              if (team.hometown.isNotEmpty) Text(team.hometown, style: t.titleSmall),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                     const SizedBox(height: 12),
                     Wrap(
                       spacing: 12,
@@ -110,9 +125,15 @@ class _GameTile extends StatelessWidget {
         foregroundColor: Colors.white,
         child: Text(letter),
       ),
+      trailing: opp == null
+          ? null
+          : Row(mainAxisSize: MainAxisSize.min, children: [
+              Text(opp.record),
+              const SizedBox(width: 12),
+              TeamLogo(team: opp, size: 28),
+            ]),
       title: Text('$us-$them vs $oppLabel'),
       subtitle: Text('${dates.formatShortDate(game.date)} · ${game.event} · ${sourceLabel(game.source)}'),
-      trailing: opp == null ? null : Text(opp.record),
       onTap: opp == null
           ? null
           : () => Navigator.of(context).push(MaterialPageRoute(

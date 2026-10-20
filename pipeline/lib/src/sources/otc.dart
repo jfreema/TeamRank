@@ -51,7 +51,21 @@ class OtcScraper {
       return !(cache.events[l.id]?.isFinal ?? false);
     }).toList();
     log('otc: ${listings.length} events listed, ${todo.length} 12U events to fetch');
-    if (todo.isEmpty) return;
+    if (todo.isNotEmpty) await _scrapeEvents(cache, todo, today, log);
+
+    // Teams saved before logos were collected.
+    for (final t in cache.teams.values.where((t) => t.state == 'LA' && t.logo == null)) {
+      try {
+        final id = t.key.substring(source.length + 1);
+        t.logo = parseTeamPage(await client.get('$base/Baseball/Teams/Details/$id/team'), id).team.logo;
+      } catch (e) {
+        log('otc: logo for ${t.key} failed: $e');
+      }
+    }
+  }
+
+  Future<void> _scrapeEvents(SourceCache cache, List<OtcListing> todo, DateTime today,
+      void Function(String) log) async {
 
     // 1. Which 12U teams played in each event.
     final eventTeams = <String, Set<String>>{};
@@ -210,6 +224,7 @@ class OtcScraper {
       state: loc.length > 1 ? loc[1].trim().toUpperCase() : '',
       ageClass: ageClass,
       url: 'https://offthecrosssports.com/Baseball/Teams/Details/$id',
+      logo: parseLogo(doc.querySelector('img.center-block.img-responsive')?.attributes['src']),
     );
 
     final events = <String, OtcTeamEvent>{};
@@ -255,6 +270,12 @@ class OtcScraper {
       ));
     }
     return OtcTeamPage(team, events, games);
+  }
+
+  /// The team logo, or '' for OTC's "no image available" placeholder.
+  static String parseLogo(String? src) {
+    if (src == null || src.isEmpty || src.contains('no-image-available')) return '';
+    return Uri.parse('https://offthecrosssports.com/').resolve(src).toString();
   }
 
   /// Games of event [l] as seen across [pages]. Both teams' pages list the

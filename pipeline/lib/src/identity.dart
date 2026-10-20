@@ -42,6 +42,15 @@ class Aliases {
         levels: (j['levels'] as Map? ?? {}).cast<String, String>(),
         exclude: (j['exclude'] as List? ?? []).cast<String>().toSet(),
       );
+
+  /// Both sets of corrections; [other] wins where they disagree.
+  Aliases combine(Aliases other) => Aliases(
+        merge: [...merge, ...other.merge],
+        split: [...split, ...other.split],
+        names: {...names, ...other.names},
+        levels: {...levels, ...other.levels},
+        exclude: {...exclude, ...other.exclude},
+      );
 }
 
 /// Lowercased name without age labels, punctuation or filler words, used to

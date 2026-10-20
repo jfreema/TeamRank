@@ -7,6 +7,9 @@ import 'model.dart';
 /// Ratings are computed over every 12U team in the data, including
 /// out-of-state opponents, so a win over a strong Mississippi team still
 /// counts. Only Louisiana teams get a rank.
+/// How many games a win over a AAA / Majors team counts as.
+const aaaWinWeight = 1.5;
+
 ({Map<String, dynamic> rankings, String review}) buildRankings({
   required List<SourceCache> caches,
   required Aliases aliases,
@@ -43,16 +46,36 @@ import 'model.dart';
     ..sort();
   final index = {for (var i = 0; i < ids.length; i++) ids[i]: i};
 
-  final ratings = colleyRatings(ids.length, [
-    for (final g in games)
-      Result(index[groupOf[g.teamA]]!, index[groupOf[g.teamB]]!, g.scoreA, g.scoreB)
-  ]);
-
   final members = <String, List<SourceTeam>>{};
   for (final t in sourceTeams.values) {
     final id = groupOf[t.key];
     if (id != null) members.putIfAbsent(id, () => []).add(t);
   }
+
+  // AA and AAA/Majors get their own lists, but the ratings behind them come
+  // from one pool so games between the levels still count.
+  String? levelFor(String id) {
+    final list = members[id] ?? [];
+    for (final t in list) {
+      if (aliases.levels[t.key] case final l?) return l.toUpperCase();
+    }
+    final levels = list.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
+    // A team listed at both levels plays up, so it goes with the higher one.
+    return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
+  }
+
+  // A win over a AAA / Majors team counts extra ([aaaWinWeight] games).
+  double weightOf(Game g) {
+    if (g.scoreA == g.scoreB) return 1;
+    final loser = g.scoreA > g.scoreB ? g.teamB : g.teamA;
+    return levelFor(groupOf[loser]!) == 'AAA' ? aaaWinWeight : 1;
+  }
+
+  final ratings = colleyRatings(ids.length, [
+    for (final g in games)
+      Result(index[groupOf[g.teamA]]!, index[groupOf[g.teamB]]!, g.scoreA, g.scoreB,
+          weight: weightOf(g))
+  ]);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -67,18 +90,6 @@ import 'model.dart';
   final ranked = ids.where(isHome).toList()
     ..sort((a, b) => ratings[index[b]!].compareTo(ratings[index[a]!]));
   final rankOf = {for (var i = 0; i < ranked.length; i++) ranked[i]: i + 1};
-
-  // AA and AAA/Majors get their own lists, but the ratings behind them come
-  // from one pool so games between the levels still count.
-  String? levelFor(String id) {
-    final list = members[id] ?? [];
-    for (final t in list) {
-      if (aliases.levels[t.key] case final l?) return l.toUpperCase();
-    }
-    final levels = list.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
-    // A team listed at both levels plays up, so it goes with the higher one.
-    return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
-  }
 
   final levelOfTeam = {for (final id in ranked) id: levelFor(id)};
   final levelRank = <String, int>{};
@@ -138,8 +149,18 @@ import 'model.dart';
       'runsAgainst': s.runsAgainst,
       'sources': [
         for (final t in list)
-          {'source': t.source, 'name': t.name, 'ageClass': t.ageClass, 'url': t.url}
+          {
+            'key': t.key,
+            'source': t.source,
+            'name': t.name,
+            'ageClass': t.ageClass,
+            'url': t.url,
+          }
       ],
+      if (list.map((t) => t.logo).firstWhere((l) => l != null && l.isNotEmpty,
+              orElse: () => null)
+          case final logo?)
+        'logo': logo,
     });
   }
 
@@ -148,6 +169,7 @@ import 'model.dart';
     'season': season,
     'state': state,
     'method': 'colley',
+    'aaaWinWeight': aaaWinWeight,
     'levels': {
       for (final level in ['AA', 'AAA'])
         level: levelOfTeam.values.where((l) => l == level).length,
@@ -174,7 +196,28 @@ import 'model.dart';
         }
     ],
   };
-  return (rankings: rankings, review: _review(grouping, sourceTeams, eventsOf));
+  final suggestions = <({List<String> keys, String reason})>[];
+  final review = _review(grouping, sourceTeams, eventsOf, suggestions);
+  // Possible duplicates the admin console offers to link, for teams on the site.
+  rankings['suggestions'] = [
+    for (final sg in suggestions)
+      if (sg.keys.any((k) => isHome(groupOf[k] ?? '')))
+        {
+          'reason': sg.reason,
+          'teams': [
+            for (final k in sg.keys)
+              {
+                'key': k,
+                'name': sourceTeams[k]!.name,
+                'city': _titleCase(sourceTeams[k]!.city),
+                'state': sourceTeams[k]!.state,
+                'ageClass': sourceTeams[k]!.ageClass,
+                'games': eventsOf[k]?.length ?? 0,
+              }
+          ],
+        }
+  ];
+  return (rankings: rankings, review: review);
 }
 
 /// Removes games that were recorded more than once.
@@ -211,8 +254,9 @@ List<Game> dedupeGames(List<Game> games, Map<String, String> groupOf) {
   return out;
 }
 
+/// The review report; also adds each possible duplicate to [suggestions].
 String _review(GroupResult grouping, Map<String, SourceTeam> teams,
-    Map<String, Set<String>> eventsOf) {
+    Map<String, Set<String>> eventsOf, List<({List<String> keys, String reason})> suggestions) {
   String describe(String k) {
     final t = teams[k];
     return '`$k` ${t?.name ?? '?'} (${t?.city ?? ''}, ${t?.state ?? ''}; '
@@ -241,6 +285,7 @@ String _review(GroupResult grouping, Map<String, SourceTeam> teams,
     ..writeln();
   for (final g in grouping.ambiguous) {
     b.writeln('- ${g.map(describe).join(' / ')}');
+    suggestions.add((keys: g, reason: 'Same name and hometown'));
   }
 
   // Same name, different hometown: often one team listed with two towns.
@@ -261,6 +306,7 @@ String _review(GroupResult grouping, Map<String, SourceTeam> teams,
     ..writeln();
   for (final ks in near) {
     b.writeln('- ${(ks..sort()).map(describe).join(' / ')}');
+    suggestions.add((keys: ks, reason: 'Same name, different hometown'));
   }
 
   // Same hometown, and one name contains all the words of the other, like
@@ -282,6 +328,7 @@ String _review(GroupResult grouping, Map<String, SourceTeam> teams,
         if (wx.isEmpty || wy.isEmpty || wx.length == wy.length && wx.containsAll(wy)) continue;
         if (wx.containsAll(wy) || wy.containsAll(wx)) {
           similar.add('- ${[x.key, y.key].map(describe).join(' / ')}');
+          suggestions.add((keys: [x.key, y.key]..sort(), reason: 'Similar name, same hometown'));
         }
       }
     }

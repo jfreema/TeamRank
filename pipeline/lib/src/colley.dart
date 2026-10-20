@@ -2,11 +2,14 @@ import 'dart:math';
 
 /// A head-to-head result between two teams, by index.
 class Result {
-  Result(this.a, this.b, this.scoreA, this.scoreB);
+  Result(this.a, this.b, this.scoreA, this.scoreB, {this.weight = 1});
   final int a;
   final int b;
   final int scoreA;
   final int scoreB;
+
+  /// How much this game counts; 1 is a normal game.
+  final double weight;
 }
 
 /// Colley Matrix ratings (Wesley Colley, 2002).
@@ -19,7 +22,8 @@ class Result {
 ///
 /// Solves `C r = b` where `C[i][i] = 2 + games_i`, `C[i][j] = -games(i,j)` and
 /// `b[i] = 1 + (wins_i - losses_i) / 2`. `C` is symmetric positive definite,
-/// so Cholesky decomposition works.
+/// so Cholesky decomposition works. A game with weight `w` counts as `w`
+/// games in `C` and `w` wins or losses in `b`.
 List<double> colleyRatings(int teamCount, List<Result> results) {
   final n = teamCount;
   final c = List.generate(n, (i) => List<double>.filled(n, 0));
@@ -28,11 +32,12 @@ List<double> colleyRatings(int teamCount, List<Result> results) {
     c[i][i] = 2;
   }
   for (final r in results) {
-    c[r.a][r.a] += 1;
-    c[r.b][r.b] += 1;
-    c[r.a][r.b] -= 1;
-    c[r.b][r.a] -= 1;
-    final diff = r.scoreA > r.scoreB ? 0.5 : (r.scoreA < r.scoreB ? -0.5 : 0.0);
+    final w = r.weight;
+    c[r.a][r.a] += w;
+    c[r.b][r.b] += w;
+    c[r.a][r.b] -= w;
+    c[r.b][r.a] -= w;
+    final diff = r.scoreA > r.scoreB ? w / 2 : (r.scoreA < r.scoreB ? -w / 2 : 0.0);
     b[r.a] += diff;
     b[r.b] -= diff;
   }

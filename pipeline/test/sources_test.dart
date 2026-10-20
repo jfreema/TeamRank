@@ -78,6 +78,20 @@ void main() {
       expect(l[1].has12U, isFalse);
     });
 
+    test('team logos skip the placeholder image', () {
+      expect(OtcScraper.parseLogo('https://offthecrosssports.com/Images/no-image-available.jpg'), '');
+      expect(OtcScraper.parseLogo('https://offthechain.blob.core.windows.net/documents/images/Teams/7096-x.jpeg?v=1'),
+          'https://offthechain.blob.core.windows.net/documents/images/Teams/7096-x.jpeg?v=1');
+      expect(
+          TwoDScraper.parseTeamLogo(
+              '<div class="team-logo-content"><img src="https://youth.2dsports.org/frontend/themes/2dsports/images/logos/logo.png"></div>'),
+          '');
+      expect(
+          TwoDScraper.parseTeamLogo(
+              '<div class="team-logo-content"><img src="https://nyc3.digitaloceanspaces.com/m1.pb365/x/files/images/teams/t.png"></div>'),
+          'https://nyc3.digitaloceanspaces.com/m1.pb365/x/files/images/teams/t.png');
+    });
+
     test('dates without a year pick the nearest past year', () {
       final (start, len) = OtcScraper.parseListingDate('Dec 30-Jan 1', DateTime(2027, 1, 5));
       expect(start, DateTime(2026, 12, 30));

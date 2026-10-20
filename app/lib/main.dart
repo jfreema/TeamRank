@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import 'admin/admin_screen.dart';
 import 'models.dart';
 import 'screens/rankings_screen.dart';
 
@@ -42,7 +43,9 @@ class TeamRankApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: theme(Brightness.light),
       darkTheme: theme(Brightness.dark),
-      home: RankingsScreen(loader: loader),
+      home: Uri.base.path.startsWith('/admin')
+          ? AdminScreen(loader: loader)
+          : RankingsScreen(loader: loader),
     );
   }
 }

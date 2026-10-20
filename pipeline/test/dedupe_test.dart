@@ -234,4 +234,34 @@ void main() {
     expect(byName['Low']!['level'], 'AAA', reason: 'aliases can override the level');
     expect(rankings['levels'], {'AA': 1, 'AAA': 3});
   });
+
+  test('beating a AAA team counts more than beating an AA team with the same record', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
+    final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:x': t('otc:x', '12U-AA'),
+      'otc:y': t('otc:y', '12U-AA'),
+      'otc:aaa': t('otc:aaa', '12U-AAA'),
+      'otc:aa': t('otc:aa', '12U-AA'),
+    }, events: {
+      '1': EventRecord(
+        id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-11',
+        isFinal: true, teamKeys: [],
+        games: [
+          game('otc', '1', 'otc:x', 'otc:aaa', 5, 2),
+          game('otc', '1', 'otc:y', 'otc:aa', 5, 2),
+        ],
+      ),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final r = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['id']: x['rating'] as double
+    };
+    expect(r['otc:x']!, greaterThan(r['otc:y']!));
+  });
 }

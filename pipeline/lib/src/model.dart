@@ -10,6 +10,7 @@ class SourceTeam {
     this.state = '',
     this.ageClass = '',
     this.url = '',
+    this.logo,
   });
 
   final String key;
@@ -18,6 +19,9 @@ class SourceTeam {
   String state;
   String ageClass;
   String url;
+
+  /// Team logo URL. Empty when the org has none, null when not checked yet.
+  String? logo;
 
   String get source => key.split(':').first;
 
@@ -28,6 +32,7 @@ class SourceTeam {
         'state': state,
         'ageClass': ageClass,
         'url': url,
+        if (logo != null) 'logo': logo,
       };
 
   factory SourceTeam.fromJson(Map<String, dynamic> j) => SourceTeam(
@@ -37,6 +42,7 @@ class SourceTeam {
         state: j['state'] as String? ?? '',
         ageClass: j['ageClass'] as String? ?? '',
         url: j['url'] as String? ?? '',
+        logo: j['logo'] as String?,
       );
 }
 

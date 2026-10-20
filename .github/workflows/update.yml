@@ -37,8 +37,21 @@ jobs:
           channel: stable
           cache: true
 
+      # Workload Identity Federation: GitHub's OIDC token is exchanged for
+      # short-lived credentials of the deploy service account, which can
+      # read the admin console's team links and deploy hosting. Only this
+      # repository may use it, and no key is stored anywhere.
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/161376992197/locations/global/workloadIdentityPools/github/providers/github
+          service_account: github-deploy@teamrank-la.iam.gserviceaccount.com
+          token_format: access_token
+
       - name: Scrape and rank
         working-directory: pipeline
+        env:
+          FIRESTORE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: |
           dart pub get
           if [ "${{ github.event_name }}" = "push" ]; then
@@ -64,14 +77,6 @@ jobs:
         run: |
           flutter pub get
           flutter build web --release
-
-      # Workload Identity Federation: GitHub's OIDC token is exchanged for
-      # short-lived credentials of the deploy service account. Only this
-      # repository may use it, and no key is stored anywhere.
-      - uses: google-github-actions/auth@v2
-        with:
-          workload_identity_provider: projects/161376992197/locations/global/workloadIdentityPools/github/providers/github
-          service_account: github-deploy@teamrank-la.iam.gserviceaccount.com
 
       - name: Deploy to Firebase Hosting
         run: npx -y firebase-tools@14 deploy --only hosting --project teamrank-la --non-interactive

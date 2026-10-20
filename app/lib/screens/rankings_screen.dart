@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models.dart';
+import '../widgets/team_logo.dart';
 import 'team_screen.dart';
 
 class RankingsScreen extends StatefulWidget {
@@ -192,6 +193,7 @@ class _ColumnHeader extends StatelessWidget {
       child: Row(
         children: [
           SizedBox(width: 44, child: Text('#', style: style)),
+          const SizedBox(width: 48),
           Expanded(child: Text('Team', style: style)),
           SizedBox(width: 64, child: Text('Record', style: style, textAlign: TextAlign.end)),
           if (wide) SizedBox(width: 64, child: Text('Sched.', style: style, textAlign: TextAlign.end)),
@@ -225,6 +227,8 @@ class _TeamRow extends StatelessWidget {
               child: Text('${showLevel ? team.rank : team.levelRank}',
                   style: t.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
             ),
+            TeamLogo(team: team),
+            const SizedBox(width: 12),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -308,6 +312,8 @@ void showAboutRankings(BuildContext context) {
           'team registered in (A teams are listed with AA). All teams are still '
           'rated together in one pool, so when an AA team beats a AAA team, the '
           'win counts against AAA-level competition. "All" shows the overall order.\n\n'
+          'A win over a AAA / Majors team counts as one and a half games, so '
+          'beating AAA competition is worth extra.\n\n'
           'Ratings center on 0.500. "Sched." is strength of schedule: the average '
           'rating of a team\'s opponents. Teams with only a few games are less '
           'certain, so use the games filter to hide them.',
