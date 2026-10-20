@@ -12,12 +12,47 @@
       "otc:7022",
       "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
       "2d:a590e88c-231e-46ab-9fad-041cc42b4f36"
+    ],
+    [
+      "2d:0e7eadac-93e1-4cad-8002-d10fb2f4ae34",
+      "otc:7200"
+    ],
+    [
+      "2d:d26113c2-75f3-4658-b535-a2b8a3f862e1",
+      "otc:7242"
+    ],
+    [
+      "2d:a231ae3f-6b4a-4dcf-9962-217db21724ea",
+      "otc:7340"
+    ],
+    [
+      "otc:7169",
+      "2d:d6779dbb-9b68-4b2b-ba4b-e821bee83738"
+    ],
+    [
+      "otc:7132",
+      "2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b"
+    ],
+    [
+      "gs:33058",
+      "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413"
+    ],
+    [
+      "2d:1ad562ca-9fff-47aa-afa2-f215d97d071a",
+      "otc:7317"
+    ],
+    [
+      "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
+      "gs:32997"
     ]
   ],
   "split": [],
   "names": {
     "otc:6967": "LA Bulls Black 12U - Howell",
-    "2d:a590e88c-231e-46ab-9fad-041cc42b4f36": "Crescent City Wave"
+    "2d:a590e88c-231e-46ab-9fad-041cc42b4f36": "Crescent City Wave",
+    "otc:7169": "Mandeville Majors",
+    "otc:7132": "New Orleans Naturals - Blue",
+    "otc:7200": "Knights Knation New Orleans"
   },
   "levels": {},
   "exclude": []

@@ -96,7 +96,7 @@ They played in the same event or their names give different ages, so they are pr
 - `2d:b5799660-fde4-4d91-a2cc-d22d673caca9` Texas Blue Chips - White (Crowley, TX; 1 events) / `2d:d84822c4-46cf-4523-8770-cb2b77d87ae6` Texas Blue Chips-White (Crowley, TX; 1 events)
 - `2d:edee8185-74af-4adc-ba7d-bcfe6c03d8ae` USA Prime Deep South 14u (Daphne, AL; 3 events) / `2d:fa76f960-d1f2-423c-86e1-47b39b4dc470` USA Prime Deep South 13u (Daphne, AL; 3 events)
 
-## Possible duplicates: same name, different hometown (28)
+## Possible duplicates: same name, different hometown (24)
 
 Add a `merge` entry if these are the same team.
 
@@ -105,10 +105,7 @@ Add a `merge` entry if these are the same team.
 - `2d:c467ab22-5424-4f86-abfd-eeb2eb324997` Chappapeela Chiefs (Ponchatoula, LA; 1 events) / `otc:7067` Chappapeela Chiefs (Hammond, LA; 2 events)
 - `2d:89c17657-ed9b-48c9-b90a-debabb652e95` LA Outlaws 11u (Bossier City, LA; 1 events) / `2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b` LA Outlaws Baseball (Ruston, LA; 3 events) / `otc:7133` LA Outlaws (Walker, LA; 1 events)
 - `2d:7841071f-7535-4371-a34c-ac76802fe3a8` The Show (Brandon, MS; 1 events) / `otc:7191` The Show (Amite, LA; 1 events) / `otc:7192` The Show (Amite, LA; 1 events)
-- `2d:0e7eadac-93e1-4cad-8002-d10fb2f4ae34` Knights Knation New Orleans (Mandiville, LA; 2 events) / `otc:7200` Knights Knation New Orleans (Mandeville, LA; 1 events)
-- `2d:d26113c2-75f3-4658-b535-a2b8a3f862e1` Southshore Chaos (Norco, LA; 2 events) / `otc:7242` Southshore chaos (Laplace, LA; 1 events)
 - `2d:69fc6fc1-27b1-48d7-b37c-175e2b56ded9` Outlaws (Cave City, AR; 3 events) / `2d:ae231ffc-feba-41f6-8432-2c0936af869d` The Outlaws 13u (Paris, AR; 4 events) / `2d:f182bf62-eda5-4dd2-9719-806e8c5f2189` Outlaws (Hope, AR; 4 events) / `otc:7246` Outlaws Baseball (Central, LA; 2 events)
-- `2d:a231ae3f-6b4a-4dcf-9962-217db21724ea` Louisiana Blast 12u - Pope (Baton Rouge, LA; 1 events) / `otc:7340` Louisiana Blast - Pope (Denham Springs, LA; 1 events)
 - `2d:01688a9f-68d2-4af0-a8f2-f6a833c068c5` Aces (Russellville, AL; 2 events) / `2d:f9bd126e-ff05-408b-926e-7c5f0c769915` Aces 12U (Mobile, AL; 2 events)
 - `2d:019cf1c2-752a-4662-8a10-958504a0d1ee` USA Prime Deep South 12u (Loxley, AL; 3 events) / `2d:edee8185-74af-4adc-ba7d-bcfe6c03d8ae` USA Prime Deep South 14u (Daphne, AL; 3 events) / `2d:fa76f960-d1f2-423c-86e1-47b39b4dc470` USA Prime Deep South 13u (Daphne, AL; 3 events) / `2d:fdab0e45-0dd8-4cc8-8e3a-0616419c140a` USA Prime Deep South 11u (Loxley, AL; 3 events)
 - `2d:03df3a22-ddff-42c7-a691-2e42c58cb084` Savage 13U (Beaumont, TX; 1 events) / `2d:3232034d-404a-4181-8068-a30150a76bcf` Savage Baseball (Hallsville, TX; 1 events) / `2d:9b6ac789-b77d-426b-98b3-82d26581a16c` Savage Baseball 14u (Nederland, TX; 1 events)
@@ -116,7 +113,6 @@ Add a `merge` entry if these are the same team.
 - `2d:07cbed17-407e-4045-bcde-00cc3fa09219` Gold Culture (Shreveport, LA; 2 events) / `2d:47f40494-a006-47cf-a6c8-283f112e7425` Gold Culture (Bossier City, LA; 1 events) / `2d:715c7751-7eb1-4930-946a-5407c8b948fd` Gold Culture (Shreveport, LA; 2 events) / `2d:a8ae461a-c12d-4a08-b100-89dec165fd0f` Gold Culture 12u (SHREVEPORT, LA; 3 events)
 - `2d:185768c0-9788-4d4b-8754-f9322405d6d2` Athletes-Performance Baseball (Port Neches, TX; 1 events) / `2d:5e09921f-2df9-4e91-9523-c62be33be540` Athletes-Performance Baseball (Beaumont, TX; 1 events)
 - `2d:228e4c7c-4106-4a08-91ef-cc135a521388` Warriors (Shreveport, LA; 3 events) / `2d:2d73333b-4b89-4848-aa21-f2cd82abc1c1` Warriors 14u (Bossier City, LA; 3 events) / `2d:9c4f682b-4fa1-476b-83d5-a00d2bd9081e` Warriors 11u (Bossier City, LA; 3 events)
-- `2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413` Savanna Bananas Gold (Chalmette, LA; 1 events) / `gs:33058` Savanna Bananas Gold (New Orleans, LA; 1 events)
 - `2d:2ff5c3de-4248-42ec-bd90-b5d441443b19` Redbirds 13U Gaynor (Shreveport, LA; 1 events) / `2d:35c0bf47-6c4a-4e14-acd3-ead23cb496e0` Redbirds 13U Gaynor (Brentwood, TN; 1 events)
 - `2d:30196aea-64c7-454a-ab42-969fa5715cbe` Wave 13u (gulf breeze, FL; 1 events) / `2d:5fdab94a-53e5-4ec1-a8d7-7ce989d0ec66` Wave 11u (Gulf Breeze, FL; 1 events) / `2d:87387bed-b577-4648-9175-6513dc51fb50` Wave Baseball (Benton, LA; 3 events) / `2d:f93d6b7d-65d2-4344-997a-5141e547235c` Wave 12u (gulf breeze, FL; 1 events) / `gs:30284` Wave Baseball (Bossier City, LA; 0 events)
 - `2d:38e44f50-712e-435c-b084-9bf732b81e28` Regulators 11u (Searcy, AR; 3 events) / `2d:ebe45e1b-ac48-451c-b4fc-1b22c79b050d` Regulators (Henderson, TX; 1 events)
@@ -129,7 +125,7 @@ Add a `merge` entry if these are the same team.
 - `2d:b380451c-3302-45d1-835d-7aafcfe19454` Havoc (Folsom, LA; 1 events) / `2d:fe927654-5099-4820-8085-d157bf5ba2aa` Havoc Baseball (Pace, FL; 1 events)
 - `2d:c4242f97-9fa6-47af-bf35-f2033258bead` Velo 14U (Murfreesboro, TN; 1 events) / `2d:fa1d85f3-c3e5-47bd-b00b-f1639b8db60f` Velo Baseball 12U (Huntsville, AL; 2 events)
 
-## Possible duplicates: similar name, same hometown (88)
+## Possible duplicates: similar name, same hometown (86)
 
 Add a `merge` entry if these are the same team.
 
@@ -210,14 +206,12 @@ Add a `merge` entry if these are the same team.
 - `otc:7069` Hammond Yankees (Hammond, LA; 3 events) / `2d:60f64dd6-053c-4598-a639-047bc69816cd` Hammond Yankees - Hills (Hammond, LA; 3 events)
 - `otc:7069` Hammond Yankees (Hammond, LA; 3 events) / `2d:b306e52d-67bb-4517-9417-9a600b53d718` Hammond Yankees -Ogden (Hammond, LA; 2 events)
 - `otc:7069` Hammond Yankees (Hammond, LA; 3 events) / `otc:7172` Hammond Yankees - Ricard (Hammond, LA; 2 events)
-- `otc:7132` New Orleans Naturals - Blue (New Orleans, LA; 1 events) / `2d:39ab7f70-02c3-4187-b2ed-b88add2f2e7b` Naturals 12u Blue (New Orleans, LA; 1 events)
 - `otc:7132` New Orleans Naturals - Blue (New Orleans, LA; 1 events) / `2d:ffff9556-bc27-47d0-b59f-36e91da22dce` New Orleans Naturals 11u (New Orleans, LA; 2 events)
 - `otc:7132` New Orleans Naturals - Blue (New Orleans, LA; 1 events) / `otc:7142` New Orleans Naturals (New Orleans, LA; 1 events)
 - `otc:7134` MYB Gators (Madisonville, LA; 3 events) / `otc:7177` MYB Gators Green (Madisonville, LA; 1 events)
 - `otc:7134` MYB Gators (Madisonville, LA; 3 events) / `otc:7178` MYB Gators Navy (Madisonville, LA; 1 events)
 - `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 1 events)
 - `otc:7148` LA Bulls - Black (Livingston, LA; 1 events) / `2d:382932ef-4a56-498c-b548-6600e6c47007` LA Bulls Black 12U - Howell (Livingston, LA; 2 events)
-- `otc:7169` Majors (Mandeville, LA; 2 events) / `2d:d6779dbb-9b68-4b2b-ba4b-e821bee83738` Mandeville Majors (Mandeville, LA; 1 events)
 - `otc:7323` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 1 events)
 - `otc:7339` Louisiana Blast (Denham Springs, LA; 1 events) / `2d:7b3bf06d-07c0-4963-a20e-c684886cc8ce` Louisiana Blast 13u Johnson (denham springs, LA; 1 events)
 - `otc:7339` Louisiana Blast (Denham Springs, LA; 1 events) / `otc:7340` Louisiana Blast - Pope (Denham Springs, LA; 1 events)
