@@ -74,6 +74,17 @@ void main() {
       expect(g.groupOf['2d:aa'], isNot(g.groupOf['2d:bb']));
     });
 
+    test('allows a one-year class gap across orgs, not within one', () {
+      SourceTeam t(String k, String cls) =>
+          SourceTeam(key: k, name: 'Raptors', city: 'Slidell', state: 'LA', ageClass: cls);
+      final across = groupTeams([t('otc:1', '12U-AA'), t('gs:1', '13 & Under A')], Aliases());
+      expect(across.groupOf['otc:1'], across.groupOf['gs:1']);
+      final within = groupTeams([t('otc:1', '12U-AA'), t('otc:2', '13U-AA')], Aliases());
+      expect(within.groupOf['otc:1'], isNot(within.groupOf['otc:2']));
+      final far = groupTeams([t('otc:1', '11U-AA'), t('gs:1', '13 & Under A')], Aliases());
+      expect(far.groupOf['otc:1'], isNot(far.groupOf['gs:1']));
+    });
+
     test('does not merge different hometowns without an alias', () {
       final teams = [
         team('otc:1', 'Tigers', 'Gonzales'),
@@ -98,6 +109,8 @@ void main() {
   });
 
   test('levelOf groups AA with A, and AAA with Majors', () {
+    expect(levelOf('12 & Under Class B'), 'AA');
+    expect(levelOf('13 & Under AAA'), 'AAA');
     expect(levelOf('12U-AA'), 'AA');
     expect(levelOf('12u A'), 'AA');
     expect(levelOf('12u AAA'), 'AAA');

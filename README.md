@@ -32,7 +32,9 @@ app/        Flutter web app that shows the rankings
 3. **Rank.** Ratings use the [Colley Matrix](https://en.wikipedia.org/wiki/Colley_Matrix)
    method. Every team's rating depends on who it beat and who those teams
    beat, so beating a strong team counts for a lot and beating a winless team
-   barely counts. Margin of victory is ignored. Out-of-state opponents count
+   barely counts. Run differential counts too (`winShare` in
+   `pipeline/lib/src/colley.dart`): a one-run win is 0.82 of a win, rising
+   to a full win at 10+ runs, with the loser keeping the rest. Out-of-state opponents count
    toward ratings, but only Louisiana teams are ranked.
    AA teams (including A) and AAA / Majors teams get separate lists, based on
    the class each team registered in. Everyone is still rated in one pool,

@@ -141,7 +141,7 @@ GroupResult groupTeams(Iterable<SourceTeam> teams, Aliases aliases,
         final classA = ageOf(group[i].ageClass), classB = ageOf(group[j].ageClass);
         clash = a.any(b.contains) ||
             (ageA != null && ageB != null && ageA != ageB) ||
-            (classA != null && classB != null && classA != classB) ||
+            _classClash(group[i], classA, group[j], classB) ||
             blocked.contains('${group[i].key}|${group[j].key}');
       }
     }
@@ -190,8 +190,20 @@ class GroupResult {
 String? levelOf(String ageClass) {
   final c = ageClass.toUpperCase();
   if (RegExp(r'\bMAJORS?\b|AAA').hasMatch(c)) return 'AAA';
+  // Grand Slam's Class B and C sit below A.
+  if (RegExp(r'\bCLASS [BC]\b').hasMatch(c)) return 'AA';
   if (RegExp(r'(^|[^A])AA?\b').hasMatch(c.replaceAll(RegExp(r'\d+U'), ''))) return 'AA';
   return null;
+}
+
+/// Whether two listings' registered ages say they are different squads.
+/// Within one org any difference counts. Across orgs a one-year gap is
+/// allowed: Grand Slam names ages by the oldest player (`13 & Under`) where
+/// OTC and 2D often list the same team a year younger.
+bool _classClash(SourceTeam a, int? ageA, SourceTeam b, int? ageB) {
+  if (ageA == null || ageB == null) return false;
+  if (a.source == b.source) return ageA != ageB;
+  return (ageA - ageB).abs() > 1;
 }
 
 /// The youngest and oldest age groups the site covers.
