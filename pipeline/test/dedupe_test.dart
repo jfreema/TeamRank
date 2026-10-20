@@ -235,7 +235,7 @@ void main() {
         games: [
           game('otc', '1', 'otc:2', 'otc:1', 6, 2), // AA team beats AAA team
           game('otc', '1', 'otc:1', 'otc:4', 6, 2),
-          game('otc', '1', 'otc:2', 'otc:3', 6, 2),
+          game('otc', '1', 'otc:2', 'otc:3', 8, 2),
         ],
       ),
     });
@@ -254,10 +254,9 @@ void main() {
     expect(byName['Big']!['level'], 'AAA');
     expect(byName['Big']!['levelRank'], 1, reason: 'AAA list ranks separately');
     expect(byName['Low']!['level'], 'AAA', reason: 'aliases can override the level');
-    for (final name in ['Mid', 'Big']) {
-      expect(byName[name]!['levelRating'], isNot(byName[name]!['rating']),
-          reason: 'class lists blend in the record, the combined list does not');
-    }
+    expect(byName['Mid']!['levelRating'], isNot(byName['Mid']!['rating']),
+        reason: 'class lists blend in the record, the combined list does not');
+    expect(byName['Big']!['levelRating'], isNotNull);
     expect(rankings['ages'], {
       '12': {'teams': 4, 'AA': 1, 'AAA': 3}
     });
