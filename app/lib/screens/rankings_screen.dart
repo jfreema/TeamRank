@@ -65,6 +65,9 @@ class _RankingsScreenState extends State<RankingsScreen> {
       if (q.isEmpty) return true;
       return t.name.toLowerCase().contains(q) || t.city.toLowerCase().contains(q);
     }).toList();
+    if (_level != null) {
+      teams.sort((a, b) => (a.levelRank ?? 1 << 30).compareTo(b.levelRank ?? 1 << 30));
+    }
 
     return SafeArea(
       child: Center(
@@ -314,7 +317,7 @@ class _TeamRow extends StatelessWidget {
             ),
           ],
           const SizedBox(width: 14),
-          _Number(label: 'RATING', value: team.rating.toStringAsFixed(3), highlight: true),
+          _Number(label: 'RATING', value: (showLevel ? team.rating : team.levelRating ?? team.rating).toStringAsFixed(3), highlight: true),
         ],
       ),
     );

@@ -149,6 +149,10 @@ List<double> headToHeadAdjusted(List<double> ratings, List<Result> results,
 // Off for now (Jared, 2026-10-20); 0.35 was the tested suggestion.
 const recordWeight = 0.0;
 
+/// The record share used for the AA lists only (Jared, 2026-10-20). The
+/// combined age list and the AAA lists keep [recordWeight].
+const aaRecordWeight = 0.35;
+
 /// Blends each rating with the team's own results: its average [winShare]
 /// (so run differential counts), padded with one tie so a team with one or
 /// two games is not judged on them alone. Early in a season teams have few

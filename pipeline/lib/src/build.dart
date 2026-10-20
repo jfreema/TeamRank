@@ -127,8 +127,11 @@ String? logoFor(Iterable<SourceTeam> listings) {
   // stronger teams counting for more.
   final first = colleyRatings(ids.length, results);
   final adjusted = closeGameBonuses(first, results);
-  final ratings = headToHeadAdjusted(
-      blendWithRecord(colleyRatings(ids.length, adjusted), adjusted), adjusted);
+  final colley = colleyRatings(ids.length, adjusted);
+  final ratings = headToHeadAdjusted(blendWithRecord(colley, adjusted), adjusted);
+  // The AA lists lean more on each team's own record.
+  final aaRatings = headToHeadAdjusted(
+      blendWithRecord(colley, adjusted, weight: aaRecordWeight), adjusted);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -183,11 +186,18 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final ageRank = <String, int>{};
   final levelRank = <String, int>{};
   final ageCounts = <int, Map<String, int>>{};
+  double listRating(String id) =>
+      (levelOfTeam[id] == 'AA' ? aaRatings : ratings)[index[id]!];
   for (final id in ranked) {
     final age = ageOfTeam[id];
     if (age == null) continue;
     final c = ageCounts.putIfAbsent(age, () => {'teams': 0, 'AA': 0, 'AAA': 0});
     ageRank[id] = c['teams'] = c['teams']! + 1;
+  }
+  for (final id in [...ranked]..sort((a, b) => listRating(b).compareTo(listRating(a)))) {
+    final age = ageOfTeam[id];
+    if (age == null) continue;
+    final c = ageCounts[age]!;
     if (levelOfTeam[id] case final level?) levelRank[id] = c[level] = c[level]! + 1;
   }
 
@@ -236,6 +246,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
       'level': levelOfTeam[id] ?? levelFor(id),
       'levelRank': levelRank[id],
       'rating': _round(ratings[index[id]!]),
+      if (levelRank[id] != null) 'levelRating': _round(listRating(id)),
       'sos': _round(s.sos),
       'wins': s.wins,
       'losses': s.losses,
@@ -262,6 +273,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
     'state': state,
     'method': 'colley+h2h',
     'aaaWinWeight': aaaWinWeight,
+    'aaRecordWeight': aaRecordWeight,
     'majorsWinWeight': majorsWinWeight,
     'aaaLossScale': aaaLossScale,
     'majorsLossScale': majorsLossScale,

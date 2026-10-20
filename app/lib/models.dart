@@ -66,6 +66,7 @@ class Team {
     required this.level,
     required this.levelRank,
     required this.rating,
+    this.levelRating,
     required this.sos,
     required this.wins,
     required this.losses,
@@ -93,6 +94,10 @@ class Team {
   /// Rank within [age] and [level].
   final int? levelRank;
   final double rating;
+
+  /// The rating behind [levelRank]. AA lists blend in more of the team's own
+  /// record, so it can differ from [rating] there.
+  final double? levelRating;
   final double sos;
   final int wins;
   final int losses;
@@ -118,6 +123,7 @@ class Team {
         level: j['level'] as String?,
         levelRank: j['levelRank'] as int?,
         rating: (j['rating'] as num).toDouble(),
+        levelRating: (j['levelRating'] as num?)?.toDouble(),
         sos: (j['sos'] as num? ?? 0).toDouble(),
         wins: j['wins'] as int? ?? 0,
         losses: j['losses'] as int? ?? 0,
