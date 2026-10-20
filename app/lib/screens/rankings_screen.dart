@@ -381,37 +381,12 @@ void showAboutRankings(BuildContext context) {
               Flexible(
                 child: SingleChildScrollView(
                   child: Text(
-                    'Teams are ranked with the Colley Matrix method, which rates every team '
-                    'from its wins and losses and the strength of the teams it played.\n\n'
-                    'Every rating is solved at once, so your opponents\' ratings depend on '
-                    'how they did against their opponents, and those on theirs, through the '
-                    'whole schedule. Beating a team that has beaten good teams moves you up a '
-                    'lot. Beating a team that rarely wins barely moves you. If A beats B and '
-                    'C beats A, C rates above A.\n\n'
-                    'Run differential counts. A one-run win is worth 0.82 of a win, rising '
-                    'to a full win at 10 or more runs, and the loser keeps the rest. Winning '
-                    'past 10 runs gains nothing more. Ties count as half a win.\n\n'
-                    'Results come from 11U to 14U divisions at OTC Sports, 2D Sports and '
-                    'Grand Slam events this season (August to July). Out-of-state opponents count '
-                    'toward ratings, but only Louisiana teams are ranked. A team '
-                    'listed by both orgs is combined into one entry, and games reported '
-                    'twice are counted once.\n\n'
-                    'Each team is listed at the age it registered as, even when it plays up '
-                    'in an older division. Every age is rated in one pool, so an 11U team '
-                    'that beats 12U teams gets full credit for those wins.\n\n'
-                    'AA and AAA / Majors teams are listed separately, based on the class each '
-                    'team registered in (A teams are listed with AA). All teams are still '
-                    'rated together in one pool, so when an AA team beats a AAA team, the '
-                    'win counts against AAA-level competition. "All" shows the overall order '
-                    'for the age.\n\n'
-                    'A win over a AAA / Majors team counts as one and a half games, so '
-                    'beating AAA competition is worth extra.\n\n'
-                    'Direct matchups count extra. When a team beat a team rated above it, '
-                    'the winner moves up and the loser moves down. If they were within '
-                    '0.100 of each other, the winner passes the loser.\n\n'
-                    'Ratings center on 0.500. "Sched." is strength of schedule: the average '
-                    'rating of a team\'s opponents. Teams with only a few games are less '
-                    'certain, so use the games filter to hide them.',
+                    'TeamRank rates every team with an algorithm built on game results '
+                    'from OTC Sports, 2D Sports and Grand Slam events this season.\n\n'
+                    'It weighs who you beat, how strong their schedule was, head-to-head '
+                    'results and run differential. Teams are listed by the age and class '
+                    'they registered in, and only Louisiana teams are ranked.\n\n'
+                    'Updated every night.',
                     style: body(15, weight: 600),
                   ),
                 ),
