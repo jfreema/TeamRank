@@ -1,7 +1,18 @@
 {
-  "merge": [],
+  "merge": [
+    [
+      "otc:6967",
+      "2d:382932ef-4a56-498c-b548-6600e6c47007"
+    ],
+    [
+      "otc:7173",
+      "2d:18ffe190-4206-4ec8-aeeb-337aebce2605"
+    ]
+  ],
   "split": [],
-  "names": {},
+  "names": {
+    "otc:6967": "LA Bulls Black 12U - Howell"
+  },
   "levels": {},
   "exclude": []
 }

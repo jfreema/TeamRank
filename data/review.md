@@ -76,7 +76,7 @@ They played in the same event or their names give different ages, so they are pr
 - `2d:b5799660-fde4-4d91-a2cc-d22d673caca9` Texas Blue Chips - White (Crowley, TX; 1 events) / `2d:d84822c4-46cf-4523-8770-cb2b77d87ae6` Texas Blue Chips-White (Crowley, TX; 1 events)
 - `2d:edee8185-74af-4adc-ba7d-bcfe6c03d8ae` USA Prime Deep South 14u (Daphne, AL; 3 events) / `2d:fa76f960-d1f2-423c-86e1-47b39b4dc470` USA Prime Deep South 13u (Daphne, AL; 3 events)
 
-## Possible duplicates: same name, different hometown (28)
+## Possible duplicates: same name, different hometown (27)
 
 Add a `merge` entry if these are the same team.
 
@@ -86,7 +86,6 @@ Add a `merge` entry if these are the same team.
 - `2d:89c17657-ed9b-48c9-b90a-debabb652e95` LA Outlaws 11u (Bossier City, LA; 1 events) / `2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b` LA Outlaws Baseball (Ruston, LA; 3 events) / `otc:7133` LA Outlaws (Walker, LA; 1 events)
 - `2d:4cdfd2b9-a4bc-4a12-b67e-582a47ac97ce` LA Bulls - Allison (Livingston,, LA; 1 events) / `otc:7145` La Bulls Allison (Livingston, LA; 1 events)
 - `2d:a0c2e817-34e4-47c3-8954-c89910f72c16` LA Bulls - Black (Livingston,, LA; 1 events) / `otc:7148` LA Bulls - Black (Livingston, LA; 1 events)
-- `2d:18ffe190-4206-4ec8-aeeb-337aebce2605` Bandits (Terrytown, LA; 1 events) / `otc:7173` Bandits (New Orleans, LA; 1 events)
 - `2d:7841071f-7535-4371-a34c-ac76802fe3a8` The Show (Brandon, MS; 1 events) / `otc:7191` The Show (Amite, LA; 1 events) / `otc:7192` The Show (Amite, LA; 1 events)
 - `2d:0e7eadac-93e1-4cad-8002-d10fb2f4ae34` Knights Knation New Orleans (Mandiville, LA; 2 events) / `otc:7200` Knights Knation New Orleans (Mandeville, LA; 1 events)
 - `2d:d26113c2-75f3-4658-b535-a2b8a3f862e1` Southshore Chaos (Norco, LA; 2 events) / `otc:7242` Southshore chaos (Laplace, LA; 1 events)
@@ -109,7 +108,7 @@ Add a `merge` entry if these are the same team.
 - `2d:b380451c-3302-45d1-835d-7aafcfe19454` Havoc (Folsom, LA; 1 events) / `2d:fe927654-5099-4820-8085-d157bf5ba2aa` Havoc Baseball (Pace, FL; 1 events)
 - `2d:c4242f97-9fa6-47af-bf35-f2033258bead` Velo 14U (Murfreesboro, TN; 1 events) / `2d:fa1d85f3-c3e5-47bd-b00b-f1639b8db60f` Velo Baseball 12U (Huntsville, AL; 2 events)
 
-## Possible duplicates: similar name, same hometown (77)
+## Possible duplicates: similar name, same hometown (76)
 
 Add a `merge` entry if these are the same team.
 
@@ -173,7 +172,6 @@ Add a `merge` entry if these are the same team.
 - `2d:bfc96968-8185-470c-ae4c-3cba70058ada` Forge Baseball (Waxahachie, TX; 1 events) / `2d:c6f86032-0228-4b05-a48a-dbab91323154` Forge Baseball 12u Lewis (Waxahachie, TX; 1 events)
 - `2d:cc5905b9-b58f-47e1-b536-4cc5b19f6311` Mobtown Baseball 12U White (Mobile, AL; 2 events) / `2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286` Mobtown Baseball Club (Mobile, AL; 1 events)
 - `2d:cd3d35f9-0f26-4a61-a17f-5958017157d0` Blues Elite 12U Prime (Cottontown, TN; 2 events) / `2d:ff7e0abd-04ac-42b0-8f4f-f40bdffd425f` Blues Elite 13u (Cottontown, TN; 2 events)
-- `otc:6967` LA Bulls - Howell (Livingston, LA; 2 events) / `2d:382932ef-4a56-498c-b548-6600e6c47007` LA Bulls Black 12U - Howell (Livingston, LA; 2 events)
 - `otc:6968` Ripzz Baseball Academy (Denham Springs, LA; 1 events) / `2d:f5bdd109-a523-46ea-bdf8-947ce66a5db7` Ripzz Baseball (Denham Springs, LA; 1 events)
 - `otc:6995` LA Havoc - Clemons (Folsom, LA; 1 events) / `2d:b380451c-3302-45d1-835d-7aafcfe19454` Havoc (Folsom, LA; 1 events)
 - `otc:7066` Chappapeela Chiefs - Navy (Hammond, LA; 1 events) / `otc:7067` Chappapeela Chiefs (Hammond, LA; 2 events)
