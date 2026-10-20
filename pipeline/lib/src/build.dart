@@ -10,6 +10,21 @@ import 'model.dart';
 /// How many games a win over a AAA / Majors team counts as.
 const aaaWinWeight = 1.5;
 
+/// Which org's logo to show when a team has more than one (Jared's order).
+const logoOrder = ['2d', 'otc', 'gs'];
+
+/// The logo of the first org in [logoOrder] that has one, or null.
+String? logoFor(Iterable<SourceTeam> listings) {
+  int rank(SourceTeam t) {
+    final i = logoOrder.indexOf(t.source);
+    return i < 0 ? logoOrder.length : i;
+  }
+
+  final withLogo = listings.where((t) => t.logo?.isNotEmpty ?? false).toList()
+    ..sort((a, b) => rank(a).compareTo(rank(b)));
+  return withLogo.isEmpty ? null : withLogo.first.logo;
+}
+
 ({Map<String, dynamic> rankings, String review}) buildRankings({
   required List<SourceCache> caches,
   required Aliases aliases,
@@ -201,10 +216,7 @@ const aaaWinWeight = 1.5;
             'url': t.url,
           }
       ],
-      if (list.map((t) => t.logo).firstWhere((l) => l != null && l.isNotEmpty,
-              orElse: () => null)
-          case final logo?)
-        'logo': logo,
+      if (logoFor(list) case final logo?) 'logo': logo,
     });
   }
 

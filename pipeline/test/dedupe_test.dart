@@ -320,4 +320,12 @@ void main() {
     };
     expect(r['otc:x']!, greaterThan(r['otc:y']!));
   });
+
+  test('logos come from 2D first, then OTC, then Grand Slam', () {
+    SourceTeam t(String k, String? logo) => SourceTeam(key: k, name: 'X', logo: logo);
+    expect(logoFor([t('gs:1', 'g'), t('otc:1', 'o'), t('2d:1', 'd')]), 'd');
+    expect(logoFor([t('gs:1', 'g'), t('otc:1', 'o'), t('2d:1', '')]), 'o');
+    expect(logoFor([t('gs:1', 'g'), t('otc:1', null)]), 'g');
+    expect(logoFor([t('otc:1', '')]), isNull);
+  });
 }
