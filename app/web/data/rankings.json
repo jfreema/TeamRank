@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T18:14:27.404189Z",
+ "generatedAt": "2026-10-20T18:17:04.750994Z",
  "season": "2026-27",
  "state": "LA",
  "method": "colley",
@@ -11,9 +11,9 @@
    "AAA": 19
   },
   "12": {
-   "teams": 87,
+   "teams": 86,
    "AA": 60,
-   "AAA": 25
+   "AAA": 24
   },
   "13": {
    "teams": 73,
@@ -127,8 +127,8 @@
    "rank": null,
    "level": "AAA",
    "levelRank": null,
-   "rating": 0.9618,
-   "sos": 0.5395,
+   "rating": 0.9622,
+   "sos": 0.54,
    "wins": 9,
    "losses": 0,
    "ties": 0,
@@ -180,7 +180,7 @@
    "level": "AAA",
    "levelRank": 2,
    "rating": 0.9362,
-   "sos": 0.5746,
+   "sos": 0.5747,
    "wins": 5,
    "losses": 0,
    "ties": 0,
@@ -423,8 +423,8 @@
    "rank": null,
    "level": "AAA",
    "levelRank": null,
-   "rating": 0.8883,
-   "sos": 0.5854,
+   "rating": 0.8884,
+   "sos": 0.5855,
    "wins": 4,
    "losses": 0,
    "ties": 1,
@@ -449,8 +449,8 @@
    "rank": 4,
    "level": "AAA",
    "levelRank": 3,
-   "rating": 0.8826,
-   "sos": 0.5977,
+   "rating": 0.887,
+   "sos": 0.6022,
    "wins": 15,
    "losses": 3,
    "ties": 0,
@@ -616,8 +616,8 @@
    "rank": 5,
    "level": "AA",
    "levelRank": 2,
-   "rating": 0.8542,
-   "sos": 0.4958,
+   "rating": 0.8545,
+   "sos": 0.4963,
    "wins": 5,
    "losses": 0,
    "ties": 0,
@@ -643,8 +643,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.8454,
-   "sos": 0.5818,
+   "rating": 0.8359,
+   "sos": 0.5728,
    "wins": 10,
    "losses": 2,
    "ties": 1,
@@ -781,7 +781,7 @@
    "rank": null,
    "level": "AAA",
    "levelRank": null,
-   "rating": 0.8129,
+   "rating": 0.8128,
    "sos": 0.6767,
    "wins": 3,
    "losses": 1,
@@ -808,7 +808,7 @@
    "level": "AA",
    "levelRank": 3,
    "rating": 0.8087,
-   "sos": 0.5023,
+   "sos": 0.5024,
    "wins": 9,
    "losses": 1,
    "ties": 1,
@@ -831,6 +831,39 @@
     }
    ],
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7142-new-orleans-naturals.png?v=1"
+  },
+  {
+   "id": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+   "name": "Bandits",
+   "city": "New Orleans",
+   "state": "LA",
+   "age": 12,
+   "rank": 6,
+   "level": "AAA",
+   "levelRank": 4,
+   "rating": 0.8011,
+   "sos": 0.6823,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 49,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "key": "otc:7173",
+     "source": "otc",
+     "name": "Bandits",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173"
+    },
+    {
+     "key": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
+     "source": "2d",
+     "name": "Bandits",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/18ffe190-4206-4ec8-aeeb-337aebce2605"
+    }
+   ]
   },
   {
    "id": "2d:55f2ceea-2079-4fa7-a1ca-b1dcdfc03be5",
@@ -860,39 +893,6 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/knights-knation---brown-6acd1160de662.png"
   },
   {
-   "id": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
-   "name": "Bandits",
-   "city": "New Orleans",
-   "state": "LA",
-   "age": 12,
-   "rank": 6,
-   "level": "AAA",
-   "levelRank": 4,
-   "rating": 0.7971,
-   "sos": 0.6777,
-   "wins": 5,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 49,
-   "runsAgainst": 27,
-   "sources": [
-    {
-     "key": "otc:7173",
-     "source": "otc",
-     "name": "Bandits",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173"
-    },
-    {
-     "key": "2d:18ffe190-4206-4ec8-aeeb-337aebce2605",
-     "source": "2d",
-     "name": "Bandits",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/18ffe190-4206-4ec8-aeeb-337aebce2605"
-    }
-   ]
-  },
-  {
    "id": "2d:02f08a87-440e-47ad-8c17-cd45ddf6843d",
    "name": "Ms Yankees- 12u White",
    "city": "Madison",
@@ -901,8 +901,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.7878,
-   "sos": 0.5321,
+   "rating": 0.7867,
+   "sos": 0.5308,
    "wins": 11,
    "losses": 3,
    "ties": 0,
@@ -954,8 +954,8 @@
    "rank": 7,
    "level": "AA",
    "levelRank": 3,
-   "rating": 0.7823,
-   "sos": 0.4386,
+   "rating": 0.7826,
+   "sos": 0.4389,
    "wins": 7,
    "losses": 1,
    "ties": 0,
@@ -1060,7 +1060,7 @@
    "level": "AAA",
    "levelRank": 2,
    "rating": 0.7713,
-   "sos": 0.6819,
+   "sos": 0.682,
    "wins": 3,
    "losses": 1,
    "ties": 1,
@@ -1112,7 +1112,7 @@
    "level": "AAA",
    "levelRank": 3,
    "rating": 0.7654,
-   "sos": 0.3491,
+   "sos": 0.3492,
    "wins": 4,
    "losses": 0,
    "ties": 0,
@@ -1209,6 +1209,32 @@
    ]
   },
   {
+   "id": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+   "name": "BIRDGANG",
+   "city": "Kenner",
+   "state": "LA",
+   "age": 12,
+   "rank": 9,
+   "level": "AAA",
+   "levelRank": 5,
+   "rating": 0.7609,
+   "sos": 0.5853,
+   "wins": 4,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 26,
+   "runsAgainst": 26,
+   "sources": [
+    {
+     "key": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
+     "source": "2d",
+     "name": "BIRDGANG",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/7a9a4477-c5af-443c-bfee-e2087b9ccab7"
+    }
+   ]
+  },
+  {
    "id": "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
    "name": "2D Fall Free Agents 14u",
    "city": "Lake Charles",
@@ -1235,58 +1261,6 @@
    ]
   },
   {
-   "id": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
-   "name": "BIRDGANG",
-   "city": "Kenner",
-   "state": "LA",
-   "age": 12,
-   "rank": 9,
-   "level": "AAA",
-   "levelRank": 5,
-   "rating": 0.7516,
-   "sos": 0.5743,
-   "wins": 4,
-   "losses": 1,
-   "ties": 0,
-   "runsFor": 26,
-   "runsAgainst": 26,
-   "sources": [
-    {
-     "key": "2d:7a9a4477-c5af-443c-bfee-e2087b9ccab7",
-     "source": "2d",
-     "name": "BIRDGANG",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/7a9a4477-c5af-443c-bfee-e2087b9ccab7"
-    }
-   ]
-  },
-  {
-   "id": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
-   "name": "USA Scout National MS",
-   "city": "Flowood",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AAA",
-   "levelRank": null,
-   "rating": 0.7504,
-   "sos": 0.6683,
-   "wins": 3,
-   "losses": 1,
-   "ties": 0,
-   "runsFor": 28,
-   "runsAgainst": 11,
-   "sources": [
-    {
-     "key": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
-     "source": "2d",
-     "name": "USA Scout National MS",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/e46b2def-0888-49b0-ba89-5e3aba6e1f8f"
-    }
-   ]
-  },
-  {
    "id": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
    "name": "Velocity Baseball",
    "city": "Colfax",
@@ -1295,8 +1269,8 @@
    "rank": 10,
    "level": "AAA",
    "levelRank": 6,
-   "rating": 0.7502,
-   "sos": 0.4908,
+   "rating": 0.7514,
+   "sos": 0.4921,
    "wins": 6,
    "losses": 1,
    "ties": 0,
@@ -1454,8 +1428,8 @@
    "rank": 12,
    "level": "AAA",
    "levelRank": 8,
-   "rating": 0.7256,
-   "sos": 0.6592,
+   "rating": 0.729,
+   "sos": 0.6642,
    "wins": 2,
    "losses": 1,
    "ties": 0,
@@ -1468,6 +1442,32 @@
      "name": "The Show",
      "ageClass": "12U-AAA",
      "url": "https://offthecrosssports.com/Baseball/Teams/Details/7191"
+    }
+   ]
+  },
+  {
+   "id": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
+   "name": "USA Scout National MS",
+   "city": "Flowood",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AAA",
+   "levelRank": null,
+   "rating": 0.7231,
+   "sos": 0.6353,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 28,
+   "runsAgainst": 11,
+   "sources": [
+    {
+     "key": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
+     "source": "2d",
+     "name": "USA Scout National MS",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/e46b2def-0888-49b0-ba89-5e3aba6e1f8f"
     }
    ]
   },
@@ -1506,8 +1506,8 @@
    "rank": 11,
    "level": "AAA",
    "levelRank": 5,
-   "rating": 0.7221,
-   "sos": 0.6018,
+   "rating": 0.722,
+   "sos": 0.6017,
    "wins": 5,
    "losses": 2,
    "ties": 1,
@@ -1560,7 +1560,7 @@
    "level": "AAA",
    "levelRank": 9,
    "rating": 0.721,
-   "sos": 0.5807,
+   "sos": 0.5808,
    "wins": 3,
    "losses": 1,
    "ties": 0,
@@ -1797,8 +1797,8 @@
    "rank": 14,
    "level": "AA",
    "levelRank": 5,
-   "rating": 0.6899,
-   "sos": 0.2849,
+   "rating": 0.69,
+   "sos": 0.285,
    "wins": 4,
    "losses": 0,
    "ties": 0,
@@ -1824,7 +1824,7 @@
    "level": "AA",
    "levelRank": 6,
    "rating": 0.6876,
-   "sos": 0.4626,
+   "sos": 0.4627,
    "wins": 4,
    "losses": 1,
    "ties": 0,
@@ -1837,6 +1837,32 @@
      "name": "LA Elite",
      "ageClass": "12U-AA",
      "url": "https://offthecrosssports.com/Baseball/Teams/Details/7184"
+    }
+   ]
+  },
+  {
+   "id": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
+   "name": "Prime Baseball",
+   "city": "Gulfport",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AAA",
+   "levelRank": null,
+   "rating": 0.6871,
+   "sos": 0.6195,
+   "wins": 6,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 61,
+   "runsAgainst": 32,
+   "sources": [
+    {
+     "key": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
+     "source": "2d",
+     "name": "Prime Baseball",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/62f32053-36ca-44ea-bea3-dfea4e2ae281"
     }
    ]
   },
@@ -1863,32 +1889,6 @@
      "name": "Gold Culture 12u",
      "ageClass": "12u Major",
      "url": "https://youth.2dsports.org/team/details/2026-27-season/a8ae461a-c12d-4a08-b100-89dec165fd0f"
-    }
-   ]
-  },
-  {
-   "id": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
-   "name": "Prime Baseball",
-   "city": "Gulfport",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AAA",
-   "levelRank": null,
-   "rating": 0.6862,
-   "sos": 0.6184,
-   "wins": 6,
-   "losses": 3,
-   "ties": 0,
-   "runsFor": 61,
-   "runsAgainst": 32,
-   "sources": [
-    {
-     "key": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
-     "source": "2d",
-     "name": "Prime Baseball",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/62f32053-36ca-44ea-bea3-dfea4e2ae281"
     }
    ]
   },
@@ -1947,42 +1947,16 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/hammond-yankees-hills-67aa4d362c6c4.webp"
   },
   {
-   "id": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
-   "name": "Knights Knation 12u Mandeville",
-   "city": "Mandeville",
-   "state": "LA",
-   "age": 12,
-   "rank": 17,
-   "level": "AA",
-   "levelRank": 7,
-   "rating": 0.6771,
-   "sos": 0.6039,
-   "wins": 3,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 37,
-   "runsAgainst": 48,
-   "sources": [
-    {
-     "key": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
-     "source": "2d",
-     "name": "Knights Knation 12u Mandeville",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/8c90c829-6890-4c37-9509-4bb3b7e5ba8e"
-    }
-   ]
-  },
-  {
    "id": "otc:7244",
    "name": "Shockers",
    "city": "Lake Charles",
    "state": "LA",
    "age": 12,
-   "rank": 18,
+   "rank": 17,
    "level": "AAA",
    "levelRank": 11,
-   "rating": 0.6754,
-   "sos": 0.5529,
+   "rating": 0.6793,
+   "sos": 0.5576,
    "wins": 4,
    "losses": 2,
    "ties": 0,
@@ -1999,6 +1973,32 @@
    ]
   },
   {
+   "id": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+   "name": "Knights Knation 12u Mandeville",
+   "city": "Mandeville",
+   "state": "LA",
+   "age": 12,
+   "rank": 18,
+   "level": "AA",
+   "levelRank": 7,
+   "rating": 0.6787,
+   "sos": 0.606,
+   "wins": 3,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 37,
+   "runsAgainst": 48,
+   "sources": [
+    {
+     "key": "2d:8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
+     "source": "2d",
+     "name": "Knights Knation 12u Mandeville",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/8c90c829-6890-4c37-9509-4bb3b7e5ba8e"
+    }
+   ]
+  },
+  {
    "id": "2d:af084bbf-4084-40df-bcad-3057df4ce483",
    "name": "Diamond Hogs",
    "city": "Texarkana",
@@ -2007,8 +2007,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.6684,
-   "sos": 0.4635,
+   "rating": 0.6685,
+   "sos": 0.4636,
    "wins": 3,
    "losses": 1,
    "ties": 0,
@@ -2219,7 +2219,7 @@
    "rank": 19,
    "level": "AA",
    "levelRank": 8,
-   "rating": 0.6638,
+   "rating": 0.6639,
    "sos": 0.664,
    "wins": 5,
    "losses": 5,
@@ -2387,8 +2387,8 @@
    "rank": 18,
    "level": "AAA",
    "levelRank": 6,
-   "rating": 0.6516,
-   "sos": 0.4492,
+   "rating": 0.6521,
+   "sos": 0.4499,
    "wins": 4,
    "losses": 1,
    "ties": 0,
@@ -2441,8 +2441,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.651,
-   "sos": 0.4799,
+   "rating": 0.6492,
+   "sos": 0.4776,
    "wins": 5,
    "losses": 2,
    "ties": 0,
@@ -2467,8 +2467,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.6471,
-   "sos": 0.6284,
+   "rating": 0.6478,
+   "sos": 0.6292,
    "wins": 6,
    "losses": 5,
    "ties": 0,
@@ -2493,7 +2493,7 @@
    "rank": 19,
    "level": "AAA",
    "levelRank": 7,
-   "rating": 0.6454,
+   "rating": 0.6455,
    "sos": 0.5434,
    "wins": 2,
    "losses": 1,
@@ -2677,8 +2677,8 @@
    "rank": 21,
    "level": "AAA",
    "levelRank": 12,
-   "rating": 0.6324,
-   "sos": 0.5396,
+   "rating": 0.6347,
+   "sos": 0.5429,
    "wins": 2,
    "losses": 1,
    "ties": 0,
@@ -2718,6 +2718,32 @@
      "name": "LA Bulls - Allison",
      "ageClass": "13u AA",
      "url": "https://youth.2dsports.org/team/details/2026-27-season/4cdfd2b9-a4bc-4a12-b67e-582a47ac97ce"
+    }
+   ]
+  },
+  {
+   "id": "otc:7016",
+   "name": "Diamond Baseball",
+   "city": "Gretna",
+   "state": "LA",
+   "age": 12,
+   "rank": 22,
+   "level": "AAA",
+   "levelRank": 13,
+   "rating": 0.6298,
+   "sos": 0.6097,
+   "wins": 5,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 56,
+   "runsAgainst": 42,
+   "sources": [
+    {
+     "key": "otc:7016",
+     "source": "otc",
+     "name": "Diamond Baseball",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016"
     }
    ]
   },
@@ -2801,32 +2827,6 @@
    ]
   },
   {
-   "id": "otc:7016",
-   "name": "Diamond Baseball",
-   "city": "Gretna",
-   "state": "LA",
-   "age": 12,
-   "rank": 22,
-   "level": "AAA",
-   "levelRank": 13,
-   "rating": 0.6225,
-   "sos": 0.6014,
-   "wins": 5,
-   "losses": 4,
-   "ties": 0,
-   "runsFor": 56,
-   "runsAgainst": 42,
-   "sources": [
-    {
-     "key": "otc:7016",
-     "source": "otc",
-     "name": "Diamond Baseball",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016"
-    }
-   ]
-  },
-  {
    "id": "otc:7069",
    "name": "Hammond Yankees",
    "city": "Hammond",
@@ -2835,8 +2835,8 @@
    "rank": 23,
    "level": "AA",
    "levelRank": 10,
-   "rating": 0.6199,
-   "sos": 0.5397,
+   "rating": 0.6208,
+   "sos": 0.5408,
    "wins": 7,
    "losses": 5,
    "ties": 0,
@@ -2851,6 +2851,33 @@
      "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069"
     }
    ]
+  },
+  {
+   "id": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+   "name": "Prospect Baseball - Longmire",
+   "city": "Central",
+   "state": "LA",
+   "age": 12,
+   "rank": 24,
+   "level": "AAA",
+   "levelRank": 14,
+   "rating": 0.6194,
+   "sos": 0.4842,
+   "wins": 3,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 38,
+   "runsAgainst": 16,
+   "sources": [
+    {
+     "key": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
+     "source": "2d",
+     "name": "Prospect Baseball - Longmire",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/195c0919-e70e-4840-bc3a-b781c879ff9f"
+    }
+   ],
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/prospect-baseball---longmire-6a9d723008e10.png"
   },
   {
    "id": "otc:7135",
@@ -2878,33 +2905,6 @@
     }
    ],
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7135-reign-baseball.jpg?v=1"
-  },
-  {
-   "id": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
-   "name": "Prospect Baseball - Longmire",
-   "city": "Central",
-   "state": "LA",
-   "age": 12,
-   "rank": 24,
-   "level": "AAA",
-   "levelRank": 14,
-   "rating": 0.6178,
-   "sos": 0.4818,
-   "wins": 3,
-   "losses": 1,
-   "ties": 0,
-   "runsFor": 38,
-   "runsAgainst": 16,
-   "sources": [
-    {
-     "key": "2d:195c0919-e70e-4840-bc3a-b781c879ff9f",
-     "source": "2d",
-     "name": "Prospect Baseball - Longmire",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/195c0919-e70e-4840-bc3a-b781c879ff9f"
-    }
-   ],
-   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/prospect-baseball---longmire-6a9d723008e10.png"
   },
   {
    "id": "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
@@ -2941,8 +2941,8 @@
    "rank": null,
    "level": "AAA",
    "levelRank": null,
-   "rating": 0.6147,
-   "sos": 0.6529,
+   "rating": 0.6146,
+   "sos": 0.6527,
    "wins": 2,
    "losses": 2,
    "ties": 0,
@@ -3038,6 +3038,32 @@
    ]
   },
   {
+   "id": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
+   "name": "SBG Sox GC 12u Harris",
+   "city": "Vancleave",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AA",
+   "levelRank": null,
+   "rating": 0.6013,
+   "sos": 0.517,
+   "wins": 4,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 43,
+   "runsAgainst": 44,
+   "sources": [
+    {
+     "key": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
+     "source": "2d",
+     "name": "SBG Sox GC 12u Harris",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354"
+    }
+   ]
+  },
+  {
    "id": "2d:8e381f32-7e56-4b91-a706-d58e5cb6801f",
    "name": "Diamond Baseball",
    "city": "Gretna",
@@ -3063,58 +3089,6 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/diamond-baseball-6ac65ed94ef03.png"
-  },
-  {
-   "id": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
-   "name": "SBG Sox GC 12u Harris",
-   "city": "Vancleave",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AA",
-   "levelRank": null,
-   "rating": 0.6004,
-   "sos": 0.5158,
-   "wins": 4,
-   "losses": 3,
-   "ties": 0,
-   "runsFor": 43,
-   "runsAgainst": 44,
-   "sources": [
-    {
-     "key": "2d:c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354",
-     "source": "2d",
-     "name": "SBG Sox GC 12u Harris",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/c23b6ab4-e7a6-49ab-a5ca-d3f6959c2354"
-    }
-   ]
-  },
-  {
-   "id": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
-   "name": "Clinton Reds - Black",
-   "city": "Clinton",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AAA",
-   "levelRank": null,
-   "rating": 0.599,
-   "sos": 0.5864,
-   "wins": 3,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 49,
-   "runsAgainst": 36,
-   "sources": [
-    {
-     "key": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
-     "source": "2d",
-     "name": "Clinton Reds - Black",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/0f0c475d-b15b-4a9a-a675-7ff8fc1c387b"
-    }
-   ]
   },
   {
    "id": "otc:6979",
@@ -3168,6 +3142,32 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/the-foundation-baseball-66fc29a617409.webp"
+  },
+  {
+   "id": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
+   "name": "Clinton Reds - Black",
+   "city": "Clinton",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AAA",
+   "levelRank": null,
+   "rating": 0.5981,
+   "sos": 0.5851,
+   "wins": 3,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 49,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "key": "2d:0f0c475d-b15b-4a9a-a675-7ff8fc1c387b",
+     "source": "2d",
+     "name": "Clinton Reds - Black",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/0f0c475d-b15b-4a9a-a675-7ff8fc1c387b"
+    }
+   ]
   },
   {
    "id": "2d:cea7869a-2295-4eef-aa5e-af6f5b51f30d",
@@ -3356,33 +3356,6 @@
    ]
   },
   {
-   "id": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
-   "name": "Cresent City Wave",
-   "city": "Metairie",
-   "state": "LA",
-   "age": 12,
-   "rank": 25,
-   "level": "AAA",
-   "levelRank": 15,
-   "rating": 0.5799,
-   "sos": 0.7821,
-   "wins": 1,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 9,
-   "runsAgainst": 21,
-   "sources": [
-    {
-     "key": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
-     "source": "2d",
-     "name": "Cresent City Wave",
-     "ageClass": "12u AAA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/a590e88c-231e-46ab-9fad-041cc42b4f36"
-    }
-   ],
-   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/cresent-city-wave-6a8d7be425e67.png"
-  },
-  {
    "id": "otc:7218",
    "name": "Gators Green",
    "city": "Covington",
@@ -3457,6 +3430,58 @@
      "name": "Southshore Chaos",
      "ageClass": "11u AA",
      "url": "https://youth.2dsports.org/team/details/2026-27-season/d26113c2-75f3-4658-b535-a2b8a3f862e1"
+    }
+   ]
+  },
+  {
+   "id": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+   "name": "New Orleans Spice",
+   "city": "Metairie",
+   "state": "LA",
+   "age": 12,
+   "rank": 25,
+   "level": "AA",
+   "levelRank": 11,
+   "rating": 0.5693,
+   "sos": 0.6504,
+   "wins": 3,
+   "losses": 5,
+   "ties": 1,
+   "runsFor": 36,
+   "runsAgainst": 59,
+   "sources": [
+    {
+     "key": "2d:336d1445-200e-4867-8172-146b7dbb31de",
+     "source": "2d",
+     "name": "New Orleans Spice",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/336d1445-200e-4867-8172-146b7dbb31de"
+    }
+   ]
+  },
+  {
+   "id": "otc:7152",
+   "name": "New Orleans Spice",
+   "city": "Metairie",
+   "state": "LA",
+   "age": 12,
+   "rank": 26,
+   "level": "AA",
+   "levelRank": 12,
+   "rating": 0.5684,
+   "sos": 0.5324,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 16,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "key": "otc:7152",
+     "source": "otc",
+     "name": "New Orleans Spice",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152"
     }
    ]
   },
@@ -3547,9 +3572,9 @@
    "city": "Lake Charles",
    "state": "LA",
    "age": 12,
-   "rank": 26,
+   "rank": 27,
    "level": "AA",
-   "levelRank": 11,
+   "levelRank": 13,
    "rating": 0.5634,
    "sos": 0.5444,
    "wins": 2,
@@ -3622,58 +3647,6 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/gold-culture-640e3922939dc.jpeg"
   },
   {
-   "id": "2d:336d1445-200e-4867-8172-146b7dbb31de",
-   "name": "New Orleans Spice",
-   "city": "Metairie",
-   "state": "LA",
-   "age": 12,
-   "rank": 27,
-   "level": "AA",
-   "levelRank": 12,
-   "rating": 0.5631,
-   "sos": 0.6428,
-   "wins": 3,
-   "losses": 5,
-   "ties": 1,
-   "runsFor": 36,
-   "runsAgainst": 59,
-   "sources": [
-    {
-     "key": "2d:336d1445-200e-4867-8172-146b7dbb31de",
-     "source": "2d",
-     "name": "New Orleans Spice",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/336d1445-200e-4867-8172-146b7dbb31de"
-    }
-   ]
-  },
-  {
-   "id": "otc:7152",
-   "name": "New Orleans Spice",
-   "city": "Metairie",
-   "state": "LA",
-   "age": 12,
-   "rank": 28,
-   "level": "AA",
-   "levelRank": 13,
-   "rating": 0.5622,
-   "sos": 0.5242,
-   "wins": 2,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 16,
-   "runsAgainst": 23,
-   "sources": [
-    {
-     "key": "otc:7152",
-     "source": "otc",
-     "name": "New Orleans Spice",
-     "ageClass": "12U-AA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152"
-    }
-   ]
-  },
-  {
    "id": "otc:7172",
    "name": "Hammond Yankees - Ricard",
    "city": "Hammond",
@@ -3706,11 +3679,11 @@
    "city": "Ruston",
    "state": "LA",
    "age": 12,
-   "rank": 29,
+   "rank": 28,
    "level": "AA",
    "levelRank": 14,
-   "rating": 0.5512,
-   "sos": 0.4661,
+   "rating": 0.5514,
+   "sos": 0.4664,
    "wins": 6,
    "losses": 5,
    "ties": 0,
@@ -3759,11 +3732,11 @@
    "city": "Luling",
    "state": "LA",
    "age": 12,
-   "rank": 30,
+   "rank": 29,
    "level": "AA",
    "levelRank": 15,
    "rating": 0.5438,
-   "sos": 0.5656,
+   "sos": 0.5657,
    "wins": 2,
    "losses": 2,
    "ties": 0,
@@ -3814,8 +3787,8 @@
    "rank": 29,
    "level": "AAA",
    "levelRank": 10,
-   "rating": 0.5425,
-   "sos": 0.4907,
+   "rating": 0.5426,
+   "sos": 0.4908,
    "wins": 5,
    "losses": 3,
    "ties": 1,
@@ -3958,11 +3931,11 @@
    "city": "Central",
    "state": "LA",
    "age": 12,
-   "rank": 31,
+   "rank": 30,
    "level": "AA",
    "levelRank": 16,
-   "rating": 0.5369,
-   "sos": 0.4212,
+   "rating": 0.5371,
+   "sos": 0.4214,
    "wins": 5,
    "losses": 3,
    "ties": 0,
@@ -3984,11 +3957,11 @@
    "city": "Baton Rouge",
    "state": "LA",
    "age": 12,
-   "rank": 32,
+   "rank": 31,
    "level": "AA",
    "levelRank": 17,
    "rating": 0.5369,
-   "sos": 0.5553,
+   "sos": 0.5554,
    "wins": 2,
    "losses": 2,
    "ties": 0,
@@ -4057,6 +4030,33 @@
    ]
   },
   {
+   "id": "otc:7121",
+   "name": "RBI Academy",
+   "city": "Covington",
+   "state": "LA",
+   "age": 12,
+   "rank": 32,
+   "level": "AAA",
+   "levelRank": 15,
+   "rating": 0.5358,
+   "sos": 0.6531,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 36,
+   "runsAgainst": 36,
+   "sources": [
+    {
+     "key": "otc:7121",
+     "source": "otc",
+     "name": "RBI Academy",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121"
+    }
+   ],
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7121-rbi-academy.jpeg?v=1"
+  },
+  {
    "id": "otc:7284",
    "name": "LBA Naturals - Black",
    "city": "Schriever",
@@ -4065,7 +4065,7 @@
    "rank": 32,
    "level": "AAA",
    "levelRank": 11,
-   "rating": 0.5351,
+   "rating": 0.5352,
    "sos": 0.6882,
    "wins": 1,
    "losses": 2,
@@ -4143,33 +4143,6 @@
    ]
   },
   {
-   "id": "otc:7121",
-   "name": "RBI Academy",
-   "city": "Covington",
-   "state": "LA",
-   "age": 12,
-   "rank": 33,
-   "level": "AAA",
-   "levelRank": 16,
-   "rating": 0.5325,
-   "sos": 0.6493,
-   "wins": 3,
-   "losses": 4,
-   "ties": 0,
-   "runsFor": 36,
-   "runsAgainst": 36,
-   "sources": [
-    {
-     "key": "otc:7121",
-     "source": "otc",
-     "name": "RBI Academy",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121"
-    }
-   ],
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7121-rbi-academy.jpeg?v=1"
-  },
-  {
    "id": "2d:0e7eadac-93e1-4cad-8002-d10fb2f4ae34",
    "name": "Knights Knation New Orleans",
    "city": "Mandiville",
@@ -4228,11 +4201,11 @@
    "city": "Franklinton",
    "state": "LA",
    "age": 12,
-   "rank": 34,
+   "rank": 33,
    "level": "AA",
    "levelRank": 18,
-   "rating": 0.5288,
-   "sos": 0.5431,
+   "rating": 0.5291,
+   "sos": 0.5436,
    "wins": 2,
    "losses": 2,
    "ties": 0,
@@ -4245,6 +4218,32 @@
      "name": "Elite Baseball",
      "ageClass": "12u AA",
      "url": "https://youth.2dsports.org/team/details/2026-27-season/04af44f9-6d10-41e1-aaa8-00cc34e97f17"
+    }
+   ]
+  },
+  {
+   "id": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+   "name": "Knights Knation 12u Wallet",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "age": 12,
+   "rank": 34,
+   "level": null,
+   "levelRank": null,
+   "rating": 0.527,
+   "sos": 0.7117,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 23,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "key": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
+     "source": "2d",
+     "name": "Knights Knation 12u Wallet",
+     "ageClass": "12u Open",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/150f0cbe-01c2-4e7c-9baf-59fc74d9c827"
     }
    ]
   },
@@ -4275,32 +4274,6 @@
    ]
   },
   {
-   "id": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
-   "name": "Knights Knation 12u Wallet",
-   "city": "Baton Rouge",
-   "state": "LA",
-   "age": 12,
-   "rank": 35,
-   "level": null,
-   "levelRank": null,
-   "rating": 0.5246,
-   "sos": 0.7076,
-   "wins": 1,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 23,
-   "runsAgainst": 18,
-   "sources": [
-    {
-     "key": "2d:150f0cbe-01c2-4e7c-9baf-59fc74d9c827",
-     "source": "2d",
-     "name": "Knights Knation 12u Wallet",
-     "ageClass": "12u Open",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/150f0cbe-01c2-4e7c-9baf-59fc74d9c827"
-    }
-   ]
-  },
-  {
    "id": "otc:7034",
    "name": "Mandeville Revolution",
    "city": "Mandeville",
@@ -4309,8 +4282,8 @@
    "rank": 33,
    "level": "AAA",
    "levelRank": 12,
-   "rating": 0.5239,
-   "sos": 0.3998,
+   "rating": 0.5241,
+   "sos": 0.3999,
    "wins": 8,
    "losses": 4,
    "ties": 0,
@@ -4360,7 +4333,7 @@
    "city": "Deridder",
    "state": "LA",
    "age": 12,
-   "rank": 36,
+   "rank": 35,
    "level": "AA",
    "levelRank": 19,
    "rating": 0.5219,
@@ -4386,7 +4359,7 @@
    "city": "Lake Charles",
    "state": "LA",
    "age": 12,
-   "rank": 37,
+   "rank": 36,
    "level": "AA",
    "levelRank": 20,
    "rating": 0.5218,
@@ -4406,6 +4379,73 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/thunder-68d0810df3399.webp"
+  },
+  {
+   "id": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+   "name": "Crescent City Wave",
+   "city": "Metairie",
+   "state": "LA",
+   "age": 12,
+   "rank": 37,
+   "level": "AAA",
+   "levelRank": 16,
+   "rating": 0.5206,
+   "sos": 0.575,
+   "wins": 4,
+   "losses": 5,
+   "ties": 1,
+   "runsFor": 49,
+   "runsAgainst": 65,
+   "sources": [
+    {
+     "key": "otc:7022",
+     "source": "otc",
+     "name": "Crescent City Wave",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7022"
+    },
+    {
+     "key": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+     "source": "2d",
+     "name": "Crescent City Wave",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/39f39ebd-7b16-4bff-bd75-b9b008949abc"
+    },
+    {
+     "key": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+     "source": "2d",
+     "name": "Cresent City Wave",
+     "ageClass": "12u AAA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/a590e88c-231e-46ab-9fad-041cc42b4f36"
+    }
+   ],
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7022-crescent-city-wave.jpg?v=1"
+  },
+  {
+   "id": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+   "name": "Ironclad Elite Black 12u",
+   "city": "Poplarville",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AA",
+   "levelRank": null,
+   "rating": 0.5193,
+   "sos": 0.5981,
+   "wins": 4,
+   "losses": 6,
+   "ties": 0,
+   "runsFor": 58,
+   "runsAgainst": 52,
+   "sources": [
+    {
+     "key": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
+     "source": "2d",
+     "name": "Ironclad Elite Black 12u",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/93ae2a2d-aaa7-4b33-a4ae-c50ffdace497"
+    }
+   ]
   },
   {
    "id": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
@@ -4460,16 +4500,42 @@
    ]
   },
   {
+   "id": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+   "name": "Metry Mets 12U",
+   "city": "Metairie",
+   "state": "LA",
+   "age": 12,
+   "rank": 40,
+   "level": "AA",
+   "levelRank": 22,
+   "rating": 0.5162,
+   "sos": 0.6937,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 19,
+   "sources": [
+    {
+     "key": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
+     "source": "2d",
+     "name": "Metry Mets 12U",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/d31fea5f-03fd-4d22-bb0b-f6bed73a8b73"
+    }
+   ]
+  },
+  {
    "id": "2d:64b4df98-b487-4bd1-95be-1f807a9d514f",
    "name": "Team Louisiana North - Newton",
    "city": "Monroe",
    "state": "LA",
    "age": 12,
-   "rank": 40,
+   "rank": 41,
    "level": "AAA",
    "levelRank": 17,
-   "rating": 0.5154,
-   "sos": 0.5864,
+   "rating": 0.5149,
+   "sos": 0.5858,
    "wins": 3,
    "losses": 3,
    "ties": 0,
@@ -4485,32 +4551,6 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/team-louisiana-ne---newton-65495b970a4d4.jpeg"
-  },
-  {
-   "id": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
-   "name": "Ironclad Elite Black 12u",
-   "city": "Poplarville",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AA",
-   "levelRank": null,
-   "rating": 0.5131,
-   "sos": 0.5921,
-   "wins": 4,
-   "losses": 6,
-   "ties": 0,
-   "runsFor": 58,
-   "runsAgainst": 52,
-   "sources": [
-    {
-     "key": "2d:93ae2a2d-aaa7-4b33-a4ae-c50ffdace497",
-     "source": "2d",
-     "name": "Ironclad Elite Black 12u",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/93ae2a2d-aaa7-4b33-a4ae-c50ffdace497"
-    }
-   ]
   },
   {
    "id": "2d:77a7ceeb-b284-4025-8940-59192e8261e7",
@@ -4565,32 +4605,6 @@
    ]
   },
   {
-   "id": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
-   "name": "Metry Mets 12U",
-   "city": "Metairie",
-   "state": "LA",
-   "age": 12,
-   "rank": 41,
-   "level": "AA",
-   "levelRank": 22,
-   "rating": 0.5124,
-   "sos": 0.6873,
-   "wins": 1,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 12,
-   "runsAgainst": 19,
-   "sources": [
-    {
-     "key": "2d:d31fea5f-03fd-4d22-bb0b-f6bed73a8b73",
-     "source": "2d",
-     "name": "Metry Mets 12U",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/d31fea5f-03fd-4d22-bb0b-f6bed73a8b73"
-    }
-   ]
-  },
-  {
    "id": "otc:7132",
    "name": "New Orleans Naturals - Blue",
    "city": "New Orleans",
@@ -4600,7 +4614,7 @@
    "level": "AAA",
    "levelRank": 18,
    "rating": 0.5118,
-   "sos": 0.6884,
+   "sos": 0.6885,
    "wins": 1,
    "losses": 2,
    "ties": 1,
@@ -4678,7 +4692,7 @@
    "level": "AA",
    "levelRank": null,
    "rating": 0.5078,
-   "sos": 0.6106,
+   "sos": 0.6105,
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -4756,8 +4770,8 @@
    "rank": 43,
    "level": "AA",
    "levelRank": 23,
-   "rating": 0.5016,
-   "sos": 0.6694,
+   "rating": 0.5019,
+   "sos": 0.6699,
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -4782,8 +4796,8 @@
    "rank": 44,
    "level": "AA",
    "levelRank": 24,
-   "rating": 0.4961,
-   "sos": 0.2807,
+   "rating": 0.4962,
+   "sos": 0.2808,
    "wins": 5,
    "losses": 2,
    "ties": 0,
@@ -4825,6 +4839,33 @@
      "url": "https://youth.2dsports.org/team/details/2026-27-season/c354dc33-4fa4-4065-a7a8-599f68320fc5"
     }
    ]
+  },
+  {
+   "id": "otc:6987",
+   "name": "Red Stick Select",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "age": 12,
+   "rank": 45,
+   "level": "AAA",
+   "levelRank": 19,
+   "rating": 0.4945,
+   "sos": 0.6587,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 23,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "key": "otc:6987",
+     "source": "otc",
+     "name": "Red Stick Select",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6987"
+    }
+   ],
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6987-red-stick-select.jpg?v=1"
   },
   {
    "id": "2d:585b01f6-1e3d-4f65-92f4-c9310c85dff3",
@@ -4960,40 +5001,6 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/pack-12u-oliver-68a20ed174414.png"
   },
   {
-   "id": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
-   "name": "Crescent City Wave",
-   "city": "Metairie",
-   "state": "LA",
-   "age": 12,
-   "rank": 45,
-   "level": "AAA",
-   "levelRank": 19,
-   "rating": 0.4857,
-   "sos": 0.4867,
-   "wins": 3,
-   "losses": 3,
-   "ties": 1,
-   "runsFor": 40,
-   "runsAgainst": 44,
-   "sources": [
-    {
-     "key": "otc:7022",
-     "source": "otc",
-     "name": "Crescent City Wave",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7022"
-    },
-    {
-     "key": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
-     "source": "2d",
-     "name": "Crescent City Wave",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/39f39ebd-7b16-4bff-bd75-b9b008949abc"
-    }
-   ],
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7022-crescent-city-wave.jpg?v=1"
-  },
-  {
    "id": "2d:592e333d-ce39-4fc0-8059-fadffa4cfaa7",
    "name": "Tornado Athletics Blue 13u",
    "city": "Sulphur",
@@ -5046,33 +5053,6 @@
    ]
   },
   {
-   "id": "otc:6987",
-   "name": "Red Stick Select",
-   "city": "Baton Rouge",
-   "state": "LA",
-   "age": 12,
-   "rank": 46,
-   "level": "AAA",
-   "levelRank": 20,
-   "rating": 0.484,
-   "sos": 0.6435,
-   "wins": 1,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 23,
-   "runsAgainst": 23,
-   "sources": [
-    {
-     "key": "otc:6987",
-     "source": "otc",
-     "name": "Red Stick Select",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/6987"
-    }
-   ],
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6987-red-stick-select.jpg?v=1"
-  },
-  {
    "id": "2d:2721f693-7329-4ac1-8ddb-f14ae73f3a39",
    "name": "Canes Allen",
    "city": "Brandon",
@@ -5081,8 +5061,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.4833,
-   "sos": 0.4805,
+   "rating": 0.4829,
+   "sos": 0.4801,
    "wins": 6,
    "losses": 6,
    "ties": 0,
@@ -5178,6 +5158,33 @@
    ]
   },
   {
+   "id": "otc:7133",
+   "name": "LA Outlaws",
+   "city": "Walker",
+   "state": "LA",
+   "age": 12,
+   "rank": 46,
+   "level": "AAA",
+   "levelRank": 20,
+   "rating": 0.4757,
+   "sos": 0.6315,
+   "wins": 1,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 8,
+   "runsAgainst": 18,
+   "sources": [
+    {
+     "key": "otc:7133",
+     "source": "otc",
+     "name": "LA Outlaws",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7133"
+    }
+   ],
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7133-la-outlaws.png?v=1"
+  },
+  {
    "id": "otc:7056",
    "name": "Mudbugs",
    "city": "Jefferson",
@@ -5212,8 +5219,8 @@
    "rank": 48,
    "level": "AA",
    "levelRank": 26,
-   "rating": 0.4735,
-   "sos": 0.5459,
+   "rating": 0.4736,
+   "sos": 0.546,
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -5265,8 +5272,8 @@
    "rank": 40,
    "level": "AAA",
    "levelRank": 14,
-   "rating": 0.4732,
-   "sos": 0.4839,
+   "rating": 0.4733,
+   "sos": 0.484,
    "wins": 2,
    "losses": 2,
    "ties": 0,
@@ -5282,33 +5289,6 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/southern-dynasty-63dd526cdc4a6.jpeg"
-  },
-  {
-   "id": "otc:7133",
-   "name": "LA Outlaws",
-   "city": "Walker",
-   "state": "LA",
-   "age": 12,
-   "rank": 49,
-   "level": "AAA",
-   "levelRank": 21,
-   "rating": 0.4724,
-   "sos": 0.6269,
-   "wins": 1,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 8,
-   "runsAgainst": 18,
-   "sources": [
-    {
-     "key": "otc:7133",
-     "source": "otc",
-     "name": "LA Outlaws",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7133"
-    }
-   ],
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7133-la-outlaws.png?v=1"
   },
   {
    "id": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
@@ -5345,8 +5325,8 @@
    "rank": 41,
    "level": "AAA",
    "levelRank": 15,
-   "rating": 0.4687,
-   "sos": 0.6215,
+   "rating": 0.4688,
+   "sos": 0.6216,
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -5372,8 +5352,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.4617,
-   "sos": 0.4093,
+   "rating": 0.4613,
+   "sos": 0.4088,
    "wins": 6,
    "losses": 5,
    "ties": 0,
@@ -5395,11 +5375,11 @@
    "city": "Houma",
    "state": "LA",
    "age": 12,
-   "rank": 50,
+   "rank": 49,
    "level": "AA",
    "levelRank": 27,
-   "rating": 0.4598,
-   "sos": 0.5647,
+   "rating": 0.4599,
+   "sos": 0.5648,
    "wins": 1,
    "losses": 2,
    "ties": 1,
@@ -5422,11 +5402,11 @@
    "city": "Benton",
    "state": "LA",
    "age": 12,
-   "rank": 51,
+   "rank": 50,
    "level": "AA",
    "levelRank": 28,
-   "rating": 0.4589,
-   "sos": 0.6187,
+   "rating": 0.4587,
+   "sos": 0.6185,
    "wins": 1,
    "losses": 3,
    "ties": 0,
@@ -5477,8 +5457,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.4562,
-   "sos": 0.4906,
+   "rating": 0.4558,
+   "sos": 0.4902,
    "wins": 5,
    "losses": 6,
    "ties": 1,
@@ -5601,6 +5581,32 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/la-diamond-cutters-11u-66cd24c46b555.webp"
   },
   {
+   "id": "otc:7158",
+   "name": "Slidell Raptors",
+   "city": "Slidell",
+   "state": "LA",
+   "age": 12,
+   "rank": 51,
+   "level": "AA",
+   "levelRank": 29,
+   "rating": 0.4425,
+   "sos": 0.59,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 31,
+   "runsAgainst": 43,
+   "sources": [
+    {
+     "key": "otc:7158",
+     "source": "otc",
+     "name": "Slidell Raptors",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158"
+    }
+   ]
+  },
+  {
    "id": "2d:8cd24458-29a2-4029-b808-29bdab3f3b76",
    "name": "Elite Baseball",
    "city": "Franklinton",
@@ -5627,38 +5633,12 @@
    ]
   },
   {
-   "id": "otc:7158",
-   "name": "Slidell Raptors",
-   "city": "Slidell",
-   "state": "LA",
-   "age": 12,
-   "rank": 52,
-   "level": "AA",
-   "levelRank": 29,
-   "rating": 0.4423,
-   "sos": 0.5897,
-   "wins": 2,
-   "losses": 4,
-   "ties": 0,
-   "runsFor": 31,
-   "runsAgainst": 43,
-   "sources": [
-    {
-     "key": "otc:7158",
-     "source": "otc",
-     "name": "Slidell Raptors",
-     "ageClass": "12U-AA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158"
-    }
-   ]
-  },
-  {
    "id": "2d:cfe6f0dd-a6f7-43c5-be60-95f896db6908",
    "name": "Tornado Athletics Blue",
    "city": "Sulphur",
    "state": "LA",
    "age": 12,
-   "rank": 53,
+   "rank": 52,
    "level": "AA",
    "levelRank": 30,
    "rating": 0.4406,
@@ -5732,6 +5712,33 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/la-tribe-6a729cbea3dad.png"
   },
   {
+   "id": "otc:7018",
+   "name": "Tri-City Sluggers",
+   "city": "Morgan City",
+   "state": "LA",
+   "age": 12,
+   "rank": 53,
+   "level": "AA",
+   "levelRank": 31,
+   "rating": 0.4368,
+   "sos": 0.3947,
+   "wins": 1,
+   "losses": 1,
+   "ties": 1,
+   "runsFor": 17,
+   "runsAgainst": 20,
+   "sources": [
+    {
+     "key": "otc:7018",
+     "source": "otc",
+     "name": "Tri-City Sluggers",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018"
+    }
+   ],
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7018-tri-city-sluggers.jpg?v=1"
+  },
+  {
    "id": "2d:453f021c-0082-4448-a369-d5408f93f8d9",
    "name": "Texas Cannons",
    "city": "Longview",
@@ -5756,33 +5763,6 @@
      "url": "https://youth.2dsports.org/team/details/2026-27-season/453f021c-0082-4448-a369-d5408f93f8d9"
     }
    ]
-  },
-  {
-   "id": "otc:7018",
-   "name": "Tri-City Sluggers",
-   "city": "Morgan City",
-   "state": "LA",
-   "age": 12,
-   "rank": 54,
-   "level": "AA",
-   "levelRank": 31,
-   "rating": 0.4368,
-   "sos": 0.3946,
-   "wins": 1,
-   "losses": 1,
-   "ties": 1,
-   "runsFor": 17,
-   "runsAgainst": 20,
-   "sources": [
-    {
-     "key": "otc:7018",
-     "source": "otc",
-     "name": "Tri-City Sluggers",
-     "ageClass": "12U-AA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018"
-    }
-   ],
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7018-tri-city-sluggers.jpg?v=1"
   },
   {
    "id": "2d:715c7751-7eb1-4930-946a-5407c8b948fd",
@@ -5870,11 +5850,11 @@
    "city": "Ponchatoula",
    "state": "LA",
    "age": 12,
-   "rank": 55,
+   "rank": 54,
    "level": "AA",
    "levelRank": 32,
    "rating": 0.4327,
-   "sos": 0.342,
+   "sos": 0.3421,
    "wins": 4,
    "losses": 3,
    "ties": 0,
@@ -5890,6 +5870,32 @@
     }
    ],
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7131-stitches.jpg?v=7"
+  },
+  {
+   "id": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+   "name": "Tsunami 12u Watch",
+   "city": "Gonzales",
+   "state": "LA",
+   "age": 12,
+   "rank": 55,
+   "level": "AA",
+   "levelRank": 33,
+   "rating": 0.4288,
+   "sos": 0.4799,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "runsFor": 47,
+   "runsAgainst": 58,
+   "sources": [
+    {
+     "key": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
+     "source": "2d",
+     "name": "Tsunami 12u Watch",
+     "ageClass": "12u AA",
+     "url": "https://youth.2dsports.org/team/details/2026-27-season/c08807d7-7ae3-4eb7-8b60-46abfb93aa1b"
+    }
+   ]
   },
   {
    "id": "2d:68722eb2-fd68-4e27-af05-6b561ed45e34",
@@ -5967,32 +5973,6 @@
      "name": "La Bulls Allison",
      "ageClass": "13U-AAA 54/80",
      "url": "https://offthecrosssports.com/Baseball/Teams/Details/7145"
-    }
-   ]
-  },
-  {
-   "id": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
-   "name": "Tsunami 12u Watch",
-   "city": "Gonzales",
-   "state": "LA",
-   "age": 12,
-   "rank": 56,
-   "level": "AA",
-   "levelRank": 33,
-   "rating": 0.4278,
-   "sos": 0.4787,
-   "wins": 3,
-   "losses": 4,
-   "ties": 0,
-   "runsFor": 47,
-   "runsAgainst": 58,
-   "sources": [
-    {
-     "key": "2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b",
-     "source": "2d",
-     "name": "Tsunami 12u Watch",
-     "ageClass": "12u AA",
-     "url": "https://youth.2dsports.org/team/details/2026-27-season/c08807d7-7ae3-4eb7-8b60-46abfb93aa1b"
     }
    ]
   },
@@ -6083,9 +6063,9 @@
    "city": "Shreveport",
    "state": "LA",
    "age": 12,
-   "rank": 57,
+   "rank": 56,
    "level": "AAA",
-   "levelRank": 22,
+   "levelRank": 21,
    "rating": 0.4225,
    "sos": 0.7075,
    "wins": 1,
@@ -6217,7 +6197,7 @@
    "level": "AA",
    "levelRank": 31,
    "rating": 0.4145,
-   "sos": 0.6217,
+   "sos": 0.6218,
    "wins": 1,
    "losses": 3,
    "ties": 0,
@@ -6242,8 +6222,8 @@
    "rank": null,
    "level": "AAA",
    "levelRank": null,
-   "rating": 0.4103,
-   "sos": 0.5291,
+   "rating": 0.4104,
+   "sos": 0.5292,
    "wins": 2,
    "losses": 3,
    "ties": 0,
@@ -6344,9 +6324,9 @@
    "city": "Shreveport",
    "state": "LA",
    "age": 12,
-   "rank": 58,
+   "rank": 57,
    "level": "AAA",
-   "levelRank": 23,
+   "levelRank": 22,
    "rating": 0.402,
    "sos": 0.6085,
    "wins": 1,
@@ -6397,11 +6377,11 @@
    "city": "Ponchatoula",
    "state": "LA",
    "age": 12,
-   "rank": 59,
+   "rank": 58,
    "level": "AA",
    "levelRank": 34,
-   "rating": 0.3992,
-   "sos": 0.4589,
+   "rating": 0.3995,
+   "sos": 0.4593,
    "wins": 2,
    "losses": 3,
    "ties": 0,
@@ -6424,11 +6404,11 @@
    "city": "Denham Springs",
    "state": "LA",
    "age": 12,
-   "rank": 60,
+   "rank": 59,
    "level": "AA",
    "levelRank": 35,
-   "rating": 0.3985,
-   "sos": 0.3204,
+   "rating": 0.3986,
+   "sos": 0.3205,
    "wins": 5,
    "losses": 4,
    "ties": 0,
@@ -6444,6 +6424,32 @@
     }
    ],
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6958-bobcats.png?v=1"
+  },
+  {
+   "id": "otc:7003",
+   "name": "Deleted",
+   "city": "Westwego",
+   "state": "LA",
+   "age": 12,
+   "rank": 60,
+   "level": "AA",
+   "levelRank": 36,
+   "rating": 0.3954,
+   "sos": 0.3431,
+   "wins": 2,
+   "losses": 2,
+   "ties": 0,
+   "runsFor": 18,
+   "runsAgainst": 25,
+   "sources": [
+    {
+     "key": "otc:7003",
+     "source": "otc",
+     "name": "Deleted",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003"
+    }
+   ]
   },
   {
    "id": "2d:c215de14-c9d9-46b3-8520-f21490ab838e",
@@ -6471,32 +6477,6 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/louisiana-elite-69d323caf278f.png"
-  },
-  {
-   "id": "otc:7003",
-   "name": "Deleted",
-   "city": "Westwego",
-   "state": "LA",
-   "age": 12,
-   "rank": 61,
-   "level": "AA",
-   "levelRank": 36,
-   "rating": 0.3952,
-   "sos": 0.3428,
-   "wins": 2,
-   "losses": 2,
-   "ties": 0,
-   "runsFor": 18,
-   "runsAgainst": 25,
-   "sources": [
-    {
-     "key": "otc:7003",
-     "source": "otc",
-     "name": "Deleted",
-     "ageClass": "12U-AA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003"
-    }
-   ]
   },
   {
    "id": "otc:7167",
@@ -6716,11 +6696,11 @@
    "city": "Walker",
    "state": "LA",
    "age": 12,
-   "rank": 62,
+   "rank": 61,
    "level": "AA",
    "levelRank": 37,
-   "rating": 0.3669,
-   "sos": 0.4003,
+   "rating": 0.367,
+   "sos": 0.4004,
    "wins": 3,
    "losses": 4,
    "ties": 0,
@@ -6769,11 +6749,11 @@
    "city": "Westwego",
    "state": "LA",
    "age": 12,
-   "rank": 63,
+   "rank": 62,
    "level": "AA",
    "levelRank": 38,
-   "rating": 0.3637,
-   "sos": 0.485,
+   "rating": 0.3639,
+   "sos": 0.4852,
    "wins": 2,
    "losses": 4,
    "ties": 0,
@@ -6876,7 +6856,7 @@
    "city": "New Iberia",
    "state": "LA",
    "age": 12,
-   "rank": 64,
+   "rank": 63,
    "level": "AA",
    "levelRank": 39,
    "rating": 0.3501,
@@ -6903,11 +6883,11 @@
    "city": "Pine Grove",
    "state": "LA",
    "age": 12,
-   "rank": 65,
+   "rank": 64,
    "level": "AA",
    "levelRank": 40,
-   "rating": 0.3498,
-   "sos": 0.3123,
+   "rating": 0.35,
+   "sos": 0.3125,
    "wins": 4,
    "losses": 4,
    "ties": 0,
@@ -7012,8 +6992,8 @@
    "rank": 54,
    "level": "AAA",
    "levelRank": 16,
-   "rating": 0.3456,
-   "sos": 0.5442,
+   "rating": 0.3457,
+   "sos": 0.5443,
    "wins": 1,
    "losses": 3,
    "ties": 0,
@@ -7408,11 +7388,11 @@
    "city": "Denham Springs",
    "state": "LA",
    "age": 12,
-   "rank": 66,
+   "rank": 65,
    "level": "AA",
    "levelRank": 41,
-   "rating": 0.3271,
-   "sos": 0.3785,
+   "rating": 0.3272,
+   "sos": 0.3786,
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -7487,11 +7467,11 @@
    "city": "Raceland",
    "state": "LA",
    "age": 12,
-   "rank": 67,
+   "rank": 66,
    "level": "AA",
    "levelRank": 42,
-   "rating": 0.3178,
-   "sos": 0.5297,
+   "rating": 0.3179,
+   "sos": 0.5298,
    "wins": 0,
    "losses": 2,
    "ties": 1,
@@ -7514,11 +7494,11 @@
    "city": "Kenner",
    "state": "LA",
    "age": 12,
-   "rank": 68,
+   "rank": 67,
    "level": "AA",
    "levelRank": 43,
-   "rating": 0.3126,
-   "sos": 0.5448,
+   "rating": 0.3127,
+   "sos": 0.5449,
    "wins": 1,
    "losses": 5,
    "ties": 1,
@@ -7543,8 +7523,8 @@
    "rank": 61,
    "level": "AAA",
    "levelRank": 18,
-   "rating": 0.3044,
-   "sos": 0.4916,
+   "rating": 0.3045,
+   "sos": 0.4917,
    "wins": 2,
    "losses": 4,
    "ties": 0,
@@ -7567,7 +7547,7 @@
    "city": "New Iberia",
    "state": "LA",
    "age": 12,
-   "rank": 69,
+   "rank": 68,
    "level": "AA",
    "levelRank": 44,
    "rating": 0.3043,
@@ -7667,6 +7647,32 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/sandlot-baseball-painter-6a64f250ef1a5.webp"
   },
   {
+   "id": "otc:7061",
+   "name": "St Bernard Braves",
+   "city": "Meraux",
+   "state": "LA",
+   "age": 12,
+   "rank": 69,
+   "level": "AAA",
+   "levelRank": 23,
+   "rating": 0.2893,
+   "sos": 0.6957,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 10,
+   "runsAgainst": 27,
+   "sources": [
+    {
+     "key": "otc:7061",
+     "source": "otc",
+     "name": "St Bernard Braves",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061"
+    }
+   ]
+  },
+  {
    "id": "2d:c24dfa77-ce04-4058-a2f6-0fcf90640753",
    "name": "Backyard Ballers SETX 14u Black",
    "city": "Montgomery",
@@ -7702,7 +7708,7 @@
    "level": "AAA",
    "levelRank": 19,
    "rating": 0.2842,
-   "sos": 0.6233,
+   "sos": 0.6234,
    "wins": 1,
    "losses": 6,
    "ties": 0,
@@ -7780,32 +7786,6 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/lap-louisiana-pirates-6a221401e4bcf.webp"
   },
   {
-   "id": "otc:7061",
-   "name": "St Bernard Braves",
-   "city": "Meraux",
-   "state": "LA",
-   "age": 12,
-   "rank": 71,
-   "level": "AAA",
-   "levelRank": 24,
-   "rating": 0.2793,
-   "sos": 0.6813,
-   "wins": 0,
-   "losses": 3,
-   "ties": 0,
-   "runsFor": 10,
-   "runsAgainst": 27,
-   "sources": [
-    {
-     "key": "otc:7061",
-     "source": "otc",
-     "name": "St Bernard Braves",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061"
-    }
-   ]
-  },
-  {
    "id": "2d:c7b3903e-fe1b-4f96-9031-189f504c2343",
    "name": "Louisiana Lightning",
    "city": "Natchitoches",
@@ -7841,8 +7821,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.2747,
-   "sos": 0.533,
+   "rating": 0.2746,
+   "sos": 0.5328,
    "wins": 1,
    "losses": 5,
    "ties": 0,
@@ -7890,11 +7870,11 @@
    "city": "Bossier",
    "state": "LA",
    "age": 12,
-   "rank": 72,
+   "rank": 71,
    "level": "AA",
    "levelRank": 46,
-   "rating": 0.2705,
-   "sos": 0.6175,
+   "rating": 0.2708,
+   "sos": 0.6181,
    "wins": 0,
    "losses": 3,
    "ties": 0,
@@ -7910,6 +7890,32 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/la-drillers-6a763e61b21c3.webp"
+  },
+  {
+   "id": "otc:7012",
+   "name": "MS Jays",
+   "city": "Mccomb",
+   "state": "MS",
+   "age": 12,
+   "rank": null,
+   "level": "AA",
+   "levelRank": null,
+   "rating": 0.27,
+   "sos": 0.6166,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 14,
+   "runsAgainst": 31,
+   "sources": [
+    {
+     "key": "otc:7012",
+     "source": "otc",
+     "name": "MS Jays",
+     "ageClass": "12U-AA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7012"
+    }
+   ]
   },
   {
    "id": "2d:0d51ea14-6a54-4eef-9aaf-9f3f43da4a21",
@@ -7963,32 +7969,6 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/la-outlaws-11u-6a6e480fb13bb.png"
-  },
-  {
-   "id": "otc:7012",
-   "name": "MS Jays",
-   "city": "Mccomb",
-   "state": "MS",
-   "age": 12,
-   "rank": null,
-   "level": "AA",
-   "levelRank": null,
-   "rating": 0.2681,
-   "sos": 0.6134,
-   "wins": 0,
-   "losses": 3,
-   "ties": 0,
-   "runsFor": 14,
-   "runsAgainst": 31,
-   "sources": [
-    {
-     "key": "otc:7012",
-     "source": "otc",
-     "name": "MS Jays",
-     "ageClass": "12U-AA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7012"
-    }
-   ]
   },
   {
    "id": "2d:a231c5e4-4f3e-44e1-ae7e-eaacd00b9529",
@@ -8051,8 +8031,8 @@
    "rank": null,
    "level": "AA",
    "levelRank": null,
-   "rating": 0.2602,
-   "sos": 0.4702,
+   "rating": 0.2603,
+   "sos": 0.4704,
    "wins": 3,
    "losses": 9,
    "ties": 0,
@@ -8075,11 +8055,11 @@
    "city": "New Orleans",
    "state": "LA",
    "age": 12,
-   "rank": 73,
+   "rank": 72,
    "level": "AA",
    "levelRank": 47,
-   "rating": 0.2592,
-   "sos": 0.5986,
+   "rating": 0.2599,
+   "sos": 0.5999,
    "wins": 0,
    "losses": 3,
    "ties": 0,
@@ -8181,11 +8161,11 @@
    "city": "Gonzales",
    "state": "LA",
    "age": 12,
-   "rank": 74,
+   "rank": 73,
    "level": "AA",
    "levelRank": 48,
-   "rating": 0.2441,
-   "sos": 0.6589,
+   "rating": 0.2454,
+   "sos": 0.6605,
    "wins": 0,
    "losses": 6,
    "ties": 0,
@@ -8208,7 +8188,7 @@
    "city": "Lake Charles",
    "state": "LA",
    "age": 12,
-   "rank": 75,
+   "rank": 74,
    "level": "AA",
    "levelRank": 49,
    "rating": 0.2406,
@@ -8235,7 +8215,7 @@
    "city": "Kenner",
    "state": "LA",
    "age": 12,
-   "rank": 76,
+   "rank": 75,
    "level": "AA",
    "levelRank": 50,
    "rating": 0.2401,
@@ -8288,7 +8268,7 @@
    "city": "New Orleans",
    "state": "LA",
    "age": 12,
-   "rank": 77,
+   "rank": 76,
    "level": "AA",
    "levelRank": 51,
    "rating": 0.2385,
@@ -8340,11 +8320,11 @@
    "city": "Gonzales",
    "state": "LA",
    "age": 12,
-   "rank": 78,
+   "rank": 77,
    "level": "AA",
    "levelRank": 52,
-   "rating": 0.2371,
-   "sos": 0.3845,
+   "rating": 0.2372,
+   "sos": 0.3846,
    "wins": 3,
    "losses": 7,
    "ties": 0,
@@ -8420,11 +8400,11 @@
    "city": "Slidell",
    "state": "LA",
    "age": 12,
-   "rank": 79,
+   "rank": 78,
    "level": "AA",
    "levelRank": 53,
-   "rating": 0.2317,
-   "sos": 0.4756,
+   "rating": 0.2316,
+   "sos": 0.4754,
    "wins": 1,
    "losses": 5,
    "ties": 0,
@@ -8552,11 +8532,11 @@
    "city": "Shreveport",
    "state": "LA",
    "age": 12,
-   "rank": 80,
+   "rank": 79,
    "level": "AA",
    "levelRank": 54,
    "rating": 0.2086,
-   "sos": 0.5143,
+   "sos": 0.5144,
    "wins": 0,
    "losses": 3,
    "ties": 0,
@@ -8598,6 +8578,32 @@
     }
    ],
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/bayou-elite-2034-6a90595ebbe1c.png"
+  },
+  {
+   "id": "otc:7053",
+   "name": "Knights Knation - Pivach",
+   "city": "Mandeville",
+   "state": "LA",
+   "age": 12,
+   "rank": 80,
+   "level": "AAA",
+   "levelRank": 24,
+   "rating": 0.2043,
+   "sos": 0.5729,
+   "wins": 0,
+   "losses": 3,
+   "ties": 0,
+   "runsFor": 12,
+   "runsAgainst": 23,
+   "sources": [
+    {
+     "key": "otc:7053",
+     "source": "otc",
+     "name": "Knights Knation - Pivach",
+     "ageClass": "12U-AAA",
+     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053"
+    }
+   ]
   },
   {
    "id": "2d:469e4f59-99ad-4b76-b770-e39181a408f8",
@@ -8713,32 +8719,6 @@
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/etp-tribe-698f723ebbdbd.png"
   },
   {
-   "id": "otc:7053",
-   "name": "Knights Knation - Pivach",
-   "city": "Mandeville",
-   "state": "LA",
-   "age": 12,
-   "rank": 81,
-   "level": "AAA",
-   "levelRank": 25,
-   "rating": 0.1932,
-   "sos": 0.5568,
-   "wins": 0,
-   "losses": 3,
-   "ties": 0,
-   "runsFor": 12,
-   "runsAgainst": 23,
-   "sources": [
-    {
-     "key": "otc:7053",
-     "source": "otc",
-     "name": "Knights Knation - Pivach",
-     "ageClass": "12U-AAA",
-     "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053"
-    }
-   ]
-  },
-  {
    "id": "2d:c6dbfb44-e53b-4d94-8a34-8325a9aed0f4",
    "name": "Madisonville Braves",
    "city": "Madisonville",
@@ -8747,7 +8727,7 @@
    "rank": 72,
    "level": "AA",
    "levelRank": 53,
-   "rating": 0.1913,
+   "rating": 0.1912,
    "sos": 0.603,
    "wins": 0,
    "losses": 7,
@@ -8797,11 +8777,11 @@
    "city": "Jefferson",
    "state": "LA",
    "age": 12,
-   "rank": 82,
+   "rank": 81,
    "level": "AA",
    "levelRank": 55,
-   "rating": 0.1803,
-   "sos": 0.407,
+   "rating": 0.1804,
+   "sos": 0.4071,
    "wins": 1,
    "losses": 5,
    "ties": 0,
@@ -8851,7 +8831,7 @@
    "city": "Rayne",
    "state": "LA",
    "age": 12,
-   "rank": 83,
+   "rank": 82,
    "level": "AA",
    "levelRank": 56,
    "rating": 0.1714,
@@ -8958,11 +8938,11 @@
    "city": "St Amant",
    "state": "LA",
    "age": 12,
-   "rank": 84,
+   "rank": 83,
    "level": "AA",
    "levelRank": 57,
-   "rating": 0.1439,
-   "sos": 0.4065,
+   "rating": 0.1443,
+   "sos": 0.4072,
    "wins": 0,
    "losses": 3,
    "ties": 0,
@@ -9092,11 +9072,11 @@
    "city": "Covington",
    "state": "LA",
    "age": 12,
-   "rank": 85,
+   "rank": 84,
    "level": "AA",
    "levelRank": 58,
-   "rating": 0.0996,
-   "sos": 0.3327,
+   "rating": 0.0997,
+   "sos": 0.3328,
    "wins": 0,
    "losses": 3,
    "ties": 0,
@@ -9118,11 +9098,11 @@
    "city": "Baton Rouge",
    "state": "LA",
    "age": 12,
-   "rank": 86,
+   "rank": 85,
    "level": "AA",
    "levelRank": 59,
-   "rating": 0.0912,
-   "sos": 0.3892,
+   "rating": 0.0913,
+   "sos": 0.3893,
    "wins": 1,
    "losses": 8,
    "ties": 0,
@@ -9152,11 +9132,11 @@
    "city": "Lottie",
    "state": "LA",
    "age": 12,
-   "rank": 87,
+   "rank": 86,
    "level": "AA",
    "levelRank": 60,
-   "rating": 0.047,
-   "sos": 0.4463,
+   "rating": 0.0472,
+   "sos": 0.4466,
    "wins": 0,
    "losses": 9,
    "ties": 0,
@@ -9216,7 +9196,7 @@
    "source": "2d",
    "event": "Petal Fall Opener",
    "division": "12u Open",
-   "a": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "a": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
    "b": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
    "sa": 5,
    "sb": 4
@@ -9227,7 +9207,7 @@
    "event": "Petal Fall Opener",
    "division": "12u Open",
    "a": "2d:4d8739a6-cf20-4f8d-a681-5c4507dbb418",
-   "b": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "b": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
    "sa": 5,
    "sb": 4
   },
@@ -9327,7 +9307,7 @@
    "event": "Petal Fall Opener",
    "division": "12u Open",
    "a": "2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f",
-   "b": "2d:a590e88c-231e-46ab-9fad-041cc42b4f36",
+   "b": "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
    "sa": 12,
    "sb": 0
   },

@@ -7,11 +7,17 @@
     [
       "otc:7173",
       "2d:18ffe190-4206-4ec8-aeeb-337aebce2605"
+    ],
+    [
+      "otc:7022",
+      "2d:39f39ebd-7b16-4bff-bd75-b9b008949abc",
+      "2d:a590e88c-231e-46ab-9fad-041cc42b4f36"
     ]
   ],
   "split": [],
   "names": {
-    "otc:6967": "LA Bulls Black 12U - Howell"
+    "otc:6967": "LA Bulls Black 12U - Howell",
+    "2d:a590e88c-231e-46ab-9fad-041cc42b4f36": "Crescent City Wave"
   },
   "levels": {},
   "exclude": []
