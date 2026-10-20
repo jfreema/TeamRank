@@ -145,16 +145,20 @@ class _RankingsScreenState extends State<RankingsScreen> {
                           style: body(16),
                           decoration: InputDecoration(
                             prefixIcon: const Icon(Icons.search, color: Palette.ink),
-                            suffixIcon: _search.text.isEmpty
-                                ? null
-                                : IconButton(
-                                    tooltip: 'Clear search',
-                                    icon: const Icon(Icons.close_rounded, color: Palette.ink),
-                                    onPressed: () {
-                                      _search.clear();
-                                      _onSearch('');
-                                    },
-                                  ),
+                            // Shown as soon as there is text, before the search runs.
+                            suffixIcon: ListenableBuilder(
+                              listenable: _search,
+                              builder: (context, _) => _search.text.isEmpty
+                                  ? const SizedBox.shrink()
+                                  : IconButton(
+                                      tooltip: 'Clear search',
+                                      icon: const Icon(Icons.close_rounded, color: Palette.ink),
+                                      onPressed: () {
+                                        _search.clear();
+                                        _onSearch('');
+                                      },
+                                    ),
+                            ),
                             hintText: 'Search team or town',
                             hintStyle: body(16, weight: 600, color: Palette.ink.withValues(alpha: 0.5)),
                             filled: true,

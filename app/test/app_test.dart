@@ -60,12 +60,15 @@ void main() {
     await tester.enterText(find.byType(TextField), 'walker');
     await tester.pump();
     expect(find.text('Slidell Raptors'), findsOneWidget, reason: 'waits for a pause in typing');
+    expect(find.byTooltip('Clear search'), findsOneWidget, reason: 'the X shows right away');
     await tester.pump(const Duration(milliseconds: 600));
     await tester.pumpAndSettle();
     expect(find.text('Slidell Raptors'), findsNothing);
 
-    await tester.enterText(find.byType(TextField), '');
+    await tester.tap(find.byTooltip('Clear search'));
     await tester.pumpAndSettle();
+    expect(find.text('Slidell Raptors'), findsOneWidget, reason: 'the X clears at once');
+    expect(find.byTooltip('Clear search'), findsNothing);
     await tester.tap(find.text('Slidell Raptors'));
     await tester.pumpAndSettle();
     expect(find.text('Games (2)'), findsOneWidget);
