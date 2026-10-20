@@ -16,7 +16,7 @@ void main() {
 Future<RankingsData> loadRankings() async {
   final url = Uri.base.resolve('data/rankings.json');
   final res = await http.get(url.replace(queryParameters: {
-    // The nightly job replaces the file; skip stale browser caches.
+    // The update job replaces the file; skip stale browser caches.
     't': '${DateTime.now().millisecondsSinceEpoch ~/ 600000}',
   }));
   if (res.statusCode != 200) {

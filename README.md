@@ -66,7 +66,7 @@ The easiest way is the admin console at <https://teamrank-la.web.app/admin>.
 Sign in with Google (accounts listed in Firestore's `admins` collection) to
 link listings of the same team, split wrong matches, move a team between
 the AA and AAA / Majors lists, or rename it. Changes are saved to the
-Firestore `links` collection (free tier) and applied at the next nightly
+Firestore `links` collection (free tier) and applied at the next scheduled
 update.
 
 You can also edit `data/aliases.json` and push to `main`. The site
@@ -99,7 +99,7 @@ duplicates after each run.
 The site is live at <https://teamrank-la.web.app> (Firebase project
 `teamrank-la`, free Spark plan).
 
-The nightly workflow deploys with Workload Identity Federation: GitHub's
+The update workflow (Sat, Sun, Mon and Wed at 10 PM Central) deploys with Workload Identity Federation: GitHub's
 OIDC token is exchanged for short-lived credentials of the
 `github-deploy@teamrank-la.iam.gserviceaccount.com` service account, which
 only has the Firebase Hosting Admin and Service Usage Consumer roles and only accepts tokens from

@@ -1,12 +1,18 @@
 name: Update rankings
 
-# Nightly: scrape OTC and 2D, rebuild the rankings, commit the data, then
-# build the Flutter site and deploy it to Firebase Hosting.
+# Saturday, Sunday, Monday and Wednesday nights at 10 PM Central: scrape
+# OTC, 2D and Grand Slam, rebuild the rankings, commit the data, then build
+# the Flutter site and deploy it to Firebase Hosting.
 # A push to main redeploys without scraping (for example after editing
 # data/aliases.json).
 on:
   schedule:
-    - cron: "0 10 * * *" # 5:00 AM Central (CDT)
+    # GitHub schedules are in UTC. 10 PM Central is 03:00 UTC the next day
+    # during daylight saving time (CDT) and 04:00 UTC otherwise (CST), so
+    # both are scheduled (Sun, Mon, Tue and Thu in UTC) and the job skips
+    # the one that is not 10 PM in Chicago.
+    - cron: "0 3 * * 0,1,2,4" # 10 PM CDT
+    - cron: "0 4 * * 0,1,2,4" # 10 PM CST
   workflow_dispatch:
   push:
     branches: [main]
@@ -26,11 +32,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  when:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          zone=$(TZ=America/Chicago date +%Z)
+          run=true
+          if [ "$EVENT" = "schedule" ]; then
+            case "$SCHEDULE/$zone" in
+              "0 3 * * 0,1,2,4/CDT" | "0 4 * * 0,1,2,4/CST") ;;
+              *) run=false ;;
+            esac
+          fi
+          echo "Chicago is on $zone; run=$run"
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
   update:
+    needs: when
+    if: needs.when.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # Scheduled runs start from the repository's default branch; always
+      # work on main so the data commits land there.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: subosito/flutter-action@v2
         with:
@@ -69,7 +102,7 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update rankings data $(date -u +%Y-%m-%d)"
-            git push
+            git push origin HEAD:main
           fi
 
       - name: Build site

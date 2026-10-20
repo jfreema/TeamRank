@@ -19,7 +19,7 @@ const firebaseOptions = FirebaseOptions(
 /// The admin console at `/admin`: link listings of the same team across
 /// orgs, split wrong matches, rename teams and move them between the AA and
 /// AAA / Majors lists. Changes are saved to Firestore's `links` collection,
-/// and the nightly update applies them.
+/// and the next scheduled update applies them.
 class AdminScreen extends StatefulWidget {
   const AdminScreen({super.key, required this.loader});
 
@@ -189,7 +189,7 @@ class _Console extends StatelessWidget {
     });
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Saved. It takes effect at the next nightly update.')),
+        const SnackBar(content: Text('Saved. It takes effect at the next update (Sat, Sun, Mon or Wed night).')),
       );
     }
   }
