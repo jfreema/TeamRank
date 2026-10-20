@@ -36,9 +36,10 @@ class TeamLogo extends StatelessWidget {
         child: Image.network(
           logo,
           fit: BoxFit.contain,
-          // The orgs' image hosts don't send CORS headers, so let the browser
-          // draw these with a plain <img> element.
-          webHtmlElementStrategy: WebHtmlElementStrategy.fallback,
+          // The orgs' image hosts don't send CORS headers, so always let the
+          // browser draw these with a plain <img> element. Trying a fetch
+          // first fails on every logo, and some browsers then give up.
+          webHtmlElementStrategy: WebHtmlElementStrategy.prefer,
           errorBuilder: (_, _, _) => fallback,
         ),
       ),
