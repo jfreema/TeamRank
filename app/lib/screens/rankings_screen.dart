@@ -386,7 +386,7 @@ void showAboutRankings(BuildContext context) {
                     'It weighs who you beat, how strong their schedule was, head-to-head '
                     'results and run differential. Teams are listed by the age and class '
                     'they registered in, and only Louisiana teams are ranked.\n\n'
-                    'Updated every night.',
+                    'Updated weekly.',
                     style: body(15, weight: 600),
                   ),
                 ),
