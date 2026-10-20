@@ -13,11 +13,20 @@
     ],
     "headers": [
       {
-        "source": "/data/**",
+        "source": "**/*.@(html|js|mjs|wasm|json)",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "public, max-age=600"
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
           }
         ]
       }
