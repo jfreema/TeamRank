@@ -44,8 +44,8 @@ void main() {
   });
 
   test('a one-run win still counts as most of a win', () {
-    expect(winShare(3, 2), closeTo(0.82, 1e-9));
-    expect(winShare(2, 3), closeTo(0.18, 1e-9));
+    expect(winShare(3, 2), closeTo(0.64, 1e-9));
+    expect(winShare(2, 3), closeTo(0.36, 1e-9));
     expect(winShare(15, 0), 1);
     expect(winShare(4, 4), 0.5);
   });
@@ -121,7 +121,7 @@ void main() {
     final ratings = [0.5, 0.9, 0.3];
     final out = closeGameBonuses(ratings, [Result(0, 1, 9, 10), Result(0, 2, 9, 10), Result(0, 1, 2, 12)],
         maxBonus: 0.3);
-    expect(out[0].shareBonus, closeTo(0.2, 1e-9), reason: 'half the 0.4 gap');
+    expect(out[0].shareBonus, closeTo(0.13, 1e-9), reason: 'half the 0.4 gap, kept short of a tie');
     expect(out[1].shareBonus, closeTo(-0.1, 1e-9), reason: 'losing a close one to a weaker team');
     expect(out[2].shareBonus, 0, reason: 'blowouts get no bonus');
     expect(winShare(9, 10) + out[0].shareBonus, lessThan(0.5), reason: 'still a loss');

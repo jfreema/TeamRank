@@ -33,7 +33,7 @@ app/        Flutter web app that shows the rankings
    method. Every team's rating depends on who it beat and who those teams
    beat, so beating a strong team counts for a lot and beating a winless team
    barely counts. Run differential counts too (`winShare` in
-   `pipeline/lib/src/colley.dart`): a one-run win is 0.82 of a win, rising
+   `pipeline/lib/src/colley.dart`): a one-run win is 0.64 of a win (the loser keeps 0.36), rising
    to a full win at 10+ runs, with the loser keeping the rest. Out-of-state opponents count
    toward ratings, but only Louisiana teams are ranked.
    AA teams (including A) and AAA / Majors teams get separate lists, based on

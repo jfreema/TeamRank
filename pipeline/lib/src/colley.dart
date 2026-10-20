@@ -27,7 +27,7 @@ class Result {
 /// worth at least [baseWin] and the rest grows with the run differential up
 /// to [marginCap] runs, so winning matters most, winning big matters some,
 /// and running up the score past the cap gains nothing.
-const baseWin = 0.8, marginCap = 10;
+const baseWin = 0.6, marginCap = 10;
 
 double winShare(int scoreFor, int scoreAgainst) {
   final diff = scoreFor - scoreAgainst;
@@ -183,7 +183,7 @@ List<double> blendWithRecord(List<double> ratings, List<Result> results,
 /// down as the margin grows (full for a tie or one-run game, a third at
 /// three runs). A 9-10 loss to the best team in the state helps; a 9-10
 /// loss to a weak team does not. A loss is never turned into a win: the
-/// bonus stays below what a one-run game is worth.
+/// bonus stays just below what separates a one-run loss from a tie.
 // Off for now (Jared, 2026-10-20); 0.3 was the tested suggestion.
 const closeRuns = 3, maxCloseBonus = 0.0;
 
@@ -197,7 +197,9 @@ List<Result> closeGameBonuses(List<double> ratings, List<Result> results,
           final gap = ratings[r.b] - ratings[r.a]; // > 0 when A is the underdog
           final closeness =
               margin <= 1 ? 1.0 : (closeRuns + 1 - margin) / closeRuns;
-          final bonus = min(gap.abs() / 2, maxBonus) * closeness;
+          // Never enough to lift a one-run loss to a tie.
+          final room = winShare(1, 0) - 0.5 - 0.01;
+          final bonus = min(min(gap.abs() / 2, maxBonus), room) * closeness;
           return r.withBonus(gap > 0 ? bonus : -bonus);
         }()
     ];
