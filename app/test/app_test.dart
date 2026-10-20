@@ -58,6 +58,9 @@ void main() {
     expect(find.text('Mississippi Vice'), findsNothing, reason: 'out-of-state teams are not ranked');
 
     await tester.enterText(find.byType(TextField), 'walker');
+    await tester.pump();
+    expect(find.text('Slidell Raptors'), findsOneWidget, reason: 'waits for a pause in typing');
+    await tester.pump(const Duration(milliseconds: 600));
     await tester.pumpAndSettle();
     expect(find.text('Slidell Raptors'), findsNothing);
 
