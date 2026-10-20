@@ -2,7 +2,8 @@ import 'dart:math';
 
 /// A head-to-head result between two teams, by index.
 class Result {
-  Result(this.a, this.b, this.scoreA, this.scoreB, {this.weight = 1, this.lossScale = 1});
+  Result(this.a, this.b, this.scoreA, this.scoreB,
+      {this.weight = 1, this.lossScale = 1, this.shareBonus = 0});
   final int a;
   final int b;
   final int scoreA;
@@ -14,6 +15,12 @@ class Result {
   /// How much of the loss the loser takes; below 1 softens a loss to a
   /// stronger class of team.
   final double lossScale;
+
+  /// Extra share of a win for A (negative favors B), from [closeGameBonuses].
+  final double shareBonus;
+
+  Result withBonus(double bonus) => Result(a, b, scoreA, scoreB,
+      weight: weight, lossScale: lossScale, shareBonus: bonus);
 }
 
 /// How much of a win a result is worth, from 0.5 (a tie) to 1. A win is
@@ -59,7 +66,8 @@ List<double> colleyRatings(int teamCount, List<Result> results) {
     c[r.a][r.b] -= w;
     c[r.b][r.a] -= w;
     // Net wins for A: 2 * share - 1, from -1 (a full loss) to 1 (a full win).
-    final diff = w * (2 * winShare(r.scoreA, r.scoreB) - 1) / 2;
+    final share = (winShare(r.scoreA, r.scoreB) + r.shareBonus).clamp(0.0, 1.0);
+    final diff = w * (2 * share - 1) / 2;
     b[r.a] += diff < 0 ? diff * r.lossScale : diff;
     b[r.b] -= diff > 0 ? diff * r.lossScale : diff;
   }
@@ -135,3 +143,57 @@ List<double> headToHeadAdjusted(List<double> ratings, List<Result> results,
   });
   return out;
 }
+
+/// How much of the final rating comes from a team's own results rather
+/// than the schedule-driven Colley rating.
+// Off for now (Jared, 2026-10-20); 0.35 was the tested suggestion.
+const recordWeight = 0.0;
+
+/// Blends each rating with the team's own results: its average [winShare]
+/// (so run differential counts), padded with one tie so a team with one or
+/// two games is not judged on them alone. Early in a season teams have few
+/// games, and the Colley rating alone lets a tough schedule outweigh the
+/// record; this keeps a winning record worth something on its own.
+List<double> blendWithRecord(List<double> ratings, List<Result> results,
+    {double weight = recordWeight}) {
+  final won = List<double>.filled(ratings.length, 0.5);
+  final played = List<double>.filled(ratings.length, 1);
+  for (final r in results) {
+    final share = (winShare(r.scoreA, r.scoreB) + r.shareBonus).clamp(0.0, 1.0);
+    won[r.a] += share;
+    won[r.b] += 1 - share;
+    played[r.a] += 1;
+    played[r.b] += 1;
+  }
+  return [
+    for (var i = 0; i < ratings.length; i++)
+      (1 - weight) * ratings[i] + weight * won[i] / played[i]
+  ];
+}
+
+/// Close games against stronger teams earn extra credit.
+///
+/// For a game decided by [closeRuns] runs or fewer (or a tie), the
+/// lower-rated team gets a bonus share of the win, taken from the
+/// higher-rated team: half the rating gap, at most [maxCloseBonus], scaled
+/// down as the margin grows (full for a tie or one-run game, a third at
+/// three runs). A 9-10 loss to the best team in the state helps; a 9-10
+/// loss to a weak team does not. A loss is never turned into a win: the
+/// bonus stays below what a one-run game is worth.
+// Off for now (Jared, 2026-10-20); 0.3 was the tested suggestion.
+const closeRuns = 3, maxCloseBonus = 0.0;
+
+List<Result> closeGameBonuses(List<double> ratings, List<Result> results,
+        {double maxBonus = maxCloseBonus}) =>
+    [
+      for (final r in results)
+        () {
+          final margin = (r.scoreA - r.scoreB).abs();
+          if (margin > closeRuns) return r;
+          final gap = ratings[r.b] - ratings[r.a]; // > 0 when A is the underdog
+          final closeness =
+              margin <= 1 ? 1.0 : (closeRuns + 1 - margin) / closeRuns;
+          final bonus = min(gap.abs() / 2, maxBonus) * closeness;
+          return r.withBonus(gap > 0 ? bonus : -bonus);
+        }()
+    ];

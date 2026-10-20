@@ -104,4 +104,26 @@ void main() {
     ]);
     expect(r[x], greaterThan(r[y]));
   });
+
+  test('blending with the record lifts a winning team on a weak schedule', () {
+    // Team 0 went 3-0 against a weak team; team 1 went 1-2 against strong ones.
+    final ratings = [0.5, 0.55, 0.3, 0.7];
+    final results = [
+      Result(0, 2, 5, 1), Result(0, 2, 5, 1), Result(0, 2, 5, 1),
+      Result(1, 3, 5, 1), Result(3, 1, 5, 1), Result(3, 1, 5, 1),
+    ];
+    final blended = blendWithRecord(ratings, results, weight: 0.35);
+    expect(blended[0], greaterThan(blended[1]));
+    expect(blendWithRecord([0.5], [], weight: 0.35), [closeTo(0.5, 1e-12)]);
+  });
+
+  test('a close loss to a strong team earns more than one to a weak team', () {
+    final ratings = [0.5, 0.9, 0.3];
+    final out = closeGameBonuses(ratings, [Result(0, 1, 9, 10), Result(0, 2, 9, 10), Result(0, 1, 2, 12)],
+        maxBonus: 0.3);
+    expect(out[0].shareBonus, closeTo(0.2, 1e-9), reason: 'half the 0.4 gap');
+    expect(out[1].shareBonus, closeTo(-0.1, 1e-9), reason: 'losing a close one to a weaker team');
+    expect(out[2].shareBonus, 0, reason: 'blowouts get no bonus');
+    expect(winShare(9, 10) + out[0].shareBonus, lessThan(0.5), reason: 'still a loss');
+  });
 }

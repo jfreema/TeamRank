@@ -123,7 +123,12 @@ String? logoFor(Iterable<SourceTeam> listings) {
           weight: weightOf(g), lossScale: lossScaleOf(g))
   ];
   // Direct matchups count extra on top of the shared Colley pool.
-  final ratings = headToHeadAdjusted(colleyRatings(ids.length, results), results);
+  // First pass for who is stronger, then again with close games against
+  // stronger teams counting for more.
+  final first = colleyRatings(ids.length, results);
+  final adjusted = closeGameBonuses(first, results);
+  final ratings = headToHeadAdjusted(
+      blendWithRecord(colleyRatings(ids.length, adjusted), adjusted), adjusted);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
