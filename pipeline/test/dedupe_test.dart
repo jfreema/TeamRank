@@ -443,4 +443,28 @@ void main() {
     final names = [for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']];
     expect(names, unorderedEquals(['gs:1', 'gs:2']));
   });
+
+  test('a team listed in different classes goes in the highest one', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: 'Bulls', city: 'Slidell', state: 'LA', ageClass: cls);
+    final otc = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:1': t('otc:1', '11U-AAA'),
+      'otc:2': SourceTeam(key: 'otc:2', name: 'Cats', city: 'Houma', state: 'LA', ageClass: '11U-A'),
+    }, events: {
+      '1': EventRecord(id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-10',
+          isFinal: true, teamKeys: [], games: [game('otc', '1', 'otc:1', 'otc:2', 5, 2)]),
+    });
+    final twoD = SourceCache(source: '2d', season: '2026-27', teams: {'2d:1': t('2d:1', '11u Major')});
+    final (:rankings, review: _) = buildRankings(
+      caches: [otc, twoD],
+      aliases: Aliases(merge: [['otc:1', '2d:1']]),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final byName = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']: x
+    };
+    expect(byName['Bulls']!['level'], 'Majors', reason: 'Majors beats AAA');
+    expect(byName['Cats']!['level'], 'AA', reason: 'single A is listed with AA');
+  });
 }
