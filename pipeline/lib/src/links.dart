@@ -61,7 +61,7 @@ Aliases linksToAliases(Iterable<Map<String, dynamic>> fields) {
         for (final k in keys) {
           names[k] = value;
         }
-      case 'level' when value == 'AA' || value == 'AAA':
+      case 'level' when value == 'AA' || value == 'AAA' || value == 'Majors':
         for (final k in keys) {
           levels[k] = value;
         }

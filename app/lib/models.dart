@@ -88,7 +88,7 @@ class Team {
   /// not ranked (out of state, or outside the covered ages).
   final int? rank;
 
-  /// `AA` (AA and A teams), `AAA` (AAA and Majors), or null if unknown.
+  /// `AA` (AA and A teams), `AAA`, `Majors`, or null if unknown.
   final String? level;
 
   /// Rank within [age] and [level].
@@ -203,7 +203,7 @@ class GameResult {
 
 String ageLabel(int? age) => age == null ? '' : '${age}U';
 
-String levelLabel(String level) => level == 'AAA' ? 'AAA/Majors' : level;
+String levelLabel(String level) => level;
 
 String sourceLabel(String source) => switch (source) {
       'otc' => 'OTC Sports',

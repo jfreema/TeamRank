@@ -36,7 +36,7 @@ app/        Flutter web app that shows the rankings
    `pipeline/lib/src/colley.dart`): a one-run win is 0.64 of a win (the loser keeps 0.36), rising
    to a full win at 10+ runs, with the loser keeping the rest. Out-of-state opponents count
    toward ratings, but only Louisiana teams are ranked.
-   AA teams (including A) and AAA / Majors teams get separate lists, based on
+   AA teams (including A), AAA teams and Majors teams get separate lists, based on
    the class each team registered in. Everyone is still rated in one pool,
    so games between levels count. Set a team's list with `levels` in
    `data/aliases.json` if its class is wrong or missing. A win over a
@@ -65,7 +65,7 @@ Hosting.
 The easiest way is the admin console at <https://teamrank-la.web.app/admin>.
 Sign in with Google (accounts listed in Firestore's `admins` collection) to
 link listings of the same team, split wrong matches, move a team between
-the AA and AAA / Majors lists, or rename it. Changes are saved to the
+the AA, AAA and Majors lists, or rename it. Changes are saved to the
 Firestore `links` collection (free tier) and applied at the next scheduled
 update.
 
@@ -86,7 +86,7 @@ redeploys without re-scraping.
 - `merge`: these listings are the same team.
 - `split`: these listings were merged automatically but are different teams.
 - `names`: the display name to use.
-- `levels`: put a team in the `AA` or `AAA` (AAA / Majors) list.
+- `levels`: put a team in the `AA`, `AAA` or `Majors` list.
 - `ages`: the age group to list a team in.
 - `exclude`: drop a listing and its games.
 

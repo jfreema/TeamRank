@@ -48,7 +48,7 @@ void main() {
     expect(find.text('Walker Elite'), findsOneWidget);
     expect(find.text('Slidell Raptors'), findsNothing);
 
-    await tester.tap(find.text('AAA/Majors'));
+    await tester.tap(find.text('AAA'));
     await tester.pumpAndSettle();
     expect(find.text('Slidell Raptors'), findsOneWidget);
     expect(find.text('Walker Elite'), findsNothing);
@@ -76,7 +76,7 @@ void main() {
     expect(find.text('Games (2)'), findsOneWidget);
     expect(find.text('12–3'), findsOneWidget);
     expect(find.text('vs #1 AA Walker Elite'), findsOneWidget);
-    expect(find.text('AAA/Majors rank'), findsOneWidget);
+    expect(find.text('AAA rank'), findsOneWidget);
     expect(find.text('12U rank'), findsOneWidget);
     expect(find.text('3–2'), findsOneWidget);
     expect(find.text('vs Mississippi Vice (MS)'), findsOneWidget);

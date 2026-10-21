@@ -74,25 +74,23 @@ String? logoFor(Iterable<SourceTeam> listings) {
     if (id != null) members.putIfAbsent(id, () => []).add(t);
   }
 
-  // AA and AAA/Majors get their own lists, but the ratings behind them come
+  // AA, AAA and Majors get their own lists, but the ratings behind them come
   // from one pool so games between the levels still count.
   String? levelFor(String id) {
     final list = members[id] ?? [];
     for (final t in list) {
-      if (aliases.levels[t.key] case final l?) return l.toUpperCase();
+      if (aliases.levels[t.key] case final l?) return normalizeLevel(l);
+    }
+    // A team listed at more than one level plays up, so it goes with the highest.
+    if (list.any((t) => RegExp(r'\bmajors?\b', caseSensitive: false).hasMatch(t.ageClass))) {
+      return 'Majors';
     }
     final levels = list.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
-    // A team listed at both levels plays up, so it goes with the higher one.
     return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
   }
 
-  // Majors teams share the AAA list but count a little more.
-  bool isMajors(String id) =>
-      (members[id] ?? []).any((t) => RegExp(r'\bmajors?\b', caseSensitive: false).hasMatch(t.ageClass));
-
-  // 'Majors', 'AAA', or 'AA' for everyone else.
-  String tierOf(String id) =>
-      levelFor(id) != 'AAA' ? 'AA' : (isMajors(id) ? 'Majors' : 'AAA');
+  // 'Majors', 'AAA', or 'AA' for everyone else, for weighting games.
+  String tierOf(String id) => levelFor(id) ?? 'AA';
 
   // A win over a Majors team counts [majorsWinWeight] games, over a AAA team
   // [aaaWinWeight] games.
@@ -134,6 +132,8 @@ String? logoFor(Iterable<SourceTeam> listings) {
       blendWithRecord(colley, adjusted, weight: aaRecordWeight), adjusted);
   final aaaRatings = headToHeadAdjusted(
       blendWithRecord(colley, adjusted, weight: aaaRecordWeight), adjusted);
+  final majorsRatings = headToHeadAdjusted(
+      blendWithRecord(colley, adjusted, weight: majorsRecordWeight), adjusted);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -192,12 +192,13 @@ String? logoFor(Iterable<SourceTeam> listings) {
       (switch (levelOfTeam[id]) {
         'AA' => aaRatings,
         'AAA' => aaaRatings,
+        'Majors' => majorsRatings,
         _ => ratings,
       })[index[id]!];
   for (final id in ranked) {
     final age = ageOfTeam[id];
     if (age == null) continue;
-    final c = ageCounts.putIfAbsent(age, () => {'teams': 0, 'AA': 0, 'AAA': 0});
+    final c = ageCounts.putIfAbsent(age, () => {'teams': 0, 'AA': 0, 'AAA': 0, 'Majors': 0});
     ageRank[id] = c['teams'] = c['teams']! + 1;
   }
   for (final id in [...ranked]..sort((a, b) => listRating(b).compareTo(listRating(a)))) {
@@ -281,6 +282,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
     'aaaWinWeight': aaaWinWeight,
     'aaRecordWeight': aaRecordWeight,
     'aaaRecordWeight': aaaRecordWeight,
+    'majorsRecordWeight': majorsRecordWeight,
     'majorsWinWeight': majorsWinWeight,
     'aaaLossScale': aaaLossScale,
     'majorsLossScale': majorsLossScale,

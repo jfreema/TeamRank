@@ -258,7 +258,7 @@ void main() {
         reason: 'class lists blend in more of the record than the combined list');
     expect(byName['Big']!['levelRating'], isNotNull);
     expect(rankings['ages'], {
-      '12': {'teams': 4, 'AA': 1, 'AAA': 3}
+      '12': {'teams': 4, 'AA': 1, 'AAA': 3, 'Majors': 0}
     });
   });
 
@@ -298,8 +298,8 @@ void main() {
     expect(byName['otc:old']!['rank'], isNull, reason: '15U is outside the covered ages');
     expect(byName['otc:old']!['age'], 15, reason: 'still listed as an opponent');
     expect(rankings['ages'], {
-      '11': {'teams': 1, 'AA': 1, 'AAA': 0},
-      '12': {'teams': 2, 'AA': 2, 'AAA': 0},
+      '11': {'teams': 1, 'AA': 1, 'AAA': 0, 'Majors': 0},
+      '12': {'teams': 2, 'AA': 2, 'AAA': 0, 'Majors': 0},
     });
   });
 
@@ -361,6 +361,13 @@ void main() {
       for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['id']: x['rating'] as double
     };
     expect(r['otc:x']!, greaterThan(r['otc:y']!));
+    final byId = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['id']: x
+    };
+    expect(byId['otc:maj']!['level'], 'Majors', reason: 'Majors has its own list');
+    expect(byId['otc:maj']!['levelRank'], 1);
+    expect(byId['otc:aaa']!['level'], 'AAA');
+    expect(byId['otc:aaa']!['levelRank'], 1);
   });
 
   test('losing to a higher class costs less', () {

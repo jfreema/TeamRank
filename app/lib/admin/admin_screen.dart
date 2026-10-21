@@ -17,8 +17,8 @@ const firebaseOptions = FirebaseOptions(
 );
 
 /// The admin console at `/admin`: link listings of the same team across
-/// orgs, split wrong matches, rename teams and move them between the AA and
-/// AAA / Majors lists. Changes are saved to Firestore's `links` collection,
+/// orgs, split wrong matches, rename teams and move them between the AA,
+/// AAA and Majors lists. Changes are saved to Firestore's `links` collection,
 /// and the next scheduled update applies them.
 class AdminScreen extends StatefulWidget {
   const AdminScreen({super.key, required this.loader});
@@ -332,8 +332,9 @@ class _EditorState extends State<_Editor> {
           const SizedBox(height: 12),
           Wrap(spacing: 8, runSpacing: 8, children: [
             OutlinedButton(onPressed: () => widget.onSave('level', _keys(a), 'AA'), child: const Text('Move to AA list')),
+            OutlinedButton(onPressed: () => widget.onSave('level', _keys(a), 'AAA'), child: const Text('Move to AAA list')),
             OutlinedButton(
-                onPressed: () => widget.onSave('level', _keys(a), 'AAA'), child: const Text('Move to AAA/Majors list')),
+                onPressed: () => widget.onSave('level', _keys(a), 'Majors'), child: const Text('Move to Majors list')),
             for (var age = 11; age <= 14; age++)
               if (age != a.age)
                 OutlinedButton(

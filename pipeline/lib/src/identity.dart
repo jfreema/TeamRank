@@ -15,7 +15,7 @@ import 'model.dart';
 ///
 /// `merge` joins source teams that are the same real team, `split` stops an
 /// automatic match, `names` overrides the display name, and `exclude` drops a
-/// team and its games. `levels` sets which ranking list (`AA` or `AAA`) a
+/// team and its games. `levels` sets which ranking list (`AA`, `AAA` or `Majors`) a
 /// team appears in when its registered class is wrong or missing, and `ages`
 /// sets the age group it is listed under.
 class Aliases {
@@ -210,6 +210,10 @@ class GroupResult {
 /// Which ranking list a team belongs in, from its registered class such as
 /// `12U-AA`, `12u AAA` or `11u Major`: `AAA` for AAA and Majors, `AA` for AA
 /// and A, or null when the org only lists it as Open or gives no class.
+/// A ranking list name from an override: `AA`, `AAA` or `Majors`.
+String normalizeLevel(String level) =>
+    level.toUpperCase() == 'MAJORS' ? 'Majors' : level.toUpperCase();
+
 String? levelOf(String ageClass) {
   final c = ageClass.toUpperCase();
   if (RegExp(r'\bMAJORS?\b|AAA').hasMatch(c)) return 'AAA';

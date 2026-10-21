@@ -130,9 +130,10 @@ class _RankingsScreenState extends State<RankingsScreen> {
                           runSpacing: 8,
                           children: [
                             for (final (value, label) in [
-                              ('AA', 'AA'),
-                              ('AAA', levelLabel('AAA')),
                               (null, 'All'),
+                              ('AA', 'AA'),
+                              ('AAA', 'AAA'),
+                              ('Majors', 'Majors'),
                             ])
                               Pill(
                                 label: label,
