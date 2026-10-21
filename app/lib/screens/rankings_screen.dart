@@ -131,7 +131,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                           children: [
                             for (final (value, label) in [
                               ('AA', 'AA'),
-                              ('AAA', 'AAA / Majors'),
+                              ('AAA', levelLabel('AAA')),
                               (null, 'All'),
                             ])
                               Pill(
@@ -340,7 +340,7 @@ class _TeamRow extends StatelessWidget {
                 Text(
                   [
                     team.hometown,
-                    if (showLevel && team.level != null) team.level!,
+                    if (showLevel && team.level != null) levelLabel(team.level!),
                     team.sources.map((s) => s.source.toUpperCase()).toSet().join(' + '),
                   ].where((s) => s.isNotEmpty).join(' · '),
                   style: body(13, weight: 700, color: Palette.ink.withValues(alpha: 0.7)),

@@ -203,7 +203,7 @@ class GameResult {
 
 String ageLabel(int? age) => age == null ? '' : '${age}U';
 
-String levelLabel(String level) => level == 'AAA' ? 'AAA / Majors' : level;
+String levelLabel(String level) => level == 'AAA' ? 'AAA/Majors' : level;
 
 String sourceLabel(String source) => switch (source) {
       'otc' => 'OTC Sports',

@@ -140,7 +140,7 @@ class _GameTile extends StatelessWidget {
     // Name the opponent's age only when it differs, e.g. a team playing up.
     final oppAge = opp?.age != null && opp!.age != team.age ? ' ${ageLabel(opp.age)}' : '';
     final oppLabel = [
-      if (opp?.levelRank != null) '#${opp!.levelRank}$oppAge ${opp.level}'
+      if (opp?.levelRank != null) '#${opp!.levelRank}$oppAge ${levelLabel(opp.level!)}'
       else if (opp?.rank != null) '#${opp!.rank}$oppAge',
       opp?.name ?? 'Unknown team',
       if (opp != null && opp.state.isNotEmpty && opp.state != data.state) '(${opp.state})',
