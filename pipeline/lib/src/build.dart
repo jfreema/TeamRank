@@ -8,7 +8,7 @@ import 'model.dart';
 /// out-of-state opponents, so a win over a strong Mississippi team still
 /// counts. Only Louisiana teams get a rank.
 /// How many games a win over a AAA / Majors team counts as.
-const aaaWinWeight = 2.5;
+const aaaWinWeight = 3.0;
 
 /// A win over a Majors team counts this many games, more than AAA.
 const majorsWinWeight = 4.0;
