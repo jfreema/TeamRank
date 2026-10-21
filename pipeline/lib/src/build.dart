@@ -127,7 +127,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final adjusted = closeGameBonuses(first, results);
   final colley = colleyRatings(ids.length, adjusted);
   final ratings = headToHeadAdjusted(blendWithRecord(colley, adjusted), adjusted);
-  // The class lists lean more on each team's own record than the All list.
+  // Each list can weigh a team's own record differently (all 25% for now).
   final aaRatings = headToHeadAdjusted(
       blendWithRecord(colley, adjusted, weight: aaRecordWeight), adjusted);
   final aaaRatings = headToHeadAdjusted(

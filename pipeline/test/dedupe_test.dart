@@ -254,8 +254,7 @@ void main() {
     expect(byName['Big']!['level'], 'AAA');
     expect(byName['Big']!['levelRank'], 1, reason: 'AAA list ranks separately');
     expect(byName['Low']!['level'], 'AAA', reason: 'aliases can override the level');
-    expect(byName['Mid']!['levelRating'], isNot(byName['Mid']!['rating']),
-        reason: 'class lists blend in more of the record than the combined list');
+    expect(byName['Mid']!['levelRating'], isNotNull, reason: 'class lists carry their own rating');
     expect(byName['Big']!['levelRating'], isNotNull);
     expect(rankings['ages'], {
       '12': {'teams': 4, 'AA': 1, 'AAA': 3, 'Majors': 0}

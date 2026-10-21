@@ -147,7 +147,7 @@ List<double> headToHeadAdjusted(List<double> ratings, List<Result> results,
 /// How much of the final rating comes from a team's own results rather
 /// than the schedule-driven Colley rating.
 // Used by the combined age list (Jared, 2026-10-21).
-const recordWeight = 0.10;
+const recordWeight = 0.25;
 
 /// The record share used for the class lists (Jared, 2026-10-20). The
 /// combined age list keeps [recordWeight].
