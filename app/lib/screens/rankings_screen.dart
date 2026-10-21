@@ -193,6 +193,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                               ('otc', 'OTC'),
                               ('2d', '2D'),
                               ('gs', 'Grand Slam'),
+                              ('uacs', 'UACS'),
                             ])
                               Pill(
                                 label: label,
@@ -428,7 +429,7 @@ void showAboutRankings(BuildContext context) {
                 child: SingleChildScrollView(
                   child: Text(
                     'TeamRank rates every team with an algorithm built on game results '
-                    'from OTC Sports, 2D Sports and Grand Slam events this season.\n\n'
+                    'from OTC Sports, 2D Sports, Grand Slam and UACS events this season.\n\n'
                     'It weighs who you beat, how strong their schedule was, head-to-head '
                     'results and run differential. A close loss to a good team can help '
                     'your ranking more than beating a weak team, so playing strong '

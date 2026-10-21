@@ -1,0 +1,16 @@
+{
+ "source": "uacs",
+ "season": "2026-27",
+ "teams": {},
+ "events": {
+  "728425": {
+   "id": "728425",
+   "name": "October 24-25 Halloween HAVOC",
+   "startDate": "",
+   "endDate": "",
+   "final": false,
+   "teamKeys": [],
+   "games": []
+  }
+ }
+}

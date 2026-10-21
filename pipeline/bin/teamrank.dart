@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:teamrank_pipeline/teamrank_pipeline.dart';
 
 const usage = '''
-Usage: dart run bin/teamrank.dart [scrape|rank|all] [--source otc|2d|gs] [--data DIR] [--out FILE]
+Usage: dart run bin/teamrank.dart [scrape|rank|all] [--source otc|2d|gs|uacs] [--data DIR] [--out FILE]
 
   scrape   Fetch new and in-progress events into DIR/<source>.json
   rank     Build the rankings file from what has been scraped
@@ -33,7 +33,7 @@ Future<void> main(List<String> args) async {
         exit(64);
     }
   }
-  if (sources.isEmpty) sources.addAll(['otc', '2d', 'gs']);
+  if (sources.isEmpty) sources.addAll(['otc', '2d', 'gs', 'uacs']);
 
   final today = DateTime.now();
   final season = Season.containing(today);
@@ -50,6 +50,8 @@ Future<void> main(List<String> args) async {
           await TwoDScraper(client).scrape(cache, season, today);
         } else if (s == 'gs') {
           await GrandSlamScraper(client).scrape(cache, season, today);
+        } else if (s == 'uacs') {
+          await UacsScraper(client).scrape(cache, season, today);
         }
       } catch (e) {
         // Keep what the other source found; a site being down for a night
@@ -67,7 +69,7 @@ Future<void> main(List<String> args) async {
   }
 
   if (command != 'scrape') {
-    final caches = [for (final s in ['otc', '2d', 'gs']) loadCache(dataDir, s, season.label)];
+    final caches = [for (final s in ['otc', '2d', 'gs', 'uacs']) loadCache(dataDir, s, season.label)];
     final aliasFile = File('$dataDir/aliases.json');
     var aliases = aliasFile.existsSync()
         ? Aliases.fromJson(jsonDecode(aliasFile.readAsStringSync()) as Map<String, dynamic>)

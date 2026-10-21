@@ -2,8 +2,9 @@
 
 Rankings for Louisiana 11U to 14U travel baseball teams, built from game results at
 [OTC Sports](https://offthecrosssports.com/baseball),
-[2D Sports](https://youth.2dsports.org) and
-[Grand Slam](https://grandslamtournaments.com/baseball) events.
+[2D Sports](https://youth.2dsports.org),
+[Grand Slam](https://grandslamtournaments.com/baseball) and
+[UACS](https://www.uacssports.com) events.
 
 ## How it works
 
@@ -14,13 +15,19 @@ app/        Flutter web app that shows the rankings
 ```
 
 1. **Scrape.** `pipeline` collects every finished game from 11U to 14U divisions this
-   season (August 1 to July 31) at OTC, 2D and Grand Slam events, with each team's
+   season (August 1 to July 31) at OTC, 2D, Grand Slam and UACS events, with each team's
    hometown. Events that ended more than three days ago are saved to
-   `data/otc.json`, `data/2d.json` and `data/gs.json` and never fetched again. Requests are
+   `data/otc.json`, `data/2d.json`, `data/gs.json` and `data/uacs.json` and never fetched again. Requests are
    sent one at a time with a pause between them.
    Grand Slam runs nationwide and lists only upcoming events, so its scraper
    walks event IDs (they count up) and keeps Louisiana events plus the games
-   Louisiana teams played at Grand Slam events in other states.
+   Louisiana teams played at Grand Slam events in other states. Grand Slam's
+   fast pitch softball events and teams are left out.
+   UACS (TeamSideline) only shows a tournament's scores while its divisions
+   are active, so each run saves the divisions on its schedules page (UACS
+   results start with Halloween Havoc, Oct 24-25, 2026). UACS gives no team
+   IDs or hometowns: a team is matched by name to the one team elsewhere with
+   that name and age, and otherwise takes the state of the fields it played on.
 2. **Remove duplicates.**
    - Games: a game listed on both teams' pages, or in two divisions'
      schedules (crossover games), is counted once. Games that two orgs both

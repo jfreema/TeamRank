@@ -186,6 +186,36 @@ GroupResult groupTeams(Iterable<SourceTeam> teams, Aliases aliases,
     }
   }
 
+  // UACS lists no hometowns, so its teams are matched by name alone: to the
+  // one team elsewhere with that name, the same age (Grand Slam's a year
+  // older) and no clash. A name that fits several teams is left alone.
+  final aliased = {for (final g in aliases.merge) ...g};
+  final byName = <String, List<SourceTeam>>{};
+  for (final t in all.where((t) => t.city.isNotEmpty)) {
+    byName.putIfAbsent(normalizeTeamName(t.name), () => []).add(t);
+  }
+  for (final t in all.where((t) => t.source == 'uacs' && t.city.isEmpty && !aliased.contains(t.key))) {
+    final age = ageOf(t.ageClass);
+    bool sameAge(SourceTeam c) {
+      final a = ageOf(c.ageClass);
+      return age == null || a == null || a == age || (c.source == 'gs' && a == age + 1);
+    }
+
+    bool sameState(SourceTeam c) =>
+        t.state.isEmpty || c.state.isEmpty || c.state.toUpperCase() == t.state.toUpperCase();
+    final fits = [
+      for (final c in byName[normalizeTeamName(t.name)] ?? <SourceTeam>[])
+        if (sameAge(c) && sameState(c) && !clashes(t, c)) c
+    ];
+    final roots = {for (final c in fits) find(c.key)};
+    if (roots.length == 1) {
+      union(roots.single, t.key);
+      merged.add([t.key, ...fits.map((c) => c.key)]..sort());
+    } else if (roots.length > 1) {
+      ambiguous.add([t.key, ...fits.map((c) => c.key)]..sort());
+    }
+  }
+
   return GroupResult(
     {for (final k in parent.keys) k: find(k)},
     merged: merged,
@@ -199,7 +229,7 @@ class GroupResult {
   /// Source team key -> group id (the group's alphabetically first key).
   final Map<String, String> groupOf;
 
-  /// Groups merged automatically by name and hometown.
+  /// Groups merged automatically by name and hometown (name alone for UACS).
   final List<List<String>> merged;
 
   /// Same name and hometown, but they played in the same event, so they were
@@ -207,12 +237,13 @@ class GroupResult {
   final List<List<String>> ambiguous;
 }
 
-/// Which ranking list a team belongs in, from its registered class such as
-/// `12U-AA`, `12u AAA` or `11u Major`: `AAA` for AAA and Majors, `AA` for AA
-/// and A, or null when the org only lists it as Open or gives no class.
 /// A ranking list name from an override: `AA`, `AAA` or `Majors`.
 String normalizeLevel(String level) =>
     level.toUpperCase() == 'MAJORS' ? 'Majors' : level.toUpperCase();
+
+/// The level a registered class such as `12U-AA`, `12u AAA` or `11u Major`
+/// points to: `AAA` for AAA and Majors (the build splits Majors out), `AA`
+/// for AA and A, or null when the org only lists it as Open or gives no class.
 
 String? levelOf(String ageClass) {
   final c = ageClass.toUpperCase();

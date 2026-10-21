@@ -209,6 +209,7 @@ String sourceLabel(String source) => switch (source) {
       'otc' => 'OTC Sports',
       '2d' => '2D Sports',
       'gs' => 'Grand Slam',
+      'uacs' => 'UACS',
       _ => source,
     };
 
