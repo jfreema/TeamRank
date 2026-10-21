@@ -13,6 +13,7 @@ RankingsData sample() => RankingsData.fromJson({
       'teams': [
         {'id': 'otc:1', 'name': 'Slidell Raptors', 'city': 'Slidell', 'state': 'LA', 'age': 12, 'rank': 1, 'level': 'AAA', 'levelRank': 1,
          'rating': 0.61, 'sos': 0.5, 'wins': 2, 'losses': 0, 'ties': 0, 'runsFor': 15, 'runsAgainst': 5,
+         'classRecords': {'AA': [1, 0, 0], 'Other': [1, 0, 0]},
          'sources': [{'source': 'otc', 'name': 'Slidell Raptors', 'ageClass': '12U-AA', 'url': ''}]},
         {'id': 'otc:2', 'name': 'Walker Elite', 'city': 'Walker', 'state': 'LA', 'age': 12, 'rank': 2, 'level': 'AA', 'levelRank': 1,
          'rating': 0.45, 'sos': 0.55, 'wins': 0, 'losses': 1, 'ties': 0, 'runsFor': 3, 'runsAgainst': 12, 'sources': []},
@@ -76,9 +77,17 @@ void main() {
     expect(find.text('Games (2)'), findsOneWidget);
     expect(find.text('12–3'), findsOneWidget);
     expect(find.text('vs #1 AA Walker Elite'), findsOneWidget);
-    expect(find.text('AAA rank'), findsOneWidget);
-    expect(find.text('12U rank'), findsOneWidget);
+    expect(find.text('12U AAA rank'), findsOneWidget, reason: 'its class and its rank in it');
+    expect(find.text('All 12U rank'), findsOneWidget);
+    expect(find.text('vs AA'), findsOneWidget, reason: 'its record against each class it played');
+    expect(find.text('vs Other'), findsOneWidget);
+    expect(find.text('1-0'), findsNWidgets(2));
     expect(find.text('3–2'), findsOneWidget);
     expect(find.text('vs Mississippi Vice (MS)'), findsOneWidget);
+
+    await tester.tap(find.text('vs Mississippi Vice (MS)'));
+    await tester.pumpAndSettle();
+    expect(find.text('Class'), findsOneWidget, reason: 'a team on no class list still shows its class');
+    expect(find.text('None'), findsOneWidget);
   });
 }
