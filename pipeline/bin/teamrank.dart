@@ -93,6 +93,8 @@ Future<void> main(List<String> args) async {
       season: season.label,
       generatedAt: DateTime.now(),
     );
+    // The site serves its own copies of the logos (see localizeLogos).
+    await localizeLogos(rankings, File(out).parent.parent.path);
     saveJson(out, rankings);
     File('$dataDir/review.md').writeAsStringSync(review);
     final ranked = (rankings['teams'] as List).where((t) => t['rank'] != null).length;

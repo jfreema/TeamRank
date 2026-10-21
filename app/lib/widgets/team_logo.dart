@@ -35,11 +35,16 @@ class TeamLogo extends StatelessWidget {
       child: ClipOval(
         child: Image.network(
           logo,
+          // A new key per URL makes Flutter draw a new <img> when the row
+          // shows a different team (after a search, say). Otherwise the
+          // browser element can keep the earlier team's picture.
+          key: ValueKey(logo),
           fit: BoxFit.contain,
-          // The orgs' image hosts don't send CORS headers, so always let the
-          // browser draw these with a plain <img> element. Trying a fetch
-          // first fails on every logo, and some browsers then give up.
-          webHtmlElementStrategy: WebHtmlElementStrategy.prefer,
+          // Logos are served from this site (see the pipeline's
+          // localizeLogos). One still at its org's host, which sends no CORS
+          // headers, can only be shown as a plain <img> element.
+          webHtmlElementStrategy:
+              logo.startsWith('http') ? WebHtmlElementStrategy.prefer : WebHtmlElementStrategy.never,
           errorBuilder: (_, _, _) => fallback,
         ),
       ),

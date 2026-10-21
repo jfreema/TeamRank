@@ -228,6 +228,7 @@ class _RankingsScreenState extends State<RankingsScreen> {
                   itemCount: teams.length,
                   separatorBuilder: (_, _) => const SizedBox(height: 12),
                   itemBuilder: (context, i) => _TeamRow(
+                    key: ValueKey(teams[i].id),
                     team: teams[i],
                     showLevel: _level == null,
                     onTap: () => Navigator.of(context).push(MaterialPageRoute(
@@ -290,7 +291,7 @@ class _Header extends StatelessWidget {
               style: body(16, weight: 900, color: Palette.white)),
           const SizedBox(height: 2),
           Text(
-            'Updated $updated · ${data.sources.entries.map((e) => '${sourceLabel(e.key)}: ${e.value.games} games').join(' · ')}',
+            'Updated $updated · ${data.sources.entries.where((e) => e.value.games > 0).map((e) => '${sourceLabel(e.key)}: ${e.value.games} games').join(' · ')}',
             style: body(13, weight: 600, color: Palette.white.withValues(alpha: 0.85)),
           ),
         ],
@@ -300,7 +301,7 @@ class _Header extends StatelessWidget {
 }
 
 class _TeamRow extends StatelessWidget {
-  const _TeamRow({required this.team, required this.onTap, required this.showLevel});
+  const _TeamRow({super.key, required this.team, required this.onTap, required this.showLevel});
   final Team team;
 
   /// On the combined list, show ranks within the age and each team's level.
