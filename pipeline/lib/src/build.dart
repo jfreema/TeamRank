@@ -1,6 +1,7 @@
 import 'colley.dart';
 import 'identity.dart';
 import 'model.dart';
+import 'softball.dart';
 
 /// Builds the JSON the app reads: Louisiana 12U teams ranked by Colley rating.
 ///
@@ -39,6 +40,8 @@ String? logoFor(Iterable<SourceTeam> listings) {
   required DateTime generatedAt,
   String state = 'LA',
 }) {
+  // Grand Slam's fast pitch softball shares the site; it is not baseball.
+  caches = [for (final c in caches) withoutSoftball(c)];
   final sourceTeams = <String, SourceTeam>{
     for (final c in caches) ...c.teams,
   };

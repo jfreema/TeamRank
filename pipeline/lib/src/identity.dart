@@ -217,8 +217,6 @@ String normalizeLevel(String level) =>
 String? levelOf(String ageClass) {
   final c = ageClass.toUpperCase();
   if (RegExp(r'\bMAJORS?\b|AAA').hasMatch(c)) return 'AAA';
-  // Grand Slam's Class B and C sit below A.
-  if (RegExp(r'\bCLASS [BC]\b').hasMatch(c)) return 'AA';
   if (RegExp(r'(^|[^A])AA?\b').hasMatch(c.replaceAll(RegExp(r'\d+U'), ''))) return 'AA';
   return null;
 }

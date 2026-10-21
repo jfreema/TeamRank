@@ -118,7 +118,7 @@ void main() {
   });
 
   test('levelOf groups AA with A, and AAA with Majors', () {
-    expect(levelOf('12 & Under Class B'), 'AA');
+    expect(levelOf('12 & Under Class B'), isNull, reason: 'a softball class');
     expect(levelOf('13 & Under AAA'), 'AAA');
     expect(levelOf('12U-AA'), 'AA');
     expect(levelOf('12u A'), 'AA');
@@ -409,5 +409,38 @@ void main() {
     expect(logoFor([t('gs:1', 'g'), t('otc:1', 'o'), t('2d:1', '')]), 'o');
     expect(logoFor([t('gs:1', 'g'), t('otc:1', null)]), 'g');
     expect(logoFor([t('otc:1', '')]), isNull);
+  });
+
+  test('Grand Slam fast pitch softball is left out', () {
+    SourceTeam t(String k, String cls) =>
+        SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
+    EventRecord ev(String id, String name, List<Game> games) => EventRecord(
+        id: id, name: name, startDate: '2026-10-03', endDate: '2026-10-03',
+        isFinal: true, teamKeys: [], games: games);
+    final cache = SourceCache(source: 'gs', season: '2026-27', teams: {
+      'gs:1': t('gs:1', '12 & Under A'),
+      'gs:2': t('gs:2', '12 & Under A'),
+      'gs:3': t('gs:3', '12 & Under Class C'),
+      'gs:4': t('gs:4', '12 & Under Class B'),
+      'gs:5': t('gs:5', '11& Under Open'),
+    }, events: {
+      '1': ev('1', 'Fall Bash', [game('gs', '1', 'gs:1', 'gs:2', 5, 2)]),
+      '2': ev('2', 'Hunting for a Cure', [
+        game('gs', '2', 'gs:3', 'gs:4', 5, 2),
+        game('gs', '2', 'gs:5', 'gs:3', 5, 2),
+      ]),
+      '3': ev('3', 'Fast Pitch Faith Classic', [game('gs', '3', 'gs:1', 'gs:2', 9, 2)]),
+    });
+    final clean = withoutSoftball(cache);
+    expect(clean.games, hasLength(1), reason: 'only the baseball game is left');
+    expect(clean.teams.keys, isNot(contains('gs:3')));
+    final (:rankings, review: _) = buildRankings(
+      caches: [cache],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final names = [for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']];
+    expect(names, unorderedEquals(['gs:1', 'gs:2']));
   });
 }
