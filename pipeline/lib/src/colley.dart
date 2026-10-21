@@ -151,7 +151,7 @@ const recordWeight = 0.10;
 
 /// The record share used for the class lists (Jared, 2026-10-20). The
 /// combined age list keeps [recordWeight].
-const aaRecordWeight = 0.40, aaaRecordWeight = 0.25, majorsRecordWeight = 0.20;
+const aaRecordWeight = 0.25, aaaRecordWeight = 0.25, majorsRecordWeight = 0.25;
 
 /// Blends each rating with the team's own results: its average [winShare]
 /// (so run differential counts), padded with one tie so a team with one or
