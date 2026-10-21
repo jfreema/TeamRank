@@ -2,6 +2,33 @@
  "source": "otc",
  "season": "2026-27",
  "teams": {
+  "otc:6939": {
+   "key": "otc:6939",
+   "name": "Ascension Roosters",
+   "city": "Gonzales",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6939",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6939-ascension-roosters.jpeg?v=1"
+  },
+  "otc:6942": {
+   "key": "otc:6942",
+   "name": "St. Mary Cane Cutters",
+   "city": "Franklin",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6942",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6942-st-mary-cane-cutters.jpeg?v=2"
+  },
+  "otc:6950": {
+   "key": "otc:6950",
+   "name": "Ascension Select - White",
+   "city": "Gonzales",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6950",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6950-ascension-select-white.jpg?v=1"
+  },
   "otc:6951": {
    "key": "otc:6951",
    "name": "Gonzales Tigers - Cornett",
@@ -10,6 +37,24 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6951",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6951-gonzales-tigers-cornett.png?v=1"
+  },
+  "otc:6952": {
+   "key": "otc:6952",
+   "name": "CLBA Trojans - Champagne",
+   "city": "Raceland",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6952",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6952-clba-trojans-champagne.jpeg?v=2"
+  },
+  "otc:6953": {
+   "key": "otc:6953",
+   "name": "The Diamond Preauxs",
+   "city": "Kentwood",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6953",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6953-the-diamond-preauxs.png?v=1"
   },
   "otc:6956": {
    "key": "otc:6956",
@@ -137,6 +182,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6995",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6995-la-havoc-clemons.png?v=1"
   },
+  "otc:6997": {
+   "key": "otc:6997",
+   "name": "La Havoc - Price",
+   "city": "Folsom",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6997",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6997-la-havoc-price.jpeg?v=1"
+  },
   "otc:7003": {
    "key": "otc:7003",
    "name": "Deleted",
@@ -145,6 +199,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7003",
    "logo": ""
+  },
+  "otc:7004": {
+   "key": "otc:7004",
+   "name": "LA Colt .45s",
+   "city": "Norco",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7004",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7004-la-colt-45s.jpg?v=1"
   },
   "otc:7006": {
    "key": "otc:7006",
@@ -182,6 +245,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7016",
    "logo": ""
   },
+  "otc:7017": {
+   "key": "otc:7017",
+   "name": "MYB Gators - Navy",
+   "city": "Madisonville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7017",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7017-myb-gators-navy.jpeg?v=2"
+  },
   "otc:7018": {
    "key": "otc:7018",
    "name": "Tri-City Sluggers",
@@ -218,6 +290,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7025",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7025-red-stick-elite.png?v=1"
   },
+  "otc:7027": {
+   "key": "otc:7027",
+   "name": "Westside Warriors",
+   "city": "Addis",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7027",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7027-westside-warriors.jpeg?v=1"
+  },
   "otc:7034": {
    "key": "otc:7034",
    "name": "Mandeville Revolution",
@@ -226,6 +307,15 @@
    "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7034",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7034-mandeville-revolution.jpg?v=1"
+  },
+  "otc:7035": {
+   "key": "otc:7035",
+   "name": "Mandeville Revolution",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7035",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7035-mandeville-revolution.jpg?v=1"
   },
   "otc:7041": {
    "key": "otc:7041",
@@ -299,6 +389,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7059",
    "logo": ""
   },
+  "otc:7060": {
+   "key": "otc:7060",
+   "name": "Red Stick Industrial",
+   "city": "Gonzales",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7060",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7060-red-stick-industrial.jpg?v=1"
+  },
   "otc:7061": {
    "key": "otc:7061",
    "name": "St Bernard Braves",
@@ -335,6 +434,33 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069",
    "logo": ""
   },
+  "otc:7074": {
+   "key": "otc:7074",
+   "name": "Reign Baseball Purple",
+   "city": "Chalmette",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7074",
+   "logo": ""
+  },
+  "otc:7080": {
+   "key": "otc:7080",
+   "name": "Legendz Baseball - Elam/Peay",
+   "city": "Zachary",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7080",
+   "logo": ""
+  },
+  "otc:7081": {
+   "key": "otc:7081",
+   "name": "Legendz Baseball - Gajan",
+   "city": "Zachary",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7081",
+   "logo": ""
+  },
   "otc:7084": {
    "key": "otc:7084",
    "name": "Legendz Baseball - Hood",
@@ -343,6 +469,15 @@
    "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7084",
    "logo": ""
+  },
+  "otc:7090": {
+   "key": "otc:7090",
+   "name": "Hammond Yankees - Hymel",
+   "city": "Hammond",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7090",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7090-hammond-yankees-hymel.jpg?v=1"
   },
   "otc:7096": {
    "key": "otc:7096",
@@ -362,6 +497,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7098",
    "logo": ""
   },
+  "otc:7103": {
+   "key": "otc:7103",
+   "name": "Saints - Bozeman",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7103",
+   "logo": ""
+  },
   "otc:7105": {
    "key": "otc:7105",
    "name": "Saints - Marrero",
@@ -369,6 +513,15 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7105",
+   "logo": ""
+  },
+  "otc:7115": {
+   "key": "otc:7115",
+   "name": "Saints - Holland",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7115",
    "logo": ""
   },
   "otc:7121": {
@@ -379,6 +532,15 @@
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7121",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7121-rbi-academy.jpeg?v=1"
+  },
+  "otc:7126": {
+   "key": "otc:7126",
+   "name": "RBI Academy",
+   "city": "Covington",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7126",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7126-rbi-academy.jpeg?v=1"
   },
   "otc:7127": {
    "key": "otc:7127",
@@ -470,6 +632,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7152",
    "logo": ""
   },
+  "otc:7153": {
+   "key": "otc:7153",
+   "name": "Southern Chargers",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7153",
+   "logo": ""
+  },
+  "otc:7156": {
+   "key": "otc:7156",
+   "name": "Louisiana Hurricanes",
+   "city": "Ama",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7156",
+   "logo": ""
+  },
   "otc:7158": {
    "key": "otc:7158",
    "name": "Slidell Raptors",
@@ -478,6 +658,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7158",
    "logo": ""
+  },
+  "otc:7160": {
+   "key": "otc:7160",
+   "name": "Party Animals",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7160",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7160-party-animals.jpeg?v=1"
   },
   "otc:7165": {
    "key": "otc:7165",
@@ -488,6 +677,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7165",
    "logo": ""
   },
+  "otc:7166": {
+   "key": "otc:7166",
+   "name": "The Show",
+   "city": "Amite",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7166",
+   "logo": ""
+  },
   "otc:7167": {
    "key": "otc:7167",
    "name": "Hurricanes D/T",
@@ -495,6 +693,15 @@
    "state": "LA",
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7167",
+   "logo": ""
+  },
+  "otc:7168": {
+   "key": "otc:7168",
+   "name": "Louisiana Redbirds - Black",
+   "city": "Kenner",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7168",
    "logo": ""
   },
   "otc:7169": {
@@ -560,6 +767,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7178",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7178-myb-gators-navy.png?v=1"
   },
+  "otc:7181": {
+   "key": "otc:7181",
+   "name": "Pelicans - Linxwiler",
+   "city": "Central",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7181",
+   "logo": ""
+  },
+  "otc:7182": {
+   "key": "otc:7182",
+   "name": "Louisiana Outlaws",
+   "city": "Springfield",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7182",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7182-louisiana-outlaws.jpg?v=1"
+  },
   "otc:7184": {
    "key": "otc:7184",
    "name": "LA Elite",
@@ -578,6 +803,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7185",
    "logo": ""
   },
+  "otc:7186": {
+   "key": "otc:7186",
+   "name": "LBA Naturals White - BR",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7186",
+   "logo": ""
+  },
+  "otc:7187": {
+   "key": "otc:7187",
+   "name": "LBA Naturals Green - BR",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7187",
+   "logo": ""
+  },
   "otc:7188": {
    "key": "otc:7188",
    "name": "NOR Cardinals",
@@ -586,6 +829,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7188",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7188-nor-cardinals.jpeg?v=1"
+  },
+  "otc:7190": {
+   "key": "otc:7190",
+   "name": "La Nationals - Gardner",
+   "city": "Livingston",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7190",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7190-la-nationals-gardner.jpg?v=1"
   },
   "otc:7191": {
    "key": "otc:7191",
@@ -613,6 +865,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7194",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7194-baton-rouge-astros-terrell.png?v=1"
+  },
+  "otc:7197": {
+   "key": "otc:7197",
+   "name": "Northshore Mariners",
+   "city": "Madisonville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7197",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7197-northshore-mariners.jpg?v=1"
   },
   "otc:7199": {
    "key": "otc:7199",
@@ -722,6 +983,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7247",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7247-south-la-tigers.jpeg?v=2"
   },
+  "otc:7248": {
+   "key": "otc:7248",
+   "name": "TF Hustle",
+   "city": "Houma",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7248",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7248-tf-hustle.png?v=1"
+  },
   "otc:7252": {
    "key": "otc:7252",
    "name": "Walker Elite",
@@ -730,6 +1000,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7252",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7252-walker-elite.png?v=1"
+  },
+  "otc:7253": {
+   "key": "otc:7253",
+   "name": "Pack Sanchez",
+   "city": "Denham Springs",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7253",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7253-pack-sanchez.jpg?v=1"
   },
   "otc:7254": {
    "key": "otc:7254",
@@ -747,6 +1026,24 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7256",
+   "logo": ""
+  },
+  "otc:7257": {
+   "key": "otc:7257",
+   "name": "Jaguars Baseball",
+   "city": "Plaquemine",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7257",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7257-jaguars-baseball.jpeg?v=2"
+  },
+  "otc:7272": {
+   "key": "otc:7272",
+   "name": "Renegades United",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7272",
    "logo": ""
   },
   "otc:7284": {
@@ -1346,8 +1643,10 @@
     "otc:6987",
     "otc:6993",
     "otc:6995",
+    "otc:6997",
     "otc:7012",
     "otc:7016",
+    "otc:7017",
     "otc:7022",
     "otc:7034",
     "otc:7041",
@@ -1357,14 +1656,18 @@
     "otc:7061",
     "otc:7066",
     "otc:7069",
+    "otc:7074",
     "otc:7121",
     "otc:7152",
+    "otc:7156",
     "otc:7169",
     "otc:7172",
     "otc:7173",
     "otc:7178",
+    "otc:7182",
     "otc:7199",
     "otc:7244",
+    "otc:7253",
     "otc:7254"
    ],
    "games": [
@@ -1549,6 +1852,50 @@
      "eventId": "1139",
      "eventName": "The Walk Off!",
      "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:6997",
+     "scoreA": 9,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:6997",
+     "teamB": "otc:7017",
+     "scoreA": 3,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7182",
+     "teamB": "otc:6997",
+     "scoreA": 16,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7182",
+     "teamB": "otc:6997",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
      "division": "12U-OPEN",
      "teamA": "otc:7121",
      "teamB": "otc:7012",
@@ -1619,6 +1966,17 @@
      "teamA": "otc:7016",
      "teamB": "otc:7244",
      "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:7182",
+     "scoreA": 6,
      "scoreB": 9
     },
     {
@@ -1824,6 +2182,50 @@
      "eventId": "1139",
      "eventName": "The Walk Off!",
      "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7156",
+     "teamB": "otc:7074",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7074",
+     "teamB": "otc:7156",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7253",
+     "teamB": "otc:7074",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7253",
+     "teamB": "otc:7074",
+     "scoreA": 6,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
      "division": "12U-OPEN",
      "teamA": "otc:7173",
      "teamB": "otc:7121",
@@ -1840,6 +2242,17 @@
      "teamB": "otc:7152",
      "scoreA": 6,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7156",
+     "teamB": "otc:7253",
+     "scoreA": 8,
+     "scoreB": 10
     },
     {
      "source": "otc",
@@ -1879,6 +2292,17 @@
      "eventId": "1139",
      "eventName": "The Walk Off!",
      "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7253",
+     "teamB": "otc:7182",
+     "scoreA": 10,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1139",
+     "eventName": "The Walk Off!",
+     "date": "2026-09-26",
      "division": "13U-AA 54/80",
      "teamA": "otc:7254",
      "teamB": "otc:7199",
@@ -1894,17 +2318,21 @@
    "endDate": "2026-10-11",
    "final": true,
    "teamKeys": [
+    "otc:6950",
     "otc:6951",
+    "otc:6953",
     "otc:6967",
     "otc:6973",
     "otc:6980",
     "otc:7007",
     "otc:7016",
     "otc:7034",
+    "otc:7035",
     "otc:7050",
     "otc:7067",
     "otc:7069",
     "otc:7084",
+    "otc:7090",
     "otc:7096",
     "otc:7098",
     "otc:7121",
@@ -1917,10 +2345,12 @@
     "otc:7148",
     "otc:7158",
     "otc:7165",
+    "otc:7166",
     "otc:7167",
     "otc:7169",
     "otc:7171",
     "otc:7172",
+    "otc:7186",
     "otc:7191",
     "otc:7192",
     "otc:7194",
@@ -1940,6 +2370,61 @@
     "otc:7324"
    ],
    "games": [
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:6950",
+     "teamB": "otc:6953",
+     "scoreA": 9,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:6950",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:6950",
+     "scoreA": 3,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:6950",
+     "scoreA": 10,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:6950",
+     "teamB": "otc:7090",
+     "scoreA": 10,
+     "scoreB": 11
+    },
     {
      "source": "otc",
      "eventId": "1141",
@@ -1972,6 +2457,17 @@
      "teamB": "otc:7302",
      "scoreA": 2,
      "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:7035",
+     "scoreA": 3,
+     "scoreB": 9
     },
     {
      "source": "otc",
@@ -2418,6 +2914,39 @@
      "eventId": "1141",
      "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
      "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7090",
+     "teamB": "otc:7166",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7090",
+     "teamB": "otc:7166",
+     "scoreA": 8,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7186",
+     "teamB": "otc:7090",
+     "scoreA": 8,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
      "division": "12U-AA",
      "teamA": "otc:7096",
      "teamB": "otc:7158",
@@ -2671,6 +3200,28 @@
      "eventId": "1141",
      "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
      "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7166",
+     "teamB": "otc:7186",
+     "scoreA": 15,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
+     "division": "10U-AA",
+     "teamA": "otc:7166",
+     "teamB": "otc:7186",
+     "scoreA": 23,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1141",
+     "eventName": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-10-10",
      "division": "14U-OPEN 60/90",
      "teamA": "otc:7167",
      "teamB": "otc:7317",
@@ -2849,18 +3400,30 @@
    "name": "The Smash-Burger Bash!",
    "startDate": "2026-10-17",
    "endDate": "2026-10-18",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6956",
     "otc:6978",
     "otc:6989",
+    "otc:6997",
+    "otc:7004",
     "otc:7007",
     "otc:7025",
+    "otc:7035",
     "otc:7046",
     "otc:7059",
+    "otc:7060",
+    "otc:7126",
+    "otc:7160",
+    "otc:7168",
     "otc:7170",
+    "otc:7182",
     "otc:7185",
-    "otc:7229"
+    "otc:7187",
+    "otc:7190",
+    "otc:7197",
+    "otc:7229",
+    "otc:7272"
    ],
    "games": [
     {
@@ -2989,6 +3552,94 @@
      "eventId": "1142",
      "eventName": "The Smash-Burger Bash!",
      "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7168",
+     "teamB": "otc:6997",
+     "scoreA": 10,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7190",
+     "teamB": "otc:6997",
+     "scoreA": 1,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7197",
+     "teamB": "otc:6997",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6997",
+     "teamB": "otc:7272",
+     "scoreA": 9,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7004",
+     "teamB": "otc:7060",
+     "scoreA": 11,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7126",
+     "teamB": "otc:7004",
+     "scoreA": 6,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7126",
+     "teamB": "otc:7004",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7004",
+     "teamB": "otc:7182",
+     "scoreA": 17,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
      "division": "11U-AA",
      "teamA": "otc:7025",
      "teamB": "otc:7007",
@@ -3033,6 +3684,61 @@
      "eventId": "1142",
      "eventName": "The Smash-Burger Bash!",
      "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:7060",
+     "scoreA": 24,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:7126",
+     "scoreA": 2,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7160",
+     "teamB": "otc:7035",
+     "scoreA": 11,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7160",
+     "teamB": "otc:7035",
+     "scoreA": 3,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:7182",
+     "scoreA": 12,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
      "division": "11U-AA",
      "teamA": "otc:7229",
      "teamB": "otc:7046",
@@ -3055,6 +3761,72 @@
      "eventId": "1142",
      "eventName": "The Smash-Burger Bash!",
      "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7060",
+     "teamB": "otc:7160",
+     "scoreA": 1,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7168",
+     "teamB": "otc:7126",
+     "scoreA": 11,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7182",
+     "teamB": "otc:7126",
+     "scoreA": 6,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7187",
+     "teamB": "otc:7168",
+     "scoreA": 2,
+     "scoreB": 27
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7168",
+     "teamB": "otc:7190",
+     "scoreA": 24,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7168",
+     "teamB": "otc:7197",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
      "division": "11U-AA",
      "teamA": "otc:7170",
      "teamB": "otc:7185",
@@ -3071,6 +3843,50 @@
      "teamB": "otc:7229",
      "scoreA": 11,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7190",
+     "teamB": "otc:7187",
+     "scoreA": 22,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7272",
+     "teamB": "otc:7187",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7197",
+     "teamB": "otc:7272",
+     "scoreA": 12,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1142",
+     "eventName": "The Smash-Burger Bash!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7272",
+     "teamB": "otc:7197",
+     "scoreA": 8,
+     "scoreB": 8
     }
    ]
   },
@@ -3083,6 +3899,10 @@
    "teamKeys": [
     "otc:6958",
     "otc:7006",
+    "otc:7027",
+    "otc:7081",
+    "otc:7181",
+    "otc:7190",
     "otc:7194",
     "otc:7222",
     "otc:7246",
@@ -3171,6 +3991,83 @@
      "eventId": "1152",
      "eventName": "The Central Wallbanger!",
      "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7027",
+     "scoreA": 21,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7081",
+     "scoreA": 8,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7190",
+     "teamB": "otc:7027",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7181",
+     "scoreA": 7,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7181",
+     "scoreA": 9,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7181",
+     "teamB": "otc:7190",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
+     "division": "10U-AA",
+     "teamA": "otc:7181",
+     "teamB": "otc:7190",
+     "scoreA": 12,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1152",
+     "eventName": "The Central Wallbanger!",
+     "date": "2026-09-26",
      "division": "12U-AA",
      "teamA": "otc:7246",
      "teamB": "otc:7194",
@@ -3217,20 +4114,73 @@
    "name": "The Central Groundbreaker!",
    "startDate": "2026-10-17",
    "endDate": "2026-10-18",
-   "final": false,
+   "final": true,
    "teamKeys": [
+    "otc:6939",
     "otc:6951",
     "otc:6958",
     "otc:7006",
     "otc:7023",
+    "otc:7027",
     "otc:7067",
+    "otc:7080",
+    "otc:7081",
+    "otc:7090",
+    "otc:7103",
+    "otc:7115",
+    "otc:7153",
     "otc:7247",
     "otc:7252",
+    "otc:7257",
     "otc:7296",
     "otc:7339",
     "otc:7340"
    ],
    "games": [
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:6939",
+     "scoreA": 7,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7090",
+     "teamB": "otc:6939",
+     "scoreA": 26,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:6939",
+     "scoreA": 15,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6939",
+     "teamB": "otc:7257",
+     "scoreA": 4,
+     "scoreB": 8
+    },
     {
      "source": "otc",
      "eventId": "1154",
@@ -3357,6 +4307,28 @@
      "eventId": "1154",
      "eventName": "The Central Groundbreaker!",
      "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7081",
+     "scoreA": 13,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7027",
+     "scoreA": 19,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
      "division": "14U-OPEN 60/90",
      "teamA": "otc:7247",
      "teamB": "otc:7067",
@@ -3384,6 +4356,127 @@
      "teamB": "otc:7339",
      "scoreA": 8,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7090",
+     "scoreA": 6,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7115",
+     "scoreA": 10,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7153",
+     "teamB": "otc:7080",
+     "scoreA": 3,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7153",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7090",
+     "teamB": "otc:7081",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7103",
+     "scoreA": 9,
+     "scoreB": 25
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7090",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7257",
+     "teamB": "otc:7090",
+     "scoreA": 14,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7115",
+     "scoreA": 15,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7115",
+     "teamB": "otc:7153",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1154",
+     "eventName": "The Central Groundbreaker!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7115",
+     "teamB": "otc:7257",
+     "scoreA": 5,
+     "scoreB": 4
     },
     {
      "source": "otc",
@@ -3436,8 +4529,10 @@
    "name": "Battle For Bayou Country!",
    "startDate": "2026-10-17",
    "endDate": "2026-10-18",
-   "final": false,
+   "final": true,
    "teamKeys": [
+    "otc:6942",
+    "otc:6952",
     "otc:6964",
     "otc:6973",
     "otc:6988",
@@ -3447,9 +4542,87 @@
     "otc:7184",
     "otc:7188",
     "otc:7205",
+    "otc:7248",
     "otc:7336"
    ],
    "games": [
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6952",
+     "teamB": "otc:6942",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6952",
+     "teamB": "otc:6942",
+     "scoreA": 15,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7248",
+     "teamB": "otc:6942",
+     "scoreA": 5,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6942",
+     "teamB": "otc:7248",
+     "scoreA": 14,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6942",
+     "teamB": "otc:7248",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:7248",
+     "teamB": "otc:6952",
+     "scoreA": 4,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1164",
+     "eventName": "Battle For Bayou Country!",
+     "date": "2026-10-17",
+     "division": "10U-AA",
+     "teamA": "otc:6952",
+     "teamB": "otc:7248",
+     "scoreA": 16,
+     "scoreB": 4
+    },
     {
      "source": "otc",
      "eventId": "1164",
