@@ -145,14 +145,15 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final first = colleyRatings(ids.length, results);
   final adjusted = closeGameBonuses(first, results);
   final colley = colleyRatings(ids.length, adjusted);
-  final ratings = headToHeadAdjusted(blendWithRecord(colley, adjusted), adjusted);
-  // Each list can weigh a team's own record differently (all 25% for now).
-  final aaRatings = headToHeadAdjusted(
-      blendWithRecord(colley, adjusted, weight: aaRecordWeight), adjusted);
-  final aaaRatings = headToHeadAdjusted(
-      blendWithRecord(colley, adjusted, weight: aaaRecordWeight), adjusted);
-  final majorsRatings = headToHeadAdjusted(
-      blendWithRecord(colley, adjusted, weight: majorsRecordWeight), adjusted);
+  // Part of a team's own record is its record against its own class.
+  final classOf = [for (final id in ids) tierOf(id)];
+  List<double> blended(RecordWeights weights) => headToHeadAdjusted(
+      blendWithRecord(colley, adjusted, weights: weights, classOf: classOf), adjusted);
+  final ratings = blended(recordWeights);
+  // Each list can weigh a team's own record differently (all the same for now).
+  final aaRatings = blended(aaRecordWeights);
+  final aaaRatings = blended(aaaRecordWeights);
+  final majorsRatings = blended(majorsRecordWeights);
 
   final stats = {for (final id in ids) id: _Stats()};
   for (final g in games) {
@@ -299,9 +300,8 @@ String? logoFor(Iterable<SourceTeam> listings) {
     'state': state,
     'method': 'colley+h2h',
     'aaaWinWeight': aaaWinWeight,
-    'aaRecordWeight': aaRecordWeight,
-    'aaaRecordWeight': aaaRecordWeight,
-    'majorsRecordWeight': majorsRecordWeight,
+    'classRecordWeight': recordWeights.inClass,
+    'recordWeight': recordWeights.overall,
     'majorsWinWeight': majorsWinWeight,
     'aaaLossScale': aaaLossScale,
     'majorsLossScale': majorsLossScale,

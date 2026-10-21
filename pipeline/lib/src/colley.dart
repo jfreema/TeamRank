@@ -145,34 +145,56 @@ List<double> headToHeadAdjusted(List<double> ratings, List<Result> results,
 }
 
 /// How much of the final rating comes from a team's own results rather
-/// than the schedule-driven Colley rating.
-// Used by the combined age list (Jared, 2026-10-21).
-const recordWeight = 0.25;
+/// than the schedule-driven Colley rating (Jared, 2026-10-21): [inClass]
+/// from its record against teams in its own class, [overall] from its
+/// record in all games. Used by the combined age list.
+typedef RecordWeights = ({double inClass, double overall});
+const RecordWeights recordWeights = (inClass: 0.15, overall: 0.10);
 
-/// The record share used for the class lists (Jared, 2026-10-20). The
-/// combined age list keeps [recordWeight].
-const aaRecordWeight = 0.25, aaaRecordWeight = 0.25, majorsRecordWeight = 0.25;
+/// The record shares used for the class lists; the same as the combined
+/// age list for now.
+const RecordWeights aaRecordWeights = recordWeights,
+    aaaRecordWeights = recordWeights,
+    majorsRecordWeights = recordWeights;
 
 /// Blends each rating with the team's own results: its average [winShare]
 /// (so run differential counts), padded with one tie so a team with one or
 /// two games is not judged on them alone. Early in a season teams have few
 /// games, and the Colley rating alone lets a tough schedule outweigh the
 /// record; this keeps a winning record worth something on its own.
+///
+/// The in-class part only counts games between teams of the same class
+/// ([classOf], by team index), padded with the team's overall record
+/// instead of a tie, so a team that has not played its own class yet is
+/// judged on its overall record there too.
 List<double> blendWithRecord(List<double> ratings, List<Result> results,
-    {double weight = recordWeight}) {
+    {RecordWeights weights = recordWeights, List<String>? classOf}) {
   final won = List<double>.filled(ratings.length, 0.5);
   final played = List<double>.filled(ratings.length, 1);
+  final classWon = List<double>.filled(ratings.length, 0);
+  final classPlayed = List<double>.filled(ratings.length, 0);
   for (final r in results) {
     final share = (winShare(r.scoreA, r.scoreB) + r.shareBonus).clamp(0.0, 1.0);
     won[r.a] += share;
     won[r.b] += 1 - share;
     played[r.a] += 1;
     played[r.b] += 1;
+    if (classOf != null && classOf[r.a] == classOf[r.b]) {
+      classWon[r.a] += share;
+      classWon[r.b] += 1 - share;
+      classPlayed[r.a] += 1;
+      classPlayed[r.b] += 1;
+    }
   }
-  return [
-    for (var i = 0; i < ratings.length; i++)
-      (1 - weight) * ratings[i] + weight * won[i] / played[i]
-  ];
+  final out = <double>[];
+  for (var i = 0; i < ratings.length; i++) {
+    final overall = won[i] / played[i];
+    final inClass = (overall + classWon[i]) / (1 + classPlayed[i]);
+    out.add((1 - weights.inClass - weights.overall) * ratings[i] +
+        weights.inClass * inClass +
+        weights.overall * overall);
+  }
+  return out;
 }
 
 /// Close games against stronger teams earn extra credit.

@@ -55,6 +55,11 @@ app/        Flutter web app that shows the rankings
    `pipeline/lib/src/colley.dart`): when a team beat a higher-rated team
    (more wins than losses against it), each moves by 60% of the gap, at most
    0.06, so a winner within 0.10 passes the team it beat.
+   A team's own record counts too (`recordWeights` in
+   `pipeline/lib/src/colley.dart`): 15% of its rating is its record against
+   teams in its own class and 10% its record in all games, both counting
+   run differential. A team that hasn't played its own class yet is judged
+   on its overall record for both.
    Each team is listed at the age it registered as (10U to 14U), even when
    it plays up, and ranked within that age. All ages share one rating pool,
    so games across ages count. Set a team's age with `ages` in

@@ -112,9 +112,25 @@ void main() {
       Result(0, 2, 5, 1), Result(0, 2, 5, 1), Result(0, 2, 5, 1),
       Result(1, 3, 5, 1), Result(3, 1, 5, 1), Result(3, 1, 5, 1),
     ];
-    final blended = blendWithRecord(ratings, results, weight: 0.35);
+    final blended = blendWithRecord(ratings, results, weights: (inClass: 0, overall: 0.35));
     expect(blended[0], greaterThan(blended[1]));
-    expect(blendWithRecord([0.5], [], weight: 0.35), [closeTo(0.5, 1e-12)]);
+    expect(blendWithRecord([0.5], [], weights: (inClass: 0, overall: 0.35)), [closeTo(0.5, 1e-12)]);
+  });
+
+  test('part of the record is the record against the same class', () {
+    // Teams 0 and 3 are both 1-1, but team 0 beat the AA team and team 3
+    // lost to it. Team 2 (AAA) never played a AAA team.
+    final classOf = ['AA', 'AA', 'AAA', 'AA', 'AAA'];
+    final ratings = [0.5, 0.5, 0.5, 0.5, 0.5];
+    final results = [
+      Result(0, 1, 5, 1), Result(2, 0, 5, 1),
+      Result(1, 3, 5, 1), Result(3, 4, 5, 1),
+    ];
+    final split = blendWithRecord(ratings, results, weights: (inClass: 0.15, overall: 0.10), classOf: classOf);
+    final overallOnly = blendWithRecord(ratings, results, weights: (inClass: 0, overall: 0.25), classOf: classOf);
+    expect(split[0], greaterThan(split[3]), reason: 'same overall record, better against its class');
+    expect(overallOnly[0], closeTo(overallOnly[3], 1e-12));
+    expect(split[2], closeTo(overallOnly[2], 1e-12), reason: 'no games in its class: overall record stands in');
   });
 
   test('a close loss to a strong team earns more than one to a weak team', () {
