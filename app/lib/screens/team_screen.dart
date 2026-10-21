@@ -66,12 +66,25 @@ class TeamScreen extends StatelessWidget {
                   runSpacing: 12,
                   children: [
                     if (team.level != null && team.levelRank != null)
-                      _Stat(label: '${levelLabel(team.level!)} rank', value: '#${team.levelRank}', color: Palette.yellow),
+                      _Stat(
+                          label: '${ageLabel(team.age)} ${levelLabel(team.level!)} rank'.trim(),
+                          value: '#${team.levelRank}',
+                          color: Palette.yellow)
+                    else
+                      _Stat(
+                          label: 'Class',
+                          value: team.level != null
+                              ? levelLabel(team.level!)
+                              : team.sources.any((s) => s.ageClass.toLowerCase().contains('open'))
+                                  ? 'Open'
+                                  : 'None',
+                          color: Palette.yellow),
                     _Stat(
-                        label: team.age == null ? 'Rank' : '${ageLabel(team.age)} rank',
+                        label: team.age == null ? 'Rank' : 'All ${ageLabel(team.age)} rank',
                         value: team.rank == null ? 'Not ranked' : '#${team.rank}',
                         color: Palette.pink),
                     _Stat(label: 'Record', value: team.record, color: Palette.green),
+                    if (team.classRecords.isNotEmpty) _ClassRecords(team: team),
                     _Stat(label: 'Rating', value: team.rating.toStringAsFixed(3)),
                     _Stat(label: 'Schedule strength', value: team.sos.toStringAsFixed(3)),
                     _Stat(
@@ -201,6 +214,44 @@ class _GameTile extends StatelessWidget {
       ),
     );
   }
+}
+
+/// One chip with [team]'s record against each class it has played, AA
+/// first: "vs AA 5-2", "vs AAA 1-3".
+class _ClassRecords extends StatelessWidget {
+  const _ClassRecords({required this.team});
+  final Team team;
+
+  static const _order = ['AA', 'AAA', 'Majors', 'Other'];
+
+  @override
+  Widget build(BuildContext context) {
+    int place(String cls) => _order.contains(cls) ? _order.indexOf(cls) : _order.length;
+    final classes = team.classRecords.keys.toList()..sort((a, b) => place(a).compareTo(place(b)));
+    return Chunky(
+      color: Palette.green,
+      radius: 14,
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      child: Wrap(
+        spacing: 18,
+        runSpacing: 6,
+        children: [
+          for (final cls in classes)
+            Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('vs ${cls == 'Other' ? cls : levelLabel(cls)}', style: body(12, weight: 900)),
+                Text(_record(team.classRecords[cls]!), style: display(24)),
+              ],
+            ),
+        ],
+      ),
+    );
+  }
+
+  static String _record(({int wins, int losses, int ties}) r) =>
+      r.ties > 0 ? '${r.wins}-${r.losses}-${r.ties}' : '${r.wins}-${r.losses}';
 }
 
 class _Stat extends StatelessWidget {

@@ -44,7 +44,9 @@ app/        Flutter web app that shows the rankings
    to a full win at 10+ runs, with the loser keeping the rest. Out-of-state opponents count
    toward ratings, but only Louisiana teams are ranked.
    AA teams (including A), AAA teams and Majors teams get separate lists, based on
-   the class each team registered in. Everyone is still rated in one pool,
+   the class each team registered in (a team in more than one goes in the
+   highest; a team only in 2D's Open class, with no class from another
+   org, counts as AAA). Everyone is still rated in one pool,
    so games between levels count. Set a team's list with `levels` in
    `data/aliases.json` if its class is wrong or missing. A win over a
    AAA team counts as 3 games and over a Majors team as 4, and a loss to

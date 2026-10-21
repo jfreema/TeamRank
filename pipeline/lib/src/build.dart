@@ -45,11 +45,12 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final sourceTeams = <String, SourceTeam>{
     for (final c in caches) ...c.teams,
   };
-  final eventsOf = <String, Set<String>>{};
+  final eventsOf = <String, Set<String>>{}, divisionsOf = <String, Set<String>>{};
   for (final c in caches) {
     for (final g in c.games) {
       for (final k in [g.teamA, g.teamB]) {
         eventsOf.putIfAbsent(k, () => {}).add('${g.source}:${g.eventId}');
+        divisionsOf.putIfAbsent(k, () => {}).add(g.division);
       }
     }
   }
@@ -92,6 +93,13 @@ String? logoFor(Iterable<SourceTeam> listings) {
     return current.isEmpty ? list : current;
   }
 
+  // A 2D listing in the Open class: registered as Open, or registered with
+  // only an age and playing in an Open division.
+  bool isOpen(String label) => RegExp(r'\bopen\b', caseSensitive: false).hasMatch(label);
+  bool openOn2D(SourceTeam t) =>
+      t.source == '2d' &&
+      (isOpen(t.ageClass) || (levelOf(t.ageClass) == null && (divisionsOf[t.key] ?? const {}).any(isOpen)));
+
   // AA, AAA and Majors get their own lists, but the ratings behind them come
   // from one pool so games between the levels still count.
   String? levelFor(String id) {
@@ -105,7 +113,9 @@ String? logoFor(Iterable<SourceTeam> listings) {
       return 'Majors';
     }
     final levels = active.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
-    return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
+    if (levels.isNotEmpty) return levels.contains('AAA') ? 'AAA' : 'AA';
+    // With no class from any org, 2D's Open class counts as AAA (Jared's rule).
+    return active.any(openOn2D) ? 'AAA' : null;
   }
 
   // 'Majors', 'AAA', or 'AA' for everyone else, for weighting games.
@@ -156,10 +166,11 @@ String? logoFor(Iterable<SourceTeam> listings) {
   final majorsRatings = blended(majorsRecordWeights);
 
   final stats = {for (final id in ids) id: _Stats()};
+  final levels = {for (final id in ids) id: levelFor(id)};
   for (final g in games) {
     final a = groupOf[g.teamA]!, b = groupOf[g.teamB]!;
-    stats[a]!.add(g.scoreA, g.scoreB, ratings[index[b]!]);
-    stats[b]!.add(g.scoreB, g.scoreA, ratings[index[a]!]);
+    stats[a]!.add(g.scoreA, g.scoreB, ratings[index[b]!], levels[b]);
+    stats[b]!.add(g.scoreB, g.scoreA, ratings[index[a]!], levels[a]);
   }
 
   bool isHome(String id) =>
@@ -280,6 +291,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
       'ties': s.ties,
       'runsFor': s.runsFor,
       'runsAgainst': s.runsAgainst,
+      'classRecords': s.byClass,
       'sources': [
         for (final t in list)
           {
@@ -493,13 +505,21 @@ class _Stats {
   int get games => wins + losses + ties;
   double get sos => games == 0 ? 0 : _oppSum / games;
 
-  void add(int us, int them, double oppRating) {
+  /// Wins, losses and ties against each opponent class; 'Other' for
+  /// opponents on no class list.
+  final byClass = <String, List<int>>{};
+
+  void add(int us, int them, double oppRating, String? oppLevel) {
+    final vs = byClass.putIfAbsent(oppLevel ?? 'Other', () => [0, 0, 0]);
     if (us > them) {
       wins++;
+      vs[0]++;
     } else if (us < them) {
       losses++;
+      vs[1]++;
     } else {
       ties++;
+      vs[2]++;
     }
     runsFor += us;
     runsAgainst += them;

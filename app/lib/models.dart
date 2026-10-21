@@ -73,6 +73,7 @@ class Team {
     required this.ties,
     required this.runsFor,
     required this.runsAgainst,
+    this.classRecords = const {},
     required this.sources,
     this.logo,
   });
@@ -104,6 +105,10 @@ class Team {
   final int ties;
   final int runsFor;
   final int runsAgainst;
+
+  /// Wins, losses and ties against each opponent class (`AA`, `AAA`,
+  /// `Majors`, or `Other` for opponents on no class list).
+  final Map<String, ({int wins, int losses, int ties})> classRecords;
   final List<TeamSource> sources;
   final String? logo;
 
@@ -130,6 +135,10 @@ class Team {
         ties: j['ties'] as int? ?? 0,
         runsFor: j['runsFor'] as int? ?? 0,
         runsAgainst: j['runsAgainst'] as int? ?? 0,
+        classRecords: (j['classRecords'] as Map<String, dynamic>? ?? {}).map((k, v) {
+          final r = (v as List).cast<int>();
+          return MapEntry(k, (wins: r[0], losses: r[1], ties: r[2]));
+        }),
         sources: (j['sources'] as List? ?? [])
             .map((s) => TeamSource.fromJson(s as Map<String, dynamic>))
             .toList(),

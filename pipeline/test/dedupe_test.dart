@@ -2,13 +2,13 @@ import 'package:teamrank_pipeline/teamrank_pipeline.dart';
 import 'package:test/test.dart';
 
 Game game(String source, String event, String a, String b, int sa, int sb,
-        {String date = '2026-10-10'}) =>
+        {String date = '2026-10-10', String division = '12U-AA'}) =>
     Game(
       source: source,
       eventId: event,
       eventName: 'Event $event',
       date: date,
-      division: '12U-AA',
+      division: division,
       teamA: a,
       teamB: b,
       scoreA: sa,
@@ -480,6 +480,47 @@ void main() {
     };
     expect(byName['Bulls']!['level'], 'Majors', reason: 'Majors beats AAA');
     expect(byName['Cats']!['level'], 'AA', reason: 'single A is listed with AA');
+  });
+
+  test('a team only in 2D Open is AAA unless another org gives it a class', () {
+    SourceTeam t(String k, String name, String cls) =>
+        SourceTeam(key: k, name: name, city: 'Monroe', state: 'LA', ageClass: cls);
+    final twoD = SourceCache(source: '2d', season: '2026-27', teams: {
+      '2d:1': t('2d:1', 'Smash', '13u Open'),
+      '2d:2': t('2d:2', 'Elite', '13u'),
+      '2d:3': t('2d:3', 'Bulls', '13u Open'),
+    }, events: {
+      '1': EventRecord(id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-10',
+          isFinal: true, teamKeys: [], games: [
+            game('2d', '1', '2d:1', '2d:2', 5, 2, division: '13u Open'),
+            game('2d', '1', '2d:3', '2d:1', 3, 2, division: '13u Open'),
+          ]),
+    });
+    final otc = SourceCache(source: 'otc', season: '2026-27', teams: {
+      'otc:3': t('otc:3', 'Bulls', '13U-AA'),
+      'otc:4': t('otc:4', 'Tigers', '13U-OPEN 54/80'),
+    }, events: {
+      '2': EventRecord(id: '2', name: 'F', startDate: '2026-10-17', endDate: '2026-10-17',
+          isFinal: true, teamKeys: [], games: [
+            game('otc', '2', 'otc:3', 'otc:4', 4, 1, date: '2026-10-17', division: '13U-OPEN 54/80'),
+          ]),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [twoD, otc],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final byName = {
+      for (final x in (rankings['teams'] as List).cast<Map<String, dynamic>>()) x['name']: x
+    };
+    expect(byName['Smash']!['level'], 'AAA', reason: 'registered in Open');
+    expect(byName['Elite']!['level'], 'AAA', reason: 'registered with only an age, and played in Open');
+    expect(byName['Bulls']!['level'], 'AA', reason: 'OTC lists it as AA');
+    expect(byName['Tigers']!['level'], isNull, reason: 'the rule is for 2D Open');
+    // Each team's record against every class it played.
+    expect(byName['Smash']!['classRecords'], {'AAA': [1, 0, 0], 'AA': [0, 1, 0]});
+    expect(byName['Bulls']!['classRecords'], {'AAA': [1, 0, 0], 'Other': [1, 0, 0]});
   });
 
   test('a listing with nothing this season does not set the age or class', () {
