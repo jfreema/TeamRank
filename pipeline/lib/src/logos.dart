@@ -70,7 +70,9 @@ String _hash(String s) {
   var h = 0xcbf29ce484222325;
   for (final b in s.codeUnits) {
     h ^= b;
-    h = (h * 0x100000001b3) & 0xFFFFFFFFFFFFFFFF;
+    h *= 0x100000001b3;
   }
-  return h.toUnsigned(64).toRadixString(16).padLeft(16, '0');
+  // Dart ints are signed, so print the two halves.
+  String half(int v) => v.toRadixString(16).padLeft(8, '0');
+  return half((h >>> 32) & 0xFFFFFFFF) + half(h & 0xFFFFFFFF);
 }

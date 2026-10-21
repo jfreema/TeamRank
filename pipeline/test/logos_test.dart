@@ -23,6 +23,8 @@ void main() {
             {'id': 'a', 'logo': 'https://cdn.example/a.png'},
             {'id': 'b', 'logo': 'https://cdn.example/broken.png'},
             {'id': 'c', 'logo': null},
+            // Hashes to a negative 64-bit number.
+            {'id': 'd', 'logo': 'https://offthechain.blob.core.windows.net/documents/images/Teams/7252-walker-elite.png?v=1'},
           ]
         };
 
@@ -33,6 +35,7 @@ void main() {
     expect(local, matches(RegExp(r'^logos/[0-9a-f]{16}\.jpg$')));
     expect(teams[1]['logo'], 'https://cdn.example/broken.png', reason: 'kept when it cannot be fetched');
     expect(teams[2]['logo'], isNull);
+    expect(teams[3]['logo'], matches(RegExp(r'^logos/[0-9a-f]{16}\.jpg$')));
     final copy = img.decodeJpg(File('${web.path}/$local').readAsBytesSync())!;
     expect((copy.width, copy.height), (192, 96));
     expect(File('${web.path}/logos/stale.jpg').existsSync(), isFalse);
