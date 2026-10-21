@@ -108,14 +108,16 @@ class _RankingsScreenState extends State<RankingsScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        // Sized so 10U to 14U fit on one line on a phone.
                         Wrap(
-                          spacing: 8,
+                          spacing: 5,
                           runSpacing: 8,
                           children: [
                             for (final a in data.ages)
                               Pill(
                                 label: ageLabel(a),
-                                size: 20,
+                                size: 18,
+                                padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 8),
                                 selected: age == a,
                                 onTap: () => setState(() {
                                   _age = a;

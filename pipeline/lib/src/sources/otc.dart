@@ -22,8 +22,10 @@ class OtcScraper {
   final PoliteClient client;
   final String base;
 
+  /// Reads new and unfinished events into [cache]. With [refetch], finished
+  /// events are read again too (after the covered ages change).
   Future<void> scrape(SourceCache cache, Season season, DateTime today,
-      {void Function(String) log = print}) async {
+      {bool refetch = false, void Function(String) log = print}) async {
 
     final listings = <String, OtcListing>{};
     for (final l in parseListings(await client.get('$base/baseball/Events'),
@@ -51,7 +53,7 @@ class OtcScraper {
       if (l.start != null && (!season.contains(l.start!) || l.start!.isAfter(today))) {
         return false;
       }
-      return !(cache.events[l.id]?.isFinal ?? false);
+      return refetch || !(cache.events[l.id]?.isFinal ?? false);
     }).toList();
     log('otc: ${listings.length} events listed, ${todo.length} events to fetch');
     if (todo.isNotEmpty) await _scrapeEvents(cache, todo, today, log);

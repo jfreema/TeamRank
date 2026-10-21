@@ -4,11 +4,13 @@ import 'dart:io';
 import 'package:teamrank_pipeline/teamrank_pipeline.dart';
 
 const usage = '''
-Usage: dart run bin/teamrank.dart [scrape|rank|all] [--source otc|2d|gs|uacs] [--data DIR] [--out FILE]
+Usage: dart run bin/teamrank.dart [scrape|rank|all] [--source otc|2d|gs|uacs] [--refetch] [--data DIR] [--out FILE]
 
-  scrape   Fetch new and in-progress events into DIR/<source>.json
-  rank     Build the rankings file from what has been scraped
-  all      scrape, then rank (default)
+  scrape     Fetch new and in-progress events into DIR/<source>.json
+  rank       Build the rankings file from what has been scraped
+  all        scrape, then rank (default)
+  --refetch  Read finished events again too, after the covered ages change
+             (UACS cannot: its finished events are taken down)
 ''';
 
 const firebaseProject = 'teamrank-la';
@@ -18,6 +20,7 @@ Future<void> main(List<String> args) async {
   var dataDir = '../data';
   var out = '../app/web/data/rankings.json';
   final sources = <String>{};
+  var refetch = false;
   for (var i = 0; i < args.length; i++) {
     switch (args[i]) {
       case 'scrape' || 'rank' || 'all':
@@ -28,6 +31,8 @@ Future<void> main(List<String> args) async {
         dataDir = args[++i];
       case '--out':
         out = args[++i];
+      case '--refetch':
+        refetch = true;
       default:
         stderr.write(usage);
         exit(64);
@@ -45,11 +50,11 @@ Future<void> main(List<String> args) async {
       final cache = loadCache(dataDir, s, season.label);
       try {
         if (s == 'otc') {
-          await OtcScraper(client).scrape(cache, season, today);
+          await OtcScraper(client).scrape(cache, season, today, refetch: refetch);
         } else if (s == '2d') {
-          await TwoDScraper(client).scrape(cache, season, today);
+          await TwoDScraper(client).scrape(cache, season, today, refetch: refetch);
         } else if (s == 'gs') {
-          await GrandSlamScraper(client).scrape(cache, season, today);
+          await GrandSlamScraper(client).scrape(cache, season, today, refetch: refetch);
         } else if (s == 'uacs') {
           await UacsScraper(client).scrape(cache, season, today);
         }

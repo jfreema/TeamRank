@@ -20,8 +20,10 @@ class TwoDScraper {
   final PoliteClient client;
   final String base;
 
+  /// Reads new and unfinished events into [cache]. With [refetch], finished
+  /// events are read again too (after the covered ages change).
   Future<void> scrape(SourceCache cache, Season season, DateTime today,
-      {void Function(String) log = print}) async {
+      {bool refetch = false, void Function(String) log = print}) async {
     var token = await _csrf();
 
     final events = <Map<String, dynamic>>[];
@@ -48,7 +50,7 @@ class TwoDScraper {
     final todo = events.where((e) {
       final start = DateTime.tryParse('${e['start_date']}');
       if (start == null || !season.contains(start) || start.isAfter(today)) return false;
-      return !(cache.events['${e['id']}']?.isFinal ?? false);
+      return refetch || !(cache.events['${e['id']}']?.isFinal ?? false);
     }).toList();
     log('2d: ${events.length} past events listed, ${todo.length} to fetch');
 

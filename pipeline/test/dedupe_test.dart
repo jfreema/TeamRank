@@ -261,11 +261,13 @@ void main() {
     });
   });
 
-  test('teams stay at their registered age and only 11U-14U are ranked', () {
+  test('teams stay at their registered age and only 10U-14U are ranked', () {
     SourceTeam t(String k, String cls) =>
         SourceTeam(key: k, name: k, city: k, state: 'LA', ageClass: cls);
     final cache = SourceCache(source: 'otc', season: '2026-27', teams: {
       'otc:up': t('otc:up', '11U-AA'),
+      'otc:ten': t('otc:ten', '10U-AA'),
+      'otc:nine': t('otc:nine', '9U-AA'),
       'otc:a': t('otc:a', '12U-AA'),
       'otc:b': t('otc:b', '12U-AA'),
       'otc:old': t('otc:old', '15U-AA'),
@@ -276,6 +278,8 @@ void main() {
         games: [
           // An 11U team playing up in a 12U division.
           game('otc', '1', 'otc:up', 'otc:a', 6, 2),
+          game('otc', '1', 'otc:ten', 'otc:b', 6, 2),
+          game('otc', '1', 'otc:nine', 'otc:b', 6, 2),
           game('otc', '1', 'otc:a', 'otc:b', 6, 2),
           game('otc', '1', 'otc:old', 'otc:b', 6, 2),
         ],
@@ -294,9 +298,13 @@ void main() {
     expect(byName['otc:up']!['rank'], 1, reason: 'ranked within 11U');
     expect(byName['otc:a']!['age'], 12);
     expect(byName['otc:a']!['rank'], 1);
+    expect(byName['otc:ten']!['age'], 10);
+    expect(byName['otc:ten']!['rank'], 1, reason: 'ranked within 10U');
     expect(byName['otc:old']!['rank'], isNull, reason: '15U is outside the covered ages');
     expect(byName['otc:old']!['age'], 15, reason: 'still listed as an opponent');
+    expect(byName['otc:nine']!['rank'], isNull, reason: '9U is outside the covered ages');
     expect(rankings['ages'], {
+      '10': {'teams': 1, 'AA': 1, 'AAA': 0, 'Majors': 0},
       '11': {'teams': 1, 'AA': 1, 'AAA': 0, 'Majors': 0},
       '12': {'teams': 2, 'AA': 2, 'AAA': 0, 'Majors': 0},
     });
@@ -454,7 +462,13 @@ void main() {
       '1': EventRecord(id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-10',
           isFinal: true, teamKeys: [], games: [game('otc', '1', 'otc:1', 'otc:2', 5, 2)]),
     });
-    final twoD = SourceCache(source: '2d', season: '2026-27', teams: {'2d:1': t('2d:1', '11u Major')});
+    final twoD = SourceCache(source: '2d', season: '2026-27', teams: {
+      '2d:1': t('2d:1', '11u Major'),
+      '2d:9': SourceTeam(key: '2d:9', name: 'Owls', city: 'Hammond', state: 'LA', ageClass: '11u AA'),
+    }, events: {
+      '5': EventRecord(id: '5', name: 'F', startDate: '2026-10-17', endDate: '2026-10-17',
+          isFinal: true, teamKeys: [], games: [game('2d', '5', '2d:1', '2d:9', 4, 1, date: '2026-10-17')]),
+    });
     final (:rankings, review: _) = buildRankings(
       caches: [otc, twoD],
       aliases: Aliases(merge: [['otc:1', '2d:1']]),
@@ -466,5 +480,31 @@ void main() {
     };
     expect(byName['Bulls']!['level'], 'Majors', reason: 'Majors beats AAA');
     expect(byName['Cats']!['level'], 'AA', reason: 'single A is listed with AA');
+  });
+
+  test('a listing with nothing this season does not set the age or class', () {
+    // Grand Slam's page for a team found through last spring's event still
+    // shows last season's class.
+    final twoD = SourceCache(source: '2d', season: '2026-27', teams: {
+      '2d:1': SourceTeam(key: '2d:1', name: 'Hawks', city: 'Monroe', state: 'LA', ageClass: '13u AA'),
+      '2d:2': SourceTeam(key: '2d:2', name: 'Owls', city: 'Ruston', state: 'LA', ageClass: '13u AA'),
+    }, events: {
+      '1': EventRecord(id: '1', name: 'E', startDate: '2026-10-10', endDate: '2026-10-10',
+          isFinal: true, teamKeys: [], games: [game('2d', '1', '2d:1', '2d:2', 5, 2)]),
+    });
+    final gs = SourceCache(source: 'gs', season: '2026-27', teams: {
+      'gs:1': SourceTeam(key: 'gs:1', name: 'Hawks', city: 'Monroe', state: 'LA', ageClass: '12 & Under AAA'),
+    });
+    final (:rankings, review: _) = buildRankings(
+      caches: [twoD, gs],
+      aliases: Aliases(),
+      season: '2026-27',
+      generatedAt: DateTime.utc(2026, 10, 20),
+    );
+    final hawks = (rankings['teams'] as List).cast<Map<String, dynamic>>().firstWhere((x) => x['name'] == 'Hawks');
+    expect((hawks['sources'] as List).map((s) => s['key']), containsAll(['2d:1', 'gs:1']),
+        reason: 'still the same team');
+    expect(hawks['age'], 13);
+    expect(hawks['level'], 'AA');
   });
 }

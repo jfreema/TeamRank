@@ -335,7 +335,7 @@ class _EditorState extends State<_Editor> {
             OutlinedButton(onPressed: () => widget.onSave('level', _keys(a), 'AAA'), child: const Text('Move to AAA list')),
             OutlinedButton(
                 onPressed: () => widget.onSave('level', _keys(a), 'Majors'), child: const Text('Move to Majors list')),
-            for (var age = 11; age <= 14; age++)
+            for (var age = 10; age <= 14; age++)
               if (age != a.age)
                 OutlinedButton(
                     onPressed: () => widget.onSave('age', _keys(a), '$age'), child: Text('List as ${ageLabel(age)}')),

@@ -262,8 +262,10 @@ bool _classClash(SourceTeam a, int? ageA, SourceTeam b, int? ageB) {
   return (ageA - ageB).abs() > 1;
 }
 
-/// The youngest and oldest age groups the site covers.
-const minAge = 11, maxAge = 14;
+/// The youngest and oldest age groups the site covers (10U added
+/// 2026-10-21). After changing them, run `scrape --refetch` once so events
+/// already saved are read again for the new ages.
+const minAge = 10, maxAge = 14;
 
 bool inAgeRange(int? age) => age != null && age >= minAge && age <= maxAge;
 

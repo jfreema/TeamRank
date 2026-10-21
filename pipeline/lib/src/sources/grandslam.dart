@@ -15,7 +15,7 @@ import 'otc.dart';
 /// Event IDs count up as events are created, so the scraper walks every ID
 /// from the first one of the season and keeps a record of each, even the
 /// ones it skips, so later runs only look at new IDs. It collects:
-/// - every Louisiana event with 11U to 14U divisions, with all its games;
+/// - every Louisiana event with divisions in the covered ages, with all its games;
 /// - games Louisiana teams played at Grand Slam events in other states,
 ///   read from those teams' pages.
 class GrandSlamScraper {
@@ -30,8 +30,10 @@ class GrandSlamScraper {
   /// missing or from an earlier season.
   static const _floorRun = 60;
 
+  /// Reads new and unfinished events into [cache]. With [refetch], every
+  /// saved event is looked at again too (after the covered ages change).
   Future<void> scrape(SourceCache cache, Season season, DateTime today,
-      {void Function(String) log = print}) async {
+      {bool refetch = false, void Function(String) log = print}) async {
     // Newest IDs come from the upcoming events list.
     final listed = <int>{};
     for (var page = 1; page <= 10; page++) {
@@ -62,13 +64,30 @@ class GrandSlamScraper {
         misses = current ? 0 : misses + 1;
       }
     } else {
+      if (refetch) {
+        // Louisiana events are read again below and keep their saved games
+        // until then. Other events keep theirs until Louisiana teams' pages
+        // are read. An event that cannot be looked at stays as it was.
+        for (final old in cache.events.values.toList()) {
+          final ev = await _event(int.parse(old.id), season, today, log);
+          if (ev == null) continue;
+          cache.events[old.id] = EventRecord(
+              id: ev.id,
+              name: ev.isFinal ? old.name : ev.name,
+              startDate: ev.startDate,
+              endDate: ev.endDate,
+              isFinal: ev.isFinal,
+              games: old.games,
+              teamKeys: old.teamKeys);
+        }
+      }
       final newest = known.reduce((a, b) => a > b ? a : b);
       for (var id = newest + 1; id <= top; id++) {
         await look(id);
       }
-      // Events that had not finished yet.
+      // Events that had not finished yet (when refetching, all were just looked at).
       // Away events are rebuilt from team pages below.
-      for (final ev in cache.events.values.where((e) => !e.isFinal && e.startDate.isNotEmpty).toList()) {
+      for (final ev in cache.events.values.where((e) => !refetch && !e.isFinal && e.startDate.isNotEmpty).toList()) {
         if (!DateTime.parse(ev.startDate).isAfter(today)) await look(int.parse(ev.id));
       }
     }
@@ -133,7 +152,8 @@ class GrandSlamScraper {
     var added = 0;
     byEvent.forEach((eid, list) {
       final old = cache.events[eid];
-      if (old != null && old.isFinal && old.games.isNotEmpty) return;
+      // Finished events keep their saved games, unless refetching.
+      if (!refetch && old != null && old.isFinal && old.games.isNotEmpty) return;
       final info = list.first.events[eid]!;
       if (!season.contains(info.start) || !OtcScraper.isAgeDivision(info.division)) return;
       final games = collectEventGames(eid, info.name, list);
@@ -162,7 +182,7 @@ class GrandSlamScraper {
   }
 
   /// Reads one event's details page. Null when it does not exist.
-  /// Events outside [state] or without 11U to 14U divisions are kept as
+  /// Events outside [state] or without divisions in the covered ages are kept as
   /// final records with no games, so they are not fetched again.
   Future<EventRecord?> _event(int id, Season season, DateTime today, void Function(String) log) async {
     String body;

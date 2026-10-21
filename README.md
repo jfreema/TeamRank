@@ -1,6 +1,6 @@
 # TeamRank
 
-Rankings for Louisiana 11U to 14U travel baseball teams, built from game results at
+Rankings for Louisiana 10U to 14U travel baseball teams, built from game results at
 [OTC Sports](https://offthecrosssports.com/baseball),
 [2D Sports](https://youth.2dsports.org),
 [Grand Slam](https://grandslamtournaments.com/baseball) and
@@ -14,7 +14,7 @@ data/       What the scrapers found (committed so each run only fetches new even
 app/        Flutter web app that shows the rankings
 ```
 
-1. **Scrape.** `pipeline` collects every finished game from 11U to 14U divisions this
+1. **Scrape.** `pipeline` collects every finished game from 10U to 14U divisions this
    season (August 1 to July 31) at OTC, 2D, Grand Slam and UACS events, with each team's
    hometown. Events that ended more than three days ago are saved to
    `data/otc.json`, `data/2d.json`, `data/gs.json` and `data/uacs.json` and never fetched again. Requests are
@@ -55,11 +55,13 @@ app/        Flutter web app that shows the rankings
    `pipeline/lib/src/colley.dart`): when a team beat a higher-rated team
    (more wins than losses against it), each moves by 60% of the gap, at most
    0.06, so a winner within 0.10 passes the team it beat.
-   Each team is listed at the age it registered as (11U to 14U), even when
+   Each team is listed at the age it registered as (10U to 14U), even when
    it plays up, and ranked within that age. All ages share one rating pool,
    so games across ages count. Set a team's age with `ages` in
    `data/aliases.json` if needed (`minAge` and `maxAge` in
-   `pipeline/lib/src/identity.dart` set the covered ages).
+   `pipeline/lib/src/identity.dart` set the covered ages; after changing
+   them, run `dart run bin/teamrank.dart scrape --refetch` once so events
+   already saved are read again for the new ages).
 4. **Publish.** The result is `app/web/data/rankings.json`, which the app
    loads when it opens.
 

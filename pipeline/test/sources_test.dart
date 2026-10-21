@@ -150,9 +150,10 @@ void main() {
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/12u-aa-">12u AA</a>
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/12u-open-">12u Open</a>
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/10u-aa-">10u AA</a>
+        <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/9u-aa-">9u AA</a>
         <a href="https://youth.2dsports.org/events/hit-fest-la-10-17-2026/schedule/all">All</a>''';
       expect(TwoDScraper.parseDivisionLinks(page, 'hit-fest-la-10-17-2026').where(TwoDScraper.isAgeDivision),
-          ['12u-aa-', '12u-open-'], reason: '10U is outside the covered ages');
+          ['12u-aa-', '12u-open-', '10u-aa-'], reason: '9U is outside the covered ages');
     });
 
     test('reads team hometowns from the teams page', () {

@@ -77,6 +77,21 @@ String? logoFor(Iterable<SourceTeam> listings) {
     if (id != null) members.putIfAbsent(id, () => []).add(t);
   }
 
+  // A listing that neither played nor signed up for an event this season (a
+  // Grand Slam team page reached through an old event, say) still shows last
+  // season's class, so it only decides a team's age and level when the team
+  // has nothing newer.
+  final thisSeason = {
+    ...eventsOf.keys,
+    for (final c in caches)
+      for (final e in c.events.values) ...e.teamKeys,
+  };
+  List<SourceTeam> playing(String id) {
+    final list = members[id] ?? [];
+    final current = list.where((t) => thisSeason.contains(t.key)).toList();
+    return current.isEmpty ? list : current;
+  }
+
   // AA, AAA and Majors get their own lists, but the ratings behind them come
   // from one pool so games between the levels still count.
   String? levelFor(String id) {
@@ -85,10 +100,11 @@ String? logoFor(Iterable<SourceTeam> listings) {
       if (aliases.levels[t.key] case final l?) return normalizeLevel(l);
     }
     // A team listed at more than one level plays up, so it goes with the highest.
-    if (list.any((t) => RegExp(r'\bmajors?\b', caseSensitive: false).hasMatch(t.ageClass))) {
+    final active = playing(id);
+    if (active.any((t) => RegExp(r'\bmajors?\b', caseSensitive: false).hasMatch(t.ageClass))) {
       return 'Majors';
     }
-    final levels = list.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
+    final levels = active.map((t) => levelOf(t.ageClass)).whereType<String>().toSet();
     return levels.contains('AAA') ? 'AAA' : (levels.isEmpty ? null : 'AA');
   }
 
@@ -180,7 +196,7 @@ String? logoFor(Iterable<SourceTeam> listings) {
           .key;
     }
 
-    return mostCommon(list.map((t) => ageOf(t.ageClass)).whereType<int>()) ??
+    return mostCommon(playing(id).map((t) => ageOf(t.ageClass)).whereType<int>()) ??
         mostCommon(divisionAges[id]?.entries.expand((e) => List.filled(e.value, e.key)) ?? []);
   }
 

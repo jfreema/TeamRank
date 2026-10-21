@@ -78,6 +78,7 @@ class Pill extends StatelessWidget {
     required this.onTap,
     this.color = Palette.yellow,
     this.size = 15,
+    this.padding = const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
   });
 
   final String label;
@@ -85,6 +86,7 @@ class Pill extends StatelessWidget {
   final VoidCallback onTap;
   final Color color;
   final double size;
+  final EdgeInsets padding;
 
   @override
   Widget build(BuildContext context) => Chunky(
@@ -92,7 +94,7 @@ class Pill extends StatelessWidget {
         radius: 999,
         shadow: selected ? 3 : 0,
         border: 2.5,
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
+        padding: padding,
         onTap: onTap,
         child: Text(label, style: display(size)),
       );
