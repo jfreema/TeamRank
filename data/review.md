@@ -179,7 +179,7 @@ Add a `merge` entry if these are the same team.
 - `2d:c4242f97-9fa6-47af-bf35-f2033258bead` Velo 14U (Murfreesboro, TN; 1 events) / `2d:fa1d85f3-c3e5-47bd-b00b-f1639b8db60f` Velo Baseball 12U (Huntsville, AL; 2 events)
 - `2d:ca2ffa2b-406a-4e67-9f96-1b515ea3c043` Yard Goats (Vilonia, AR; 3 events) / `2d:e7bc9c0c-8ed7-4a11-a236-0fefacdbf3d5` Yard Goats Baseball (Madison, MS; 1 events)
 
-## Possible duplicates: similar name, same hometown (141)
+## Possible duplicates: similar name, same hometown (139)
 
 Add a `merge` entry if these are the same team.
 
@@ -218,7 +218,6 @@ Add a `merge` entry if these are the same team.
 - `2d:206fb628-5b39-45a0-97f9-35c0d85ff458` Gold Culture Gold (Shreveport, LA; 1 events) / `2d:7ea98d6d-728c-4b8e-b0b7-3e8e6677c858` Gold Culture Black (Shreveport, LA; 1 events)
 - `2d:21218695-b70e-4677-96f6-3ddaf6b28903` Tsunami 13u (Gonzales, LA; 2 events) / `2d:c08807d7-7ae3-4eb7-8b60-46abfb93aa1b` Tsunami 12u Watch (Gonzales, LA; 2 events)
 - `2d:21218695-b70e-4677-96f6-3ddaf6b28903` Tsunami 13u (Gonzales, LA; 2 events) / `2d:c8f47c58-b52b-4259-b3cc-6d4f3441d06e` Tsunami 12u Warning (Gonzales, LA; 2 events)
-- `2d:24a2042f-a5ef-40e7-bce0-6076c4cddb20` Louisiana Jr. Riverdogs (Oak Grove, LA; 1 events) / `gs:31087` Louisiana Jr. Riverdogs- Mills (Oak Grove, LA; 3 events)
 - `2d:2980a172-4401-4afc-bddb-68089851d90d` Tornado Athletics 13u Gold (Sulphur, LA; 1 events) / `2d:9c8d33a8-2959-4f58-a21a-b2fa15bc29f1` Tornado Athletics 10u (Sulphur, LA; 3 events)
 - `2d:3352f2ce-8733-4a6a-914a-9b229ca632bf` WFBA (Cantonment, FL; 2 events) / `2d:4873be3e-d17a-49c6-b900-a0ea1ea156ee` WFBA Red (Cantonment, FL; 2 events)
 - `2d:345ea60d-a6a5-4379-b0f5-9def714c13d3` Blues Elite 12U Elite (Cottontown, TN; 1 events) / `2d:cd3d35f9-0f26-4a61-a17f-5958017157d0` Blues Elite 12U Prime (Cottontown, TN; 2 events)
@@ -292,7 +291,6 @@ Add a `merge` entry if these are the same team.
 - `gs:31462` ARKLA Cyclones (Crossett, AR; 1 events) / `gs:32175` Cyclones (Crossett, AR; 2 events)
 - `gs:32051` Reign Baseball (Chalmette, LA; 2 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 2 events)
 - `gs:32227` Roe City Baseball (Monroe, LA; 2 events) / `gs:32983` Roe City Baseball 9u (Monroe, LA; 1 events)
-- `otc:6952` CLBA Trojans - Champagne (Raceland, LA; 1 events) / `2d:0b32127b-bace-4fb4-8cf3-6df5d4d44675` CLBA Trojans 10u (Raceland, LA; 1 events)
 - `otc:6968` Ripzz Baseball Academy (Denham Springs, LA; 1 events) / `2d:f5bdd109-a523-46ea-bdf8-947ce66a5db7` Ripzz Baseball (Denham Springs, LA; 1 events)
 - `otc:6968` Ripzz Baseball Academy (Denham Springs, LA; 1 events) / `gs:27950` Ripzz Baseball (Denham Springs, LA; 0 events)
 - `otc:6989` La Nationals (Livingston, LA; 2 events) / `otc:7190` La Nationals - Gardner (Livingston, LA; 2 events)
