@@ -41,7 +41,6 @@ class _RankingsScreenState extends State<RankingsScreen> {
     _search.dispose();
     super.dispose();
   }
-  String? _source;
   int _minGames = 0;
 
   /// `AA`, `AAA`, or null for everyone.
@@ -85,7 +84,6 @@ class _RankingsScreenState extends State<RankingsScreen> {
       if (t.age != age) return false;
       if (_level != null && t.level != _level) return false;
       if (t.games < _minGames) return false;
-      if (_source != null && !t.sources.any((s) => s.source == _source)) return false;
       if (q.isEmpty) return true;
       return t.name.toLowerCase().contains(q) || t.city.toLowerCase().contains(q);
     }).toList();
@@ -190,21 +188,6 @@ class _RankingsScreenState extends State<RankingsScreen> {
                           spacing: 6,
                           runSpacing: 6,
                           children: [
-                            for (final (value, label) in [
-                              (null, 'All orgs'),
-                              ('otc', 'OTC'),
-                              ('2d', '2D'),
-                              ('gs', 'Grand Slam'),
-                              ('uacs', 'UACS'),
-                            ])
-                              Pill(
-                                label: label,
-                                size: 13,
-                                color: Palette.orange,
-                                selected: _source == value,
-                                onTap: () => setState(() => _source = value),
-                              ),
-                            const SizedBox(width: 6),
                             for (final (value, label) in [(0, 'Any games'), (6, '6+ games')])
                               Pill(
                                 label: label,
