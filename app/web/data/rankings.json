@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T23:05:32.105461Z",
+ "generatedAt": "2026-10-22T08:32:55.432727Z",
  "season": "2026-27",
  "state": "LA",
  "method": "colley+h2h",
@@ -2817,7 +2817,7 @@
    "logo": "logos/206d90ee15326863.jpg"
   },
   {
-   "id": "gs:32051",
+   "id": "gs:30396",
    "name": "Reign Baseball",
    "city": "Chalmette",
    "state": "LA",
@@ -2859,6 +2859,13 @@
      "name": "Reign Baseball",
      "ageClass": "13U-AAA 54/80",
      "url": "https://offthecrosssports.com/Baseball/Teams/Details/7135"
+    },
+    {
+     "key": "gs:30396",
+     "source": "gs",
+     "name": "Reign Baseball",
+     "ageClass": "13 & Under 60/90",
+     "url": "https://grandslamtournaments.com/baseball/Teams/Details/30396"
     }
    ],
    "logo": "logos/e21130c1a0acf7de.jpg"
@@ -11310,39 +11317,6 @@
    "logo": "logos/e9a166bcab9b690a.jpg"
   },
   {
-   "id": "gs:31596",
-   "name": "Mississippi Aces Blue",
-   "city": "Hattiesburg",
-   "state": "MS",
-   "age": 13,
-   "rank": null,
-   "level": "AA",
-   "levelRank": null,
-   "rating": 0.5872,
-   "sos": 0.8961,
-   "wins": 0,
-   "losses": 1,
-   "ties": 0,
-   "runsFor": 1,
-   "runsAgainst": 5,
-   "classRecords": {
-    "AAA": [
-     0,
-     1,
-     0
-    ]
-   },
-   "sources": [
-    {
-     "key": "gs:31596",
-     "source": "gs",
-     "name": "Mississippi Aces Blue",
-     "ageClass": "13 & Under AA",
-     "url": "https://grandslamtournaments.com/baseball/Teams/Details/31596"
-    }
-   ]
-  },
-  {
    "id": "gs:32727",
    "name": "SBG Sox Tuffnell",
    "city": "Ocean Springs",
@@ -11372,6 +11346,39 @@
      "name": "SBG Sox Tuffnell",
      "ageClass": "13 & Under AA",
      "url": "https://grandslamtournaments.com/baseball/Teams/Details/32727"
+    }
+   ]
+  },
+  {
+   "id": "gs:31596",
+   "name": "Mississippi Aces Blue",
+   "city": "Hattiesburg",
+   "state": "MS",
+   "age": 13,
+   "rank": null,
+   "level": "AA",
+   "levelRank": null,
+   "rating": 0.5872,
+   "sos": 0.8961,
+   "wins": 0,
+   "losses": 1,
+   "ties": 0,
+   "runsFor": 1,
+   "runsAgainst": 5,
+   "classRecords": {
+    "AAA": [
+     0,
+     1,
+     0
+    ]
+   },
+   "sources": [
+    {
+     "key": "gs:31596",
+     "source": "gs",
+     "name": "Mississippi Aces Blue",
+     "ageClass": "13 & Under AA",
+     "url": "https://grandslamtournaments.com/baseball/Teams/Details/31596"
     }
    ]
   },
@@ -21140,7 +21147,7 @@
    "source": "gs",
    "event": "Coastal Mississippi Gulf Coast NIT Kickoff",
    "division": "13U-OPEN",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "2d:9cb03868-ee49-4cb6-8eec-ecc9bbf8890d",
    "sa": 5,
    "sb": 6
@@ -21180,7 +21187,7 @@
    "source": "gs",
    "event": "Coastal Mississippi Gulf Coast NIT Kickoff",
    "division": "13U-OPEN",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:32727",
    "sa": 6,
    "sb": 2
@@ -21190,7 +21197,7 @@
    "source": "gs",
    "event": "Coastal Mississippi Gulf Coast NIT Kickoff",
    "division": "13U-OPEN",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:28950",
    "sa": 8,
    "sb": 2
@@ -21250,7 +21257,7 @@
    "source": "gs",
    "event": "Coastal Mississippi Gulf Coast NIT Kickoff",
    "division": "13U-OPEN",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:31596",
    "sa": 5,
    "sb": 1
@@ -21280,7 +21287,7 @@
    "source": "gs",
    "event": "Coastal Mississippi Gulf Coast NIT Kickoff",
    "division": "13U-OPEN",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "2d:0531d3bf-ebd1-47d8-8638-e77f38ca4ead",
    "sa": 9,
    "sb": 5
@@ -23620,7 +23627,7 @@
    "source": "gs",
    "event": "Louisiana 1 Day Banana Ball",
    "division": "13U 60/90",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:31560",
    "sa": 5,
    "sb": 0
@@ -24250,7 +24257,7 @@
    "source": "gs",
    "event": "Louisiana 1 Day Banana Ball",
    "division": "13U 60/90",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:32696",
    "sa": 18,
    "sb": 0
@@ -24260,7 +24267,7 @@
    "source": "gs",
    "event": "Louisiana 1 Day Banana Ball",
    "division": "13U 60/90",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "gs:32696",
    "sa": 13,
    "sb": 4
@@ -24270,7 +24277,7 @@
    "source": "gs",
    "event": "Louisiana 1 Day Banana Ball",
    "division": "13U 60/90",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "2d:62f32053-36ca-44ea-bea3-dfea4e2ae281",
    "sa": 3,
    "sb": 2
@@ -26140,7 +26147,7 @@
    "source": "otc",
    "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
    "division": "13U-OPEN 54/80",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "2d:1761fa5d-2ee9-4be0-bb57-f58c938ac2c3",
    "sa": 2,
    "sb": 6
@@ -26211,7 +26218,7 @@
    "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
    "division": "13U-OPEN 54/80",
    "a": "otc:7098",
-   "b": "gs:32051",
+   "b": "gs:30396",
    "sa": 6,
    "sb": 3
   },
@@ -26270,7 +26277,7 @@
    "source": "otc",
    "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
    "division": "13U-OPEN 54/80",
-   "a": "gs:32051",
+   "a": "gs:30396",
    "b": "2d:4cdfd2b9-a4bc-4a12-b67e-582a47ac97ce",
    "sa": 9,
    "sb": 2
@@ -26291,7 +26298,7 @@
    "event": "Gulf Coast Fall State Championships! Sponsored by Cheramie Farms!",
    "division": "13U-OPEN 54/80",
    "a": "2d:4cdfd2b9-a4bc-4a12-b67e-582a47ac97ce",
-   "b": "gs:32051",
+   "b": "gs:30396",
    "sa": 3,
    "sb": 8
   },
@@ -31083,6 +31090,14 @@
      "games": 1
     },
     {
+     "key": "gs:30396",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under 60/90",
+     "games": 0
+    },
+    {
      "key": "gs:32051",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -31570,12 +31585,41 @@
      "games": 4
     },
     {
+     "key": "gs:31669",
+     "name": "Bayou Bombers",
+     "city": "Farmerville",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    },
+    {
      "key": "gs:31746",
      "name": "Bayou Bombers 10U",
      "city": "Farmerville",
      "state": "LA",
      "ageClass": "10 & Under A",
      "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Same name and hometown",
+   "teams": [
+    {
+     "key": "2d:48105671-ee16-4997-9f8f-058ca5c62040",
+     "name": "Legendz Baseball 14u Roberts",
+     "city": "Zachary",
+     "state": "LA",
+     "ageClass": "14u AAA",
+     "games": 1
+    },
+    {
+     "key": "gs:28963",
+     "name": "Legendz Baseball 13u - Roberts",
+     "city": "Zachary",
+     "state": "LA",
+     "ageClass": "13 & Under AAA",
+     "games": 0
     }
    ]
   },
@@ -32237,6 +32281,27 @@
      "state": "LA",
      "ageClass": "11U-AA",
      "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Same name, different hometown",
+   "teams": [
+    {
+     "key": "gs:32066",
+     "name": "Louisiana Outlaws",
+     "city": "Bossier City",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    },
+    {
+     "key": "otc:7182",
+     "name": "Louisiana Outlaws",
+     "city": "Springfield",
+     "state": "LA",
+     "ageClass": "10U-AA",
+     "games": 2
     }
    ]
   },
@@ -33186,6 +33251,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:30663",
+     "name": "Chappapeela Chiefs 13U-AA",
+     "city": "Hammond",
+     "state": "LA",
+     "ageClass": "13 & Under AA",
+     "games": 0
+    },
+    {
+     "key": "otc:7067",
+     "name": "Chappapeela Chiefs",
+     "city": "Hammond",
+     "state": "LA",
+     "ageClass": "14U-OPEN 60/90",
+     "games": 2
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "otc:7069",
      "name": "Hammond Yankees",
      "city": "Hammond",
@@ -33354,6 +33440,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:30396",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under 60/90",
+     "games": 0
+    },
+    {
+     "key": "otc:7074",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "10U-AA",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "gs:32051",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -33488,6 +33595,27 @@
      "games": 1
     },
     {
+     "key": "gs:30396",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under 60/90",
+     "games": 0
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "name": "Reign Baseball Black",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "10u AAA",
+     "games": 1
+    },
+    {
      "key": "gs:32051",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -33522,6 +33650,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:30396",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under 60/90",
+     "games": 0
+    },
+    {
+     "key": "gs:32054",
+     "name": "Reign Baseball Black",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "10 & Under AA",
+     "games": 2
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "gs:32051",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -33536,6 +33685,48 @@
      "state": "LA",
      "ageClass": "10 & Under AA",
      "games": 2
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "gs:29372",
+     "name": "Louisiana Stars",
+     "city": "St. Francisville",
+     "state": "LA",
+     "ageClass": "13 & Under AA",
+     "games": 0
+    },
+    {
+     "key": "otc:7096",
+     "name": "Louisiana Stars - Nations",
+     "city": "St. Francisville",
+     "state": "LA",
+     "ageClass": "12U-AA",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "gs:29372",
+     "name": "Louisiana Stars",
+     "city": "St. Francisville",
+     "state": "LA",
+     "ageClass": "13 & Under AA",
+     "games": 0
+    },
+    {
+     "key": "otc:7098",
+     "name": "Louisiana Stars - Castle",
+     "city": "St. Francisville",
+     "state": "LA",
+     "ageClass": "13U-AAA 54/80",
+     "games": 1
     }
    ]
   },
