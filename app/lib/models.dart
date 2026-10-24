@@ -210,6 +210,27 @@ class GameResult {
       );
 }
 
+/// Games a team needs before it can get the fewest-runs-allowed nod, so a
+/// team that gave up one run in its only game doesn't win it.
+const fewestRunsMinGames = 5;
+
+/// The team in [teams] that allowed the fewest runs per game among those
+/// with at least [minGames] games. A tie goes to the team with more games,
+/// then to the one listed first.
+Team? fewestRunsAllowed(Iterable<Team> teams, {int minGames = fewestRunsMinGames}) {
+  Team? best;
+  for (final t in teams.where((t) => t.games >= minGames)) {
+    if (best == null) {
+      best = t;
+      continue;
+    }
+    // Compares runs per game without dividing: a/b < c/d when a*d < c*b.
+    final diff = t.runsAgainst * best.games - best.runsAgainst * t.games;
+    if (diff < 0 || (diff == 0 && t.games > best.games)) best = t;
+  }
+  return best;
+}
+
 String ageLabel(int? age) => age == null ? '' : '${age}U';
 
 String levelLabel(String level) => level;

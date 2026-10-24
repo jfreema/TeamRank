@@ -90,6 +90,13 @@ class _RankingsScreenState extends State<RankingsScreen> {
     if (_level != null) {
       teams.sort((a, b) => (a.levelRank ?? 1 << 30).compareTo(b.levelRank ?? 1 << 30));
     }
+    // The nod at the bottom looks at the whole list, not just search results.
+    final minGames = _minGames > fewestRunsMinGames ? _minGames : fewestRunsMinGames;
+    final stingiest = q.isNotEmpty
+        ? null
+        : fewestRunsAllowed(
+            data.ranked.where((t) => t.age == age && (_level == null || t.level == _level)),
+            minGames: minGames);
 
     return SafeArea(
       child: Center(
@@ -222,11 +229,86 @@ class _RankingsScreenState extends State<RankingsScreen> {
                   ),
                 ),
               ),
+              if (stingiest != null)
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 32, 16, 0),
+                    child: _FewestRuns(
+                      team: stingiest,
+                      group: [ageLabel(age), if (_level != null) levelLabel(_level!)].join(' '),
+                      minGames: minGames,
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                        builder: (_) => TeamScreen(data: data, team: stingiest),
+                      )),
+                    ),
+                  ),
+                ),
               const SliverToBoxAdapter(child: SizedBox(height: 40)),
             ],
           ),
         ),
       ),
+    );
+  }
+}
+
+/// A nod at the bottom of each list to the team that allowed the fewest runs
+/// per game (Jared's ask, 2026-10-24).
+class _FewestRuns extends StatelessWidget {
+  const _FewestRuns({required this.team, required this.group, required this.minGames, required this.onTap});
+  final Team team;
+
+  /// The list it leads, like `12U` or `12U AAA`.
+  final String group;
+  final int minGames;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final runs = team.runsAgainst == 1 ? '1 run' : '${team.runsAgainst} runs';
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Sticker('Fewest runs allowed', color: Palette.green, size: 18),
+        const SizedBox(height: 14),
+        Chunky(
+          onTap: onTap,
+          padding: const EdgeInsets.fromLTRB(10, 10, 14, 10),
+          child: Row(
+            children: [
+              Chunky(
+                color: Palette.green,
+                radius: 999,
+                shadow: 0,
+                border: 2.5,
+                padding: const EdgeInsets.all(7),
+                child: const Icon(Icons.shield, color: Palette.ink, size: 24),
+              ),
+              const SizedBox(width: 10),
+              TeamLogo(team: team, size: 42),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(team.name, style: display(19), maxLines: 2, overflow: TextOverflow.ellipsis),
+                    const SizedBox(height: 2),
+                    Text('$runs in ${team.games} games',
+                        style: body(13, weight: 700, color: Palette.ink.withValues(alpha: 0.7)),
+                        overflow: TextOverflow.ellipsis),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              _Number(
+                  label: 'PER GAME', value: (team.runsAgainst / team.games).toStringAsFixed(1), highlight: true),
+            ],
+          ),
+        ),
+        const SizedBox(height: 10),
+        Text('The fewest runs allowed per game by a $group team with $minGames or more games.',
+            style: body(14, weight: 800, color: Palette.white)),
+      ],
     );
   }
 }

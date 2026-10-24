@@ -30,7 +30,72 @@ RankingsData sample() => RankingsData.fromJson({
       ],
     });
 
+/// 12U teams with different games played and runs allowed.
+RankingsData defenses() {
+  Map<String, dynamic> team(String id, String level, int rank, int levelRank, int games, int runsAgainst) => {
+        'id': id, 'name': id, 'city': 'Houma', 'state': 'LA', 'age': 12, 'rank': rank, 'level': level,
+        'levelRank': levelRank, 'rating': 1 - rank / 10, 'sos': 0.5, 'wins': games, 'losses': 0, 'ties': 0,
+        'runsFor': 50, 'runsAgainst': runsAgainst, 'sources': [],
+      };
+  return RankingsData.fromJson({
+    'generatedAt': '2026-10-24T06:00:00Z',
+    'season': '2026-27',
+    'teams': [
+      team('Lucky Ones', 'AA', 1, 1, 1, 0),
+      team('Bayou Bombers', 'AA', 2, 2, 6, 6),
+      team('Cajun Crush', 'AAA', 3, 1, 5, 10),
+      team('Gator Bait', 'AA', 4, 3, 8, 16),
+    ],
+    'games': [],
+  });
+}
+
 void main() {
+  test('the fewest-runs nod needs 5 games, and a tie goes to more games', () {
+    Team t(String id, int games, int runsAgainst) => Team.fromJson(
+        {'id': id, 'name': id, 'rank': 1, 'rating': 0.5, 'wins': games, 'runsAgainst': runsAgainst});
+    expect(fewestRunsAllowed([t('one game', 1, 0), t('six games', 6, 9), t('five games', 5, 10)])?.id, 'six games');
+    expect(fewestRunsAllowed([t('five', 5, 5), t('eight', 8, 8)])?.id, 'eight');
+    expect(fewestRunsAllowed([t('four', 4, 0)]), isNull);
+  });
+
+  testWidgets('each list ends with the team that allowed the fewest runs per game', (tester) async {
+    await tester.pumpWidget(TeamRankApp(loader: () async => defenses()));
+    await tester.pumpAndSettle();
+    final list = find.byType(Scrollable).first;
+    await tester.scrollUntilVisible(find.text('Fewest runs allowed'), 300, scrollable: list);
+    expect(find.text('6 runs in 6 games'), findsOneWidget, reason: 'Lucky Ones has only 1 game');
+    expect(find.text('1.0'), findsOneWidget);
+    expect(find.text('The fewest runs allowed per game by a 12U team with 5 or more games.'), findsOneWidget);
+
+    await tester.ensureVisible(find.text('AAA'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('AAA'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('Fewest runs allowed'), 300, scrollable: list);
+    expect(find.text('10 runs in 5 games'), findsOneWidget);
+    expect(find.text('The fewest runs allowed per game by a 12U AAA team with 5 or more games.'), findsOneWidget);
+
+    await tester.ensureVisible(find.text('6+ games'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('6+ games'));
+    await tester.pumpAndSettle();
+    expect(find.text('Fewest runs allowed'), findsNothing, reason: 'no AAA team has 6 games');
+
+    await tester.tap(find.text('All'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('Fewest runs allowed'), 300, scrollable: list);
+    expect(find.text('The fewest runs allowed per game by a 12U team with 6 or more games.'), findsOneWidget);
+    expect(find.text('6 runs in 6 games'), findsOneWidget);
+
+    await tester.ensureVisible(find.byType(TextField));
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField), 'gator');
+    await tester.pump(const Duration(milliseconds: 600));
+    await tester.pumpAndSettle();
+    expect(find.text('Fewest runs allowed'), findsNothing, reason: 'not shown on search results');
+  });
+
   testWidgets('shows ranked Louisiana teams and a team game log', (tester) async {
     await tester.pumpWidget(TeamRankApp(loader: () async => sample()));
     await tester.pumpAndSettle();
