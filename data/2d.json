@@ -928,6 +928,14 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/24b2d74d-3380-4154-b3ac-ee79da97ea0b",
    "logo": ""
   },
+  "2d:2540893f-e86d-4899-816d-e56a8853905c": {
+   "key": "2d:2540893f-e86d-4899-816d-e56a8853905c",
+   "name": "Juice Baseball",
+   "city": "Somerville",
+   "state": "AL",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/2540893f-e86d-4899-816d-e56a8853905c"
+  },
   "2d:2595f8de-a6c0-4ba5-aedb-e59f5411a775": {
    "key": "2d:2595f8de-a6c0-4ba5-aedb-e59f5411a775",
    "name": "TD Select Harris",
@@ -1635,6 +1643,14 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/3eaa9435-9227-4290-833a-03e489857452",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/sbc---sterlington-baseball-club-11u-65dceaccae0dd.jpeg"
   },
+  "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb": {
+   "key": "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb",
+   "name": "Wow Factor Nation 256",
+   "city": "Lincoln",
+   "state": "AL",
+   "ageClass": "13u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/3f93874a-6634-4bbe-b09f-d0ae60ece2eb"
+  },
   "2d:405cd286-0862-421b-be0d-918c31e26e34": {
    "key": "2d:405cd286-0862-421b-be0d-918c31e26e34",
    "name": "Swing Kings Baseball",
@@ -2248,6 +2264,14 @@
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/55f2ceea-2079-4fa7-a1ca-b1dcdfc03be5",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/knights-knation---brown-6acd1160de662.png"
+  },
+  "2d:56012a46-115e-4c7a-a055-83f744ffb486": {
+   "key": "2d:56012a46-115e-4c7a-a055-83f744ffb486",
+   "name": "Indians Baseball Club",
+   "city": "New Hope",
+   "state": "AL",
+   "ageClass": "12u A",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/56012a46-115e-4c7a-a055-83f744ffb486"
   },
   "2d:56e377d0-d8ca-498b-bb35-22d45eed298f": {
    "key": "2d:56e377d0-d8ca-498b-bb35-22d45eed298f",
@@ -3852,6 +3876,14 @@
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/91bf5aca-3ba3-40cf-9f25-6230fb44c5e8",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/chappapeela-chiefs-69e62c95327dc.png"
+  },
+  "2d:91c441a4-13db-4640-973d-35520d1c86a6": {
+   "key": "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+   "name": "Vegas Aces",
+   "city": "Russellville",
+   "state": "AL",
+   "ageClass": "13u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/91c441a4-13db-4640-973d-35520d1c86a6"
   },
   "2d:9217be9e-3e89-47c6-9a77-69e634eee52b": {
    "key": "2d:9217be9e-3e89-47c6-9a77-69e634eee52b",
@@ -34315,6 +34347,225 @@
      "teamB": "2d:ab500df7-ee99-4f77-97a9-cf6e1b31ec92",
      "scoreA": 9,
      "scoreB": 8
+    }
+   ]
+  },
+  "1961": {
+   "id": "1961",
+   "name": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+   "startDate": "2026-10-24",
+   "endDate": "2026-10-24",
+   "final": false,
+   "teamKeys": [
+    "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
+    "2d:2540893f-e86d-4899-816d-e56a8853905c",
+    "2d:388837c2-8e12-4c9e-ae33-1fb6d56cc588",
+    "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb",
+    "2d:56012a46-115e-4c7a-a055-83f744ffb486",
+    "2d:694e810c-e61d-4982-b044-474405f69f39",
+    "2d:69f46e6c-1b6b-4bb8-9ba1-90651cc74eae",
+    "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+    "2d:d5ad3ac4-0587-411a-84e8-f22e44dc253c",
+    "2d:fe40dceb-b7bd-4533-93bd-c2c9b7c4e1fa"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:69f46e6c-1b6b-4bb8-9ba1-90651cc74eae",
+     "teamB": "2d:d5ad3ac4-0587-411a-84e8-f22e44dc253c",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:56012a46-115e-4c7a-a055-83f744ffb486",
+     "teamB": "2d:694e810c-e61d-4982-b044-474405f69f39",
+     "scoreA": 10,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:2540893f-e86d-4899-816d-e56a8853905c",
+     "teamB": "2d:69f46e6c-1b6b-4bb8-9ba1-90651cc74eae",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:694e810c-e61d-4982-b044-474405f69f39",
+     "teamB": "2d:d5ad3ac4-0587-411a-84e8-f22e44dc253c",
+     "scoreA": 7,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:2540893f-e86d-4899-816d-e56a8853905c",
+     "teamB": "2d:56012a46-115e-4c7a-a055-83f744ffb486",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:69f46e6c-1b6b-4bb8-9ba1-90651cc74eae",
+     "teamB": "2d:2540893f-e86d-4899-816d-e56a8853905c",
+     "scoreA": 11,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:56012a46-115e-4c7a-a055-83f744ffb486",
+     "teamB": "2d:694e810c-e61d-4982-b044-474405f69f39",
+     "scoreA": 4,
+     "scoreB": 15
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:d5ad3ac4-0587-411a-84e8-f22e44dc253c",
+     "teamB": "2d:694e810c-e61d-4982-b044-474405f69f39",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "12U AA",
+     "teamA": "2d:d5ad3ac4-0587-411a-84e8-f22e44dc253c",
+     "teamB": "2d:69f46e6c-1b6b-4bb8-9ba1-90651cc74eae",
+     "scoreA": 7,
+     "scoreB": 24
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:fe40dceb-b7bd-4533-93bd-c2c9b7c4e1fa",
+     "teamB": "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+     "scoreA": 10,
+     "scoreB": 13
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
+     "teamB": "2d:388837c2-8e12-4c9e-ae33-1fb6d56cc588",
+     "scoreA": 18,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
+     "teamB": "2d:fe40dceb-b7bd-4533-93bd-c2c9b7c4e1fa",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:388837c2-8e12-4c9e-ae33-1fb6d56cc588",
+     "teamB": "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+     "teamB": "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb",
+     "scoreA": 10,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:3f93874a-6634-4bbe-b09f-d0ae60ece2eb",
+     "teamB": "2d:fe40dceb-b7bd-4533-93bd-c2c9b7c4e1fa",
+     "scoreA": 4,
+     "scoreB": 18
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+     "teamB": "2d:388837c2-8e12-4c9e-ae33-1fb6d56cc588",
+     "scoreA": 19,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
+     "teamB": "2d:fe40dceb-b7bd-4533-93bd-c2c9b7c4e1fa",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1961",
+     "eventName": "Zombies vs Super Heroes (Sat ONLY) Cullman",
+     "date": "2026-10-24",
+     "division": "13U AA",
+     "teamA": "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
+     "teamB": "2d:91c441a4-13db-4640-973d-35520d1c86a6",
+     "scoreA": 3,
+     "scoreB": 13
     }
    ]
   },
