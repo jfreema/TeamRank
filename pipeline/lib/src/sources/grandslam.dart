@@ -30,6 +30,31 @@ class GrandSlamScraper {
   /// missing or from an earlier season.
   static const _floorRun = 60;
 
+  /// Pages that could not be read, in a row. One slow page is skipped and
+  /// tried again next run; after [_maxFailures] in a row the site is taken
+  /// to be down and the scrape stops, keeping what was saved before.
+  int _failuresInARow = 0;
+  static const _maxFailures = 3;
+
+  void _failed(String what, Object error, void Function(String) log) {
+    if (++_failuresInARow >= _maxFailures) {
+      throw StateError('gave up after $_maxFailures pages in a row failed; last was $what: $error');
+    }
+    log('gs: $what failed, skipped this run: $error');
+  }
+
+  /// [url]'s page, or null when it can't be read.
+  Future<String?> _get(String url, void Function(String) log) async {
+    try {
+      final body = await client.get(url);
+      _failuresInARow = 0;
+      return body;
+    } catch (e) {
+      _failed(url, e, log);
+      return null;
+    }
+  }
+
   /// Reads new and unfinished events into [cache]. With [refetch], every
   /// saved event is looked at again too (after the covered ages change).
   Future<void> scrape(SourceCache cache, Season season, DateTime today,
@@ -37,17 +62,31 @@ class GrandSlamScraper {
     // Newest IDs come from the upcoming events list.
     final listed = <int>{};
     for (var page = 1; page <= 10; page++) {
-      final body = await client.get('$base/baseball/Events?page=$page');
+      final body = await _get('$base/baseball/Events?page=$page', log);
+      if (body == null) break;
       final ids = RegExp(r'Events/Details/(\d+)/').allMatches(body).map((m) => int.parse(m.group(1)!)).toSet();
       if (ids.difference(listed).isEmpty) break;
       listed.addAll(ids);
     }
-    if (listed.isEmpty) throw StateError('no events listed');
     final known = cache.events.keys.map(int.parse).toSet();
-    final top = listed.reduce((a, b) => a > b ? a : b);
+    // Without the list, saved events are still checked; new ones wait.
+    if (listed.isEmpty && known.isEmpty) throw StateError('no events listed');
+    final top = {...listed, ...known}.reduce((a, b) => a > b ? a : b);
 
+    // An event page that can't be read keeps the event's saved record, or
+    // for a new ID a pending one, so it is looked at again next run.
+    final looked = <int>{};
     Future<void> look(int id) async {
-      final ev = await _event(id, season, today, log);
+      if (!looked.add(id)) return;
+      final EventRecord? ev;
+      try {
+        ev = await _event(id, season, today, log);
+        _failuresInARow = 0;
+      } catch (e) {
+        _failed('event $id', e, log);
+        cache.events.putIfAbsent('$id', () => _pending(id));
+        return;
+      }
       cache.events['$id'] = ev ?? _skipped(id);
     }
 
@@ -69,7 +108,14 @@ class GrandSlamScraper {
         // until then. Other events keep theirs until Louisiana teams' pages
         // are read. An event that cannot be looked at stays as it was.
         for (final old in cache.events.values.toList()) {
-          final ev = await _event(int.parse(old.id), season, today, log);
+          final EventRecord? ev;
+          try {
+            ev = await _event(int.parse(old.id), season, today, log);
+            _failuresInARow = 0;
+          } catch (e) {
+            _failed('event ${old.id}', e, log);
+            continue;
+          }
           if (ev == null) continue;
           cache.events[old.id] = EventRecord(
               id: ev.id,
@@ -85,10 +131,11 @@ class GrandSlamScraper {
       for (var id = newest + 1; id <= top; id++) {
         await look(id);
       }
-      // Events that had not finished yet (when refetching, all were just looked at).
-      // Away events are rebuilt from team pages below.
-      for (final ev in cache.events.values.where((e) => !refetch && !e.isFinal && e.startDate.isNotEmpty).toList()) {
-        if (!DateTime.parse(ev.startDate).isAfter(today)) await look(int.parse(ev.id));
+      // Events that had not finished yet, and pages that couldn't be read last
+      // time (when refetching, all were just looked at). Away events are
+      // rebuilt from team pages below.
+      for (final ev in cache.events.values.where((e) => !refetch && !e.isFinal).toList()) {
+        if (ev.startDate.isEmpty || !DateTime.parse(ev.startDate).isAfter(today)) await look(int.parse(ev.id));
       }
     }
 
@@ -97,15 +144,32 @@ class GrandSlamScraper {
     final open = cache.events.values.where((e) => !e.isFinal && e.startDate.isNotEmpty &&
         !DateTime.parse(e.startDate).isAfter(today));
     final eventTeams = <String, Set<String>>{};
+    // Events whose pages failed: their Louisiana teams are still read below,
+    // and the event stays open so the rest is read next run.
+    final unread = <String>{};
     for (final ev in open) {
       if (ev.name.isEmpty) continue;
-      final teams = <String>{};
-      final details = await client.get('$base/baseball/Events/Details/${ev.id}');
-      for (final d in OtcScraper.parseDivisions(details).where(OtcScraper.isAgeDivision)) {
-        teams.addAll(OtcScraper.parseTeamIds(await client.get(
-            '$base/baseball/Events/Schedule/${ev.id}/x?division=${Uri.encodeQueryComponent(d)}')));
+      final details = await _get('$base/baseball/Events/Details/${ev.id}', log);
+      if (details == null) {
+        unread.add(ev.id);
+        continue;
       }
-      eventTeams[ev.id] = teams;
+      final teams = <String>{};
+      var complete = true;
+      for (final d in OtcScraper.parseDivisions(details).where(OtcScraper.isAgeDivision)) {
+        final schedule = await _get(
+            '$base/baseball/Events/Schedule/${ev.id}/x?division=${Uri.encodeQueryComponent(d)}', log);
+        if (schedule == null) {
+          complete = false;
+        } else {
+          teams.addAll(OtcScraper.parseTeamIds(schedule));
+        }
+      }
+      if (complete) {
+        eventTeams[ev.id] = teams;
+      } else {
+        unread.add(ev.id);
+      }
     }
     final home = {
       for (final t in cache.teams.values)
@@ -115,8 +179,10 @@ class GrandSlamScraper {
     final pages = <String, GsTeamPage>{};
     Future<void> fetch(String id) async {
       if (pages.containsKey(id)) return;
+      final body = await _get('$base/baseball/Teams/Details/$id/team', log);
+      if (body == null) return;
       try {
-        pages[id] = parseTeamPage(await client.get('$base/baseball/Teams/Details/$id/team'), id);
+        pages[id] = parseTeamPage(body, id);
         cache.teams['$source:$id'] = pages[id]!.team;
       } catch (e) {
         log('gs: team $id failed: $e');
@@ -163,8 +229,11 @@ class GrandSlamScraper {
         name: info.name,
         startDate: isoDate(info.start),
         endDate: isoDate(end),
-        isFinal: isEventFinal(isoDate(end), today),
-        teamKeys: [for (final t in eventTeams[eid] ?? <String>{}) '$source:$t']..sort(),
+        isFinal: isEventFinal(isoDate(end), today) && !unread.contains(eid),
+        // Signed-up teams, or the saved ones when the schedule couldn't be read.
+        teamKeys: eventTeams.containsKey(eid)
+            ? ([for (final t in eventTeams[eid]!) '$source:$t']..sort())
+            : old?.teamKeys ?? const [],
         games: games,
       );
       added += games.length;
@@ -181,15 +250,17 @@ class GrandSlamScraper {
     log('gs: ${cache.events.length} event IDs known, ${pages.length} team pages read, $added games refreshed');
   }
 
-  /// Reads one event's details page. Null when it does not exist.
+  /// Reads one event's details page. Null when it does not exist; throws
+  /// when the page can't be read (the site timing out, say).
   /// Events outside [state] or without divisions in the covered ages are kept as
   /// final records with no games, so they are not fetched again.
   Future<EventRecord?> _event(int id, Season season, DateTime today, void Function(String) log) async {
-    String body;
+    final String body;
     try {
       body = await client.get('$base/baseball/Events/Details/$id');
-    } catch (_) {
-      return null;
+    } on HttpStatusException catch (e) {
+      if (e.statusCode == 404) return null;
+      rethrow;
     }
     final info = parseEventDetails(body, today);
     if (info == null) return null;
@@ -211,6 +282,10 @@ class GrandSlamScraper {
 
   static EventRecord _skipped(int id) => EventRecord(
       id: '$id', name: '', startDate: '', endDate: '', isFinal: true, games: [], teamKeys: []);
+
+  /// An ID whose page couldn't be read yet.
+  static EventRecord _pending(int id) => EventRecord(
+      id: '$id', name: '', startDate: '', endDate: '', isFinal: false, games: [], teamKeys: []);
 
   /// Name, state and dates from an event's details page.
   static GsEventInfo? parseEventDetails(String body, DateTime today) {

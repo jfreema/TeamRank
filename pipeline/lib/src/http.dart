@@ -65,10 +65,10 @@ class PoliteClient {
         _storeCookies(uri, res.headers['set-cookie']);
         if (res.statusCode >= 200 && res.statusCode < 300) return res.body;
         if (res.statusCode < 500 && res.statusCode != 429) {
-          throw HttpException('$method $url -> ${res.statusCode}', uri: uri);
+          throw HttpStatusException(res.statusCode, '$method $url -> ${res.statusCode}', uri: uri);
         }
         if (attempt >= 4) {
-          throw HttpException('$method $url -> ${res.statusCode}', uri: uri);
+          throw HttpStatusException(res.statusCode, '$method $url -> ${res.statusCode}', uri: uri);
         }
       } on TimeoutException {
         if (attempt >= 4) rethrow;
@@ -98,4 +98,11 @@ class PoliteClient {
   }
 
   void close() => _inner.close();
+}
+
+/// An error status from a site, such as 404 for a page that does not exist.
+class HttpStatusException extends HttpException {
+  HttpStatusException(this.statusCode, super.message, {super.uri});
+
+  final int statusCode;
 }

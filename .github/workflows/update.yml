@@ -1,8 +1,9 @@
 name: Update rankings
 
-# Saturday, Sunday, Monday and Wednesday nights at 10 PM Central: scrape
-# OTC, 2D and Grand Slam, rebuild the rankings, commit the data, then build
-# the Flutter site and deploy it to Firebase Hosting.
+# Saturday, Sunday, Monday and Wednesday nights just after 10 PM Central,
+# with a backup run after midnight: scrape OTC, 2D, Grand Slam and UACS,
+# rebuild the rankings, commit the data, then build the Flutter site and
+# deploy it to Firebase Hosting.
 # A push to main redeploys without scraping (for example after editing
 # data/aliases.json).
 on:
@@ -10,9 +11,14 @@ on:
     # GitHub schedules are in UTC. 10 PM Central is 03:00 UTC the next day
     # during daylight saving time (CDT) and 04:00 UTC otherwise (CST), so
     # both are scheduled (Sun, Mon, Tue and Thu in UTC) and the job skips
-    # the one that is not 10 PM in Chicago.
-    - cron: "0 3 * * 0,1,2,4" # 10 PM CDT
-    - cron: "0 4 * * 0,1,2,4" # 10 PM CST
+    # the one that is wrong for Chicago. GitHub delays runs set for the top
+    # of the hour, sometimes by hours, and can drop them (Monday 10/20 never
+    # ran; Saturday 10/24 hadn't started two hours late), so these start a
+    # few minutes past, and a backup follows at 12:37 AM Central.
+    - cron: "7 3 * * 0,1,2,4" # 10:07 PM CDT
+    - cron: "7 4 * * 0,1,2,4" # 10:07 PM CST
+    - cron: "37 5 * * 0,1,2,4" # 12:37 AM CDT, backup
+    - cron: "37 6 * * 0,1,2,4" # 12:37 AM CST, backup
   workflow_dispatch:
   push:
     branches: [main]
@@ -46,7 +52,7 @@ jobs:
           run=true
           if [ "$EVENT" = "schedule" ]; then
             case "$SCHEDULE/$zone" in
-              "0 3 * * 0,1,2,4/CDT" | "0 4 * * 0,1,2,4/CST") ;;
+              "7 3 * * 0,1,2,4/CDT" | "7 4 * * 0,1,2,4/CST" | "37 5 * * 0,1,2,4/CDT" | "37 6 * * 0,1,2,4/CST") ;;
               *) run=false ;;
             esac
           fi

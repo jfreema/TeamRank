@@ -115,7 +115,7 @@ duplicates after each run.
 The site is live at <https://teamrank-la.web.app> (Firebase project
 `teamrank-la`, free Spark plan).
 
-The update workflow (Sat, Sun, Mon and Wed at 10 PM Central) deploys with Workload Identity Federation: GitHub's
+The update workflow (Sat, Sun, Mon and Wed just after 10 PM Central, with a backup run after midnight) deploys with Workload Identity Federation: GitHub's
 OIDC token is exchanged for short-lived credentials of the
 `github-deploy@teamrank-la.iam.gserviceaccount.com` service account, which
 only has the Firebase Hosting Admin and Service Usage Consumer roles and only accepts tokens from
