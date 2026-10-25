@@ -74,6 +74,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6958",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6958-bobcats.png?v=1"
   },
+  "otc:6963": {
+   "key": "otc:6963",
+   "name": "Mandeville Mavericks",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6963",
+   "logo": ""
+  },
   "otc:6964": {
    "key": "otc:6964",
    "name": "Nola Drip",
@@ -136,6 +145,15 @@
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6980",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6980-gonzales-tigers-madere.jpg?v=1"
+  },
+  "otc:6981": {
+   "key": "otc:6981",
+   "name": "La Nationals - Wilson",
+   "city": "Livingston",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6981",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6981-la-nationals-wilson.jpg?v=1"
   },
   "otc:6987": {
    "key": "otc:6987",
@@ -236,6 +254,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7012",
    "logo": ""
   },
+  "otc:7015": {
+   "key": "otc:7015",
+   "name": "CLBA Trojans - Chiasson",
+   "city": "Raceland",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7015",
+   "logo": ""
+  },
   "otc:7016": {
    "key": "otc:7016",
    "name": "Diamond Baseball",
@@ -262,6 +289,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7018-tri-city-sluggers.jpg?v=1"
+  },
+  "otc:7020": {
+   "key": "otc:7020",
+   "name": "Savanna Bananas Gold",
+   "city": "Chalmette",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7020",
+   "logo": ""
   },
   "otc:7022": {
    "key": "otc:7022",
@@ -325,6 +361,15 @@
    "ageClass": "13U-AA 54/80",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7041",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7041-985-lightning.jpg?v=1"
+  },
+  "otc:7043": {
+   "key": "otc:7043",
+   "name": "Louisiana Kings",
+   "city": "Lafayette",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7043",
+   "logo": ""
   },
   "otc:7045": {
    "key": "otc:7045",
@@ -434,6 +479,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7069",
    "logo": ""
   },
+  "otc:7071": {
+   "key": "otc:7071",
+   "name": "Reign Baseball",
+   "city": "Chalmette",
+   "state": "LA",
+   "ageClass": "11U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7071",
+   "logo": ""
+  },
   "otc:7074": {
    "key": "otc:7074",
    "name": "Reign Baseball Purple",
@@ -459,6 +513,15 @@
    "state": "LA",
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7081",
+   "logo": ""
+  },
+  "otc:7083": {
+   "key": "otc:7083",
+   "name": "Legendz Baseball - Stablier",
+   "city": "Zachary",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7083",
    "logo": ""
   },
   "otc:7084": {
@@ -605,6 +668,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7142",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7142-new-orleans-naturals.png?v=1"
   },
+  "otc:7144": {
+   "key": "otc:7144",
+   "name": "Renegades",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7144",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7144-renegades.png?v=1"
+  },
   "otc:7145": {
    "key": "otc:7145",
    "name": "La Bulls Allison",
@@ -640,6 +712,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7153",
    "logo": ""
+  },
+  "otc:7154": {
+   "key": "otc:7154",
+   "name": "Louisiana Blue Jays",
+   "city": "Madisonville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7154",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7154-louisiana-blue-jays.jpg?v=1"
   },
   "otc:7156": {
    "key": "otc:7156",
@@ -893,6 +974,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7200",
    "logo": ""
   },
+  "otc:7201": {
+   "key": "otc:7201",
+   "name": "Stitches",
+   "city": "Ponchatoula",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7201",
+   "logo": ""
+  },
   "otc:7205": {
    "key": "otc:7205",
    "name": "LA Lagniappe",
@@ -900,6 +990,15 @@
    "state": "LA",
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7205",
+   "logo": ""
+  },
+  "otc:7208": {
+   "key": "otc:7208",
+   "name": "S.L. Select - Chaisson",
+   "city": "Houma",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7208",
    "logo": ""
   },
   "otc:7215": {
@@ -910,6 +1009,15 @@
    "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7215",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7215-aces-baseball-black.png?v=1"
+  },
+  "otc:7216": {
+   "key": "otc:7216",
+   "name": "Aces Baseball Blue",
+   "city": "Thibodaux",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7216",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7216-aces-baseball-blue.png?v=1"
   },
   "otc:7218": {
    "key": "otc:7218",
@@ -938,6 +1046,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7222",
    "logo": ""
   },
+  "otc:7223": {
+   "key": "otc:7223",
+   "name": "Nola Crush",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "12U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7223",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7223-nola-crush.jpeg?v=1"
+  },
   "otc:7229": {
    "key": "otc:7229",
    "name": "Vengeance",
@@ -955,6 +1072,15 @@
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7242",
    "logo": ""
+  },
+  "otc:7243": {
+   "key": "otc:7243",
+   "name": "Rockies Elite",
+   "city": "Addis",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7243",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7243-rockies-elite.jpg?v=1"
   },
   "otc:7244": {
    "key": "otc:7244",
@@ -1037,6 +1163,33 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7257",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7257-jaguars-baseball.jpeg?v=2"
   },
+  "otc:7260": {
+   "key": "otc:7260",
+   "name": "LA Catahoulas - Spadoni",
+   "city": "Kenner",
+   "state": "LA",
+   "ageClass": "11U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7260",
+   "logo": ""
+  },
+  "otc:7264": {
+   "key": "otc:7264",
+   "name": "6 Rings Hurricanes",
+   "city": "Covington",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7264",
+   "logo": ""
+  },
+  "otc:7265": {
+   "key": "otc:7265",
+   "name": "6 Rings Hurricanes",
+   "city": "Covington",
+   "state": "LA",
+   "ageClass": "12U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7265",
+   "logo": ""
+  },
   "otc:7272": {
    "key": "otc:7272",
    "name": "Renegades United",
@@ -1055,6 +1208,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7284",
    "logo": ""
   },
+  "otc:7289": {
+   "key": "otc:7289",
+   "name": "LBA Naturals - Blue",
+   "city": "Schriever",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7289",
+   "logo": ""
+  },
   "otc:7296": {
    "key": "otc:7296",
    "name": "LBA Naturals - Blue",
@@ -1063,6 +1225,15 @@
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7296",
    "logo": ""
+  },
+  "otc:7299": {
+   "key": "otc:7299",
+   "name": "Acadiana Blue Jays",
+   "city": "Lafayette",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7299",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7299-acadiana-blue-jays.jpeg?v=1"
   },
   "otc:7302": {
    "key": "otc:7302",
@@ -1080,6 +1251,24 @@
    "state": "LA",
    "ageClass": "13U-AA 54/80",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7305",
+   "logo": ""
+  },
+  "otc:7306": {
+   "key": "otc:7306",
+   "name": "River Ridge Pirates",
+   "city": "River RIdge",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7306",
+   "logo": ""
+  },
+  "otc:7307": {
+   "key": "otc:7307",
+   "name": "La Kings Black",
+   "city": "Lafayette",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7307",
    "logo": ""
   },
   "otc:7317": {
@@ -1117,6 +1306,15 @@
    "ageClass": "13U-AAA 54/80",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7324",
    "logo": ""
+  },
+  "otc:7327": {
+   "key": "otc:7327",
+   "name": "Hammond Yankees - Hills",
+   "city": "Hammond",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7327",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7327-hammond-yankees-hills.png?v=1"
   },
   "otc:7336": {
    "key": "otc:7336",
@@ -3887,6 +4085,653 @@
      "teamB": "otc:7197",
      "scoreA": 8,
      "scoreB": 8
+    }
+   ]
+  },
+  "1143": {
+   "id": "1143",
+   "name": "Chillin At Chap!",
+   "startDate": "2026-10-24",
+   "endDate": "2026-10-25",
+   "final": false,
+   "teamKeys": [
+    "otc:6939",
+    "otc:6942",
+    "otc:6951",
+    "otc:6956",
+    "otc:6963",
+    "otc:6968",
+    "otc:6978",
+    "otc:6979",
+    "otc:6981",
+    "otc:7015",
+    "otc:7017",
+    "otc:7020",
+    "otc:7022",
+    "otc:7027",
+    "otc:7034",
+    "otc:7035",
+    "otc:7043",
+    "otc:7050",
+    "otc:7059",
+    "otc:7069",
+    "otc:7071",
+    "otc:7083",
+    "otc:7096",
+    "otc:7103",
+    "otc:7126",
+    "otc:7131",
+    "otc:7132",
+    "otc:7133",
+    "otc:7134",
+    "otc:7144",
+    "otc:7145",
+    "otc:7154",
+    "otc:7166",
+    "otc:7169",
+    "otc:7172",
+    "otc:7191",
+    "otc:7194",
+    "otc:7199",
+    "otc:7201",
+    "otc:7208",
+    "otc:7215",
+    "otc:7216",
+    "otc:7220",
+    "otc:7223",
+    "otc:7243",
+    "otc:7260",
+    "otc:7264",
+    "otc:7265",
+    "otc:7289",
+    "otc:7299",
+    "otc:7306",
+    "otc:7307",
+    "otc:7327"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:6939",
+     "teamB": "otc:6981",
+     "scoreA": 0,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:6939",
+     "scoreA": 7,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:6942",
+     "teamB": "otc:7144",
+     "scoreA": 7,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7201",
+     "teamB": "otc:6942",
+     "scoreA": 3,
+     "scoreB": 26
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:6951",
+     "teamB": "otc:7015",
+     "scoreA": 1,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7050",
+     "teamB": "otc:6951",
+     "scoreA": 6,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6956",
+     "teamB": "otc:6979",
+     "scoreA": 12,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7216",
+     "teamB": "otc:6956",
+     "scoreA": 4,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6978",
+     "teamB": "otc:6963",
+     "scoreA": 13,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6963",
+     "teamB": "otc:7134",
+     "scoreA": 1,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:6968",
+     "teamB": "otc:7132",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7191",
+     "teamB": "otc:6968",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7134",
+     "teamB": "otc:6978",
+     "scoreA": 10,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6979",
+     "teamB": "otc:7083",
+     "scoreA": 16,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:6981",
+     "teamB": "otc:7027",
+     "scoreA": 21,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7015",
+     "teamB": "otc:7194",
+     "scoreA": 11,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:7103",
+     "scoreA": 8,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7264",
+     "teamB": "otc:7017",
+     "scoreA": 7,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7043",
+     "teamB": "otc:7020",
+     "scoreA": 13,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7020",
+     "teamB": "otc:7059",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7133",
+     "teamB": "otc:7022",
+     "scoreA": 2,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7022",
+     "teamB": "otc:7223",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7172",
+     "teamB": "otc:7034",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7034",
+     "teamB": "otc:7215",
+     "scoreA": 15,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:7126",
+     "scoreA": 10,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7154",
+     "teamB": "otc:7035",
+     "scoreA": 9,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7059",
+     "teamB": "otc:7043",
+     "scoreA": 2,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7194",
+     "teamB": "otc:7050",
+     "scoreA": 10,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7132",
+     "teamB": "otc:7069",
+     "scoreA": 14,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7069",
+     "teamB": "otc:7191",
+     "scoreA": 2,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7260",
+     "teamB": "otc:7071",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7071",
+     "teamB": "otc:7327",
+     "scoreA": 3,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7083",
+     "teamB": "otc:7208",
+     "scoreA": 8,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7131",
+     "teamB": "otc:7096",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7096",
+     "teamB": "otc:7289",
+     "scoreA": 15,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7166",
+     "scoreA": 1,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7126",
+     "teamB": "otc:7154",
+     "scoreA": 10,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7289",
+     "teamB": "otc:7131",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7265",
+     "teamB": "otc:7133",
+     "scoreA": 5,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7144",
+     "teamB": "otc:7201",
+     "scoreA": 27,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7145",
+     "teamB": "otc:7243",
+     "scoreA": 15,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7306",
+     "teamB": "otc:7145",
+     "scoreA": 11,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7166",
+     "teamB": "otc:7264",
+     "scoreA": 21,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7199",
+     "teamB": "otc:7169",
+     "scoreA": 4,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7169",
+     "teamB": "otc:7220",
+     "scoreA": 0,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7215",
+     "teamB": "otc:7172",
+     "scoreA": 8,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7307",
+     "teamB": "otc:7199",
+     "scoreA": 18,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7208",
+     "teamB": "otc:7216",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7220",
+     "teamB": "otc:7307",
+     "scoreA": 9,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7223",
+     "teamB": "otc:7265",
+     "scoreA": 8,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7243",
+     "teamB": "otc:7299",
+     "scoreA": 7,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7327",
+     "teamB": "otc:7260",
+     "scoreA": 3,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7299",
+     "teamB": "otc:7306",
+     "scoreA": 3,
+     "scoreB": 7
     }
    ]
   },

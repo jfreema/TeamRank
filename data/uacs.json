@@ -1,16 +1,119 @@
 {
  "source": "uacs",
  "season": "2026-27",
- "teams": {},
+ "teams": {
+  "uacs:myb-green|12": {
+   "key": "uacs:myb-green|12",
+   "name": "MYB Green 12u",
+   "city": "",
+   "state": "LA",
+   "ageClass": "12u- Open",
+   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  },
+  "uacs:myb-navy|12": {
+   "key": "uacs:myb-navy|12",
+   "name": "MYB Navy 12u",
+   "city": "",
+   "state": "LA",
+   "ageClass": "12u- Open",
+   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  },
+  "uacs:river-bandits|12": {
+   "key": "uacs:river-bandits|12",
+   "name": "12U River Bandits",
+   "city": "",
+   "state": "LA",
+   "ageClass": "12u- Open",
+   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  },
+  "uacs:saints|12": {
+   "key": "uacs:saints|12",
+   "name": "Saints-12u",
+   "city": "",
+   "state": "LA",
+   "ageClass": "12u- Open",
+   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  },
+  "uacs:sbg-sox-dartez|12": {
+   "key": "uacs:sbg-sox-dartez|12",
+   "name": "SBG Sox-Dartez",
+   "city": "",
+   "state": "LA",
+   "ageClass": "12u- Open",
+   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  }
+ },
  "events": {
   "728425": {
    "id": "728425",
    "name": "October 24-25 Halloween HAVOC",
-   "startDate": "",
-   "endDate": "",
+   "startDate": "2026-10-24",
+   "endDate": "2026-10-24",
    "final": false,
-   "teamKeys": [],
-   "games": []
+   "teamKeys": [
+    "uacs:myb-green|12",
+    "uacs:myb-navy|12",
+    "uacs:river-bandits|12",
+    "uacs:saints|12",
+    "uacs:sbg-sox-dartez|12"
+   ],
+   "games": [
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-24",
+     "division": "12u- Open",
+     "teamA": "uacs:sbg-sox-dartez|12",
+     "teamB": "uacs:saints|12",
+     "scoreA": 3,
+     "scoreB": 13
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-24",
+     "division": "12u- Open",
+     "teamA": "uacs:saints|12",
+     "teamB": "uacs:river-bandits|12",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-24",
+     "division": "12u- Open",
+     "teamA": "uacs:myb-green|12",
+     "teamB": "uacs:sbg-sox-dartez|12",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-24",
+     "division": "12u- Open",
+     "teamA": "uacs:river-bandits|12",
+     "teamB": "uacs:myb-navy|12",
+     "scoreA": 4,
+     "scoreB": 4
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-24",
+     "division": "12u- Open",
+     "teamA": "uacs:myb-navy|12",
+     "teamB": "uacs:myb-green|12",
+     "scoreA": 1,
+     "scoreB": 7
+    }
+   ]
   }
  }
 }
