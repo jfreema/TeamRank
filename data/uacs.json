@@ -48,7 +48,7 @@
    "id": "728425",
    "name": "October 24-25 Halloween HAVOC",
    "startDate": "2026-10-24",
-   "endDate": "2026-10-24",
+   "endDate": "2026-10-25",
    "final": false,
    "teamKeys": [
     "uacs:myb-green|12",
@@ -112,6 +112,39 @@
      "teamB": "uacs:myb-green|12",
      "scoreA": 1,
      "scoreB": 7
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-25",
+     "division": "12u- Open",
+     "teamA": "uacs:myb-navy|12",
+     "teamB": "uacs:river-bandits|12",
+     "scoreA": 10,
+     "scoreB": 6
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-25",
+     "division": "12u- Open",
+     "teamA": "uacs:sbg-sox-dartez|12",
+     "teamB": "uacs:myb-green|12",
+     "scoreA": 7,
+     "scoreB": 21
+    },
+    {
+     "source": "uacs",
+     "eventId": "728425",
+     "eventName": "October 24-25 Halloween HAVOC",
+     "date": "2026-10-25",
+     "division": "12u- Open",
+     "teamA": "uacs:saints|12",
+     "teamB": "uacs:myb-navy|12",
+     "scoreA": 5,
+     "scoreB": 8
     }
    ]
   }

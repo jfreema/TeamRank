@@ -1064,6 +1064,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31982",
    "logo": ""
   },
+  "gs:32015": {
+   "key": "gs:32015",
+   "name": "10u SIP Davis",
+   "city": "Gulfport",
+   "state": "MS",
+   "ageClass": "10 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32015",
+   "logo": ""
+  },
   "gs:32018": {
    "key": "gs:32018",
    "name": "13u SIP Wilson",
@@ -1197,6 +1206,15 @@
    "state": "LA",
    "ageClass": "10 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32294",
+   "logo": ""
+  },
+  "gs:32375": {
+   "key": "gs:32375",
+   "name": "Legends Baseball",
+   "city": "Bay St Louis",
+   "state": "MS",
+   "ageClass": "10 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32375",
    "logo": ""
   },
   "gs:32402": {
@@ -2708,8 +2726,30 @@
      "division": "13U 60/90",
      "teamA": "gs:33249",
      "teamB": "gs:31513",
+     "scoreA": 3,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "13U 60/90",
+     "teamA": "gs:33249",
+     "teamB": "gs:31513",
      "scoreA": 0,
      "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "13U 60/90",
+     "teamA": "gs:32696",
+     "teamB": "gs:31560",
+     "scoreA": 1,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -2727,10 +2767,32 @@
      "eventId": "4541",
      "eventName": "Coastal Mississippi Pumpkin Smash Bash",
      "date": "2026-10-24",
+     "division": "13U 60/90",
+     "teamA": "gs:33249",
+     "teamB": "gs:31597",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
      "division": "10U-OPEN",
      "teamA": "gs:32054",
      "teamB": "gs:31878",
      "scoreA": 12,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "10U-OPEN",
+     "teamA": "gs:32054",
+     "teamB": "gs:32015",
+     "scoreA": 11,
      "scoreB": 1
     },
     {
@@ -2743,6 +2805,17 @@
      "teamB": "gs:32048",
      "scoreA": 4,
      "scoreB": 15
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "13U 60/90",
+     "teamA": "gs:32051",
+     "teamB": "gs:32552",
+     "scoreA": 0,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -2765,6 +2838,28 @@
      "teamB": "gs:33319",
      "scoreA": 10,
      "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "13U 60/90",
+     "teamA": "gs:32051",
+     "teamB": "gs:33319",
+     "scoreA": 6,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4541",
+     "eventName": "Coastal Mississippi Pumpkin Smash Bash",
+     "date": "2026-10-24",
+     "division": "10U-OPEN",
+     "teamA": "gs:32054",
+     "teamB": "gs:32375",
+     "scoreA": 10,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -4711,8 +4806,30 @@
      "division": "10U-A",
      "teamA": "gs:31057",
      "teamB": "gs:32158",
+     "scoreA": 7,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31057",
+     "teamB": "gs:32158",
      "scoreA": 9,
      "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31087",
+     "teamB": "gs:31295",
+     "scoreA": 17,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -4724,6 +4841,17 @@
      "teamB": "gs:31087",
      "scoreA": 2,
      "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31087",
+     "teamB": "gs:32402",
+     "scoreA": 14,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -4746,6 +4874,17 @@
      "teamB": "gs:31157",
      "scoreA": 11,
      "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "11U-A",
+     "teamA": "gs:31157",
+     "teamB": "gs:33585",
+     "scoreA": 7,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -4808,10 +4947,54 @@
      "eventName": "North Louisiana Fall Championship",
      "date": "2026-10-24",
      "division": "10U-A",
+     "teamA": "gs:31295",
+     "teamB": "gs:33066",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31746",
+     "teamB": "gs:31455",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:32158",
+     "teamB": "gs:31455",
+     "scoreA": 5,
+     "scoreB": 15
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
      "teamA": "gs:32158",
      "teamB": "gs:31455",
      "scoreA": 6,
      "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31455",
+     "teamB": "gs:33624",
+     "scoreA": 16,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -4831,9 +5014,42 @@
      "date": "2026-10-24",
      "division": "11U-A",
      "teamA": "gs:31462",
+     "teamB": "gs:31845",
+     "scoreA": 9,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "11U-A",
+     "teamA": "gs:31462",
      "teamB": "gs:33113",
      "scoreA": 11,
      "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "11U-A",
+     "teamA": "gs:31462",
+     "teamB": "gs:33585",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31746",
+     "teamB": "gs:32983",
+     "scoreA": 13,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -4851,11 +5067,44 @@
      "eventId": "4629",
      "eventName": "North Louisiana Fall Championship",
      "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:31746",
+     "teamB": "gs:33067",
+     "scoreA": 13,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "11U-A",
+     "teamA": "gs:31845",
+     "teamB": "gs:33113",
+     "scoreA": 10,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
      "division": "11U-A",
      "teamA": "gs:31845",
      "teamB": "gs:33113",
      "scoreA": 12,
      "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "11U-A",
+     "teamA": "gs:31845",
+     "teamB": "gs:33269",
+     "scoreA": 6,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -4878,6 +5127,17 @@
      "teamB": "gs:32240",
      "scoreA": 12,
      "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4629",
+     "eventName": "North Louisiana Fall Championship",
+     "date": "2026-10-24",
+     "division": "10U-A",
+     "teamA": "gs:33066",
+     "teamB": "gs:32240",
+     "scoreA": 12,
+     "scoreB": 8
     },
     {
      "source": "gs",

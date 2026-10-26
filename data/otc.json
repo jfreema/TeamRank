@@ -4178,6 +4178,28 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "10U-AA",
+     "teamA": "otc:6939",
+     "teamB": "otc:7154",
+     "scoreA": 3,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7144",
+     "teamB": "otc:6942",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
      "teamA": "otc:6942",
      "teamB": "otc:7144",
      "scoreA": 7,
@@ -4221,6 +4243,28 @@
      "eventId": "1143",
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7131",
+     "teamB": "otc:6951",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6956",
+     "teamB": "otc:6978",
+     "scoreA": 12,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
      "division": "11U-AA",
      "teamA": "otc:6956",
      "teamB": "otc:6979",
@@ -4233,10 +4277,32 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "11U-AA",
+     "teamA": "otc:7043",
+     "teamB": "otc:6956",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
      "teamA": "otc:7216",
      "teamB": "otc:6956",
      "scoreA": 4,
      "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6978",
+     "teamB": "otc:6963",
+     "scoreA": 10,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -4259,6 +4325,17 @@
      "teamB": "otc:7134",
      "scoreA": 1,
      "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7022",
+     "teamB": "otc:6968",
+     "scoreA": 5,
+     "scoreB": 4
     },
     {
      "source": "otc",
@@ -4300,9 +4377,42 @@
      "date": "2026-10-24",
      "division": "11U-AA",
      "teamA": "otc:6979",
+     "teamB": "otc:7043",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6979",
      "teamB": "otc:7083",
      "scoreA": 16,
      "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7134",
+     "teamB": "otc:6979",
+     "scoreA": 9,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:6979",
+     "teamB": "otc:7208",
+     "scoreA": 8,
+     "scoreB": 4
     },
     {
      "source": "otc",
@@ -4314,6 +4424,28 @@
      "teamB": "otc:7027",
      "scoreA": 21,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:6981",
+     "teamB": "otc:7035",
+     "scoreA": 5,
+     "scoreB": 18
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7015",
+     "teamB": "otc:7050",
+     "scoreA": 6,
+     "scoreB": 9
     },
     {
      "source": "otc",
@@ -4333,9 +4465,31 @@
      "date": "2026-10-24",
      "division": "10U-AA",
      "teamA": "otc:7017",
+     "teamB": "otc:7027",
+     "scoreA": 13,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
      "teamB": "otc:7103",
      "scoreA": 8,
      "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:7154",
+     "scoreA": 6,
+     "scoreB": 14
     },
     {
      "source": "otc",
@@ -4375,6 +4529,17 @@
      "eventId": "1143",
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7059",
+     "teamB": "otc:7020",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
      "division": "12U-OPEN",
      "teamA": "otc:7133",
      "teamB": "otc:7022",
@@ -4387,10 +4552,32 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "12U-OPEN",
+     "teamA": "otc:7191",
+     "teamB": "otc:7022",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
      "teamA": "otc:7022",
      "teamB": "otc:7223",
      "scoreA": 7,
      "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7264",
+     "teamB": "otc:7027",
+     "scoreA": 9,
+     "scoreB": 13
     },
     {
      "source": "otc",
@@ -4419,11 +4606,44 @@
      "eventId": "1143",
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7034",
+     "teamB": "otc:7215",
+     "scoreA": 6,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
      "division": "10U-AA",
      "teamA": "otc:7035",
      "teamB": "otc:7126",
      "scoreA": 10,
      "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7126",
+     "teamB": "otc:7035",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7035",
+     "teamB": "otc:7144",
+     "scoreA": 8,
+     "scoreB": 6
     },
     {
      "source": "otc",
@@ -4442,10 +4662,32 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "11U-AA",
+     "teamA": "otc:7043",
+     "teamB": "otc:7059",
+     "scoreA": 10,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
      "teamA": "otc:7059",
      "teamB": "otc:7043",
      "scoreA": 2,
      "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7096",
+     "teamB": "otc:7050",
+     "scoreA": 11,
+     "scoreB": 1
     },
     {
      "source": "otc",
@@ -4475,6 +4717,17 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "12U-OPEN",
+     "teamA": "otc:7132",
+     "teamB": "otc:7069",
+     "scoreA": 9,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
      "teamA": "otc:7069",
      "teamB": "otc:7191",
      "scoreA": 2,
@@ -4486,10 +4739,43 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "11U-OPEN",
+     "teamA": "otc:7071",
+     "teamB": "otc:7172",
+     "scoreA": 3,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7215",
+     "teamB": "otc:7071",
+     "scoreA": 7,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
      "teamA": "otc:7260",
      "teamB": "otc:7071",
      "scoreA": 3,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7260",
+     "teamB": "otc:7071",
+     "scoreA": 3,
+     "scoreB": 6
     },
     {
      "source": "otc",
@@ -4518,6 +4804,17 @@
      "eventId": "1143",
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7083",
+     "teamB": "otc:7216",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
      "division": "12U-AA",
      "teamA": "otc:7131",
      "teamB": "otc:7096",
@@ -4532,8 +4829,41 @@
      "division": "12U-AA",
      "teamA": "otc:7096",
      "teamB": "otc:7289",
+     "scoreA": 10,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7096",
+     "teamB": "otc:7289",
      "scoreA": 15,
      "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7144",
+     "scoreA": 2,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7166",
+     "teamB": "otc:7103",
+     "scoreA": 8,
+     "scoreB": 10
     },
     {
      "source": "otc",
@@ -4565,8 +4895,52 @@
      "division": "12U-AA",
      "teamA": "otc:7289",
      "teamB": "otc:7131",
+     "scoreA": 6,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7289",
+     "teamB": "otc:7131",
      "scoreA": 3,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7132",
+     "teamB": "otc:7133",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7132",
+     "teamB": "otc:7191",
+     "scoreA": 0,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7223",
+     "teamB": "otc:7133",
+     "scoreA": 1,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -4578,6 +4952,17 @@
      "teamB": "otc:7133",
      "scoreA": 5,
      "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-AA",
+     "teamA": "otc:7134",
+     "teamB": "otc:7216",
+     "scoreA": 12,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -4596,6 +4981,17 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7220",
+     "teamB": "otc:7145",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7145",
      "teamB": "otc:7243",
      "scoreA": 15,
@@ -4607,10 +5003,32 @@
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7299",
+     "teamB": "otc:7145",
+     "scoreA": 3,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7306",
      "teamB": "otc:7145",
      "scoreA": 11,
      "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "10U-AA",
+     "teamA": "otc:7154",
+     "teamB": "otc:7201",
+     "scoreA": 20,
+     "scoreB": 1
     },
     {
      "source": "otc",
@@ -4650,10 +5068,54 @@
      "eventId": "1143",
      "eventName": "Chillin At Chap!",
      "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7307",
+     "teamB": "otc:7169",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
      "division": "11U-OPEN",
      "teamA": "otc:7215",
      "teamB": "otc:7172",
      "scoreA": 8,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-OPEN",
+     "teamA": "otc:7191",
+     "teamB": "otc:7265",
+     "scoreA": 11,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "12U-AA",
+     "teamA": "otc:7194",
+     "teamB": "otc:7289",
+     "scoreA": 2,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7306",
+     "teamB": "otc:7199",
+     "scoreA": 7,
      "scoreB": 0
     },
     {
@@ -4677,6 +5139,39 @@
      "teamB": "otc:7216",
      "scoreA": 7,
      "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "11U-OPEN",
+     "teamA": "otc:7327",
+     "teamB": "otc:7215",
+     "scoreA": 3,
+     "scoreB": 19
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7220",
+     "teamB": "otc:7243",
+     "scoreA": 22,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7220",
+     "teamB": "otc:7306",
+     "scoreA": 11,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -4732,6 +5227,17 @@
      "teamB": "otc:7306",
      "scoreA": 3,
      "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1143",
+     "eventName": "Chillin At Chap!",
+     "date": "2026-10-24",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7306",
+     "teamB": "otc:7307",
+     "scoreA": 4,
+     "scoreB": 3
     }
    ]
   },
