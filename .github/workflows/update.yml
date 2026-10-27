@@ -11,10 +11,11 @@ on:
     # GitHub schedules are in UTC. 10 PM Central is 03:00 UTC the next day
     # during daylight saving time (CDT) and 04:00 UTC otherwise (CST), so
     # both are scheduled (Sun, Mon, Tue and Thu in UTC) and the job skips
-    # the one that is wrong for Chicago. GitHub delays runs set for the top
-    # of the hour, sometimes by hours, and can drop them (Monday 10/20 never
-    # ran; Saturday 10/24 hadn't started two hours late), so these start a
-    # few minutes past, and a backup follows at 12:37 AM Central.
+    # the one that is wrong for Chicago. GitHub starts scheduled runs late,
+    # here usually about 6 hours, and can drop them (Monday 10/20 never ran),
+    # so a Claude Code scheduled task starts this workflow (workflow_dispatch)
+    # at 10:12 PM Central on those nights. These schedules, with a backup at
+    # 12:37 AM Central, are the fallback.
     - cron: "7 3 * * 0,1,2,4" # 10:07 PM CDT
     - cron: "7 4 * * 0,1,2,4" # 10:07 PM CST
     - cron: "37 5 * * 0,1,2,4" # 12:37 AM CDT, backup
