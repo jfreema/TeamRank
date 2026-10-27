@@ -39455,7 +39455,7 @@
    "name": "Zombies vs Super Heroes (Sat ONLY) Cullman",
    "startDate": "2026-10-24",
    "endDate": "2026-10-24",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:0257e8a1-28b4-414e-8319-902265fb47f1",
     "2d:2540893f-e86d-4899-816d-e56a8853905c",
