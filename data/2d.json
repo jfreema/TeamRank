@@ -7970,7 +7970,7 @@
    "name": "Fall Championship at the Yard",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:019844f3-dc7c-4a5b-a800-ba97d8c517e9",
     "2d:15e3136f-15fe-4ab3-8883-00ab2829eb76",
@@ -12057,7 +12057,7 @@
    "name": "Chisenhall Sunday Shootout",
    "startDate": "2026-10-25",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:001fb08d-f924-40a3-9bdb-b6a8ca1c2c2d",
     "2d:0769c4c9-645b-43b8-8786-c38995b45677",
@@ -14076,7 +14076,7 @@
    "name": "Saraland Fall Championship",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:07d0919f-88d8-4990-8e33-82cb1edd0aae",
     "2d:09493369-36b0-4e8e-a499-bd0a7574a33d",
@@ -19368,7 +19368,7 @@
    "name": "Nola Fall Championship",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:0a97bc7f-7fb1-4d9c-8eea-92d594bfe5bf",
     "2d:0adc6c7f-ff5b-42f9-88da-a2741d1b4689",
@@ -20351,7 +20351,7 @@
    "name": "Tangi Fall Challenge",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:2f5321f7-341d-43c4-acf0-c8c707fcf244",
     "2d:b9edde60-fcc7-49bb-bb2b-bad70ff2ce8c",
@@ -27895,7 +27895,7 @@
    "name": "Acadiana Fall Championship",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:227a28da-168c-4d7c-8511-5a3d6bd9b599",
     "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
@@ -28657,7 +28657,7 @@
    "name": "Sulphur Fall Shootout",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:4f772410-376b-4aa8-8a6e-348321a15ba1",
     "2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9",
@@ -36701,7 +36701,7 @@
    "name": "Caddo Premier Fall Finale",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:01d4a069-1574-4531-9ccd-c28307fb56c2",
     "2d:04191e66-124a-478a-a1f1-602fca606a6d",
@@ -39674,7 +39674,7 @@
    "name": "Zombies vs Super Heroes (Sun ONLY) Cullman",
    "startDate": "2026-10-25",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:4a1b48da-bc7c-4bb4-8eee-c911a5f1877f",
     "2d:50b0de05-4afd-4e2f-b8ab-51c716c35111",
@@ -40032,7 +40032,7 @@
    "name": "Nashville Fall Challenge",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:35c0bf47-6c4a-4e14-acd3-ead23cb496e0",
     "2d:43f01ae1-9da1-4031-9a37-5b0cded51a91",

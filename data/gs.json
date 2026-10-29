@@ -2704,7 +2704,7 @@
    "name": "Coastal Mississippi Pumpkin Smash Bash",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [],
    "games": [
     {
@@ -4762,7 +4762,7 @@
    "name": "North Louisiana Fall Championship",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31057",
     "gs:31087",

@@ -4093,7 +4093,7 @@
    "name": "Chillin At Chap!",
    "startDate": "2026-10-24",
    "endDate": "2026-10-25",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6939",
     "otc:6942",
