@@ -137,4 +137,45 @@ void main() {
       expect(cache.events['4601']!.name, 'Gulf Coast', reason: 'saved events are kept');
     });
   });
+
+  test('reads Mississippi events in full, but not Texas ones', () async {
+    final today = DateTime(2026, 10, 20);
+    final ms = details
+        .replaceAll('Monroe, LA', 'Picayune, MS')
+        .replaceAll('Fall Classic', 'Coastal Mississippi Fall Bash')
+        .replaceAll('4600', '4602');
+    // Two Mississippi teams playing each other: no Louisiana team involved.
+    final msTeam = teamPage
+        .replaceAll('LA - Monroe', 'MS - Picayune')
+        .replaceAll('Monroe Mudcats 12U', 'Picayune Pirates')
+        .replaceAll('Fall Classic', 'Coastal Mississippi Fall Bash')
+        .replaceAll('Teams/Details/100/', 'Teams/Details/400/')
+        .replaceAll('Teams/Details/200/', 'Teams/Details/500/')
+        .replaceAll('Monroe, LA', 'Picayune, MS')
+        .replaceAll('4600', '4602');
+    final pages = {
+      '/baseball/Events?page=1': '<a href="/baseball/Events/Details/4603/x">x</a>',
+      '/baseball/Events/Details/4602': ms,
+      '/baseball/Events/Details/4603': details.replaceAll('Monroe, LA', 'Tyler, TX').replaceAll('4600', '4603'),
+      '/baseball/Events/Schedule/4602/x?division=12U-AA':
+          '<a href="/baseball/Teams/Details/400/a">a</a><a href="/baseball/Teams/Details/500/b">b</a>',
+      '/baseball/Teams/Details/400/team': msTeam,
+    };
+    final client = PoliteClient(delay: Duration.zero, inner: MockClient((req) async {
+      final path = '${req.url.path}${req.url.hasQuery ? '?${req.url.query}' : ''}';
+      final body = pages[path];
+      return body == null ? http.Response('not found', 404) : http.Response(body, 200);
+    }));
+    final cache = SourceCache(source: 'gs', season: '2026-27', teams: {}, events: {
+      '4601': EventRecord(id: '4601', name: '', startDate: '', endDate: '', isFinal: true, games: [], teamKeys: []),
+    });
+    await GrandSlamScraper(client).scrape(cache, Season.containing(today), today, log: (_) {});
+    final ev = cache.events['4602']!;
+    expect(ev.name, 'Coastal Mississippi Fall Bash');
+    expect(ev.isFinal, isTrue);
+    expect(ev.games.single.teamA, 'gs:400');
+    expect(ev.games.single.teamB, 'gs:500');
+    expect(cache.teams['gs:400']!.state, 'MS', reason: 'each team keeps its state');
+    expect(cache.events['4603']!.name, '', reason: 'Texas events are not read in full');
+  });
 }

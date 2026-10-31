@@ -15,16 +15,25 @@ import 'otc.dart';
 /// Event IDs count up as events are created, so the scraper walks every ID
 /// from the first one of the season and keeps a record of each, even the
 /// ones it skips, so later runs only look at new IDs. It collects:
-/// - every Louisiana event with divisions in the covered ages, with all its games;
+/// - every event in [eventStates] (Louisiana and Mississippi, where
+///   Louisiana teams often play) with divisions in the covered ages, with
+///   all its games, so Louisiana teams that only play there are found too
+///   and their opponents' records are complete;
 /// - games Louisiana teams played at Grand Slam events in other states,
 ///   read from those teams' pages.
 class GrandSlamScraper {
-  GrandSlamScraper(this.client, {this.base = 'https://grandslamtournaments.com', this.state = 'LA'});
+  GrandSlamScraper(this.client,
+      {this.base = 'https://grandslamtournaments.com', this.state = 'LA', this.eventStates = const {'LA', 'MS'}});
 
   static const source = 'gs';
   final PoliteClient client;
   final String base;
+
+  /// The home state: its teams' games are followed to events anywhere.
   final String state;
+
+  /// States whose events are read in full.
+  final Set<String> eventStates;
 
   /// Stop looking for older events after this many IDs in a row that are
   /// missing or from an earlier season.
@@ -139,7 +148,7 @@ class GrandSlamScraper {
       }
     }
 
-    // Teams at Louisiana events that are not final, plus every Louisiana team
+    // Teams at events read in full that are not final, plus every Louisiana team
     // (for its games at events in other states).
     final open = cache.events.values.where((e) => !e.isFinal && e.startDate.isNotEmpty &&
         !DateTime.parse(e.startDate).isAfter(today));
@@ -193,7 +202,7 @@ class GrandSlamScraper {
       await fetch(id);
     }
 
-    // Every game at a Louisiana event, and Louisiana teams' games elsewhere.
+    // Every game at an event read in full, and Louisiana teams' games elsewhere.
     final byEvent = <String, List<GsTeamPage>>{};
     for (final p in pages.values) {
       for (final eid in p.events.keys) {
@@ -252,7 +261,7 @@ class GrandSlamScraper {
 
   /// Reads one event's details page. Null when it does not exist; throws
   /// when the page can't be read (the site timing out, say).
-  /// Events outside [state] or without divisions in the covered ages are kept as
+  /// Events outside [eventStates] or without divisions in the covered ages are kept as
   /// final records with no games, so they are not fetched again.
   Future<EventRecord?> _event(int id, Season season, DateTime today, void Function(String) log) async {
     final String body;
@@ -264,7 +273,7 @@ class GrandSlamScraper {
     }
     final info = parseEventDetails(body, today);
     if (info == null) return null;
-    final wanted = info.state == state && OtcScraper.parseDivisions(body).any(OtcScraper.isAgeDivision);
+    final wanted = eventStates.contains(info.state) && OtcScraper.parseDivisions(body).any(OtcScraper.isAgeDivision);
     final start = info.start;
     final end = start?.add(Duration(days: info.lengthDays - 1));
     return EventRecord(
@@ -272,10 +281,10 @@ class GrandSlamScraper {
       name: wanted ? info.name : '',
       startDate: start == null ? '' : isoDate(start),
       endDate: end == null ? '' : isoDate(end),
-      // Louisiana events stay open until their games are read.
+      // Events read in full stay open until their games are read.
       isFinal: !wanted,
       games: [],
-      // Marks a Louisiana event; filled with team keys once read.
+      // Filled with the signed-up team keys once read.
       teamKeys: const [],
     );
   }
