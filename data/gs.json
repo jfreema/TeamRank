@@ -3508,7 +3508,7 @@
    "name": "Wow Factor - Central Mississippi",
    "city": "Meridian",
    "state": "MS",
-   "ageClass": "12 & Under Class C",
+   "ageClass": "12 & Under Class B",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31232",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31232-wow-factor-central-mississippi.jpeg?v=1"
   },
@@ -3538,6 +3538,15 @@
    "ageClass": "13 & Under AAA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31243",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31243-dinger-nation-black.jpeg?v=1"
+  },
+  "gs:31245": {
+   "key": "gs:31245",
+   "name": "Mississippi Stars 9U",
+   "city": "Picayune",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/31245",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31245-mississippi-stars-9u.jpeg?v=1"
   },
   "gs:31247": {
    "key": "gs:31247",
@@ -3634,7 +3643,7 @@
    "name": "Showtime 35",
    "city": "Columbia",
    "state": "MS",
-   "ageClass": "9 & Under Class B",
+   "ageClass": "9 & Under Class A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31272",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31272-showtime-35.jpeg?v=1"
   },
@@ -4129,7 +4138,7 @@
    "name": "Mississippi Heat Missiles-10u Red",
    "city": "Columbia",
    "state": "MS",
-   "ageClass": "10 & Under A",
+   "ageClass": "10 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31378",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31378-mississippi-heat-missiles-10u-red.png?v=1"
   },
@@ -4750,7 +4759,7 @@
    "name": "Southern Outlaws",
    "city": "Ellisville",
    "state": "MS",
-   "ageClass": "10 & Under Class C",
+   "ageClass": "10 & Under Class B",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31522",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31522-southern-outlaws.jpg?v=3"
   },
@@ -5807,6 +5816,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31779",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31779-southern-seams-11u.png?v=1"
   },
+  "gs:31782": {
+   "key": "gs:31782",
+   "name": "Lady Prime",
+   "city": "Philadelphia",
+   "state": "MS",
+   "ageClass": "9 & Under Class C",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/31782",
+   "logo": ""
+  },
   "gs:31783": {
    "key": "gs:31783",
    "name": "MS Rays Diaz 10u",
@@ -6635,6 +6653,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32043",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32043-shoals-primetime-14u.jpeg?v=1"
   },
+  "gs:32045": {
+   "key": "gs:32045",
+   "name": "Panhandle Punishers 9U",
+   "city": "Navarre",
+   "state": "FL",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32045",
+   "logo": ""
+  },
   "gs:32046": {
    "key": "gs:32046",
    "name": "Panhandle Punishers 11U",
@@ -6995,6 +7022,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32184",
    "logo": ""
   },
+  "gs:32194": {
+   "key": "gs:32194",
+   "name": "South Mississippi Expos",
+   "city": "Bay Saint Louis",
+   "state": "MS",
+   "ageClass": "9 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32194",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32194-south-mississippi-expos.jpeg?v=2"
+  },
   "gs:32196": {
    "key": "gs:32196",
    "name": "Aggies Nation",
@@ -7030,6 +7066,15 @@
    "ageClass": "10 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32201",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32201-west-monroe-bulldogs.jpg?v=2"
+  },
+  "gs:32202": {
+   "key": "gs:32202",
+   "name": "UBO Northshore Franchise",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32202",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32202-ubo-northshore-franchise.jpeg?v=1"
   },
   "gs:32206": {
    "key": "gs:32206",
@@ -7814,6 +7859,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32510",
    "logo": ""
   },
+  "gs:32511": {
+   "key": "gs:32511",
+   "name": "Southern Ballers 2k17",
+   "city": "Madison",
+   "state": "MS",
+   "ageClass": "9 & Under Class C",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32511",
+   "logo": ""
+  },
   "gs:32521": {
    "key": "gs:32521",
    "name": "PR Baseball",
@@ -8111,6 +8165,24 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32648",
    "logo": ""
   },
+  "gs:32649": {
+   "key": "gs:32649",
+   "name": "Diamond Divas",
+   "city": "Columbia",
+   "state": "LA",
+   "ageClass": "9 & Under Class C",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32649",
+   "logo": ""
+  },
+  "gs:32651": {
+   "key": "gs:32651",
+   "name": "Louisiana Bombers Elite 9u",
+   "city": "Calhoun",
+   "state": "LA",
+   "ageClass": "9 & Under Class C",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32651",
+   "logo": ""
+  },
   "gs:32656": {
    "key": "gs:32656",
    "name": "Mississippi Elite Liberty",
@@ -8161,7 +8233,7 @@
    "name": "Valor 12u 12U",
    "city": "Amory",
    "state": "MS",
-   "ageClass": "12 & Under Class C",
+   "ageClass": "12 & Under Class B",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32676",
    "logo": ""
   },
@@ -8290,6 +8362,15 @@
    "ageClass": "13 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32731",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32731-sbg-sox-keith.jpeg?v=2"
+  },
+  "gs:32733": {
+   "key": "gs:32733",
+   "name": "Louisiana Baseball 9U",
+   "city": "St. Bernard",
+   "state": "LA",
+   "ageClass": "9 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32733",
+   "logo": ""
   },
   "gs:32741": {
    "key": "gs:32741",
@@ -8578,6 +8659,15 @@
    "ageClass": "11 & Under AAA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32841",
    "logo": ""
+  },
+  "gs:32845": {
+   "key": "gs:32845",
+   "name": "HITMEN",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32845",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32845-hitmen.png?v=1"
   },
   "gs:32846": {
    "key": "gs:32846",
@@ -8968,7 +9058,7 @@
   },
   "gs:33084": {
    "key": "gs:33084",
-   "name": "Carthage cubs",
+   "name": "Carthage Cubs",
    "city": "Carthage",
    "state": "MS",
    "ageClass": "13 & Under A",
@@ -9628,7 +9718,7 @@
    "name": "County Collision",
    "city": "Eupora",
    "state": "MS",
-   "ageClass": "12 & Under Class C",
+   "ageClass": "12 & Under Class B",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/33463",
    "logo": ""
   },
@@ -9790,7 +9880,7 @@
    "name": "Blue Heat 12U",
    "city": "Demopolis",
    "state": "AL",
-   "ageClass": "12 & Under Class C",
+   "ageClass": "12 & Under Class B",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/33643",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/33643-blue-heat-12u.jpg?v=1"
   },
@@ -15755,10 +15845,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-OPEN",
-     "teamA": "gs:30964",
-     "teamB": "gs:31860",
-     "scoreA": 5,
-     "scoreB": 6
+     "teamA": "gs:31860",
+     "teamB": "gs:30964",
+     "scoreA": 6,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -15777,10 +15867,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-OPEN",
-     "teamA": "gs:32381",
-     "teamB": "gs:31282",
-     "scoreA": 0,
-     "scoreB": 19
+     "teamA": "gs:31282",
+     "teamB": "gs:32381",
+     "scoreA": 19,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -15810,10 +15900,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "11U-A",
-     "teamA": "gs:32838",
-     "teamB": "gs:31322",
-     "scoreA": 9,
-     "scoreB": 8
+     "teamA": "gs:31322",
+     "teamB": "gs:32838",
+     "scoreA": 8,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -15821,10 +15911,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "11U-A",
-     "teamA": "gs:32016",
-     "teamB": "gs:31367",
-     "scoreA": 3,
-     "scoreB": 5
+     "teamA": "gs:31367",
+     "teamB": "gs:32016",
+     "scoreA": 5,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -15843,10 +15933,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-A",
-     "teamA": "gs:32609",
-     "teamB": "gs:31557",
-     "scoreA": 15,
-     "scoreB": 2
+     "teamA": "gs:31557",
+     "teamB": "gs:32609",
+     "scoreA": 2,
+     "scoreB": 15
     },
     {
      "source": "gs",
@@ -15854,10 +15944,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-A",
-     "teamA": "gs:31693",
-     "teamB": "gs:31935",
-     "scoreA": 0,
-     "scoreB": 8
+     "teamA": "gs:31935",
+     "teamB": "gs:31693",
+     "scoreA": 8,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -15887,10 +15977,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "14U-OPEN",
-     "teamA": "gs:31694",
-     "teamB": "gs:33236",
-     "scoreA": 4,
-     "scoreB": 8
+     "teamA": "gs:33236",
+     "teamB": "gs:31694",
+     "scoreA": 8,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -15898,10 +15988,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-A",
-     "teamA": "gs:31783",
-     "teamB": "gs:32014",
-     "scoreA": 8,
-     "scoreB": 5
+     "teamA": "gs:32014",
+     "teamB": "gs:31783",
+     "scoreA": 5,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -15920,10 +16010,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-OPEN",
-     "teamA": "gs:32500",
-     "teamB": "gs:31864",
-     "scoreA": 6,
-     "scoreB": 4
+     "teamA": "gs:31864",
+     "teamB": "gs:32500",
+     "scoreA": 4,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -15943,6 +16033,17 @@
      "date": "2026-10-30",
      "division": "10U-OPEN",
      "teamA": "gs:31878",
+     "teamB": "gs:32096",
+     "scoreA": 0,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
+     "division": "10U-OPEN",
+     "teamA": "gs:31878",
      "teamB": "gs:33672",
      "scoreA": 6,
      "scoreB": 7
@@ -15953,10 +16054,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-A",
-     "teamA": "gs:32298",
-     "teamB": "gs:31935",
-     "scoreA": 9,
-     "scoreB": 0
+     "teamA": "gs:31935",
+     "teamB": "gs:32298",
+     "scoreA": 0,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -15975,10 +16076,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-A",
-     "teamA": "gs:32908",
-     "teamB": "gs:32007",
-     "scoreA": 15,
-     "scoreB": 8
+     "teamA": "gs:32007",
+     "teamB": "gs:32908",
+     "scoreA": 8,
+     "scoreB": 15
     },
     {
      "source": "gs",
@@ -15986,10 +16087,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-A",
-     "teamA": "gs:32101",
-     "teamB": "gs:32014",
-     "scoreA": 4,
-     "scoreB": 12
+     "teamA": "gs:32014",
+     "teamB": "gs:32101",
+     "scoreA": 12,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -16030,10 +16131,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-OPEN",
-     "teamA": "gs:32096",
-     "teamB": "gs:33544",
-     "scoreA": 7,
-     "scoreB": 0
+     "teamA": "gs:33544",
+     "teamB": "gs:32096",
+     "scoreA": 0,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -16052,10 +16153,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-A",
-     "teamA": "gs:32908",
-     "teamB": "gs:32221",
-     "scoreA": 11,
-     "scoreB": 7
+     "teamA": "gs:32221",
+     "teamB": "gs:32908",
+     "scoreA": 7,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -16073,11 +16174,33 @@
      "eventId": "4542",
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
+     "division": "13U-OPEN",
+     "teamA": "gs:32264",
+     "teamB": "gs:33249",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
      "division": "12U-OPEN",
      "teamA": "gs:32417",
-     "teamB": "gs:33011",
-     "scoreA": 7,
-     "scoreB": 2
+     "teamB": "gs:32381",
+     "scoreA": 2,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
+     "division": "12U-OPEN",
+     "teamA": "gs:33011",
+     "teamB": "gs:32417",
+     "scoreA": 2,
+     "scoreB": 7
     },
     {
      "source": "gs",
@@ -16085,10 +16208,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "13U-OPEN",
-     "teamA": "gs:32731",
-     "teamB": "gs:32496",
-     "scoreA": 0,
-     "scoreB": 16
+     "teamA": "gs:32496",
+     "teamB": "gs:32731",
+     "scoreA": 16,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -16096,10 +16219,21 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-OPEN",
-     "teamA": "gs:32500",
-     "teamB": "gs:32647",
-     "scoreA": 1,
-     "scoreB": 3
+     "teamA": "gs:32647",
+     "teamB": "gs:32500",
+     "scoreA": 3,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
+     "division": "13U-OPEN",
+     "teamA": "gs:32648",
+     "teamB": "gs:32658",
+     "scoreA": 5,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -16151,10 +16285,10 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "12U-A",
-     "teamA": "gs:32768",
-     "teamB": "gs:33223",
-     "scoreA": 5,
-     "scoreB": 1
+     "teamA": "gs:33223",
+     "teamB": "gs:32768",
+     "scoreA": 1,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -16239,10 +16373,21 @@
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
      "division": "10U-OPEN",
-     "teamA": "gs:33544",
-     "teamB": "gs:33672",
-     "scoreA": 0,
-     "scoreB": 7
+     "teamA": "gs:33672",
+     "teamB": "gs:33544",
+     "scoreA": 10,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
+     "division": "10U-OPEN",
+     "teamA": "gs:33672",
+     "teamB": "gs:33544",
+     "scoreA": 10,
+     "scoreB": 0
     }
    ]
   },
@@ -27330,10 +27475,10 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:30903",
-     "teamB": "gs:30832",
-     "scoreA": 4,
-     "scoreB": 14
+     "teamA": "gs:30832",
+     "teamB": "gs:30903",
+     "scoreA": 14,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -27341,10 +27486,21 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:31017",
+     "teamA": "gs:30975",
      "teamB": "gs:30832",
-     "scoreA": 6,
-     "scoreB": 7
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4598",
+     "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
+     "date": "2026-10-30",
+     "division": "10U-AA",
+     "teamA": "gs:30832",
+     "teamB": "gs:31017",
+     "scoreA": 7,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -27374,10 +27530,10 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:31370",
-     "teamB": "gs:30882",
-     "scoreA": 13,
-     "scoreB": 1
+     "teamA": "gs:30882",
+     "teamB": "gs:31370",
+     "scoreA": 1,
+     "scoreB": 13
     },
     {
      "source": "gs",
@@ -27396,10 +27552,21 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:30903",
-     "teamB": "gs:31368",
-     "scoreA": 11,
-     "scoreB": 5
+     "teamA": "gs:31114",
+     "teamB": "gs:30903",
+     "scoreA": 9,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4598",
+     "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
+     "date": "2026-10-30",
+     "division": "10U-AA",
+     "teamA": "gs:31368",
+     "teamB": "gs:30903",
+     "scoreA": 5,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -27418,10 +27585,10 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:31370",
-     "teamB": "gs:30975",
-     "scoreA": 11,
-     "scoreB": 4
+     "teamA": "gs:30975",
+     "teamB": "gs:31370",
+     "scoreA": 4,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -27429,10 +27596,21 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:31017",
-     "teamB": "gs:31114",
-     "scoreA": 10,
-     "scoreB": 9
+     "teamA": "gs:30975",
+     "teamB": "gs:31370",
+     "scoreA": 4,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4598",
+     "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
+     "date": "2026-10-30",
+     "division": "10U-AA",
+     "teamA": "gs:31114",
+     "teamB": "gs:31017",
+     "scoreA": 9,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -27451,10 +27629,21 @@
      "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
      "date": "2026-10-30",
      "division": "10U-AA",
-     "teamA": "gs:31370",
-     "teamB": "gs:33350",
-     "scoreA": 21,
-     "scoreB": 0
+     "teamA": "gs:33350",
+     "teamB": "gs:31114",
+     "scoreA": 5,
+     "scoreB": 16
+    },
+    {
+     "source": "gs",
+     "eventId": "4598",
+     "eventName": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
+     "date": "2026-10-30",
+     "division": "10U-AA",
+     "teamA": "gs:33350",
+     "teamB": "gs:31370",
+     "scoreA": 0,
+     "scoreB": 21
     }
    ]
   },
@@ -42861,10 +43050,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:30976",
-     "teamB": "gs:30803",
-     "scoreA": 11,
-     "scoreB": 1
+     "teamA": "gs:30803",
+     "teamB": "gs:30976",
+     "scoreA": 1,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -42872,10 +43061,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:31142",
-     "teamB": "gs:30803",
-     "scoreA": 10,
-     "scoreB": 7
+     "teamA": "gs:30803",
+     "teamB": "gs:31142",
+     "scoreA": 7,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -42883,10 +43072,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "10U-A",
-     "teamA": "gs:30822",
-     "teamB": "gs:30834",
-     "scoreA": 7,
-     "scoreB": 6
+     "teamA": "gs:30834",
+     "teamB": "gs:30822",
+     "scoreA": 6,
+     "scoreB": 7
     },
     {
      "source": "gs",
@@ -42938,6 +43127,17 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AA",
+     "teamA": "gs:31043",
+     "teamB": "gs:30836",
+     "scoreA": 8,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "12U-AA",
      "teamA": "gs:32088",
      "teamB": "gs:30836",
      "scoreA": 5,
@@ -42948,11 +43148,11 @@
      "eventId": "4692",
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
-     "division": "9U-OPEN",
-     "teamA": "gs:31006",
-     "teamB": "gs:30917",
-     "scoreA": 6,
-     "scoreB": 7
+     "division": "11U-OPEN",
+     "teamA": "gs:31183",
+     "teamB": "gs:30925",
+     "scoreA": 2,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -42961,18 +43161,7 @@
      "date": "2026-10-31",
      "division": "11U-OPEN",
      "teamA": "gs:30925",
-     "teamB": "gs:31183",
-     "scoreA": 12,
-     "scoreB": 2
-    },
-    {
-     "source": "gs",
-     "eventId": "4692",
-     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
-     "date": "2026-10-31",
-     "division": "11U-OPEN",
-     "teamA": "gs:31486",
-     "teamB": "gs:30925",
+     "teamB": "gs:31486",
      "scoreA": 9,
      "scoreB": 9
     },
@@ -42993,10 +43182,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "14U-AA",
-     "teamA": "gs:32131",
-     "teamB": "gs:30979",
-     "scoreA": 2,
-     "scoreB": 7
+     "teamA": "gs:30979",
+     "teamB": "gs:32131",
+     "scoreA": 7,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -43015,10 +43204,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "10U-OPEN",
-     "teamA": "gs:31488",
-     "teamB": "gs:30982",
-     "scoreA": 10,
-     "scoreB": 3
+     "teamA": "gs:30982",
+     "teamB": "gs:31488",
+     "scoreA": 3,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -43037,10 +43226,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "11U-OPEN",
-     "teamA": "gs:30985",
-     "teamB": "gs:31183",
-     "scoreA": 8,
-     "scoreB": 9
+     "teamA": "gs:31183",
+     "teamB": "gs:30985",
+     "scoreA": 9,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -43081,10 +43270,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AA",
-     "teamA": "gs:32088",
-     "teamB": "gs:31043",
-     "scoreA": 11,
-     "scoreB": 6
+     "teamA": "gs:31043",
+     "teamB": "gs:32088",
+     "scoreA": 6,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -43092,10 +43281,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:31108",
-     "teamB": "gs:31053",
-     "scoreA": 8,
-     "scoreB": 9
+     "teamA": "gs:31053",
+     "teamB": "gs:31108",
+     "scoreA": 9,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -43114,10 +43303,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "14U-AA",
-     "teamA": "gs:31064",
-     "teamB": "gs:33594",
-     "scoreA": 1,
-     "scoreB": 13
+     "teamA": "gs:33594",
+     "teamB": "gs:31064",
+     "scoreA": 13,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -43125,10 +43314,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:31487",
-     "teamB": "gs:31108",
-     "scoreA": 9,
-     "scoreB": 8
+     "teamA": "gs:31108",
+     "teamB": "gs:31487",
+     "scoreA": 8,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -43147,10 +43336,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "14U-AA",
-     "teamA": "gs:31168",
-     "teamB": "gs:33594",
-     "scoreA": 2,
-     "scoreB": 3
+     "teamA": "gs:33594",
+     "teamB": "gs:31168",
+     "scoreA": 3,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -43158,9 +43347,31 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "10U-A",
-     "teamA": "gs:31218",
-     "teamB": "gs:31558",
-     "scoreA": 15,
+     "teamA": "gs:31558",
+     "teamB": "gs:31218",
+     "scoreA": 6,
+     "scoreB": 15
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "12U-A",
+     "teamA": "gs:31267",
+     "teamB": "gs:31236",
+     "scoreA": 6,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "12U-A",
+     "teamA": "gs:31761",
+     "teamB": "gs:31236",
+     "scoreA": 12,
      "scoreB": 6
     },
     {
@@ -43191,42 +43402,9 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AAA",
-     "teamA": "gs:31310",
-     "teamB": "gs:31839",
-     "scoreA": 6,
-     "scoreB": 5
-    },
-    {
-     "source": "gs",
-     "eventId": "4692",
-     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
-     "date": "2026-10-31",
-     "division": "12U-A",
-     "teamA": "gs:31470",
-     "teamB": "gs:31503",
-     "scoreA": 14,
-     "scoreB": 1
-    },
-    {
-     "source": "gs",
-     "eventId": "4692",
-     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
-     "date": "2026-10-31",
-     "division": "12U-A",
-     "teamA": "gs:31470",
-     "teamB": "gs:33606",
-     "scoreA": 11,
-     "scoreB": 1
-    },
-    {
-     "source": "gs",
-     "eventId": "4692",
-     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
-     "date": "2026-10-31",
-     "division": "11U-A",
-     "teamA": "gs:31487",
-     "teamB": "gs:32678",
-     "scoreA": 7,
+     "teamA": "gs:31839",
+     "teamB": "gs:31310",
+     "scoreA": 5,
      "scoreB": 6
     },
     {
@@ -43234,11 +43412,55 @@
      "eventId": "4692",
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
+     "division": "12U-A",
+     "teamA": "gs:31503",
+     "teamB": "gs:31470",
+     "scoreA": 1,
+     "scoreB": 14
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "12U-A",
+     "teamA": "gs:33606",
+     "teamB": "gs:31470",
+     "scoreA": 1,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "11U-OPEN",
+     "teamA": "gs:31486",
+     "teamB": "gs:31666",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "11U-A",
+     "teamA": "gs:32678",
+     "teamB": "gs:31487",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
      "division": "10U-OPEN",
-     "teamA": "gs:31488",
-     "teamB": "gs:31800",
-     "scoreA": 11,
-     "scoreB": 5
+     "teamA": "gs:31800",
+     "teamB": "gs:31488",
+     "scoreA": 5,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -43246,10 +43468,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AA",
-     "teamA": "gs:31817",
-     "teamB": "gs:31497",
-     "scoreA": 6,
-     "scoreB": 10
+     "teamA": "gs:31497",
+     "teamB": "gs:31817",
+     "scoreA": 10,
+     "scoreB": 6
     },
     {
      "source": "gs",
@@ -43279,6 +43501,17 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "13U-AA",
+     "teamA": "gs:31537",
+     "teamB": "gs:31993",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "13U-AA",
      "teamA": "gs:32801",
      "teamB": "gs:31537",
      "scoreA": 6,
@@ -43301,9 +43534,20 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AAA",
-     "teamA": "gs:31610",
-     "teamB": "gs:32893",
-     "scoreA": 2,
+     "teamA": "gs:32893",
+     "teamB": "gs:31610",
+     "scoreA": 6,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "gs:31817",
+     "teamB": "gs:31628",
+     "scoreA": 8,
      "scoreB": 6
     },
     {
@@ -43311,11 +43555,22 @@
      "eventId": "4692",
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "gs:32585",
+     "teamB": "gs:31628",
+     "scoreA": 8,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
      "division": "13U-AA",
-     "teamA": "gs:31630",
-     "teamB": "gs:31773",
-     "scoreA": 1,
-     "scoreB": 16
+     "teamA": "gs:31773",
+     "teamB": "gs:31630",
+     "scoreA": 16,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -43356,8 +43611,8 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "12U-AA",
-     "teamA": "gs:32585",
-     "teamB": "gs:31771",
+     "teamA": "gs:31771",
+     "teamB": "gs:32585",
      "scoreA": 6,
      "scoreB": 6
     },
@@ -43367,10 +43622,10 @@
      "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
      "date": "2026-10-31",
      "division": "13U-AA",
-     "teamA": "gs:32801",
-     "teamB": "gs:31773",
-     "scoreA": 10,
-     "scoreB": 3
+     "teamA": "gs:31773",
+     "teamB": "gs:32801",
+     "scoreA": 3,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -43393,6 +43648,17 @@
      "teamB": "gs:31839",
      "scoreA": 15,
      "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4692",
+     "eventName": "Central MS - Field of Fears - Presented by Triple Play Sports",
+     "date": "2026-10-31",
+     "division": "13U-AA",
+     "teamA": "gs:32790",
+     "teamB": "gs:31993",
+     "scoreA": 1,
+     "scoreB": 14
     },
     {
      "source": "gs",
@@ -43914,6 +44180,17 @@
      "division": "11U-AA",
      "teamA": "gs:31013",
      "teamB": "gs:30877",
+     "scoreA": 8,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4706",
+     "eventName": "Winston County Slugfest (Saturday only)",
+     "date": "2026-10-30",
+     "division": "11U-AA",
+     "teamA": "gs:31013",
+     "teamB": "gs:30877",
      "scoreA": 5,
      "scoreB": 4
     },
@@ -43934,10 +44211,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "11U-AA",
-     "teamA": "gs:30877",
-     "teamB": "gs:31116",
-     "scoreA": 5,
-     "scoreB": 6
+     "teamA": "gs:31116",
+     "teamB": "gs:30877",
+     "scoreA": 6,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -43945,10 +44222,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "13U-AA",
-     "teamA": "gs:30943",
-     "teamB": "gs:31436",
-     "scoreA": 3,
-     "scoreB": 2
+     "teamA": "gs:31436",
+     "teamB": "gs:30943",
+     "scoreA": 1,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -43956,10 +44233,32 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "13U-AA",
-     "teamA": "gs:30943",
-     "teamB": "gs:32075",
-     "scoreA": 3,
-     "scoreB": 4
+     "teamA": "gs:31436",
+     "teamB": "gs:30943",
+     "scoreA": 2,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4706",
+     "eventName": "Winston County Slugfest (Saturday only)",
+     "date": "2026-10-30",
+     "division": "13U-AA",
+     "teamA": "gs:32075",
+     "teamB": "gs:30943",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4706",
+     "eventName": "Winston County Slugfest (Saturday only)",
+     "date": "2026-10-30",
+     "division": "13U-AA",
+     "teamA": "gs:32075",
+     "teamB": "gs:30943",
+     "scoreA": 8,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -43978,10 +44277,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "11U-AA",
-     "teamA": "gs:32270",
-     "teamB": "gs:31013",
-     "scoreA": 0,
-     "scoreB": 16
+     "teamA": "gs:31013",
+     "teamB": "gs:32270",
+     "scoreA": 16,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -43989,10 +44288,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "11U-AA",
-     "teamA": "gs:31073",
-     "teamB": "gs:31033",
-     "scoreA": 8,
-     "scoreB": 7
+     "teamA": "gs:31013",
+     "teamB": "gs:33198",
+     "scoreA": 10,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -44000,10 +44299,21 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "11U-AA",
-     "teamA": "gs:32270",
-     "teamB": "gs:31033",
-     "scoreA": 0,
-     "scoreB": 12
+     "teamA": "gs:31033",
+     "teamB": "gs:31073",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4706",
+     "eventName": "Winston County Slugfest (Saturday only)",
+     "date": "2026-10-30",
+     "division": "11U-AA",
+     "teamA": "gs:31033",
+     "teamB": "gs:32270",
+     "scoreA": 12,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -44033,10 +44343,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "11U-AA",
-     "teamA": "gs:31116",
-     "teamB": "gs:33198",
-     "scoreA": 5,
-     "scoreB": 6
+     "teamA": "gs:33198",
+     "teamB": "gs:31116",
+     "scoreA": 6,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -44044,10 +44354,10 @@
      "eventName": "Winston County Slugfest (Saturday only)",
      "date": "2026-10-30",
      "division": "13U-AA",
-     "teamA": "gs:31436",
-     "teamB": "gs:33084",
-     "scoreA": 9,
-     "scoreB": 7
+     "teamA": "gs:33084",
+     "teamB": "gs:31436",
+     "scoreA": 7,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -44059,6 +44369,17 @@
      "teamB": "gs:33084",
      "scoreA": 15,
      "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4706",
+     "eventName": "Winston County Slugfest (Saturday only)",
+     "date": "2026-10-30",
+     "division": "13U-AA",
+     "teamA": "gs:32075",
+     "teamB": "gs:33084",
+     "scoreA": 17,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -45279,9 +45600,496 @@
    "name": "3rd Annual First Responders Tribute",
    "startDate": "2026-09-05",
    "endDate": "2026-09-05",
-   "final": false,
-   "teamKeys": [],
-   "games": []
+   "final": true,
+   "teamKeys": [
+    "gs:31200",
+    "gs:31351",
+    "gs:31535",
+    "gs:31641",
+    "gs:31684",
+    "gs:31714",
+    "gs:31763",
+    "gs:31912",
+    "gs:31929",
+    "gs:32004",
+    "gs:32098",
+    "gs:32183",
+    "gs:32215",
+    "gs:32248",
+    "gs:32404",
+    "gs:32413",
+    "gs:32456",
+    "gs:32510",
+    "gs:32621",
+    "gs:32622",
+    "gs:32760",
+    "gs:32805",
+    "gs:32808"
+   ],
+   "games": [
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31763",
+     "teamB": "gs:31200",
+     "scoreA": 4,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32215",
+     "teamB": "gs:31200",
+     "scoreA": 0,
+     "scoreB": 15
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31200",
+     "teamB": "gs:32621",
+     "scoreA": 0,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31200",
+     "teamB": "gs:32621",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:31351",
+     "teamB": "gs:32183",
+     "scoreA": 10,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:31351",
+     "teamB": "gs:32183",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32248",
+     "teamB": "gs:31351",
+     "scoreA": 10,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32413",
+     "teamB": "gs:31351",
+     "scoreA": 17,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31714",
+     "teamB": "gs:31535",
+     "scoreA": 5,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31912",
+     "teamB": "gs:31535",
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32456",
+     "teamB": "gs:31535",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:31641",
+     "teamB": "gs:31929",
+     "scoreA": 0,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:31641",
+     "scoreA": 10,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32760",
+     "teamB": "gs:31641",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32098",
+     "teamB": "gs:31684",
+     "scoreA": 3,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32098",
+     "teamB": "gs:31684",
+     "scoreA": 17,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:31684",
+     "teamB": "gs:32183",
+     "scoreA": 2,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32215",
+     "teamB": "gs:31714",
+     "scoreA": 11,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32805",
+     "teamB": "gs:31714",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32215",
+     "teamB": "gs:31763",
+     "scoreA": 0,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31763",
+     "teamB": "gs:32456",
+     "scoreA": 2,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31763",
+     "teamB": "gs:32621",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31912",
+     "teamB": "gs:32404",
+     "scoreA": 14,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31912",
+     "teamB": "gs:32456",
+     "scoreA": 2,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:31912",
+     "teamB": "gs:32456",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:31929",
+     "scoreA": 1,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32760",
+     "teamB": "gs:31929",
+     "scoreA": 5,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:32808",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:32760",
+     "scoreA": 9,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:32808",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32413",
+     "teamB": "gs:32098",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32510",
+     "teamB": "gs:32098",
+     "scoreA": 0,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32510",
+     "teamB": "gs:32098",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32215",
+     "teamB": "gs:32404",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32510",
+     "teamB": "gs:32248",
+     "scoreA": 4,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32622",
+     "teamB": "gs:32248",
+     "scoreA": 5,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32404",
+     "teamB": "gs:32805",
+     "scoreA": 10,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "12U-OPEN",
+     "teamA": "gs:32404",
+     "teamB": "gs:32805",
+     "scoreA": 6,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32413",
+     "teamB": "gs:32510",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32413",
+     "teamB": "gs:32622",
+     "scoreA": 6,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "10U-OPEN",
+     "teamA": "gs:32413",
+     "teamB": "gs:32622",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4718",
+     "eventName": "3rd Annual First Responders Tribute",
+     "date": "2026-09-05",
+     "division": "14U-OPEN",
+     "teamA": "gs:32760",
+     "teamB": "gs:32808",
+     "scoreA": 6,
+     "scoreB": 7
+    }
+   ]
   },
   "4719": {
    "id": "4719",
@@ -50072,6 +50880,17 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
+     "teamA": "gs:31522",
+     "teamB": "gs:31272",
+     "scoreA": 3,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
      "teamA": "gs:32183",
      "teamB": "gs:31272",
      "scoreA": 0,
@@ -50098,6 +50917,17 @@
      "teamB": "gs:33623",
      "scoreA": 3,
      "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:31272",
+     "teamB": "gs:33623",
+     "scoreA": 5,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -50140,8 +50970,30 @@
      "division": "12U-C",
      "teamA": "gs:32379",
      "teamB": "gs:31387",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:32379",
+     "teamB": "gs:31387",
      "scoreA": 5,
      "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:31387",
+     "teamB": "gs:33643",
+     "scoreA": 0,
+     "scoreB": 10
     },
     {
      "source": "gs",
@@ -50160,20 +51012,9 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31522",
-     "teamB": "gs:31822",
-     "scoreA": 9,
-     "scoreB": 2
-    },
-    {
-     "source": "gs",
-     "eventId": "4727",
-     "eventName": "Field of Fears",
-     "date": "2026-10-31",
-     "division": "10U-C",
-     "teamA": "gs:31522",
-     "teamB": "gs:32248",
-     "scoreA": 6,
+     "teamA": "gs:31822",
+     "teamB": "gs:31522",
+     "scoreA": 2,
      "scoreB": 9
     },
     {
@@ -50182,10 +51023,21 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31522",
-     "teamB": "gs:32248",
-     "scoreA": 8,
-     "scoreB": 1
+     "teamA": "gs:32248",
+     "teamB": "gs:31522",
+     "scoreA": 9,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:32248",
+     "teamB": "gs:31522",
+     "scoreA": 1,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -50272,6 +51124,17 @@
      "division": "12U-C",
      "teamA": "gs:31714",
      "teamB": "gs:33534",
+     "scoreA": 1,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:31714",
+     "teamB": "gs:33534",
      "scoreA": 2,
      "scoreB": 10
     },
@@ -50292,10 +51155,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31822",
-     "teamB": "gs:32183",
-     "scoreA": 2,
-     "scoreB": 5
+     "teamA": "gs:32183",
+     "teamB": "gs:31822",
+     "scoreA": 5,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -50307,6 +51170,17 @@
      "teamB": "gs:33615",
      "scoreA": 12,
      "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:31822",
+     "teamB": "gs:33615",
+     "scoreA": 7,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -50338,8 +51212,41 @@
      "division": "14U-C",
      "teamA": "gs:32004",
      "teamB": "gs:33648",
+     "scoreA": 0,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "14U-C",
+     "teamA": "gs:32004",
+     "teamB": "gs:33648",
      "scoreA": 2,
      "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:32183",
+     "teamB": "gs:33615",
+     "scoreA": 11,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:32183",
+     "teamB": "gs:33615",
+     "scoreA": 8,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -50358,10 +51265,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:32379",
-     "teamB": "gs:32215",
-     "scoreA": 15,
-     "scoreB": 2
+     "teamA": "gs:32215",
+     "teamB": "gs:32379",
+     "scoreA": 2,
+     "scoreB": 15
     },
     {
      "source": "gs",
@@ -50384,6 +51291,17 @@
      "teamB": "gs:33615",
      "scoreA": 12,
      "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "14U-C",
+     "teamA": "gs:32887",
+     "teamB": "gs:33648",
+     "scoreA": 8,
+     "scoreB": 14
     },
     {
      "source": "gs",
@@ -50463,10 +51381,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:31232",
-     "teamB": "gs:33425",
-     "scoreA": 11,
-     "scoreB": 4
+     "teamA": "gs:33425",
+     "teamB": "gs:31232",
+     "scoreA": 4,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -50474,10 +51392,21 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:31232",
-     "teamB": "gs:33425",
-     "scoreA": 7,
-     "scoreB": 6
+     "teamA": "gs:33425",
+     "teamB": "gs:31232",
+     "scoreA": 4,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:33425",
+     "teamB": "gs:31232",
+     "scoreA": 6,
+     "scoreB": 7
     },
     {
      "source": "gs",
@@ -50518,10 +51447,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:32424",
-     "teamB": "gs:31298",
-     "scoreA": 3,
-     "scoreB": 5
+     "teamA": "gs:31298",
+     "teamB": "gs:32424",
+     "scoreA": 2,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -50529,10 +51458,21 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:31843",
-     "teamB": "gs:31423",
-     "scoreA": 4,
-     "scoreB": 8
+     "teamA": "gs:31298",
+     "teamB": "gs:32424",
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:31423",
+     "teamB": "gs:31843",
+     "scoreA": 8,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -50562,10 +51502,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31619",
-     "teamB": "gs:31836",
-     "scoreA": 3,
-     "scoreB": 11
+     "teamA": "gs:31836",
+     "teamB": "gs:31619",
+     "scoreA": 11,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -50573,10 +51513,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31842",
-     "teamB": "gs:31619",
-     "scoreA": 15,
-     "scoreB": 0
+     "teamA": "gs:31619",
+     "teamB": "gs:31842",
+     "scoreA": 0,
+     "scoreB": 15
     },
     {
      "source": "gs",
@@ -50606,10 +51546,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31619",
-     "teamB": "gs:32817",
-     "scoreA": 12,
-     "scoreB": 6
+     "teamA": "gs:32817",
+     "teamB": "gs:31619",
+     "scoreA": 6,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -50617,10 +51557,21 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:31842",
-     "teamB": "gs:31836",
-     "scoreA": 3,
-     "scoreB": 2
+     "teamA": "gs:31836",
+     "teamB": "gs:31842",
+     "scoreA": 2,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:31836",
+     "teamB": "gs:32376",
+     "scoreA": 5,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -50652,7 +51603,7 @@
      "division": "10U-C",
      "teamA": "gs:31842",
      "teamB": "gs:32376",
-     "scoreA": 8,
+     "scoreA": 4,
      "scoreB": 7
     },
     {
@@ -50662,9 +51613,9 @@
      "date": "2026-10-31",
      "division": "10U-C",
      "teamA": "gs:31842",
-     "teamB": "gs:32817",
-     "scoreA": 10,
-     "scoreB": 1
+     "teamB": "gs:32376",
+     "scoreA": 8,
+     "scoreB": 7
     },
     {
      "source": "gs",
@@ -50672,10 +51623,32 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32376",
-     "teamB": "gs:32817",
-     "scoreA": 11,
+     "teamA": "gs:32817",
+     "teamB": "gs:31842",
+     "scoreA": 1,
      "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:32424",
+     "teamB": "gs:31843",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "10U-C",
+     "teamA": "gs:32817",
+     "teamB": "gs:32376",
+     "scoreA": 10,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -50705,10 +51678,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32508",
-     "teamB": "gs:32624",
-     "scoreA": 3,
-     "scoreB": 1
+     "teamA": "gs:32624",
+     "teamB": "gs:32508",
+     "scoreA": 1,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -50716,10 +51689,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32508",
-     "teamB": "gs:32624",
-     "scoreA": 4,
-     "scoreB": 2
+     "teamA": "gs:32624",
+     "teamB": "gs:32508",
+     "scoreA": 2,
+     "scoreB": 4
     },
     {
      "source": "gs",
@@ -50727,10 +51700,32 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32508",
-     "teamB": "gs:33463",
-     "scoreA": 4,
-     "scoreB": 6
+     "teamA": "gs:32676",
+     "teamB": "gs:32508",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-OPEN",
+     "teamA": "gs:33463",
+     "teamB": "gs:32508",
+     "scoreA": 6,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-OPEN",
+     "teamA": "gs:33463",
+     "teamB": "gs:32508",
+     "scoreA": 8,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -50749,10 +51744,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32624",
-     "teamB": "gs:33463",
-     "scoreA": 2,
-     "scoreB": 7
+     "teamA": "gs:33463",
+     "teamB": "gs:32624",
+     "scoreA": 7,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -50760,10 +51755,10 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32691",
-     "teamB": "gs:32676",
-     "scoreA": 2,
-     "scoreB": 5
+     "teamA": "gs:32676",
+     "teamB": "gs:32691",
+     "scoreA": 5,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -50771,7 +51766,18 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32691",
+     "teamA": "gs:32676",
+     "teamB": "gs:32691",
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-OPEN",
+     "teamA": "gs:33463",
      "teamB": "gs:32676",
      "scoreA": 3,
      "scoreB": 5
@@ -50793,10 +51799,32 @@
      "eventName": "Field of Fears at Cornerstone",
      "date": "2026-10-31",
      "division": "12U-OPEN",
-     "teamA": "gs:32691",
-     "teamB": "gs:33463",
+     "teamA": "gs:33463",
+     "teamB": "gs:32691",
      "scoreA": 3,
      "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-OPEN",
+     "teamA": "gs:33463",
+     "teamB": "gs:32691",
+     "scoreA": 2,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4728",
+     "eventName": "Field of Fears at Cornerstone",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:33425",
+     "teamB": "gs:33397",
+     "scoreA": 10,
+     "scoreB": 8
     }
    ]
   },
@@ -51936,9 +52964,989 @@
    "name": "Grand Slam Team Appreciation 50.00 Entry No PAP",
    "startDate": "2026-10-24",
    "endDate": "2026-10-24",
-   "final": false,
-   "teamKeys": [],
-   "games": []
+   "final": true,
+   "teamKeys": [
+    "gs:31030",
+    "gs:31194",
+    "gs:31279",
+    "gs:31298",
+    "gs:31317",
+    "gs:31607",
+    "gs:31641",
+    "gs:31681",
+    "gs:31795",
+    "gs:31929",
+    "gs:31996",
+    "gs:32004",
+    "gs:32109",
+    "gs:32110",
+    "gs:32164",
+    "gs:32208",
+    "gs:32231",
+    "gs:32245",
+    "gs:32347",
+    "gs:32376",
+    "gs:32404",
+    "gs:32413",
+    "gs:32424",
+    "gs:32510",
+    "gs:32645",
+    "gs:32691",
+    "gs:32742",
+    "gs:32867",
+    "gs:33124",
+    "gs:33275",
+    "gs:33332",
+    "gs:33563"
+   ],
+   "games": [
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31194",
+     "teamB": "gs:31030",
+     "scoreA": 9,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31298",
+     "teamB": "gs:31030",
+     "scoreA": 12,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31317",
+     "teamB": "gs:31030",
+     "scoreA": 4,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31317",
+     "teamB": "gs:31030",
+     "scoreA": 3,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32347",
+     "teamB": "gs:31030",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32347",
+     "teamB": "gs:31030",
+     "scoreA": 13,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31279",
+     "teamB": "gs:31194",
+     "scoreA": 3,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31607",
+     "teamB": "gs:31194",
+     "scoreA": 10,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31607",
+     "teamB": "gs:31194",
+     "scoreA": 0,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:31194",
+     "scoreA": 5,
+     "scoreB": 18
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32691",
+     "teamB": "gs:31194",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31279",
+     "teamB": "gs:31607",
+     "scoreA": 4,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31279",
+     "teamB": "gs:32231",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31279",
+     "teamB": "gs:33332",
+     "scoreA": 12,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:33563",
+     "teamB": "gs:31279",
+     "scoreA": 3,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:31298",
+     "scoreA": 12,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:31298",
+     "scoreA": 24,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31298",
+     "teamB": "gs:33332",
+     "scoreA": 2,
+     "scoreB": 14
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32424",
+     "teamB": "gs:31317",
+     "scoreA": 14,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:31317",
+     "teamB": "gs:33563",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32347",
+     "teamB": "gs:31607",
+     "scoreA": 2,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32691",
+     "teamB": "gs:31607",
+     "scoreA": 10,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32691",
+     "teamB": "gs:31607",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31641",
+     "teamB": "gs:31929",
+     "scoreA": 3,
+     "scoreB": 18
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31641",
+     "teamB": "gs:32164",
+     "scoreA": 4,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31641",
+     "teamB": "gs:32645",
+     "scoreA": 9,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31641",
+     "teamB": "gs:33275",
+     "scoreA": 8,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:31668",
+     "scoreA": 10,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32109",
+     "teamB": "gs:31681",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:31681",
+     "teamB": "gs:32208",
+     "scoreA": 11,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:31681",
+     "teamB": "gs:32208",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32413",
+     "teamB": "gs:31681",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:31795",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31996",
+     "teamB": "gs:31795",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:31795",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32867",
+     "teamB": "gs:31795",
+     "scoreA": 2,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:33124",
+     "teamB": "gs:31795",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:33124",
+     "teamB": "gs:31795",
+     "scoreA": 2,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:31871",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:31996",
+     "scoreA": 2,
+     "scoreB": 18
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:31996",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:32867",
+     "scoreA": 9,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31929",
+     "teamB": "gs:33275",
+     "scoreA": 15,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:31932",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:31932",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:31932",
+     "scoreA": 1,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31996",
+     "teamB": "gs:32110",
+     "scoreA": 12,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:31996",
+     "teamB": "gs:32867",
+     "scoreA": 2,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:32110",
+     "scoreA": 10,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:32110",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32004",
+     "teamB": "gs:33124",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32109",
+     "teamB": "gs:32208",
+     "scoreA": 1,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32109",
+     "teamB": "gs:32208",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32376",
+     "teamB": "gs:32109",
+     "scoreA": 14,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32109",
+     "scoreA": 13,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32867",
+     "teamB": "gs:32110",
+     "scoreA": 7,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:33275",
+     "teamB": "gs:32110",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:33275",
+     "teamB": "gs:32110",
+     "scoreA": 0,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32245",
+     "teamB": "gs:32164",
+     "scoreA": 11,
+     "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32245",
+     "teamB": "gs:32164",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32245",
+     "teamB": "gs:32164",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32645",
+     "teamB": "gs:32164",
+     "scoreA": 9,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32645",
+     "teamB": "gs:32164",
+     "scoreA": 1,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32208",
+     "teamB": "gs:32742",
+     "scoreA": 4,
+     "scoreB": 14
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:32231",
+     "scoreA": 3,
+     "scoreB": 17
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:32231",
+     "scoreA": 5,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32424",
+     "teamB": "gs:32231",
+     "scoreA": 1,
+     "scoreB": 17
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32231",
+     "teamB": "gs:33332",
+     "scoreA": 4,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32231",
+     "teamB": "gs:33332",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32231",
+     "teamB": "gs:33332",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32645",
+     "teamB": "gs:32245",
+     "scoreA": 6,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:32645",
+     "teamB": "gs:32245",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32691",
+     "teamB": "gs:32347",
+     "scoreA": 8,
+     "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32413",
+     "teamB": "gs:32376",
+     "scoreA": 0,
+     "scoreB": 9
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32376",
+     "scoreA": 13,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32376",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32376",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32404",
+     "teamB": "gs:32424",
+     "scoreA": 4,
+     "scoreB": 2
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32413",
+     "teamB": "gs:32742",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32413",
+     "teamB": "gs:32742",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32424",
+     "teamB": "gs:33563",
+     "scoreA": 1,
+     "scoreB": 12
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32742",
+     "scoreA": 10,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "10U-C",
+     "teamA": "gs:32510",
+     "teamB": "gs:32742",
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "9U Open",
+     "teamA": "gs:32657",
+     "teamB": "gs:32511",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "12U-C",
+     "teamA": "gs:32691",
+     "teamB": "gs:33563",
+     "scoreA": 12,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4768",
+     "eventName": "Grand Slam Team Appreciation 50.00 Entry No PAP",
+     "date": "2026-10-24",
+     "division": "14U-OPEN",
+     "teamA": "gs:33124",
+     "teamB": "gs:32867",
+     "scoreA": 2,
+     "scoreB": 3
+    }
+   ]
   },
   "4769": {
    "id": "4769",
@@ -53913,10 +55921,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:30959",
-     "teamB": "gs:32584",
-     "scoreA": 5,
-     "scoreB": 7
+     "teamA": "gs:32584",
+     "teamB": "gs:30959",
+     "scoreA": 7,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -53924,10 +55932,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "10U-A",
-     "teamA": "gs:30963",
-     "teamB": "gs:31378",
-     "scoreA": 14,
-     "scoreB": 1
+     "teamA": "gs:31378",
+     "teamB": "gs:30963",
+     "scoreA": 1,
+     "scoreB": 14
     },
     {
      "source": "gs",
@@ -53935,10 +55943,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "10U-A",
-     "teamA": "gs:30963",
-     "teamB": "gs:31378",
-     "scoreA": 3,
-     "scoreB": 16
+     "teamA": "gs:31378",
+     "teamB": "gs:30963",
+     "scoreA": 16,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -53946,10 +55954,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "10U-A",
-     "teamA": "gs:30963",
-     "teamB": "gs:32378",
-     "scoreA": 12,
-     "scoreB": 10
+     "teamA": "gs:32378",
+     "teamB": "gs:30963",
+     "scoreA": 10,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -53958,9 +55966,20 @@
      "date": "2026-10-31",
      "division": "11U-OPEN",
      "teamA": "gs:30965",
-     "teamB": "gs:32745",
-     "scoreA": 5,
-     "scoreB": 3
+     "teamB": "gs:31712",
+     "scoreA": 2,
+     "scoreB": 17
+    },
+    {
+     "source": "gs",
+     "eventId": "4778",
+     "eventName": "South MS - Halloween Bash",
+     "date": "2026-10-31",
+     "division": "11U-OPEN",
+     "teamA": "gs:32745",
+     "teamB": "gs:30965",
+     "scoreA": 3,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -53968,10 +55987,21 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "13U-AA",
-     "teamA": "gs:31248",
-     "teamB": "gs:33109",
-     "scoreA": 5,
+     "teamA": "gs:32860",
+     "teamB": "gs:31248",
+     "scoreA": 11,
      "scoreB": 7
+    },
+    {
+     "source": "gs",
+     "eventId": "4778",
+     "eventName": "South MS - Halloween Bash",
+     "date": "2026-10-31",
+     "division": "13U-AA",
+     "teamA": "gs:33109",
+     "teamB": "gs:31248",
+     "scoreA": 7,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -54001,8 +56031,8 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "11U-OPEN",
-     "teamA": "gs:31712",
-     "teamB": "gs:32700",
+     "teamA": "gs:32700",
+     "teamB": "gs:31712",
      "scoreA": 6,
      "scoreB": 6
     },
@@ -54012,10 +56042,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:31850",
-     "teamB": "gs:32616",
-     "scoreA": 3,
-     "scoreB": 14
+     "teamA": "gs:32616",
+     "teamB": "gs:31850",
+     "scoreA": 14,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -54023,10 +56053,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "11U-A",
-     "teamA": "gs:32584",
-     "teamB": "gs:32616",
-     "scoreA": 2,
-     "scoreB": 7
+     "teamA": "gs:32616",
+     "teamB": "gs:32584",
+     "scoreA": 7,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -54034,10 +56064,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "13U-AA",
-     "teamA": "gs:32677",
-     "teamB": "gs:32906",
-     "scoreA": 12,
-     "scoreB": 3
+     "teamA": "gs:32906",
+     "teamB": "gs:32677",
+     "scoreA": 3,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -54056,10 +56086,10 @@
      "eventName": "South MS - Halloween Bash",
      "date": "2026-10-31",
      "division": "11U-OPEN",
-     "teamA": "gs:32700",
-     "teamB": "gs:32745",
-     "scoreA": 9,
-     "scoreB": 6
+     "teamA": "gs:32745",
+     "teamB": "gs:32700",
+     "scoreA": 6,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -55977,10 +58007,10 @@
   },
   "4895": {
    "id": "4895",
-   "name": "North Louisiana Field of Fears",
-   "startDate": "2026-10-31",
-   "endDate": "2026-11-01",
-   "final": false,
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
    "teamKeys": [],
    "games": []
   },
@@ -57456,6 +59486,267 @@
    "name": "",
    "startDate": "2026-11-15",
    "endDate": "2026-11-15",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5060": {
+   "id": "5060",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5061": {
+   "id": "5061",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5062": {
+   "id": "5062",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5063": {
+   "id": "5063",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5064": {
+   "id": "5064",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5065": {
+   "id": "5065",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5066": {
+   "id": "5066",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5067": {
+   "id": "5067",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5068": {
+   "id": "5068",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5069": {
+   "id": "5069",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5070": {
+   "id": "5070",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5071": {
+   "id": "5071",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5072": {
+   "id": "5072",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5073": {
+   "id": "5073",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5074": {
+   "id": "5074",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5075": {
+   "id": "5075",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5076": {
+   "id": "5076",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5077": {
+   "id": "5077",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5078": {
+   "id": "5078",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5079": {
+   "id": "5079",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5080": {
+   "id": "5080",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5081": {
+   "id": "5081",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5082": {
+   "id": "5082",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5083": {
+   "id": "5083",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5084": {
+   "id": "5084",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5085": {
+   "id": "5085",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5086": {
+   "id": "5086",
+   "name": "",
+   "startDate": "2027-03-05",
+   "endDate": "2027-03-06",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5087": {
+   "id": "5087",
+   "name": "",
+   "startDate": "2027-04-02",
+   "endDate": "2027-04-03",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5088": {
+   "id": "5088",
+   "name": "",
+   "startDate": "2027-05-21",
+   "endDate": "2027-05-22",
    "final": true,
    "teamKeys": [],
    "games": []

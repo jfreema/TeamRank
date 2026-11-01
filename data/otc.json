@@ -335,6 +335,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7027",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7027-westside-warriors.jpeg?v=1"
   },
+  "otc:7029": {
+   "key": "otc:7029",
+   "name": "Bayou Bengals",
+   "city": "Thibodaux",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7029",
+   "logo": ""
+  },
+  "otc:7031": {
+   "key": "otc:7031",
+   "name": "Mandeville Revolution",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7031",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7031-mandeville-revolution.jpg?v=1"
+  },
   "otc:7034": {
    "key": "otc:7034",
    "name": "Mandeville Revolution",
@@ -352,6 +370,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7035",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7035-mandeville-revolution.jpg?v=1"
+  },
+  "otc:7040": {
+   "key": "otc:7040",
+   "name": "LAK Lugnuts - TR",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7040",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7040-lak-lugnuts-tr.jpeg?v=1"
   },
   "otc:7041": {
    "key": "otc:7041",
@@ -389,6 +416,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7046",
    "logo": ""
   },
+  "otc:7049": {
+   "key": "otc:7049",
+   "name": "Louisiana Stars - Laakso",
+   "city": "St. Francisville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7049",
+   "logo": ""
+  },
   "otc:7050": {
    "key": "otc:7050",
    "name": "ESA",
@@ -405,6 +441,15 @@
    "state": "LA",
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7053",
+   "logo": ""
+  },
+  "otc:7054": {
+   "key": "otc:7054",
+   "name": "Knights Knation Davis",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7054",
    "logo": ""
   },
   "otc:7055": {
@@ -533,6 +578,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7084",
    "logo": ""
   },
+  "otc:7088": {
+   "key": "otc:7088",
+   "name": "Legendz Baseball - Roberts",
+   "city": "Zachary",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7088",
+   "logo": ""
+  },
   "otc:7090": {
    "key": "otc:7090",
    "name": "Hammond Yankees - Hymel",
@@ -578,6 +632,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7105",
    "logo": ""
   },
+  "otc:7112": {
+   "key": "otc:7112",
+   "name": "Saints - Boudreaux",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7112",
+   "logo": ""
+  },
   "otc:7115": {
    "key": "otc:7115",
    "name": "Saints - Holland",
@@ -613,6 +676,15 @@
    "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7127",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7127-rbi-academy.jpeg?v=1"
+  },
+  "otc:7128": {
+   "key": "otc:7128",
+   "name": "RBI Academy",
+   "city": "Covington",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7128",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7128-rbi-academy.jpeg?v=1"
   },
   "otc:7131": {
    "key": "otc:7131",
@@ -829,6 +901,15 @@
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7173",
    "logo": ""
+  },
+  "otc:7175": {
+   "key": "otc:7175",
+   "name": "Jr. Bulldogs Baseball",
+   "city": "Springfield",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7175",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7175-jr-bulldogs-baseball.jpeg?v=1"
   },
   "otc:7177": {
    "key": "otc:7177",
@@ -1054,6 +1135,15 @@
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7223",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7223-nola-crush.jpeg?v=1"
+  },
+  "otc:7228": {
+   "key": "otc:7228",
+   "name": "Prairieville Expos",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7228",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7228-prairieville-expos.png?v=1"
   },
   "otc:7229": {
    "key": "otc:7229",
@@ -1289,6 +1379,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7319",
    "logo": ""
   },
+  "otc:7320": {
+   "key": "otc:7320",
+   "name": "La Nationals - Bourgeois",
+   "city": "Livingston",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7320",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7320-la-nationals-bourgeois.jpg?v=1"
+  },
   "otc:7323": {
    "key": "otc:7323",
    "name": "Reign Baseball",
@@ -1316,6 +1415,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7327",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7327-hammond-yankees-hills.png?v=1"
   },
+  "otc:7329": {
+   "key": "otc:7329",
+   "name": "LA Mariners",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7329",
+   "logo": ""
+  },
   "otc:7336": {
    "key": "otc:7336",
    "name": "Jesters Baseball",
@@ -1341,6 +1449,33 @@
    "state": "LA",
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7340",
+   "logo": ""
+  },
+  "otc:7345": {
+   "key": "otc:7345",
+   "name": "Team Louisiana Navy",
+   "city": "Erath",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7345",
+   "logo": ""
+  },
+  "otc:7348": {
+   "key": "otc:7348",
+   "name": "The Show",
+   "city": "Amite",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7348",
+   "logo": ""
+  },
+  "otc:7349": {
+   "key": "otc:7349",
+   "name": "Bomb Squad",
+   "city": "Walker",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7349",
    "logo": ""
   }
  },
@@ -5872,6 +6007,365 @@
      "teamB": "otc:7339",
      "scoreA": 24,
      "scoreB": 0
+    }
+   ]
+  },
+  "1155": {
+   "id": "1155",
+   "name": "Baton Rouge Boneyard Bash!",
+   "startDate": "2026-10-31",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "otc:6958",
+    "otc:7027",
+    "otc:7029",
+    "otc:7031",
+    "otc:7040",
+    "otc:7049",
+    "otc:7054",
+    "otc:7055",
+    "otc:7080",
+    "otc:7081",
+    "otc:7088",
+    "otc:7103",
+    "otc:7105",
+    "otc:7112",
+    "otc:7115",
+    "otc:7128",
+    "otc:7175",
+    "otc:7185",
+    "otc:7228",
+    "otc:7229",
+    "otc:7252",
+    "otc:7296",
+    "otc:7302",
+    "otc:7320",
+    "otc:7329",
+    "otc:7340",
+    "otc:7345",
+    "otc:7348",
+    "otc:7349"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:7252",
+     "teamB": "otc:6958",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:6958",
+     "teamB": "otc:7302",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7029",
+     "scoreA": 9,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7027",
+     "scoreA": 21,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7029",
+     "teamB": "otc:7228",
+     "scoreA": 3,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7031",
+     "teamB": "otc:7296",
+     "scoreA": 6,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7329",
+     "teamB": "otc:7031",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7055",
+     "teamB": "otc:7040",
+     "scoreA": 5,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7040",
+     "teamB": "otc:7229",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7049",
+     "teamB": "otc:7103",
+     "scoreA": 3,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7228",
+     "teamB": "otc:7049",
+     "scoreA": 7,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7054",
+     "teamB": "otc:7105",
+     "scoreA": 8,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7185",
+     "teamB": "otc:7054",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7229",
+     "teamB": "otc:7055",
+     "scoreA": 1,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7080",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7115",
+     "teamB": "otc:7081",
+     "scoreA": 27,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7320",
+     "scoreA": 0,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7175",
+     "teamB": "otc:7088",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7088",
+     "teamB": "otc:7348",
+     "scoreA": 19,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7105",
+     "teamB": "otc:7185",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7112",
+     "teamB": "otc:7128",
+     "scoreA": 1,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7349",
+     "teamB": "otc:7112",
+     "scoreA": 13,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7320",
+     "teamB": "otc:7115",
+     "scoreA": 12,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7128",
+     "teamB": "otc:7349",
+     "scoreA": 0,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7345",
+     "teamB": "otc:7175",
+     "scoreA": 12,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:7340",
+     "teamB": "otc:7252",
+     "scoreA": 18,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7296",
+     "teamB": "otc:7329",
+     "scoreA": 9,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:7302",
+     "teamB": "otc:7340",
+     "scoreA": 11,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7348",
+     "teamB": "otc:7345",
+     "scoreA": 4,
+     "scoreB": 9
     }
    ]
   },
