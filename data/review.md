@@ -148,7 +148,7 @@ Same name and hometown, never in the same event. Undo one with a `split` entry.
 - `gs:28810` K’Zone/eXposure (Meridian, MS; 0 events) = `gs:31439` K’Zone/eXposure (Meridian, MS; 3 events)
 - `gs:28950` Wolfpack Baseball (BILOXI, MS; 0 events) = `gs:32229` Wolfpack Baseball (BILOXI, MS; 4 events)
 
-## Not merged: same name and hometown (193)
+## Not merged: same name and hometown (194)
 
 They played in the same event or their names give different ages, so they are probably different squads. Add a `names` entry to tell them apart, or a `merge` entry if they are one team.
 
@@ -160,6 +160,7 @@ They played in the same event or their names give different ages, so they are pr
 - `2d:0dcc5c27-6421-4ed7-816d-66da2dde4f51` Bayou bengals (Thibodaux, LA; 1 events) / `2d:1d69daf6-f3c9-44e2-b854-5445cc595ac3` Bayou Bengals (Thibodaux, LA; 1 events) / `otc:7029` Bayou Bengals (Thibodaux, LA; 1 events)
 - `2d:42757229-a96b-41a6-b4da-ab10d24c2192` Mandeville Revolution (Mandeville, LA; 1 events) / `gs:28732` Mandeville Revolution (Mandeville, LA; 0 events) / `otc:7031` Mandeville Revolution (Mandeville, LA; 1 events) / `otc:7034` Mandeville Revolution (Mandeville, LA; 4 events) / `otc:7035` Mandeville Revolution (Mandeville, LA; 3 events)
 - `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events) / `gs:30396` Reign Baseball (Chalmette, LA; 0 events) / `gs:32051` Reign Baseball (Chalmette, LA; 3 events) / `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `otc:7323` Reign Baseball (Chalmette, LA; 1 events)
+- `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events) / `otc:7074` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `2d:48105671-ee16-4997-9f8f-058ca5c62040` Legendz Baseball 14u Roberts (Zachary, LA; 1 events) / `gs:28963` Legendz Baseball 13u - Roberts (Zachary, LA; 0 events) / `otc:7088` Legendz Baseball - Roberts (Zachary, LA; 1 events)
 - `2d:83997904-919d-4d27-89f1-eabe47da35c5` RBI Academy (Covington, LA; 1 events) / `otc:7121` RBI Academy (Covington, LA; 2 events) / `otc:7126` RBI Academy (Covington, LA; 2 events) / `otc:7127` RBI Academy (Covington, LA; 1 events) / `otc:7128` RBI Academy (Covington, LA; 1 events)
 - `otc:7131` Stitches (Ponchatoula, LA; 3 events) / `otc:7201` Stitches (Ponchatoula, LA; 1 events)
@@ -346,7 +347,7 @@ They played in the same event or their names give different ages, so they are pr
 - `gs:33100` CBC Braves-11U SANFORD (Petal, MS; 3 events) / `gs:33227` CBC Braves -12U SANFORD (Petal, MS; 2 events)
 - `gs:33113` Gladiators Baseball 11u (Grayson, LA; 2 events) / `gs:33624` Gladiators Baseball 10u (Grayson, LA; 1 events)
 
-## Possible duplicates: same name, different hometown (94)
+## Possible duplicates: same name, different hometown (95)
 
 Add a `merge` entry if these are the same team.
 
@@ -406,6 +407,7 @@ Add a `merge` entry if these are the same team.
 - `2d:70527ad2-c576-48ed-86cc-1787b9667ed2` TD Select Gates (Canton, MS; 2 events) / `gs:31810` TD Select-Gates (Madison, MS; 1 events) / `gs:31817` TD Select 12U Gates (Gluckstadt, MS; 4 events)
 - `2d:7755cb14-c341-4a5d-92ba-83943678cc98` East Coast Sox (Murfreesboro, TN; 1 events) / `gs:31181` East Coast Sox (Columbus, MS; 1 events)
 - `2d:77a7ceeb-b284-4025-8940-59192e8261e7` 10U Diamond Baseball - Gold (Marrero, LA; 3 events) / `gs:33101` Diamond Baseball - 10u - Gold (Gretna, LA; 1 events)
+- `2d:7926322d-fc7e-4784-b4c6-416d9b44d3a7` Hooligans (Murfreesboro, TN; 1 events) / `gs:32674` Hooligans (Hurley, MS; 0 events)
 - `2d:7c434e52-1a94-4a6d-9aa0-cf6fb27c9f61` StateLine Bombers (Semmes, AL; 3 events) / `gs:32975` StateLine Bombers 12U (Irvington, AL; 1 events) / `gs:33117` Stateline Bombers (Semmes, AL; 2 events) / `gs:33118` Stateline Bombers (Irvington, AL; 1 events)
 - `2d:7ebc66b4-f96b-4398-9832-b5fd2cedcc32` County Line Baseball (Lucedale, MS; 2 events) / `gs:32264` County Line Baseball (Hurley, MS; 1 events)
 - `2d:830a57da-7fe4-4e04-86dd-0d448c58bfda` Mississippi Legends (Monticello, MS; 2 events) / `2d:bc28ed8a-ead5-40d3-809a-070849952f63` Mississippi Legends (Brookhaven, MS; 2 events) / `gs:30745` Mississippi Legends 10u (Monticello, MS; 2 events) / `gs:31141` Mississippi Legends (Pontotoc, MS; 2 events) / `gs:31310` Mississippi Legends 12u (Monticello, MS; 3 events) / `gs:32895` Mississippi Legends Baseball (Tupelo, MS; 2 events)
@@ -445,7 +447,7 @@ Add a `merge` entry if these are the same team.
 - `gs:32106` Thundercats (Colbert Heights, AL; 2 events) / `gs:32399` Thundercats (Ellisville, MS; 1 events)
 - `gs:32479` Mississippi Heat (Saltillo, MS; 1 events) / `gs:33330` Mississippi Heat (Guntown, MS; 1 events)
 
-## Possible duplicates: similar name, same hometown (416)
+## Possible duplicates: similar name, same hometown (423)
 
 Add a `merge` entry if these are the same team.
 
@@ -623,6 +625,7 @@ Add a `merge` entry if these are the same team.
 - `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `2d:cc5905b9-b58f-47e1-b536-4cc5b19f6311` Mobtown Baseball 12U White (Mobile, AL; 3 events) / `2d:eaf494f1-cf1b-4b7c-8306-679b54076828` Mobtown Baseball 14U (Mobile, AL; 1 events)
 - `2d:cc5905b9-b58f-47e1-b536-4cc5b19f6311` Mobtown Baseball 12U White (Mobile, AL; 3 events) / `2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286` Mobtown Baseball Club (Mobile, AL; 1 events)
 - `2d:cd3d35f9-0f26-4a61-a17f-5958017157d0` Blues Elite 12U Prime (Cottontown, TN; 2 events) / `2d:ff7e0abd-04ac-42b0-8f4f-f40bdffd425f` Blues Elite 13u (Cottontown, TN; 2 events)
@@ -672,6 +675,7 @@ Add a `merge` entry if these are the same team.
 - `gs:30396` Reign Baseball (Chalmette, LA; 0 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `gs:30396` Reign Baseball (Chalmette, LA; 0 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `gs:30396` Reign Baseball (Chalmette, LA; 0 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `gs:30396` Reign Baseball (Chalmette, LA; 0 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `gs:30506` Commodores (Gulfport, MS; 0 events) / `gs:32318` Commodores 9U (Gulfport, MS; 0 events)
 - `gs:30745` Mississippi Legends 10u (Monticello, MS; 2 events) / `gs:32860` Mississippi Legends Van (Monticello, MS; 2 events)
 - `gs:30801` Grenada Generals - Rideout (Grenada, MS; 3 events) / `gs:30903` Grenada Generals (Grenada, MS; 4 events)
@@ -784,9 +788,11 @@ Add a `merge` entry if these are the same team.
 - `gs:32051` Reign Baseball (Chalmette, LA; 3 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `gs:32051` Reign Baseball (Chalmette, LA; 3 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `gs:32051` Reign Baseball (Chalmette, LA; 3 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `gs:32051` Reign Baseball (Chalmette, LA; 3 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `gs:32072` Mississippi Heat Missiles (Columbia, MS; 3 events) / `gs:32094` Mississippi Heat Missiles 10u- White (Columbia, MS; 1 events)
 - `gs:32072` Mississippi Heat Missiles (Columbia, MS; 3 events) / `gs:32095` Mississippi Heat Missiles-White (Columbia, MS; 0 events)
 - `gs:32105` CBA Reds 13u (Clinton, MS; 2 events) / `gs:32761` CBA Reds - Black (Clinton, MS; 2 events)
@@ -829,6 +835,7 @@ Add a `merge` entry if these are the same team.
 - `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `otc:7071` Reign Baseball (Chalmette, LA; 1 events) / `otc:7074` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `otc:7074` Reign Baseball Purple (Chalmette, LA; 1 events) / `2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a` Reign Baseball (Chalmette, LA; 1 events)
 - `otc:7074` Reign Baseball Purple (Chalmette, LA; 1 events) / `gs:30396` Reign Baseball (Chalmette, LA; 0 events)
@@ -847,6 +854,7 @@ Add a `merge` entry if these are the same team.
 - `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `otc:7135` Reign Baseball (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `otc:7144` Renegades (New Orleans, LA; 1 events) / `2d:2718d343-214d-4e62-a0a0-eff939ff7f64` Renegades United 10U (New Orleans, LA; 1 events)
 - `otc:7144` Renegades (New Orleans, LA; 1 events) / `2d:73d450e2-a7b2-486e-be0a-08e6d5470217` Renegades 10u Select (New Orleans, LA; 3 events)
 - `otc:7144` Renegades (New Orleans, LA; 1 events) / `otc:7272` Renegades United (New Orleans, LA; 1 events)
@@ -861,6 +869,7 @@ Add a `merge` entry if these are the same team.
 - `otc:7323` Reign Baseball (Chalmette, LA; 1 events) / `gs:32054` Reign Baseball Black (Chalmette, LA; 3 events)
 - `otc:7323` Reign Baseball (Chalmette, LA; 1 events) / `gs:32055` Reign Baseball Purple (Chalmette, LA; 1 events)
 - `otc:7323` Reign Baseball (Chalmette, LA; 1 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
+- `otc:7323` Reign Baseball (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 0 events)
 - `otc:7329` LA Mariners (Baton Rouge, LA; 1 events) / `2d:789ea3b5-f2ad-49eb-8bd1-6ebb128da734` LA Mariners 11u Pezant (Baton Rouge, LA; 1 events)
 - `otc:7329` LA Mariners (Baton Rouge, LA; 1 events) / `2d:d820ed7a-ef16-45bb-89e3-12478e751c25` LA Mariners 10u Hopkins (Baton Rouge, LA; 2 events)
 - `otc:7339` Louisiana Blast (Denham Springs, LA; 1 events) / `2d:7b3bf06d-07c0-4963-a20e-c684886cc8ce` Louisiana Blast 13u Johnson (denham springs, LA; 1 events)

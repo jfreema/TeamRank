@@ -6761,6 +6761,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32056",
    "logo": ""
   },
+  "gs:32057": {
+   "key": "gs:32057",
+   "name": "Reign Baseball Purple",
+   "city": "Chalmette",
+   "state": "LA",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32057",
+   "logo": ""
+  },
   "gs:32066": {
    "key": "gs:32066",
    "name": "Louisiana Outlaws",
@@ -7895,6 +7904,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32500",
    "logo": ""
   },
+  "gs:32504": {
+   "key": "gs:32504",
+   "name": "Flyers 9u",
+   "city": "LONG BEACH",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32504",
+   "logo": ""
+  },
   "gs:32505": {
    "key": "gs:32505",
    "name": "SBG Sox Wilson 14u",
@@ -8308,6 +8326,15 @@
    "ageClass": "10 & Under Class C",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32662",
    "logo": ""
+  },
+  "gs:32674": {
+   "key": "gs:32674",
+   "name": "Hooligans",
+   "city": "Hurley",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32674",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32674-hooligans.jpeg?v=1"
   },
   "gs:32676": {
    "key": "gs:32676",

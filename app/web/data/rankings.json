@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T11:21:15.923718Z",
+ "generatedAt": "2026-11-01T13:51:21.737525Z",
  "season": "2026-27",
  "state": "LA",
  "method": "colley+h2h",
@@ -44776,6 +44776,35 @@
    "reason": "Same name and hometown",
    "teams": [
     {
+     "key": "gs:32055",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "10 & Under A",
+     "games": 1
+    },
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    },
+    {
+     "key": "otc:7074",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "10U-AA",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Same name and hometown",
+   "teams": [
+    {
      "key": "2d:48105671-ee16-4997-9f8f-058ca5c62040",
      "name": "Legendz Baseball 14u Roberts",
      "city": "Zachary",
@@ -48167,6 +48196,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    },
+    {
+     "key": "otc:7071",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "11U-AAA",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "otc:7074",
      "name": "Reign Baseball Purple",
      "city": "Chalmette",
@@ -48377,6 +48427,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    },
+    {
+     "key": "otc:7135",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13U-AAA 54/80",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
      "name": "Reign Baseball Black",
      "city": "Chalmette",
@@ -48446,6 +48517,27 @@
      "state": "LA",
      "ageClass": "9 & Under AA",
      "games": 1
+    },
+    {
+     "key": "otc:7323",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "14U-OPEN 60/90",
+     "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
     },
     {
      "key": "otc:7323",
@@ -48629,6 +48721,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "2d:cbd0dedc-4bba-46ae-8b8e-ac47c7009d8a",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "14u Major",
+     "games": 1
+    },
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "gs:30396",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -48685,6 +48798,27 @@
      "state": "LA",
      "ageClass": "9 & Under AA",
      "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "gs:30396",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under 60/90",
+     "games": 0
+    },
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
     }
    ]
   },
@@ -48755,6 +48889,27 @@
    "reason": "Similar name, same hometown",
    "teams": [
     {
+     "key": "gs:32051",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "13 & Under A",
+     "games": 3
+    },
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
      "key": "gs:32053",
      "name": "Reign Baseball",
      "city": "Chalmette",
@@ -48811,6 +48966,27 @@
      "state": "LA",
      "ageClass": "9 & Under AA",
      "games": 1
+    }
+   ]
+  },
+  {
+   "reason": "Similar name, same hometown",
+   "teams": [
+    {
+     "key": "gs:32053",
+     "name": "Reign Baseball",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "11 & Under AA",
+     "games": 2
+    },
+    {
+     "key": "gs:32057",
+     "name": "Reign Baseball Purple",
+     "city": "Chalmette",
+     "state": "LA",
+     "ageClass": "9 & Under A",
+     "games": 0
     }
    ]
   },
