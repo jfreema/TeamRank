@@ -2297,6 +2297,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/30911",
    "logo": ""
   },
+  "gs:30912": {
+   "key": "gs:30912",
+   "name": "Cajun Tigers",
+   "city": "Houma",
+   "state": "LA",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/30912",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/30912-cajun-tigers.jpeg?v=1"
+  },
   "gs:30917": {
    "key": "gs:30917",
    "name": "Madison Co. Salty Dawgs 9U",
@@ -6167,6 +6176,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31865",
    "logo": ""
   },
+  "gs:31866": {
+   "key": "gs:31866",
+   "name": "Swing Kings 9U",
+   "city": "Picayune",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/31866",
+   "logo": ""
+  },
   "gs:31868": {
    "key": "gs:31868",
    "name": "Thunder black",
@@ -6806,6 +6824,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32094",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32094-mississippi-heat-missiles-10u-white.png?v=1"
   },
+  "gs:32095": {
+   "key": "gs:32095",
+   "name": "Mississippi Heat Missiles-White",
+   "city": "Columbia",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32095",
+   "logo": ""
+  },
   "gs:32096": {
    "key": "gs:32096",
    "name": "Elite Baseball",
@@ -7120,6 +7147,15 @@
    "ageClass": "12 & Under Class C",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32215",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32215-dirty-south-chaos.jpeg?v=1"
+  },
+  "gs:32220": {
+   "key": "gs:32220",
+   "name": "GTA Heat",
+   "city": "Gulfport",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32220",
+   "logo": ""
   },
   "gs:32221": {
    "key": "gs:32221",
@@ -7436,6 +7472,15 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32317",
    "logo": ""
   },
+  "gs:32318": {
+   "key": "gs:32318",
+   "name": "Commodores 9U",
+   "city": "Gulfport",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32318",
+   "logo": ""
+  },
   "gs:32319": {
    "key": "gs:32319",
    "name": "Slidell Cyclones",
@@ -7524,6 +7569,15 @@
    "state": "MS",
    "ageClass": "13 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32368",
+   "logo": ""
+  },
+  "gs:32369": {
+   "key": "gs:32369",
+   "name": "Slidell Raptors 9U",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32369",
    "logo": ""
   },
   "gs:32371": {
@@ -7778,6 +7832,24 @@
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32469",
    "logo": ""
   },
+  "gs:32470": {
+   "key": "gs:32470",
+   "name": "9U Party Animals-Pink",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "9 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32470",
+   "logo": ""
+  },
+  "gs:32471": {
+   "key": "gs:32471",
+   "name": "SBG SOX GC Allen 9u",
+   "city": "Gulfport",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32471",
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/32471-sbg-sox-gc-9u-allen.jpeg?v=1"
+  },
   "gs:32479": {
    "key": "gs:32479",
    "name": "Mississippi Heat",
@@ -7983,6 +8055,15 @@
    "state": "MS",
    "ageClass": "10 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32574",
+   "logo": ""
+  },
+  "gs:32583": {
+   "key": "gs:32583",
+   "name": "South Mississippi Makos",
+   "city": "Lucedale",
+   "state": "MS",
+   "ageClass": "9 & Under A",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/32583",
    "logo": ""
   },
   "gs:32584": {
@@ -9855,6 +9936,15 @@
    "state": "MS",
    "ageClass": "10 & Under Class C",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/33615",
+   "logo": ""
+  },
+  "gs:33619": {
+   "key": "gs:33619",
+   "name": "Panhandle Arsenal 9u AL",
+   "city": "Pensacola",
+   "state": "FL",
+   "ageClass": "9 & Under AA",
+   "url": "https://grandslamtournaments.com/baseball/Teams/Details/33619",
    "logo": ""
   },
   "gs:33623": {
@@ -16064,6 +16154,17 @@
      "eventId": "4542",
      "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
      "date": "2026-10-30",
+     "division": "9U-OPEN",
+     "teamA": "gs:32845",
+     "teamB": "gs:32005",
+     "scoreA": 18,
+     "scoreB": 0
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
      "division": "10U-A",
      "teamA": "gs:32609",
      "teamB": "gs:32007",
@@ -16300,6 +16401,17 @@
      "teamB": "gs:33323",
      "scoreA": 6,
      "scoreB": 5
+    },
+    {
+     "source": "gs",
+     "eventId": "4542",
+     "eventName": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
+     "date": "2026-10-30",
+     "division": "9U-OPEN",
+     "teamA": "gs:32845",
+     "teamB": "gs:33619",
+     "scoreA": 2,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -50902,10 +51014,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32248",
-     "teamB": "gs:31272",
-     "scoreA": 0,
-     "scoreB": 20
+     "teamA": "gs:31272",
+     "teamB": "gs:32248",
+     "scoreA": 20,
+     "scoreB": 0
     },
     {
      "source": "gs",
@@ -51023,10 +51135,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32248",
-     "teamB": "gs:31522",
-     "scoreA": 9,
-     "scoreB": 6
+     "teamA": "gs:31522",
+     "teamB": "gs:32248",
+     "scoreA": 6,
+     "scoreB": 9
     },
     {
      "source": "gs",
@@ -51034,10 +51146,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32248",
-     "teamB": "gs:31522",
-     "scoreA": 1,
-     "scoreB": 8
+     "teamA": "gs:31522",
+     "teamB": "gs:32248",
+     "scoreA": 8,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -51067,10 +51179,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "14U-C",
-     "teamA": "gs:31641",
-     "teamB": "gs:32887",
-     "scoreA": 1,
-     "scoreB": 13
+     "teamA": "gs:32887",
+     "teamB": "gs:31641",
+     "scoreA": 13,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -51078,10 +51190,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "14U-C",
-     "teamA": "gs:31641",
-     "teamB": "gs:33648",
-     "scoreA": 1,
-     "scoreB": 13
+     "teamA": "gs:33648",
+     "teamB": "gs:31641",
+     "scoreA": 13,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -51089,10 +51201,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "14U-C",
-     "teamA": "gs:31641",
-     "teamB": "gs:33648",
-     "scoreA": 3,
-     "scoreB": 4
+     "teamA": "gs:33648",
+     "teamB": "gs:31641",
+     "scoreA": 4,
+     "scoreB": 3
     },
     {
      "source": "gs",
@@ -51111,32 +51223,32 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "12U-C",
-     "teamA": "gs:31714",
-     "teamB": "gs:33534",
-     "scoreA": 10,
-     "scoreB": 0
-    },
-    {
-     "source": "gs",
-     "eventId": "4727",
-     "eventName": "Field of Fears",
-     "date": "2026-10-31",
-     "division": "12U-C",
-     "teamA": "gs:31714",
-     "teamB": "gs:33534",
-     "scoreA": 1,
-     "scoreB": 7
-    },
-    {
-     "source": "gs",
-     "eventId": "4727",
-     "eventName": "Field of Fears",
-     "date": "2026-10-31",
-     "division": "12U-C",
-     "teamA": "gs:31714",
-     "teamB": "gs:33534",
-     "scoreA": 2,
+     "teamA": "gs:33534",
+     "teamB": "gs:31714",
+     "scoreA": 0,
      "scoreB": 10
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:33534",
+     "teamB": "gs:31714",
+     "scoreA": 7,
+     "scoreB": 1
+    },
+    {
+     "source": "gs",
+     "eventId": "4727",
+     "eventName": "Field of Fears",
+     "date": "2026-10-31",
+     "division": "12U-C",
+     "teamA": "gs:33534",
+     "teamB": "gs:31714",
+     "scoreA": 10,
+     "scoreB": 2
     },
     {
      "source": "gs",
@@ -51155,10 +51267,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32183",
-     "teamB": "gs:31822",
-     "scoreA": 5,
-     "scoreB": 2
+     "teamA": "gs:31822",
+     "teamB": "gs:32183",
+     "scoreA": 2,
+     "scoreB": 5
     },
     {
      "source": "gs",
@@ -51188,10 +51300,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "14U-C",
-     "teamA": "gs:32004",
-     "teamB": "gs:32887",
-     "scoreA": 12,
-     "scoreB": 6
+     "teamA": "gs:32887",
+     "teamB": "gs:32004",
+     "scoreA": 6,
+     "scoreB": 12
     },
     {
      "source": "gs",
@@ -51199,10 +51311,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "14U-C",
-     "teamA": "gs:32004",
-     "teamB": "gs:32887",
-     "scoreA": 1,
-     "scoreB": 9
+     "teamA": "gs:32887",
+     "teamB": "gs:32004",
+     "scoreA": 9,
+     "scoreB": 1
     },
     {
      "source": "gs",
@@ -51232,10 +51344,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32183",
-     "teamB": "gs:33615",
-     "scoreA": 11,
-     "scoreB": 4
+     "teamA": "gs:33615",
+     "teamB": "gs:32183",
+     "scoreA": 4,
+     "scoreB": 11
     },
     {
      "source": "gs",
@@ -51243,10 +51355,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32183",
-     "teamB": "gs:33615",
-     "scoreA": 8,
-     "scoreB": 0
+     "teamA": "gs:33615",
+     "teamB": "gs:32183",
+     "scoreA": 0,
+     "scoreB": 8
     },
     {
      "source": "gs",
@@ -51287,10 +51399,10 @@
      "eventName": "Field of Fears",
      "date": "2026-10-31",
      "division": "10U-C",
-     "teamA": "gs:32248",
-     "teamB": "gs:33615",
-     "scoreA": 12,
-     "scoreB": 0
+     "teamA": "gs:33615",
+     "teamB": "gs:32248",
+     "scoreA": 0,
+     "scoreB": 12
     },
     {
      "source": "gs",

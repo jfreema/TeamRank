@@ -39819,6 +39819,15 @@
     }
    ]
   },
+  "1966": {
+   "id": "1966",
+   "name": "Monster Mash (Sat Only) Priceville",
+   "startDate": "2026-10-31",
+   "endDate": "2026-10-31",
+   "final": false,
+   "teamKeys": [],
+   "games": []
+  },
   "2036": {
    "id": "2036",
    "name": "Nashville October'fest",
