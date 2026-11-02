@@ -8404,7 +8404,7 @@
    "name": "Slidell Raptors",
    "city": "Slidell",
    "state": "LA",
-   "ageClass": "13 & Under 60/90",
+   "ageClass": "13 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32696",
    "logo": ""
   },
@@ -61071,6 +61071,24 @@
    "name": "",
    "startDate": "2027-06-05",
    "endDate": "2027-06-06",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5095": {
+   "id": "5095",
+   "name": "",
+   "startDate": "2027-03-05",
+   "endDate": "2027-03-06",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5096": {
+   "id": "5096",
+   "name": "",
+   "startDate": "2027-04-16",
+   "endDate": "2027-04-17",
    "final": true,
    "teamKeys": [],
    "games": []

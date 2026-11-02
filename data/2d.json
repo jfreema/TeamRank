@@ -21770,6 +21770,17 @@
      "teamB": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
      "scoreA": 10,
      "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "12u AA",
+     "teamA": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+     "teamB": "2d:24e53462-baf2-4552-b2d0-f72451008749",
+     "scoreA": 2,
+     "scoreB": 6
     }
    ]
   },
@@ -31880,7 +31891,6 @@
     "2d:1e0e2d9c-8b74-4ea8-a73a-b622f06264ab",
     "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
     "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
-    "2d:3280845e-e2bd-467c-bae5-ee6ae2ebae19",
     "2d:37e639aa-69f1-440b-b100-493bb6430df7",
     "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
     "2d:61ce0332-6a00-4134-ab54-af195f7aedb1",
