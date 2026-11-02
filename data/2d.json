@@ -258,6 +258,15 @@
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/0808d7e0-42d7-44d1-8214-c8a5ce79e837"
   },
+  "2d:09276b20-7508-432b-87ac-e094d7b65efb": {
+   "key": "2d:09276b20-7508-432b-87ac-e094d7b65efb",
+   "name": "Southwest Sox",
+   "city": "Lake Charles",
+   "state": "LA",
+   "ageClass": "12u Major",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/09276b20-7508-432b-87ac-e094d7b65efb",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/southwest-sox-672a353b27cd5.webp"
+  },
   "2d:09493369-36b0-4e8e-a499-bd0a7574a33d": {
    "key": "2d:09493369-36b0-4e8e-a499-bd0a7574a33d",
    "name": "South Walton Hawks - Shroyer",
@@ -1061,6 +1070,15 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/24b2d74d-3380-4154-b3ac-ee79da97ea0b",
    "logo": ""
   },
+  "2d:24e53462-baf2-4552-b2d0-f72451008749": {
+   "key": "2d:24e53462-baf2-4552-b2d0-f72451008749",
+   "name": "Slidell Raptors",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/24e53462-baf2-4552-b2d0-f72451008749",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/slidell-raptors-68a393d5346cb.png"
+  },
   "2d:2540893f-e86d-4899-816d-e56a8853905c": {
    "key": "2d:2540893f-e86d-4899-816d-e56a8853905c",
    "name": "Juice Baseball",
@@ -1203,6 +1221,14 @@
    "state": "AL",
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/29dad3a7-5926-42e7-9dec-9f17a0d01be1"
+  },
+  "2d:29e07305-7ea6-42d7-8c71-e8cefe8016b2": {
+   "key": "2d:29e07305-7ea6-42d7-8c71-e8cefe8016b2",
+   "name": "The Boys 10U",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "ageClass": "10u Open",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/29e07305-7ea6-42d7-8c71-e8cefe8016b2"
   },
   "2d:2a326938-df3f-47d8-8da5-4cd9aa7c62fd": {
    "key": "2d:2a326938-df3f-47d8-8da5-4cd9aa7c62fd",
@@ -1419,6 +1445,14 @@
    "ageClass": "12u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/308ef255-b858-473a-9ead-7a5b67f21975"
   },
+  "2d:30a19308-8e23-4d1d-bfab-7816d420cb7a": {
+   "key": "2d:30a19308-8e23-4d1d-bfab-7816d420cb7a",
+   "name": "Blues Elite 11u",
+   "city": "Cottontown",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/30a19308-8e23-4d1d-bfab-7816d420cb7a"
+  },
   "2d:31eae879-e664-40aa-b5ca-b0e6e291af69": {
    "key": "2d:31eae879-e664-40aa-b5ca-b0e6e291af69",
    "name": "Alexandria Southern Havoc",
@@ -1435,6 +1469,15 @@
    "state": "TX",
    "ageClass": "12u Major",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/3232034d-404a-4181-8068-a30150a76bcf"
+  },
+  "2d:3280845e-e2bd-467c-bae5-ee6ae2ebae19": {
+   "key": "2d:3280845e-e2bd-467c-bae5-ee6ae2ebae19",
+   "name": "Monroe Expos",
+   "city": "Monroe",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/3280845e-e2bd-467c-bae5-ee6ae2ebae19",
+   "logo": ""
   },
   "2d:32dc1576-baaa-4909-9310-5bb98f119702": {
    "key": "2d:32dc1576-baaa-4909-9310-5bb98f119702",
@@ -1494,6 +1537,14 @@
    "state": "AR",
    "ageClass": "12u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/33b75315-1004-4a06-8cfb-753fe03fe81f"
+  },
+  "2d:3430a492-f186-493e-b7bd-6d8342b01348": {
+   "key": "2d:3430a492-f186-493e-b7bd-6d8342b01348",
+   "name": "Mid TN Bears",
+   "city": "LASCASSAS",
+   "state": "TN",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/3430a492-f186-493e-b7bd-6d8342b01348"
   },
   "2d:345ea60d-a6a5-4379-b0f5-9def714c13d3": {
    "key": "2d:345ea60d-a6a5-4379-b0f5-9def714c13d3",
@@ -1615,6 +1666,15 @@
    "state": "AL",
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/37905c0e-8185-4f77-bbc4-466ac3a813e2"
+  },
+  "2d:37e639aa-69f1-440b-b100-493bb6430df7": {
+   "key": "2d:37e639aa-69f1-440b-b100-493bb6430df7",
+   "name": "Providence Knights 2033",
+   "city": "Benton",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/37e639aa-69f1-440b-b100-493bb6430df7",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/knights-2033-6a7b46802d492.png"
   },
   "2d:382932ef-4a56-498c-b548-6600e6c47007": {
    "key": "2d:382932ef-4a56-498c-b548-6600e6c47007",
@@ -1842,6 +1902,15 @@
    "ageClass": "14u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/408ea015-a2d1-4ba3-a94d-ea4a8e813352"
   },
+  "2d:40a2967d-410b-49d9-b938-b2e7adfed731": {
+   "key": "2d:40a2967d-410b-49d9-b938-b2e7adfed731",
+   "name": "LA Mariners 11u Landry",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/40a2967d-410b-49d9-b938-b2e7adfed731",
+   "logo": ""
+  },
   "2d:411ef915-3119-4168-b0f6-6848528fb408": {
    "key": "2d:411ef915-3119-4168-b0f6-6848528fb408",
    "name": "Bayou Bombers",
@@ -2016,6 +2085,14 @@
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/46da28c8-a62a-4fb5-9d4d-03312f08988b"
   },
+  "2d:46eb8374-cdd4-4f0f-a0bc-0f91c12842cd": {
+   "key": "2d:46eb8374-cdd4-4f0f-a0bc-0f91c12842cd",
+   "name": "Patriots",
+   "city": "College Grove",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/46eb8374-cdd4-4f0f-a0bc-0f91c12842cd"
+  },
   "2d:472a1fb3-9d1e-4bb3-bd14-9112bd1414c7": {
    "key": "2d:472a1fb3-9d1e-4bb3-bd14-9112bd1414c7",
    "name": "Louisiana Nationals - Wilson",
@@ -2093,6 +2170,15 @@
    "state": "TX",
    "ageClass": "13u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/48299b6b-2d05-497c-a506-46bc341292e3"
+  },
+  "2d:484d90a1-bb25-4666-a675-f775df43f435": {
+   "key": "2d:484d90a1-bb25-4666-a675-f775df43f435",
+   "name": "LTG Stars Palmer",
+   "city": "NOLA",
+   "state": "LA",
+   "ageClass": "10u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/484d90a1-bb25-4666-a675-f775df43f435",
+   "logo": ""
   },
   "2d:4873be3e-d17a-49c6-b900-a0ea1ea156ee": {
    "key": "2d:4873be3e-d17a-49c6-b900-a0ea1ea156ee",
@@ -2539,6 +2625,14 @@
    "ageClass": "13u Open",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/584a9ac7-df2d-4306-a05b-cf11927b0559"
   },
+  "2d:585abcb8-8f6f-471f-828e-ab24318b8f1a": {
+   "key": "2d:585abcb8-8f6f-471f-828e-ab24318b8f1a",
+   "name": "US Elite 11U Black",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "ageClass": "11u Open",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/585abcb8-8f6f-471f-828e-ab24318b8f1a"
+  },
   "2d:585b01f6-1e3d-4f65-92f4-c9310c85dff3": {
    "key": "2d:585b01f6-1e3d-4f65-92f4-c9310c85dff3",
    "name": "WOW Factor GC-Stanford 365",
@@ -2805,6 +2899,15 @@
    "ageClass": "12u AAA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/62f32053-36ca-44ea-bea3-dfea4e2ae281"
   },
+  "2d:62f78355-69f8-4336-9987-06d45c2f1bd8": {
+   "key": "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+   "name": "Prime Courville 12u",
+   "city": "Kinder",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/62f78355-69f8-4336-9987-06d45c2f1bd8",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/prime-courville-69a108bb05de5.png"
+  },
   "2d:631037f4-3bd1-4e33-8fd2-0b544ac99037": {
    "key": "2d:631037f4-3bd1-4e33-8fd2-0b544ac99037",
    "name": "Krewe Baseball",
@@ -2970,6 +3073,15 @@
    "ageClass": "14u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/68722eb2-fd68-4e27-af05-6b561ed45e34",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/deep-south-hot-shots-68b5bbdeef261.webp"
+  },
+  "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f": {
+   "key": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+   "name": "Louisiana Legends",
+   "city": "Dubach",
+   "state": "LA",
+   "ageClass": "12u AAA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+   "logo": ""
   },
   "2d:693a0503-8e9d-43ef-a283-da06386a73d9": {
    "key": "2d:693a0503-8e9d-43ef-a283-da06386a73d9",
@@ -3143,6 +3255,15 @@
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/70bbf0b3-accd-4a36-b1ea-7483cb8bcb42"
   },
+  "2d:710fb2fb-4743-4da1-bf1a-e3498c28165f": {
+   "key": "2d:710fb2fb-4743-4da1-bf1a-e3498c28165f",
+   "name": "Louisiana Outlaws",
+   "city": "Springfield",
+   "state": "LA",
+   "ageClass": "10u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/710fb2fb-4743-4da1-bf1a-e3498c28165f",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/louisiana-outlaws---bryson-6863cb1503d79.webp"
+  },
   "2d:71326531-ddb4-4c28-af58-8c88824df480": {
    "key": "2d:71326531-ddb4-4c28-af58-8c88824df480",
    "name": "Rise Up Academy 13U Miller",
@@ -3183,6 +3304,15 @@
    "state": "AL",
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/71d5e74a-3178-490c-8cfc-08b616cae326"
+  },
+  "2d:7236e831-20fc-44f5-a7bb-e46f07bf239d": {
+   "key": "2d:7236e831-20fc-44f5-a7bb-e46f07bf239d",
+   "name": "Louisiana Prime 12u",
+   "city": "Deridder",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/7236e831-20fc-44f5-a7bb-e46f07bf239d",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/louisiana-prime-11u-68d43d4ae30cb.png"
   },
   "2d:73531b8c-ae7b-44a3-821d-af4139fdba7a": {
    "key": "2d:73531b8c-ae7b-44a3-821d-af4139fdba7a",
@@ -3296,6 +3426,15 @@
    "state": "AL",
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/7552c5c1-94e9-46db-a0bd-6d163fe8e5e6"
+  },
+  "2d:75ac0528-1363-4bd8-970c-15637dcf85ae": {
+   "key": "2d:75ac0528-1363-4bd8-970c-15637dcf85ae",
+   "name": "SWLA Buccaneers",
+   "city": "Lake Charles",
+   "state": "LA",
+   "ageClass": "12u AAA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/75ac0528-1363-4bd8-970c-15637dcf85ae",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/swla-buccaneers-67c87db1d0bbd.webp"
   },
   "2d:75b19aa7-be2d-4dd5-b4db-8997153ca998": {
    "key": "2d:75b19aa7-be2d-4dd5-b4db-8997153ca998",
@@ -3629,6 +3768,15 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/7d7ce243-b5d3-4e6c-b649-433b8c90ad94",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/aggies-baseball-nation-68643a6f54286.png"
   },
+  "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee": {
+   "key": "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee",
+   "name": "STRYK",
+   "city": "Alexandria",
+   "state": "LA",
+   "ageClass": "14u A",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/7dc3b464-f28f-457b-94c7-ab37d588dfee",
+   "logo": ""
+  },
   "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd": {
    "key": "2d:7df5abbd-df4e-4e52-94f4-d754642fc6bd",
    "name": "Northshore Elite",
@@ -3861,6 +4009,15 @@
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/859f3d4d-68c6-4871-be0e-773e5240519d"
   },
+  "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff": {
+   "key": "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+   "name": "Prime Courville 11u",
+   "city": "Kinder",
+   "state": "LA",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/866399fb-c150-4da1-881f-e6f0d4ad3fff",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/prime-courville-69a10822b2367.png"
+  },
   "2d:86831ae5-f67e-466b-8f59-134cfafdf022": {
    "key": "2d:86831ae5-f67e-466b-8f59-134cfafdf022",
    "name": "Velocity Baseball",
@@ -3919,6 +4076,15 @@
    "state": "MS",
    "ageClass": "12u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/881fa2d0-b4bc-41d1-a3de-42ac831de914"
+  },
+  "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7": {
+   "key": "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7",
+   "name": "LTG Stars",
+   "city": "NOLA",
+   "state": "LA",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/8827e53c-490d-4e66-88a0-12042d1a7cf7",
+   "logo": ""
   },
   "2d:8872cd00-c2b1-4550-a9ae-cb235c865f2c": {
    "key": "2d:8872cd00-c2b1-4550-a9ae-cb235c865f2c",
@@ -4003,6 +4169,14 @@
    "ageClass": "12u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/8ac5002a-fa78-45e1-bd8a-ae19564ceb33",
    "logo": ""
+  },
+  "2d:8ad9be74-997c-4d17-890a-b20542518f06": {
+   "key": "2d:8ad9be74-997c-4d17-890a-b20542518f06",
+   "name": "Murfreesboro Heat",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/8ad9be74-997c-4d17-890a-b20542518f06"
   },
   "2d:8afc727c-83c3-48ef-adca-f2e56ec60008": {
    "key": "2d:8afc727c-83c3-48ef-adca-f2e56ec60008",
@@ -4728,6 +4902,14 @@
    "ageClass": "12u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/a0e77529-1158-4ad0-a3df-0b1dd004118f"
   },
+  "2d:a13949bd-cda0-4cae-ab5f-f3a91f8031c8": {
+   "key": "2d:a13949bd-cda0-4cae-ab5f-f3a91f8031c8",
+   "name": "Full Send Prospects",
+   "city": "Franklin",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/a13949bd-cda0-4cae-ab5f-f3a91f8031c8"
+  },
   "2d:a148e938-f113-42c0-9988-c93a87337291": {
    "key": "2d:a148e938-f113-42c0-9988-c93a87337291",
    "name": "MVP-Madison",
@@ -4810,6 +4992,14 @@
    "state": "TX",
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/a375c5e8-cbe1-44f9-86b4-3c4d1bb4eb9f"
+  },
+  "2d:a3a18668-cb51-480a-a262-112b8946937a": {
+   "key": "2d:a3a18668-cb51-480a-a262-112b8946937a",
+   "name": "12u - T.H.A. Stix",
+   "city": "Longview",
+   "state": "TX",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/a3a18668-cb51-480a-a262-112b8946937a"
   },
   "2d:a3d9553f-33dd-493d-9b34-91dd16e17497": {
    "key": "2d:a3d9553f-33dd-493d-9b34-91dd16e17497",
@@ -5138,6 +5328,14 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/aaf34e24-bca5-4f2b-b8b7-43e5813f07d0",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/louisiana-black-sox-6a738c8e87a12.webp"
   },
+  "2d:ab2c1dc5-c86a-485c-a227-b0afabedfc8f": {
+   "key": "2d:ab2c1dc5-c86a-485c-a227-b0afabedfc8f",
+   "name": "Blues Elite 10U",
+   "city": "Cottontown",
+   "state": "TN",
+   "ageClass": "10u",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/ab2c1dc5-c86a-485c-a227-b0afabedfc8f"
+  },
   "2d:ab500df7-ee99-4f77-97a9-cf6e1b31ec92": {
    "key": "2d:ab500df7-ee99-4f77-97a9-cf6e1b31ec92",
    "name": "USA Scouts 12U Red",
@@ -5169,6 +5367,15 @@
    "state": "MS",
    "ageClass": "11u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/ac4befcd-139f-4da1-9c78-c9690ae65368"
+  },
+  "2d:ac94f9a2-da0c-4839-889c-74c295ee2148": {
+   "key": "2d:ac94f9a2-da0c-4839-889c-74c295ee2148",
+   "name": "Warriors 12u",
+   "city": "Bossier City",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/ac94f9a2-da0c-4839-889c-74c295ee2148",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/warriors-12u-6aa00d70c798f.png"
   },
   "2d:ad14ab92-4dbe-47f7-8fdb-47b634c3a5e0": {
    "key": "2d:ad14ab92-4dbe-47f7-8fdb-47b634c3a5e0",
@@ -5415,7 +5622,7 @@
    "name": "Gold Culture NE",
    "city": "Monroe",
    "state": "LA",
-   "ageClass": "11u AAA",
+   "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
    "logo": ""
   },
@@ -5436,6 +5643,15 @@
    "ageClass": "11u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/b306e52d-67bb-4517-9417-9a600b53d718",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/hammond-yankees--ogden-6a8d18bb6ce53.png"
+  },
+  "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8": {
+   "key": "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+   "name": "LBA Naturals 11u Green",
+   "city": "THIBODAUX",
+   "state": "LA",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+   "logo": ""
   },
   "2d:b380451c-3302-45d1-835d-7aafcfe19454": {
    "key": "2d:b380451c-3302-45d1-835d-7aafcfe19454",
@@ -5555,6 +5771,14 @@
    "state": "TX",
    "ageClass": "12u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/b5799660-fde4-4d91-a2cc-d22d673caca9"
+  },
+  "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d": {
+   "key": "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+   "name": "Dulins Dodgers 12U Blue",
+   "city": "Beaumont",
+   "state": "TX",
+   "ageClass": "12u Major",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/b5c5b097-cf88-4ac0-9195-72b7ee70c20d"
   },
   "2d:b5e3210a-339c-4ced-b465-9722a0596a20": {
    "key": "2d:b5e3210a-339c-4ced-b465-9722a0596a20",
@@ -5939,6 +6163,14 @@
    "state": "TX",
    "ageClass": "14u AAA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/c24dfa77-ce04-4058-a2f6-0fcf90640753"
+  },
+  "2d:c2722d5d-c7eb-49e1-9970-d5146fe58310": {
+   "key": "2d:c2722d5d-c7eb-49e1-9970-d5146fe58310",
+   "name": "ZT Prospects - Williams",
+   "city": "franklin",
+   "state": "TN",
+   "ageClass": "11u AAA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/c2722d5d-c7eb-49e1-9970-d5146fe58310"
   },
   "2d:c2c8bdb6-a738-4d7b-941c-467e82a7f113": {
    "key": "2d:c2c8bdb6-a738-4d7b-941c-467e82a7f113",
@@ -6335,6 +6567,14 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/cbe97f2c-1b69-420d-87f3-f79d78290a62",
    "logo": ""
   },
+  "2d:cc4c6eb4-b42e-4165-a24c-d56fdebe472f": {
+   "key": "2d:cc4c6eb4-b42e-4165-a24c-d56fdebe472f",
+   "name": "Orioles",
+   "city": "Clarksville",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/cc4c6eb4-b42e-4165-a24c-d56fdebe472f"
+  },
   "2d:cc5905b9-b58f-47e1-b536-4cc5b19f6311": {
    "key": "2d:cc5905b9-b58f-47e1-b536-4cc5b19f6311",
    "name": "Mobtown Baseball 12U White",
@@ -6672,6 +6912,15 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/d6bbc7d2-a850-4dc0-a555-d3041533a516",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/wow-factor-gulf-coast-12u-6900157ddadf9.webp"
   },
+  "2d:d6c722ed-107e-4983-b150-62afb5ab4bcf": {
+   "key": "2d:d6c722ed-107e-4983-b150-62afb5ab4bcf",
+   "name": "CBA Sticks 10u-Bellow",
+   "city": "Lake Charles",
+   "state": "LA",
+   "ageClass": "10u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/d6c722ed-107e-4983-b150-62afb5ab4bcf",
+   "logo": ""
+  },
   "2d:d6de9aa3-f40e-437d-833a-43730e845762": {
    "key": "2d:d6de9aa3-f40e-437d-833a-43730e845762",
    "name": "Wow Factor 13U Cole",
@@ -6837,6 +7086,15 @@
    "ageClass": "13u Open",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/daa0ab6e-f734-40d7-aa37-fac10a66c979"
   },
+  "2d:db325660-e260-49f4-ba00-9401460686b1": {
+   "key": "2d:db325660-e260-49f4-ba00-9401460686b1",
+   "name": "CBA Sticks 14u-Goza",
+   "city": "Lake Charles",
+   "state": "LA",
+   "ageClass": "14u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/db325660-e260-49f4-ba00-9401460686b1",
+   "logo": ""
+  },
   "2d:db36705f-24c0-4511-8810-f874b89a9d78": {
    "key": "2d:db36705f-24c0-4511-8810-f874b89a9d78",
    "name": "Texas Edge 12u Freeman",
@@ -6964,6 +7222,15 @@
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/deca6441-d4b4-4ae7-a339-a35fffc04c0c"
   },
+  "2d:dee9167e-452b-487f-97c9-a7480726450d": {
+   "key": "2d:dee9167e-452b-487f-97c9-a7480726450d",
+   "name": "LBA Naturals 10u Blue",
+   "city": "Schriever",
+   "state": "LA",
+   "ageClass": "10u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/dee9167e-452b-487f-97c9-a7480726450d",
+   "logo": ""
+  },
   "2d:df1843d3-db7f-452e-b0cc-fd9c5af60df8": {
    "key": "2d:df1843d3-db7f-452e-b0cc-fd9c5af60df8",
    "name": "Aces Baseball Blue",
@@ -6980,6 +7247,14 @@
    "state": "TN",
    "ageClass": "13u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/df7498a5-8696-4e09-8459-6b79360627e9"
+  },
+  "2d:dfb5a33f-54ad-4088-89fd-911bc82818fa": {
+   "key": "2d:dfb5a33f-54ad-4088-89fd-911bc82818fa",
+   "name": "Midland 11U - Woodard",
+   "city": "Brentwood",
+   "state": "TN",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/dfb5a33f-54ad-4088-89fd-911bc82818fa"
   },
   "2d:e039998d-c462-44fc-8c01-78f7ec773a60": {
    "key": "2d:e039998d-c462-44fc-8c01-78f7ec773a60",
@@ -7024,6 +7299,14 @@
    "ageClass": "11u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/e13daed4-7b53-429d-91a2-3864bb5dbced"
   },
+  "2d:e17723f3-1f06-4079-af47-07029eddd637": {
+   "key": "2d:e17723f3-1f06-4079-af47-07029eddd637",
+   "name": "South Alabama Skeeters",
+   "city": "Mobile",
+   "state": "AL",
+   "ageClass": "11u Major",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/e17723f3-1f06-4079-af47-07029eddd637"
+  },
   "2d:e18c1cc3-10f4-440a-aec4-42cbda095832": {
    "key": "2d:e18c1cc3-10f4-440a-aec4-42cbda095832",
    "name": "Elite Baseball",
@@ -7048,6 +7331,14 @@
    "ageClass": "14u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/e28dce35-73f4-41fb-b90c-64a0a25b2cc3",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/thibodaux-huntsmen-68f18cbb6fca9.png"
+  },
+  "2d:e36cdfa5-2892-4fbc-8a45-7df8665d0d6a": {
+   "key": "2d:e36cdfa5-2892-4fbc-8a45-7df8665d0d6a",
+   "name": "NBA RailRiders (Booker)",
+   "city": "Nashville",
+   "state": "TN",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/e36cdfa5-2892-4fbc-8a45-7df8665d0d6a"
   },
   "2d:e3886fa9-78b6-483b-81e4-da81f7cb76c1": {
    "key": "2d:e3886fa9-78b6-483b-81e4-da81f7cb76c1",
@@ -7201,6 +7492,14 @@
    "state": "MO",
    "ageClass": "11u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/e75ef1b2-4ae8-48e1-9250-3acec09e558e"
+  },
+  "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3": {
+   "key": "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3",
+   "name": "Kage Baseball - Ebarb",
+   "city": "Tyler",
+   "state": "TX",
+   "ageClass": "13u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/e7648cbc-f4f8-446e-91d6-ad4792d5aee3"
   },
   "2d:e7aadeb7-a42d-47c8-80d2-92d32b6733a1": {
    "key": "2d:e7aadeb7-a42d-47c8-80d2-92d32b6733a1",
@@ -7472,6 +7771,15 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/eebc5092-b1f5-4326-b75f-cdf1a3109c63",
    "logo": ""
   },
+  "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae": {
+   "key": "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+   "name": "Ruston Diamond Dawgs",
+   "city": "Ruston",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/ruston-diamond-dawgs-699b974dd1ec8.png"
+  },
   "2d:ef5f7716-e87d-40aa-8281-e6679eebd135": {
    "key": "2d:ef5f7716-e87d-40aa-8281-e6679eebd135",
    "name": "LA Rough Riders",
@@ -7479,6 +7787,14 @@
    "state": "AR",
    "ageClass": "12u A",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/ef5f7716-e87d-40aa-8281-e6679eebd135"
+  },
+  "2d:ef8dcb98-0a02-4395-a036-1751ce223357": {
+   "key": "2d:ef8dcb98-0a02-4395-a036-1751ce223357",
+   "name": "Redbirds Hong",
+   "city": "Brentwood",
+   "state": "TN",
+   "ageClass": "14u Open",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/ef8dcb98-0a02-4395-a036-1751ce223357"
   },
   "2d:f02b7776-e9d3-4edb-a847-711496d376bc": {
    "key": "2d:f02b7776-e9d3-4edb-a847-711496d376bc",
@@ -7555,6 +7871,14 @@
    "ageClass": "12u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/f182bf62-eda5-4dd2-9719-806e8c5f2189"
   },
+  "2d:f18f8b14-e71e-4035-8c76-f7e8109cc1f0": {
+   "key": "2d:f18f8b14-e71e-4035-8c76-f7e8109cc1f0",
+   "name": "The Boys 14U",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "ageClass": "14u Open",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/f18f8b14-e71e-4035-8c76-f7e8109cc1f0"
+  },
   "2d:f19c01b3-eb92-42df-8937-40fd02140e01": {
    "key": "2d:f19c01b3-eb92-42df-8937-40fd02140e01",
    "name": "Tennessee Bucks",
@@ -7619,6 +7943,15 @@
    "state": "AR",
    "ageClass": "13u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/f45708e2-d800-4548-9f39-3b621ce6ff74"
+  },
+  "2d:f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4": {
+   "key": "2d:f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4",
+   "name": "Wow Factor 14U Nation",
+   "city": "Shreveport",
+   "state": "LA",
+   "ageClass": "14u",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4",
+   "logo": ""
   },
   "2d:f4db4f25-ae62-4f20-87fe-dd4aa6d74309": {
    "key": "2d:f4db4f25-ae62-4f20-87fe-dd4aa6d74309",
@@ -7689,6 +8022,14 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/f5bdd109-a523-46ea-bdf8-947ce66a5db7",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/ripzz-baseball-6ac5404800736.png"
   },
+  "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15": {
+   "key": "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15",
+   "name": "Outlaws",
+   "city": "spanish fort",
+   "state": "AL",
+   "ageClass": "11u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/f5d4605e-bdd8-4592-928e-6893f3f99f15"
+  },
   "2d:f5e01201-0341-4e88-9a12-21c6d66b73cf": {
    "key": "2d:f5e01201-0341-4e88-9a12-21c6d66b73cf",
    "name": "Texas Mizuno 10u - Autrey",
@@ -7696,6 +8037,15 @@
    "state": "TX",
    "ageClass": "10u AA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/f5e01201-0341-4e88-9a12-21c6d66b73cf"
+  },
+  "2d:f6018775-7e26-48d7-9ba0-33185e4c647f": {
+   "key": "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+   "name": "Tornado Athletics 14u",
+   "city": "Sulphur",
+   "state": "LA",
+   "ageClass": "14u AAA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/f6018775-7e26-48d7-9ba0-33185e4c647f",
+   "logo": ""
   },
   "2d:f6105057-7afc-43e6-b509-db3729d81f0e": {
    "key": "2d:f6105057-7afc-43e6-b509-db3729d81f0e",
@@ -7796,6 +8146,15 @@
    "ageClass": "14u AAA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/f9786f4c-fba1-4e6d-8c8a-3d83cd6009a9"
   },
+  "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d": {
+   "key": "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+   "name": "Team Louisiana North",
+   "city": "Haughton",
+   "state": "LA",
+   "ageClass": "14u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+   "logo": ""
+  },
   "2d:f9bd126e-ff05-408b-926e-7c5f0c769915": {
    "key": "2d:f9bd126e-ff05-408b-926e-7c5f0c769915",
    "name": "Aces 12U",
@@ -7835,6 +8194,15 @@
    "state": "AL",
    "ageClass": "13u Open",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/fa76f960-d1f2-423c-86e1-47b39b4dc470"
+  },
+  "2d:fafdc8f9-cf52-4867-9679-e0a51cbfdaa0": {
+   "key": "2d:fafdc8f9-cf52-4867-9679-e0a51cbfdaa0",
+   "name": "LC Pokes Gold",
+   "city": "LAKE CHARLES",
+   "state": "LA",
+   "ageClass": "11u Major",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/fafdc8f9-cf52-4867-9679-e0a51cbfdaa0",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/lc-pokes-gold-6a72602f9ff7d.png"
   },
   "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e": {
    "key": "2d:faff48d8-e078-4de6-90e3-8fc0df6bd69e",
@@ -14882,6 +15250,416 @@
     }
    ]
   },
+  "1846": {
+   "id": "1846",
+   "name": "Saraland Spooktacular Sunday Only",
+   "startDate": "2026-11-01",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "2d:16e06f2a-126d-4327-a606-8534bd00df19",
+    "2d:1da3471e-780c-4776-ae27-d976bdb29dc8",
+    "2d:2bc4b454-05f1-47da-ad05-efbd640949a1",
+    "2d:52417b9e-db08-42d4-98d1-6a83fd0bb00e",
+    "2d:574061df-cf9c-4160-a539-46fbe567446a",
+    "2d:5b8ba492-4340-4b04-ba28-1271995672d4",
+    "2d:660d2607-08db-4946-a79d-010e98b33f20",
+    "2d:66664ef9-f84b-4372-b9b4-80c01e6a6959",
+    "2d:7c434e52-1a94-4a6d-9aa0-cf6fb27c9f61",
+    "2d:93da24ec-a3d3-44b4-874d-0fba7508be13",
+    "2d:a7b01329-5905-43ae-a52b-80165f067716",
+    "2d:ab6e798c-b698-4006-862a-358698aa3091",
+    "2d:b1eb6cea-ae4a-48c0-8bf4-c1431a61c2b6",
+    "2d:b5e3210a-339c-4ced-b465-9722a0596a20",
+    "2d:b78bb0ef-73f5-4425-8bc5-69852dd45137",
+    "2d:d27ad211-3ce6-42ff-92e3-d58351e6248e",
+    "2d:d5344f13-2c3d-444c-8b46-9c2cac359e66",
+    "2d:e17723f3-1f06-4079-af47-07029eddd637",
+    "2d:ead615d4-7fe8-40fe-8fbb-d1e6ce7cb944",
+    "2d:eaf494f1-cf1b-4b7c-8306-679b54076828",
+    "2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286",
+    "2d:ecb792a7-fd91-4e27-8d5a-30fa8dca0479",
+    "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15",
+    "2d:fa343732-9698-4703-b5eb-2604246e73f8",
+    "2d:fe927654-5099-4820-8085-d157bf5ba2aa"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:ecb792a7-fd91-4e27-8d5a-30fa8dca0479",
+     "teamB": "2d:660d2607-08db-4946-a79d-010e98b33f20",
+     "scoreA": 4,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:ecb792a7-fd91-4e27-8d5a-30fa8dca0479",
+     "teamB": "2d:b78bb0ef-73f5-4425-8bc5-69852dd45137",
+     "scoreA": 8,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:fa343732-9698-4703-b5eb-2604246e73f8",
+     "teamB": "2d:5b8ba492-4340-4b04-ba28-1271995672d4",
+     "scoreA": 4,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:5b8ba492-4340-4b04-ba28-1271995672d4",
+     "teamB": "2d:b78bb0ef-73f5-4425-8bc5-69852dd45137",
+     "scoreA": 6,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:ecb792a7-fd91-4e27-8d5a-30fa8dca0479",
+     "teamB": "2d:660d2607-08db-4946-a79d-010e98b33f20",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:fa343732-9698-4703-b5eb-2604246e73f8",
+     "teamB": "2d:5b8ba492-4340-4b04-ba28-1271995672d4",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:fa343732-9698-4703-b5eb-2604246e73f8",
+     "teamB": "2d:660d2607-08db-4946-a79d-010e98b33f20",
+     "scoreA": 1,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:93da24ec-a3d3-44b4-874d-0fba7508be13",
+     "teamB": "2d:7c434e52-1a94-4a6d-9aa0-cf6fb27c9f61",
+     "scoreA": 10,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:ead615d4-7fe8-40fe-8fbb-d1e6ce7cb944",
+     "teamB": "2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:ab6e798c-b698-4006-862a-358698aa3091",
+     "teamB": "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:a7b01329-5905-43ae-a52b-80165f067716",
+     "teamB": "2d:2bc4b454-05f1-47da-ad05-efbd640949a1",
+     "scoreA": 1,
+     "scoreB": 20
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:ab6e798c-b698-4006-862a-358698aa3091",
+     "teamB": "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:ead615d4-7fe8-40fe-8fbb-d1e6ce7cb944",
+     "teamB": "2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:2bc4b454-05f1-47da-ad05-efbd640949a1",
+     "teamB": "2d:a7b01329-5905-43ae-a52b-80165f067716",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:93da24ec-a3d3-44b4-874d-0fba7508be13",
+     "teamB": "2d:7c434e52-1a94-4a6d-9aa0-cf6fb27c9f61",
+     "scoreA": 6,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:2bc4b454-05f1-47da-ad05-efbd640949a1",
+     "teamB": "2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286",
+     "scoreA": 9,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:f5d4605e-bdd8-4592-928e-6893f3f99f15",
+     "teamB": "2d:93da24ec-a3d3-44b4-874d-0fba7508be13",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "11u Open",
+     "teamA": "2d:2bc4b454-05f1-47da-ad05-efbd640949a1",
+     "teamB": "2d:93da24ec-a3d3-44b4-874d-0fba7508be13",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:b5e3210a-339c-4ced-b465-9722a0596a20",
+     "teamB": "2d:1da3471e-780c-4776-ae27-d976bdb29dc8",
+     "scoreA": 4,
+     "scoreB": 19
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:66664ef9-f84b-4372-b9b4-80c01e6a6959",
+     "teamB": "2d:574061df-cf9c-4160-a539-46fbe567446a",
+     "scoreA": 6,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:e17723f3-1f06-4079-af47-07029eddd637",
+     "teamB": "2d:d5344f13-2c3d-444c-8b46-9c2cac359e66",
+     "scoreA": 3,
+     "scoreB": 14
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:66664ef9-f84b-4372-b9b4-80c01e6a6959",
+     "teamB": "2d:b5e3210a-339c-4ced-b465-9722a0596a20",
+     "scoreA": 16,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:574061df-cf9c-4160-a539-46fbe567446a",
+     "teamB": "2d:e17723f3-1f06-4079-af47-07029eddd637",
+     "scoreA": 6,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:66664ef9-f84b-4372-b9b4-80c01e6a6959",
+     "teamB": "2d:1da3471e-780c-4776-ae27-d976bdb29dc8",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:d5344f13-2c3d-444c-8b46-9c2cac359e66",
+     "teamB": "2d:574061df-cf9c-4160-a539-46fbe567446a",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:d5344f13-2c3d-444c-8b46-9c2cac359e66",
+     "teamB": "2d:66664ef9-f84b-4372-b9b4-80c01e6a6959",
+     "scoreA": 0,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:b1eb6cea-ae4a-48c0-8bf4-c1431a61c2b6",
+     "teamB": "2d:52417b9e-db08-42d4-98d1-6a83fd0bb00e",
+     "scoreA": 2,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:16e06f2a-126d-4327-a606-8534bd00df19",
+     "teamB": "2d:fe927654-5099-4820-8085-d157bf5ba2aa",
+     "scoreA": 7,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:eaf494f1-cf1b-4b7c-8306-679b54076828",
+     "teamB": "2d:d27ad211-3ce6-42ff-92e3-d58351e6248e",
+     "scoreA": 2,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:52417b9e-db08-42d4-98d1-6a83fd0bb00e",
+     "teamB": "2d:eaf494f1-cf1b-4b7c-8306-679b54076828",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:d27ad211-3ce6-42ff-92e3-d58351e6248e",
+     "teamB": "2d:fe927654-5099-4820-8085-d157bf5ba2aa",
+     "scoreA": 6,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:16e06f2a-126d-4327-a606-8534bd00df19",
+     "teamB": "2d:52417b9e-db08-42d4-98d1-6a83fd0bb00e",
+     "scoreA": 0,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:d27ad211-3ce6-42ff-92e3-d58351e6248e",
+     "teamB": "2d:b1eb6cea-ae4a-48c0-8bf4-c1431a61c2b6",
+     "scoreA": 4,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1846",
+     "eventName": "Saraland Spooktacular Sunday Only",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:52417b9e-db08-42d4-98d1-6a83fd0bb00e",
+     "teamB": "2d:d27ad211-3ce6-42ff-92e3-d58351e6248e",
+     "scoreA": 4,
+     "scoreB": 6
+    }
+   ]
+  },
   "1847": {
    "id": "1847",
    "name": "Bryant Fall Opener",
@@ -16051,6 +16829,293 @@
      "teamB": "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
      "scoreA": 5,
      "scoreB": 6
+    }
+   ]
+  },
+  "1853": {
+   "id": "1853",
+   "name": "SWLA Sunday Fall League #4",
+   "startDate": "2026-11-01",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+    "2d:09276b20-7508-432b-87ac-e094d7b65efb",
+    "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+    "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+    "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+    "2d:7236e831-20fc-44f5-a7bb-e46f07bf239d",
+    "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+    "2d:75ac0528-1363-4bd8-970c-15637dcf85ae",
+    "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+    "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+    "2d:9c8d33a8-2959-4f58-a21a-b2fa15bc29f1",
+    "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+    "2d:b1458b8e-e0cd-4690-b75f-5a1935604873",
+    "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+    "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
+    "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+    "2d:d6c722ed-107e-4983-b150-62afb5ab4bcf",
+    "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+    "2d:db325660-e260-49f4-ba00-9401460686b1",
+    "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+    "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+    "2d:fafdc8f9-cf52-4867-9679-e0a51cbfdaa0",
+    "2d:fcc05387-3203-4028-8f3e-7032d93b84ce"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:b1458b8e-e0cd-4690-b75f-5a1935604873",
+     "teamB": "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+     "scoreA": 11,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:b1458b8e-e0cd-4690-b75f-5a1935604873",
+     "teamB": "2d:fcc05387-3203-4028-8f3e-7032d93b84ce",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:fcc05387-3203-4028-8f3e-7032d93b84ce",
+     "teamB": "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+     "scoreA": 6,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:9c8d33a8-2959-4f58-a21a-b2fa15bc29f1",
+     "teamB": "2d:d6c722ed-107e-4983-b150-62afb5ab4bcf",
+     "scoreA": 18,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:9c8d33a8-2959-4f58-a21a-b2fa15bc29f1",
+     "teamB": "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+     "scoreA": 10,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:d6c722ed-107e-4983-b150-62afb5ab4bcf",
+     "teamB": "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+     "scoreA": 10,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "10u Open",
+     "teamA": "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+     "teamB": "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+     "scoreA": 10,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:75ac0528-1363-4bd8-970c-15637dcf85ae",
+     "teamB": "2d:fafdc8f9-cf52-4867-9679-e0a51cbfdaa0",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+     "teamB": "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+     "scoreA": 18,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:09276b20-7508-432b-87ac-e094d7b65efb",
+     "teamB": "2d:75ac0528-1363-4bd8-970c-15637dcf85ae",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+     "teamB": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:fafdc8f9-cf52-4867-9679-e0a51cbfdaa0",
+     "teamB": "2d:7236e831-20fc-44f5-a7bb-e46f07bf239d",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+     "teamB": "2d:09276b20-7508-432b-87ac-e094d7b65efb",
+     "scoreA": 2,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:d8bf63c6-4841-42d1-8713-393148fa0557",
+     "teamB": "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+     "scoreA": 13,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:7236e831-20fc-44f5-a7bb-e46f07bf239d",
+     "teamB": "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+     "teamB": "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+     "teamB": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+     "scoreA": 3,
+     "scoreB": 16
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+     "teamB": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+     "scoreA": 9,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+     "teamB": "2d:25f451f1-97fb-4402-a51d-6c50f0c68957",
+     "scoreA": 1,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+     "teamB": "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+     "scoreA": 3,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+     "teamB": "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:db325660-e260-49f4-ba00-9401460686b1",
+     "teamB": "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+     "scoreA": 1,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1853",
+     "eventName": "SWLA Sunday Fall League #4",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:db325660-e260-49f4-ba00-9401460686b1",
+     "teamB": "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
+     "scoreA": 8,
+     "scoreB": 0
     }
    ]
   },
@@ -20435,6 +21500,276 @@
      "teamB": "2d:d820ed7a-ef16-45bb-89e3-12478e751c25",
      "scoreA": 18,
      "scoreB": 6
+    }
+   ]
+  },
+  "1868": {
+   "id": "1868",
+   "name": "Hammond Halloween Championship (Sunday Only)",
+   "startDate": "2026-11-01",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "2d:0415d534-49d6-4357-ae76-0a8298cf9070",
+    "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+    "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+    "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+    "2d:24e53462-baf2-4552-b2d0-f72451008749",
+    "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413",
+    "2d:40a2967d-410b-49d9-b938-b2e7adfed731",
+    "2d:484d90a1-bb25-4666-a675-f775df43f435",
+    "2d:5f2198fd-a342-4f8e-9d1e-a4fcc55f2288",
+    "2d:637b7764-d6b8-4e29-93bc-06380a8cd2fe",
+    "2d:710fb2fb-4743-4da1-bf1a-e3498c28165f",
+    "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7",
+    "2d:a231c5e4-4f3e-44e1-ae7e-eaacd00b9529",
+    "2d:b306e52d-67bb-4517-9417-9a600b53d718",
+    "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+    "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+    "2d:dee9167e-452b-487f-97c9-a7480726450d"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:710fb2fb-4743-4da1-bf1a-e3498c28165f",
+     "teamB": "2d:0415d534-49d6-4357-ae76-0a8298cf9070",
+     "scoreA": 10,
+     "scoreB": 14
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:484d90a1-bb25-4666-a675-f775df43f435",
+     "teamB": "2d:dee9167e-452b-487f-97c9-a7480726450d",
+     "scoreA": 5,
+     "scoreB": 14
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:0415d534-49d6-4357-ae76-0a8298cf9070",
+     "teamB": "2d:710fb2fb-4743-4da1-bf1a-e3498c28165f",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:dee9167e-452b-487f-97c9-a7480726450d",
+     "teamB": "2d:484d90a1-bb25-4666-a675-f775df43f435",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:dee9167e-452b-487f-97c9-a7480726450d",
+     "teamB": "2d:0415d534-49d6-4357-ae76-0a8298cf9070",
+     "scoreA": 8,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "teamB": "2d:40a2967d-410b-49d9-b938-b2e7adfed731",
+     "scoreA": 8,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:a231c5e4-4f3e-44e1-ae7e-eaacd00b9529",
+     "teamB": "2d:637b7764-d6b8-4e29-93bc-06380a8cd2fe",
+     "scoreA": 1,
+     "scoreB": 18
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7",
+     "teamB": "2d:b306e52d-67bb-4517-9417-9a600b53d718",
+     "scoreA": 2,
+     "scoreB": 13
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:5f2198fd-a342-4f8e-9d1e-a4fcc55f2288",
+     "teamB": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "scoreA": 2,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+     "teamB": "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413",
+     "scoreA": 7,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7",
+     "teamB": "2d:a231c5e4-4f3e-44e1-ae7e-eaacd00b9529",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413",
+     "teamB": "2d:40a2967d-410b-49d9-b938-b2e7adfed731",
+     "scoreA": 13,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "teamB": "2d:5f2198fd-a342-4f8e-9d1e-a4fcc55f2288",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:b306e52d-67bb-4517-9417-9a600b53d718",
+     "teamB": "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+     "scoreA": 2,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:637b7764-d6b8-4e29-93bc-06380a8cd2fe",
+     "teamB": "2d:8827e53c-490d-4e66-88a0-12042d1a7cf7",
+     "scoreA": 9,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:637b7764-d6b8-4e29-93bc-06380a8cd2fe",
+     "teamB": "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:b307b825-af04-4dcd-95bc-f8ffe6f6a7a8",
+     "teamB": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "scoreA": 1,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:2715f47f-59b6-41e1-85a1-2fc6cc9c3413",
+     "teamB": "2d:163844f7-dfb2-457e-9e6d-5acaeec8e63c",
+     "scoreA": 3,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "12u AA",
+     "teamA": "2d:24e53462-baf2-4552-b2d0-f72451008749",
+     "teamB": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+     "scoreA": 13,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "12u AA",
+     "teamA": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+     "teamB": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+     "scoreA": 1,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "12u AA",
+     "teamA": "2d:04af44f9-6d10-41e1-aaa8-00cc34e97f17",
+     "teamB": "2d:c467ab22-5424-4f86-abfd-eeb2eb324997",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1868",
+     "eventName": "Hammond Halloween Championship (Sunday Only)",
+     "date": "2026-11-01",
+     "division": "12u AA",
+     "teamA": "2d:24e53462-baf2-4552-b2d0-f72451008749",
+     "teamB": "2d:1ec0e63d-a3c8-4db0-8a52-947cf23b6d73",
+     "scoreA": 10,
+     "scoreB": 4
     }
    ]
   },
@@ -30533,6 +31868,746 @@
     }
    ]
   },
+  "1910": {
+   "id": "1910",
+   "name": "Bossier Halloween Championship, Powered by 643 Training",
+   "startDate": "2026-10-31",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "2d:051dd506-dc08-4a43-9260-7be61bb14db2",
+    "2d:0c7d411b-f998-4041-88e0-13feb0363130",
+    "2d:1e0e2d9c-8b74-4ea8-a73a-b622f06264ab",
+    "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+    "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+    "2d:3280845e-e2bd-467c-bae5-ee6ae2ebae19",
+    "2d:37e639aa-69f1-440b-b100-493bb6430df7",
+    "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+    "2d:61ce0332-6a00-4134-ab54-af195f7aedb1",
+    "2d:635989a1-0760-44ed-8aa1-ca70c2839102",
+    "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+    "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+    "2d:78dce5e7-3910-4aad-a25e-32f10b0eb60a",
+    "2d:79a4219b-5996-4839-9852-5bfeed3f2367",
+    "2d:7bdd681c-3e59-4894-80e9-eb33a63df738",
+    "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee",
+    "2d:8397b714-33f9-48e0-a697-2fcd6e6a07cd",
+    "2d:87387bed-b577-4648-9175-6513dc51fb50",
+    "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+    "2d:89adebca-3df8-4b1f-9d57-41d0079e3597",
+    "2d:89c17657-ed9b-48c9-b90a-debabb652e95",
+    "2d:96302204-500a-47b2-9c9e-44ab7797568f",
+    "2d:a3a18668-cb51-480a-a262-112b8946937a",
+    "2d:aaf34e24-bca5-4f2b-b8b7-43e5813f07d0",
+    "2d:ac94f9a2-da0c-4839-889c-74c295ee2148",
+    "2d:b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
+    "2d:b4e5ab6d-baf0-4c3b-b11f-7ddda7c17087",
+    "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+    "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+    "2d:d5932dac-635f-4e93-a7be-f0c12dc980a1",
+    "2d:ddad7cf1-bea4-4f75-b9d7-a1b383b2cf25",
+    "2d:e5a8d9a2-2d76-4f46-9fc0-cc8bfc20aa59",
+    "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3",
+    "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+    "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+    "2d:ffda4a9d-fa3f-4e85-a2dc-7358d3926832"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+     "teamB": "2d:635989a1-0760-44ed-8aa1-ca70c2839102",
+     "scoreA": 20,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:aaf34e24-bca5-4f2b-b8b7-43e5813f07d0",
+     "teamB": "2d:051dd506-dc08-4a43-9260-7be61bb14db2",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:635989a1-0760-44ed-8aa1-ca70c2839102",
+     "teamB": "2d:aaf34e24-bca5-4f2b-b8b7-43e5813f07d0",
+     "scoreA": 7,
+     "scoreB": 18
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+     "teamB": "2d:051dd506-dc08-4a43-9260-7be61bb14db2",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:96302204-500a-47b2-9c9e-44ab7797568f",
+     "teamB": "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:89adebca-3df8-4b1f-9d57-41d0079e3597",
+     "teamB": "2d:78dce5e7-3910-4aad-a25e-32f10b0eb60a",
+     "scoreA": 1,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+     "teamB": "2d:89adebca-3df8-4b1f-9d57-41d0079e3597",
+     "scoreA": 11,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "10u AA",
+     "teamA": "2d:78dce5e7-3910-4aad-a25e-32f10b0eb60a",
+     "teamB": "2d:96302204-500a-47b2-9c9e-44ab7797568f",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:051dd506-dc08-4a43-9260-7be61bb14db2",
+     "teamB": "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+     "teamB": "2d:96302204-500a-47b2-9c9e-44ab7797568f",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:aaf34e24-bca5-4f2b-b8b7-43e5813f07d0",
+     "teamB": "2d:89adebca-3df8-4b1f-9d57-41d0079e3597",
+     "scoreA": 3,
+     "scoreB": 14
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:78dce5e7-3910-4aad-a25e-32f10b0eb60a",
+     "teamB": "2d:635989a1-0760-44ed-8aa1-ca70c2839102",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:89adebca-3df8-4b1f-9d57-41d0079e3597",
+     "teamB": "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:635989a1-0760-44ed-8aa1-ca70c2839102",
+     "teamB": "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "10u AA",
+     "teamA": "2d:3a67aa95-a8da-460c-9b77-2cc69e579793",
+     "teamB": "2d:20bb1158-b5f5-4d72-9276-83016ab338f7",
+     "scoreA": 7,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:e5a8d9a2-2d76-4f46-9fc0-cc8bfc20aa59",
+     "teamB": "2d:b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
+     "scoreA": 16,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
+     "teamB": "2d:d5932dac-635f-4e93-a7be-f0c12dc980a1",
+     "scoreA": 16,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:89c17657-ed9b-48c9-b90a-debabb652e95",
+     "teamB": "2d:d5932dac-635f-4e93-a7be-f0c12dc980a1",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:0c7d411b-f998-4041-88e0-13feb0363130",
+     "teamB": "2d:e5a8d9a2-2d76-4f46-9fc0-cc8bfc20aa59",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:7bdd681c-3e59-4894-80e9-eb33a63df738",
+     "teamB": "2d:89c17657-ed9b-48c9-b90a-debabb652e95",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "11u AA",
+     "teamA": "2d:0c7d411b-f998-4041-88e0-13feb0363130",
+     "teamB": "2d:7bdd681c-3e59-4894-80e9-eb33a63df738",
+     "scoreA": 6,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:e5a8d9a2-2d76-4f46-9fc0-cc8bfc20aa59",
+     "teamB": "2d:89c17657-ed9b-48c9-b90a-debabb652e95",
+     "scoreA": 7,
+     "scoreB": 13
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
+     "teamB": "2d:d5932dac-635f-4e93-a7be-f0c12dc980a1",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:89c17657-ed9b-48c9-b90a-debabb652e95",
+     "teamB": "2d:0c7d411b-f998-4041-88e0-13feb0363130",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:7bdd681c-3e59-4894-80e9-eb33a63df738",
+     "teamB": "2d:b2cbf4b1-04e0-4733-bde4-b5601ee4cc86",
+     "scoreA": 17,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "11u AA",
+     "teamA": "2d:7bdd681c-3e59-4894-80e9-eb33a63df738",
+     "teamB": "2d:0c7d411b-f998-4041-88e0-13feb0363130",
+     "scoreA": 9,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+     "teamB": "2d:37e639aa-69f1-440b-b100-493bb6430df7",
+     "scoreA": 3,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+     "teamB": "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+     "teamB": "2d:37e639aa-69f1-440b-b100-493bb6430df7",
+     "scoreA": 14,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+     "teamB": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+     "scoreA": 6,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:a3a18668-cb51-480a-a262-112b8946937a",
+     "teamB": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+     "teamB": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+     "scoreA": 6,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:a3a18668-cb51-480a-a262-112b8946937a",
+     "teamB": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+     "scoreA": 10,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:ac94f9a2-da0c-4839-889c-74c295ee2148",
+     "teamB": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+     "scoreA": 1,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:ac94f9a2-da0c-4839-889c-74c295ee2148",
+     "teamB": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+     "teamB": "2d:88077be2-51df-44f4-ac76-eb443b3cac6f",
+     "scoreA": 9,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:a3a18668-cb51-480a-a262-112b8946937a",
+     "teamB": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+     "scoreA": 0,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+     "teamB": "2d:37e639aa-69f1-440b-b100-493bb6430df7",
+     "scoreA": 5,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+     "teamB": "2d:d1b663be-2d55-471d-abbb-2fe0cd6ccf9b",
+     "scoreA": 9,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:ac94f9a2-da0c-4839-889c-74c295ee2148",
+     "teamB": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+     "scoreA": 5,
+     "scoreB": 15
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:ef3aa862-76b1-4f48-bd88-f6cc335b8eae",
+     "teamB": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:206fb628-5b39-45a0-97f9-35c0d85ff458",
+     "teamB": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "12u Open",
+     "teamA": "2d:c4bf2e7e-3cb2-4e10-9821-f2c966a0c991",
+     "teamB": "2d:68837bfb-d3b1-4a96-b286-ec9af5ce871f",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+     "teamB": "2d:ddad7cf1-bea4-4f75-b9d7-a1b383b2cf25",
+     "scoreA": 4,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:79a4219b-5996-4839-9852-5bfeed3f2367",
+     "teamB": "2d:8397b714-33f9-48e0-a697-2fcd6e6a07cd",
+     "scoreA": 5,
+     "scoreB": 20
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+     "teamB": "2d:61ce0332-6a00-4134-ab54-af195f7aedb1",
+     "scoreA": 6,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:ddad7cf1-bea4-4f75-b9d7-a1b383b2cf25",
+     "teamB": "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:61ce0332-6a00-4134-ab54-af195f7aedb1",
+     "teamB": "2d:79a4219b-5996-4839-9852-5bfeed3f2367",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:8397b714-33f9-48e0-a697-2fcd6e6a07cd",
+     "teamB": "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "13u Open",
+     "teamA": "2d:ddad7cf1-bea4-4f75-b9d7-a1b383b2cf25",
+     "teamB": "2d:79a4219b-5996-4839-9852-5bfeed3f2367",
+     "scoreA": 12,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "13u Open",
+     "teamA": "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+     "teamB": "2d:e7648cbc-f4f8-446e-91d6-ad4792d5aee3",
+     "scoreA": 7,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "13u Open",
+     "teamA": "2d:ddad7cf1-bea4-4f75-b9d7-a1b383b2cf25",
+     "teamB": "2d:8397b714-33f9-48e0-a697-2fcd6e6a07cd",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "13u Open",
+     "teamA": "2d:61ce0332-6a00-4134-ab54-af195f7aedb1",
+     "teamB": "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "13u Open",
+     "teamA": "2d:73b5fe0a-08cf-4e5e-96ae-364531647c8d",
+     "teamB": "2d:8397b714-33f9-48e0-a697-2fcd6e6a07cd",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:ffda4a9d-fa3f-4e85-a2dc-7358d3926832",
+     "teamB": "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:ffda4a9d-fa3f-4e85-a2dc-7358d3926832",
+     "teamB": "2d:b4e5ab6d-baf0-4c3b-b11f-7ddda7c17087",
+     "scoreA": 8,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee",
+     "teamB": "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+     "scoreA": 6,
+     "scoreB": 12
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:b4e5ab6d-baf0-4c3b-b11f-7ddda7c17087",
+     "teamB": "2d:87387bed-b577-4648-9175-6513dc51fb50",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:87387bed-b577-4648-9175-6513dc51fb50",
+     "teamB": "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee",
+     "scoreA": 13,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:b4e5ab6d-baf0-4c3b-b11f-7ddda7c17087",
+     "teamB": "2d:7dc3b464-f28f-457b-94c7-ab37d588dfee",
+     "scoreA": 2,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:87387bed-b577-4648-9175-6513dc51fb50",
+     "teamB": "2d:f9a2a4f5-7d5b-43fa-afd7-cadc05a44a1d",
+     "scoreA": 7,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:ffda4a9d-fa3f-4e85-a2dc-7358d3926832",
+     "teamB": "2d:b4e5ab6d-baf0-4c3b-b11f-7ddda7c17087",
+     "scoreA": 5,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1910",
+     "eventName": "Bossier Halloween Championship, Powered by 643 Training",
+     "date": "2026-11-01",
+     "division": "14u Open",
+     "teamA": "2d:ffda4a9d-fa3f-4e85-a2dc-7358d3926832",
+     "teamB": "2d:87387bed-b577-4648-9175-6513dc51fb50",
+     "scoreA": 4,
+     "scoreB": 1
+    }
+   ]
+  },
   "1911": {
    "id": "1911",
    "name": "Ruston Fall Opener",
@@ -35043,6 +37118,437 @@
      "teamB": "2d:406dcc93-a851-48ba-9ebe-f4f2827da8b1",
      "scoreA": 9,
      "scoreB": 10
+    }
+   ]
+  },
+  "1924": {
+   "id": "1924",
+   "name": "Nashville Halloween Championship",
+   "startDate": "2026-10-31",
+   "endDate": "2026-11-01",
+   "final": false,
+   "teamKeys": [
+    "2d:0d77619f-69dc-4b99-a9e9-5c68dd4ac72c",
+    "2d:1359abe1-2be6-4eb6-9f57-d6f957a54b13",
+    "2d:1a4fa7a7-f3f3-4364-a8e6-1c25cdda2233",
+    "2d:29e07305-7ea6-42d7-8c71-e8cefe8016b2",
+    "2d:30a19308-8e23-4d1d-bfab-7816d420cb7a",
+    "2d:3430a492-f186-493e-b7bd-6d8342b01348",
+    "2d:35463052-c260-41bc-93fb-6ccef010462d",
+    "2d:406dcc93-a851-48ba-9ebe-f4f2827da8b1",
+    "2d:46eb8374-cdd4-4f0f-a0bc-0f91c12842cd",
+    "2d:4734b8bc-c6c8-4cd2-886e-49ea340ca6ac",
+    "2d:507e3f92-b214-426f-aeee-cc6fd25f207e",
+    "2d:585abcb8-8f6f-471f-828e-ab24318b8f1a",
+    "2d:8ad9be74-997c-4d17-890a-b20542518f06",
+    "2d:8c8e4c94-6826-4a9c-8f7b-543394f581f5",
+    "2d:9101af57-2aa4-48b1-870d-d70a35e03335",
+    "2d:9233a075-ba80-415a-ac78-8ac33799c074",
+    "2d:a13949bd-cda0-4cae-ab5f-f3a91f8031c8",
+    "2d:a36fc77d-e39b-4dda-a9ed-0e932d8a8ff9",
+    "2d:a51f182b-f7fe-4fb2-92c4-d6676a053307",
+    "2d:a77f1a64-b08d-4a0f-a4d4-f868dd48ddb9",
+    "2d:ab2c1dc5-c86a-485c-a227-b0afabedfc8f",
+    "2d:adc35235-a783-4a1f-bd48-2a5fcaf62168",
+    "2d:c2722d5d-c7eb-49e1-9970-d5146fe58310",
+    "2d:cc4c6eb4-b42e-4165-a24c-d56fdebe472f",
+    "2d:cd3d35f9-0f26-4a61-a17f-5958017157d0",
+    "2d:d0fabcd2-f03a-4ee8-81f0-22644bd21251",
+    "2d:d51e1f33-9714-4255-b8c6-a8ed07410666",
+    "2d:daa0ab6e-f734-40d7-aa37-fac10a66c979",
+    "2d:dfb5a33f-54ad-4088-89fd-911bc82818fa",
+    "2d:e36cdfa5-2892-4fbc-8a45-7df8665d0d6a",
+    "2d:ee9e29e3-a255-4db9-a26f-3ab13661a836",
+    "2d:ef8dcb98-0a02-4395-a036-1751ce223357",
+    "2d:f18f8b14-e71e-4035-8c76-f7e8109cc1f0",
+    "2d:f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4",
+    "2d:f9501bf8-2434-4db8-91b7-7d392936b992"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "10u Open",
+     "teamA": "2d:ab2c1dc5-c86a-485c-a227-b0afabedfc8f",
+     "teamB": "2d:29e07305-7ea6-42d7-8c71-e8cefe8016b2",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "10u Open",
+     "teamA": "2d:ab2c1dc5-c86a-485c-a227-b0afabedfc8f",
+     "teamB": "2d:ee9e29e3-a255-4db9-a26f-3ab13661a836",
+     "scoreA": 4,
+     "scoreB": 13
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "10u Open",
+     "teamA": "2d:9101af57-2aa4-48b1-870d-d70a35e03335",
+     "teamB": "2d:29e07305-7ea6-42d7-8c71-e8cefe8016b2",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "10u Open",
+     "teamA": "2d:ee9e29e3-a255-4db9-a26f-3ab13661a836",
+     "teamB": "2d:9101af57-2aa4-48b1-870d-d70a35e03335",
+     "scoreA": 10,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:cc4c6eb4-b42e-4165-a24c-d56fdebe472f",
+     "teamB": "2d:30a19308-8e23-4d1d-bfab-7816d420cb7a",
+     "scoreA": 13,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:46eb8374-cdd4-4f0f-a0bc-0f91c12842cd",
+     "teamB": "2d:a13949bd-cda0-4cae-ab5f-f3a91f8031c8",
+     "scoreA": 4,
+     "scoreB": 11
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:30a19308-8e23-4d1d-bfab-7816d420cb7a",
+     "teamB": "2d:c2722d5d-c7eb-49e1-9970-d5146fe58310",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:a13949bd-cda0-4cae-ab5f-f3a91f8031c8",
+     "teamB": "2d:dfb5a33f-54ad-4088-89fd-911bc82818fa",
+     "scoreA": 10,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:cc4c6eb4-b42e-4165-a24c-d56fdebe472f",
+     "teamB": "2d:46eb8374-cdd4-4f0f-a0bc-0f91c12842cd",
+     "scoreA": 15,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:8ad9be74-997c-4d17-890a-b20542518f06",
+     "teamB": "2d:585abcb8-8f6f-471f-828e-ab24318b8f1a",
+     "scoreA": 13,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:8ad9be74-997c-4d17-890a-b20542518f06",
+     "teamB": "2d:c2722d5d-c7eb-49e1-9970-d5146fe58310",
+     "scoreA": 5,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "11u Open",
+     "teamA": "2d:585abcb8-8f6f-471f-828e-ab24318b8f1a",
+     "teamB": "2d:dfb5a33f-54ad-4088-89fd-911bc82818fa",
+     "scoreA": 3,
+     "scoreB": 7
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:0d77619f-69dc-4b99-a9e9-5c68dd4ac72c",
+     "teamB": "2d:e36cdfa5-2892-4fbc-8a45-7df8665d0d6a",
+     "scoreA": 9,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:8c8e4c94-6826-4a9c-8f7b-543394f581f5",
+     "teamB": "2d:a51f182b-f7fe-4fb2-92c4-d6676a053307",
+     "scoreA": 18,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:e36cdfa5-2892-4fbc-8a45-7df8665d0d6a",
+     "teamB": "2d:cd3d35f9-0f26-4a61-a17f-5958017157d0",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:8c8e4c94-6826-4a9c-8f7b-543394f581f5",
+     "teamB": "2d:3430a492-f186-493e-b7bd-6d8342b01348",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:0d77619f-69dc-4b99-a9e9-5c68dd4ac72c",
+     "teamB": "2d:a51f182b-f7fe-4fb2-92c4-d6676a053307",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "12u Open",
+     "teamA": "2d:3430a492-f186-493e-b7bd-6d8342b01348",
+     "teamB": "2d:cd3d35f9-0f26-4a61-a17f-5958017157d0",
+     "scoreA": 4,
+     "scoreB": 9
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:a36fc77d-e39b-4dda-a9ed-0e932d8a8ff9",
+     "teamB": "2d:f9501bf8-2434-4db8-91b7-7d392936b992",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:d51e1f33-9714-4255-b8c6-a8ed07410666",
+     "teamB": "2d:507e3f92-b214-426f-aeee-cc6fd25f207e",
+     "scoreA": 2,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:1359abe1-2be6-4eb6-9f57-d6f957a54b13",
+     "teamB": "2d:f9501bf8-2434-4db8-91b7-7d392936b992",
+     "scoreA": 7,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:d51e1f33-9714-4255-b8c6-a8ed07410666",
+     "teamB": "2d:4734b8bc-c6c8-4cd2-886e-49ea340ca6ac",
+     "scoreA": 12,
+     "scoreB": 15
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:a36fc77d-e39b-4dda-a9ed-0e932d8a8ff9",
+     "teamB": "2d:daa0ab6e-f734-40d7-aa37-fac10a66c979",
+     "scoreA": 14,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:507e3f92-b214-426f-aeee-cc6fd25f207e",
+     "teamB": "2d:35463052-c260-41bc-93fb-6ccef010462d",
+     "scoreA": 11,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:1359abe1-2be6-4eb6-9f57-d6f957a54b13",
+     "teamB": "2d:daa0ab6e-f734-40d7-aa37-fac10a66c979",
+     "scoreA": 17,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "13u Open",
+     "teamA": "2d:4734b8bc-c6c8-4cd2-886e-49ea340ca6ac",
+     "teamB": "2d:35463052-c260-41bc-93fb-6ccef010462d",
+     "scoreA": 8,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:d0fabcd2-f03a-4ee8-81f0-22644bd21251",
+     "teamB": "2d:f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:406dcc93-a851-48ba-9ebe-f4f2827da8b1",
+     "teamB": "2d:9233a075-ba80-415a-ac78-8ac33799c074",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:adc35235-a783-4a1f-bd48-2a5fcaf62168",
+     "teamB": "2d:f18f8b14-e71e-4035-8c76-f7e8109cc1f0",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:1a4fa7a7-f3f3-4364-a8e6-1c25cdda2233",
+     "teamB": "2d:d0fabcd2-f03a-4ee8-81f0-22644bd21251",
+     "scoreA": 6,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:406dcc93-a851-48ba-9ebe-f4f2827da8b1",
+     "teamB": "2d:ef8dcb98-0a02-4395-a036-1751ce223357",
+     "scoreA": 13,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:a77f1a64-b08d-4a0f-a4d4-f868dd48ddb9",
+     "teamB": "2d:adc35235-a783-4a1f-bd48-2a5fcaf62168",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:f45eafce-f9d4-4dda-8cd0-78db4bc5cbd4",
+     "teamB": "2d:1a4fa7a7-f3f3-4364-a8e6-1c25cdda2233",
+     "scoreA": 13,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:ef8dcb98-0a02-4395-a036-1751ce223357",
+     "teamB": "2d:9233a075-ba80-415a-ac78-8ac33799c074",
+     "scoreA": 4,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1924",
+     "eventName": "Nashville Halloween Championship",
+     "date": "2026-10-31",
+     "division": "14u Open",
+     "teamA": "2d:a77f1a64-b08d-4a0f-a4d4-f868dd48ddb9",
+     "teamB": "2d:f18f8b14-e71e-4035-8c76-f7e8109cc1f0",
+     "scoreA": 11,
+     "scoreB": 1
     }
    ]
   },
