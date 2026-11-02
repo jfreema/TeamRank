@@ -454,12 +454,12 @@
   },
   "otc:7055": {
    "key": "otc:7055",
-   "name": "New Orleans Renegades - Howell",
+   "name": "Nola Renegades- Howell",
    "city": "Kenner",
    "state": "LA",
-   "ageClass": "11U-AA",
+   "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7055",
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7055-new-orleans-renegades-howell.png?v=1"
+   "logo": ""
   },
   "otc:7056": {
    "key": "otc:7056",
@@ -6075,6 +6075,17 @@
      "eventId": "1155",
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:6958",
+     "teamB": "otc:7340",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
      "division": "10U-AA",
      "teamA": "otc:7027",
      "teamB": "otc:7029",
@@ -6098,10 +6109,43 @@
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
      "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7081",
+     "scoreA": 9,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
      "teamA": "otc:7029",
      "teamB": "otc:7228",
      "scoreA": 3,
      "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7320",
+     "teamB": "otc:7029",
+     "scoreA": 9,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7031",
+     "teamB": "otc:7128",
+     "scoreA": 12,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -6120,10 +6164,43 @@
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
      "division": "14U-OPEN 60/90",
+     "teamA": "otc:7031",
+     "teamB": "otc:7296",
+     "scoreA": 8,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
      "teamA": "otc:7329",
      "teamB": "otc:7031",
      "scoreA": 5,
      "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7349",
+     "teamB": "otc:7031",
+     "scoreA": 3,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7054",
+     "teamB": "otc:7040",
+     "scoreA": 4,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -6135,6 +6212,17 @@
      "teamB": "otc:7040",
      "scoreA": 5,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7040",
+     "teamB": "otc:7229",
+     "scoreA": 11,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -6174,6 +6262,28 @@
      "eventId": "1155",
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7228",
+     "teamB": "otc:7049",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7055",
+     "teamB": "otc:7054",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
      "division": "11U-AA",
      "teamA": "otc:7054",
      "teamB": "otc:7105",
@@ -6197,6 +6307,17 @@
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
      "division": "11U-AA",
+     "teamA": "otc:7055",
+     "teamB": "otc:7105",
+     "scoreA": 6,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
      "teamA": "otc:7229",
      "teamB": "otc:7055",
      "scoreA": 1,
@@ -6208,10 +6329,54 @@
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
      "division": "10U-AA",
+     "teamA": "otc:7081",
+     "teamB": "otc:7080",
+     "scoreA": 3,
+     "scoreB": 15
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
      "teamA": "otc:7103",
      "teamB": "otc:7080",
      "scoreA": 12,
      "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7115",
+     "scoreA": 11,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7320",
+     "scoreA": 9,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7081",
+     "scoreA": 5,
+     "scoreB": 7
     },
     {
      "source": "otc",
@@ -6253,9 +6418,42 @@
      "date": "2026-10-31",
      "division": "14U-OPEN 60/90",
      "teamA": "otc:7088",
+     "teamB": "otc:7296",
+     "scoreA": 0,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7088",
+     "teamB": "otc:7348",
+     "scoreA": 10,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7088",
      "teamB": "otc:7348",
      "scoreA": 19,
      "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "11U-AA",
+     "teamA": "otc:7105",
+     "teamB": "otc:7185",
+     "scoreA": 12,
+     "scoreB": 0
     },
     {
      "source": "otc",
@@ -6285,10 +6483,32 @@
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
      "division": "14U-OPEN 60/90",
+     "teamA": "otc:7112",
+     "teamB": "otc:7175",
+     "scoreA": 14,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
      "teamA": "otc:7349",
      "teamB": "otc:7112",
      "scoreA": 13,
      "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7349",
+     "teamB": "otc:7112",
+     "scoreA": 13,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -6328,6 +6548,28 @@
      "eventId": "1155",
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
+     "division": "10U-AA",
+     "teamA": "otc:7320",
+     "teamB": "otc:7228",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:7302",
+     "teamB": "otc:7252",
+     "scoreA": 16,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
      "division": "12U-AA",
      "teamA": "otc:7340",
      "teamB": "otc:7252",
@@ -6350,11 +6592,44 @@
      "eventId": "1155",
      "eventName": "Baton Rouge Boneyard Bash!",
      "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7345",
+     "teamB": "otc:7296",
+     "scoreA": 2,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
      "division": "12U-AA",
      "teamA": "otc:7302",
      "teamB": "otc:7340",
      "scoreA": 11,
      "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "12U-AA",
+     "teamA": "otc:7302",
+     "teamB": "otc:7340",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1155",
+     "eventName": "Baton Rouge Boneyard Bash!",
+     "date": "2026-10-31",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7329",
+     "teamB": "otc:7348",
+     "scoreA": 1,
+     "scoreB": 5
     },
     {
      "source": "otc",
