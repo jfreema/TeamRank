@@ -42340,7 +42340,7 @@
    "name": "Monster Mash (Sat Only) Priceville",
    "startDate": "2026-10-31",
    "endDate": "2026-10-31",
-   "final": false,
+   "final": true,
    "teamKeys": [],
    "games": []
   },

@@ -44,6 +44,24 @@
   }
  },
  "events": {
+  "728020": {
+   "id": "728020",
+   "name": "Nov 7-8 UACS Fall State Tournament",
+   "startDate": "",
+   "endDate": "",
+   "final": false,
+   "teamKeys": [],
+   "games": []
+  },
+  "728022": {
+   "id": "728022",
+   "name": "Nov 7-8 UACS Fall State Tournament",
+   "startDate": "",
+   "endDate": "",
+   "final": false,
+   "teamKeys": [],
+   "games": []
+  },
   "728425": {
    "id": "728425",
    "name": "October 24-25 Halloween HAVOC",

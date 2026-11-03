@@ -5130,7 +5130,7 @@
    "state": "MS",
    "ageClass": "10 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31626",
-   "logo": ""
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31626-ms-orioles-10u-brice.png?v=1"
   },
   "gs:31627": {
    "key": "gs:31627",
@@ -5148,7 +5148,7 @@
    "state": "MS",
    "ageClass": "12 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31628",
-   "logo": ""
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31628-ms-orioles-12u-brice.png?v=1"
   },
   "gs:31630": {
    "key": "gs:31630",
@@ -5157,7 +5157,7 @@
    "state": "MS",
    "ageClass": "13 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31630",
-   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31630-ms-orioles-13u-johnson.jpg?v=1"
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31630-ms-orioles-13u-johnson.png?v=2"
   },
   "gs:31632": {
    "key": "gs:31632",
@@ -28077,7 +28077,7 @@
    "name": "82 CHALLENGE GHOST & GOBLINS ( FRIDAY NIGHT AND SATURDAY ONLY )",
    "startDate": "2026-10-30",
    "endDate": "2026-10-31",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30832",
     "gs:30882",
@@ -45317,7 +45317,7 @@
    "name": "Winston County Slugfest (Saturday only)",
    "startDate": "2026-10-30",
    "endDate": "2026-10-31",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30877",
     "gs:30943",
@@ -52013,7 +52013,7 @@
    "name": "Field of Fears",
    "startDate": "2026-10-31",
    "endDate": "2026-10-31",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31272",
     "gs:31387",
@@ -52492,7 +52492,7 @@
    "name": "Field of Fears at Cornerstone",
    "startDate": "2026-10-31",
    "endDate": "2026-10-31",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31232",
     "gs:31298",
