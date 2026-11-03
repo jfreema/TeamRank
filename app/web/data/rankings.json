@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T11:58:35.875024Z",
+ "generatedAt": "2026-11-03T14:42:53.198959Z",
  "season": "2026-27",
  "state": "LA",
  "method": "colley+h2h",
@@ -6174,7 +6174,7 @@
      "key": "gs:32051",
      "source": "gs",
      "name": "Reign Baseball",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "url": "https://grandslamtournaments.com/baseball/Teams/Details/32051"
     },
     {
@@ -17804,7 +17804,7 @@
      "key": "gs:31087",
      "source": "gs",
      "name": "Louisiana Jr. Riverdogs- Mills",
-     "ageClass": "10 & Under A",
+     "ageClass": "10 & Under AA",
      "url": "https://grandslamtournaments.com/baseball/Teams/Details/31087"
     },
     {
@@ -18125,7 +18125,7 @@
   {
    "id": "gs:31455",
    "name": "River City Royals-Hickman 9u",
-   "city": "Sterlington, La",
+   "city": "Sterlington",
    "state": "LA",
    "age": 9,
    "rank": null,
@@ -47223,7 +47223,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {
@@ -50920,7 +50920,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {
@@ -51222,7 +51222,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     }
    ]
@@ -51445,7 +51445,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {
@@ -51466,7 +51466,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {
@@ -51487,7 +51487,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {
@@ -51508,7 +51508,7 @@
      "name": "Reign Baseball",
      "city": "Chalmette",
      "state": "LA",
-     "ageClass": "13 & Under A",
+     "ageClass": "13 & Under AA",
      "games": 3
     },
     {

@@ -3067,7 +3067,7 @@
    "name": "Louisiana Jr. Riverdogs- Mills",
    "city": "Oak Grove",
    "state": "LA",
-   "ageClass": "10 & Under A",
+   "ageClass": "10 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31087",
    "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31087-louisiana-jr-riverdogs-mills.jpeg?v=1"
   },
@@ -4442,7 +4442,7 @@
   "gs:31455": {
    "key": "gs:31455",
    "name": "River City Royals-Hickman 9u",
-   "city": "Sterlington, LA",
+   "city": "Sterlington",
    "state": "LA",
    "ageClass": "9 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31455",
@@ -6721,7 +6721,7 @@
    "name": "Reign Baseball",
    "city": "Chalmette",
    "state": "LA",
-   "ageClass": "13 & Under A",
+   "ageClass": "13 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32051",
    "logo": ""
   },
@@ -61089,6 +61089,15 @@
    "name": "",
    "startDate": "2027-04-16",
    "endDate": "2027-04-17",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5097": {
+   "id": "5097",
+   "name": "",
+   "startDate": "2027-05-21",
+   "endDate": "2027-05-22",
    "final": true,
    "teamKeys": [],
    "games": []
