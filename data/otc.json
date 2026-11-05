@@ -6015,7 +6015,7 @@
    "name": "Baton Rouge Boneyard Bash!",
    "startDate": "2026-10-31",
    "endDate": "2026-11-01",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6958",
     "otc:7027",

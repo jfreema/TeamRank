@@ -15900,7 +15900,7 @@
    "name": "Coastal MS Haunted Nights at the Sportsplex - supporting Rally for Rhett!!!",
    "startDate": "2026-10-30",
    "endDate": "2026-11-01",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30964",
     "gs:31187",
@@ -43603,7 +43603,7 @@
    "name": "Central MS - Field of Fears - Presented by Triple Play Sports",
    "startDate": "2026-10-31",
    "endDate": "2026-11-01",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30803",
     "gs:30822",
@@ -57044,7 +57044,7 @@
    "name": "South MS - Halloween Bash",
    "startDate": "2026-10-31",
    "endDate": "2026-11-01",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30959",
     "gs:30963",
@@ -59079,10 +59079,10 @@
   },
   "4873": {
    "id": "4873",
-   "name": "",
+   "name": "Super Slam- Turf Warz Classic IV",
    "startDate": "2027-03-20",
    "endDate": "2027-03-21",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
@@ -59097,10 +59097,10 @@
   },
   "4875": {
    "id": "4875",
-   "name": "",
+   "name": "I-20 Turf Showdown",
    "startDate": "2027-04-03",
    "endDate": "2027-04-04",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
@@ -59151,10 +59151,10 @@
   },
   "4881": {
    "id": "4881",
-   "name": "",
+   "name": "North Louisiana Super NIT",
    "startDate": "2027-06-05",
    "endDate": "2027-06-06",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
@@ -59286,10 +59286,10 @@
   },
   "4896": {
    "id": "4896",
-   "name": "",
+   "name": "Battle at The Panther Den",
    "startDate": "2026-11-21",
    "endDate": "2026-11-21",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
@@ -61095,9 +61095,45 @@
   },
   "5097": {
    "id": "5097",
-   "name": "",
+   "name": "Sterlington Friday Night / Saturday Series Championship",
    "startDate": "2027-05-21",
    "endDate": "2027-05-22",
+   "final": false,
+   "teamKeys": [],
+   "games": []
+  },
+  "5098": {
+   "id": "5098",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5099": {
+   "id": "5099",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5100": {
+   "id": "5100",
+   "name": "",
+   "startDate": "2027-03-12",
+   "endDate": "2027-03-14",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5101": {
+   "id": "5101",
+   "name": "",
+   "startDate": "2027-03-05",
+   "endDate": "2027-03-06",
    "final": true,
    "teamKeys": [],
    "games": []
