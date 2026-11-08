@@ -2,6 +2,70 @@
  "source": "uacs",
  "season": "2026-27",
  "teams": {
+  "uacs:bandits|12": {
+   "key": "uacs:bandits|12",
+   "name": "Bandits 12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:carrollton-select|11": {
+   "key": "uacs:carrollton-select|11",
+   "name": "Carrollton Select 11U",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
+  "uacs:cba-blue|12": {
+   "key": "uacs:cba-blue|12",
+   "name": "CBA Blue 12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:cba-red|11": {
+   "key": "uacs:cba-red|11",
+   "name": "CBA Red 11u",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
+  "uacs:destrehan-cannons|11": {
+   "key": "uacs:destrehan-cannons|11",
+   "name": "Destrehan Cannons 11u",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
+  "uacs:diamond|12": {
+   "key": "uacs:diamond|12",
+   "name": "Diamond Baseball 12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:farm-system-prospects-hebert|12": {
+   "key": "uacs:farm-system-prospects-hebert|12",
+   "name": "Farm System Prospects 11U - Hebert",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:louisiana-catahoulas|11": {
+   "key": "uacs:louisiana-catahoulas|11",
+   "name": "Louisiana Catahoulas 11u",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
   "uacs:myb-green|12": {
    "key": "uacs:myb-green|12",
    "name": "MYB Green 12u",
@@ -15,8 +79,40 @@
    "name": "MYB Navy 12u",
    "city": "",
    "state": "LA",
-   "ageClass": "12u- Open",
-   "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:new-orleans-naturals-blue|12": {
+   "key": "uacs:new-orleans-naturals-blue|12",
+   "name": "New Orleans Naturals Blue-12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:new-orleans-renegades-cunningham|11": {
+   "key": "uacs:new-orleans-renegades-cunningham|11",
+   "name": "New Orleans Renegades-Cunningham",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
+  "uacs:new-orleans-renegades-howell|11": {
+   "key": "uacs:new-orleans-renegades-howell|11",
+   "name": "New Orleans Renegades 11U Howell",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
+  },
+  "uacs:party-animals|11": {
+   "key": "uacs:party-animals|11",
+   "name": "Party Animals 11u",
+   "city": "",
+   "state": "",
+   "ageClass": "11u-Open",
+   "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
   "uacs:river-bandits|12": {
    "key": "uacs:river-bandits|12",
@@ -41,26 +137,226 @@
    "state": "LA",
    "ageClass": "12u- Open",
    "url": "https://www.uacssports.com/schedule/728425/12u-Open"
+  },
+  "uacs:st-bernard-braves|12": {
+   "key": "uacs:st-bernard-braves|12",
+   "name": "St Bernard Braves-12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
+  },
+  "uacs:stars-and-stripes|12": {
+   "key": "uacs:stars-and-stripes|12",
+   "name": "Stars & Stripes 12u",
+   "city": "",
+   "state": "",
+   "ageClass": "12u-Open",
+   "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   }
  },
  "events": {
   "728020": {
    "id": "728020",
    "name": "Nov 7-8 UACS Fall State Tournament",
-   "startDate": "",
-   "endDate": "",
+   "startDate": "2026-11-07",
+   "endDate": "2026-11-07",
    "final": false,
-   "teamKeys": [],
-   "games": []
+   "teamKeys": [
+    "uacs:carrollton-select|11",
+    "uacs:cba-red|11",
+    "uacs:destrehan-cannons|11",
+    "uacs:louisiana-catahoulas|11",
+    "uacs:new-orleans-renegades-cunningham|11",
+    "uacs:new-orleans-renegades-howell|11",
+    "uacs:party-animals|11"
+   ],
+   "games": [
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:new-orleans-renegades-cunningham|11",
+     "teamB": "uacs:new-orleans-renegades-howell|11",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:carrollton-select|11",
+     "teamB": "uacs:new-orleans-renegades-cunningham|11",
+     "scoreA": 4,
+     "scoreB": 10
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:new-orleans-renegades-howell|11",
+     "teamB": "uacs:carrollton-select|11",
+     "scoreA": 4,
+     "scoreB": 2
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:destrehan-cannons|11",
+     "teamB": "uacs:louisiana-catahoulas|11",
+     "scoreA": 0,
+     "scoreB": 9
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:cba-red|11",
+     "teamB": "uacs:destrehan-cannons|11",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:louisiana-catahoulas|11",
+     "teamB": "uacs:party-animals|11",
+     "scoreA": 5,
+     "scoreB": 5
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "11u-Open",
+     "teamA": "uacs:party-animals|11",
+     "teamB": "uacs:cba-red|11",
+     "scoreA": 8,
+     "scoreB": 0
+    }
+   ]
   },
   "728022": {
    "id": "728022",
    "name": "Nov 7-8 UACS Fall State Tournament",
-   "startDate": "",
-   "endDate": "",
+   "startDate": "2026-11-07",
+   "endDate": "2026-11-07",
    "final": false,
-   "teamKeys": [],
-   "games": []
+   "teamKeys": [
+    "uacs:bandits|12",
+    "uacs:cba-blue|12",
+    "uacs:diamond|12",
+    "uacs:farm-system-prospects-hebert|12",
+    "uacs:myb-navy|12",
+    "uacs:new-orleans-naturals-blue|12",
+    "uacs:st-bernard-braves|12",
+    "uacs:stars-and-stripes|12"
+   ],
+   "games": [
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:stars-and-stripes|12",
+     "teamB": "uacs:cba-blue|12",
+     "scoreA": 7,
+     "scoreB": 3
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:cba-blue|12",
+     "teamB": "uacs:st-bernard-braves|12",
+     "scoreA": 9,
+     "scoreB": 9
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:bandits|12",
+     "teamB": "uacs:stars-and-stripes|12",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:st-bernard-braves|12",
+     "teamB": "uacs:bandits|12",
+     "scoreA": 1,
+     "scoreB": 14
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:diamond|12",
+     "teamB": "uacs:new-orleans-naturals-blue|12",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:farm-system-prospects-hebert|12",
+     "teamB": "uacs:diamond|12",
+     "scoreA": 9,
+     "scoreB": 3
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:new-orleans-naturals-blue|12",
+     "teamB": "uacs:myb-navy|12",
+     "scoreA": 8,
+     "scoreB": 14
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-07",
+     "division": "12u-Open",
+     "teamA": "uacs:myb-navy|12",
+     "teamB": "uacs:farm-system-prospects-hebert|12",
+     "scoreA": 5,
+     "scoreB": 4
+    }
+   ]
   },
   "728425": {
    "id": "728425",

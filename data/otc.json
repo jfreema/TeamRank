@@ -209,6 +209,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6997",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6997-la-havoc-price.jpeg?v=1"
   },
+  "otc:7001": {
+   "key": "otc:7001",
+   "name": "Southern Sting",
+   "city": "Paradis",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7001",
+   "logo": ""
+  },
   "otc:7003": {
    "key": "otc:7003",
    "name": "Deleted",
@@ -352,6 +361,15 @@
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7031",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7031-mandeville-revolution.jpg?v=1"
+  },
+  "otc:7032": {
+   "key": "otc:7032",
+   "name": "Mandeville Revolution",
+   "city": "Mandeville",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7032",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7032-mandeville-revolution.jpg?v=1"
   },
   "otc:7034": {
    "key": "otc:7034",
@@ -497,6 +515,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7061",
    "logo": ""
   },
+  "otc:7063": {
+   "key": "otc:7063",
+   "name": "Chappapeela Chiefs",
+   "city": "Ponchatoula",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7063",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7063-chappapeela-chiefs.png?v=1"
+  },
   "otc:7066": {
    "key": "otc:7066",
    "name": "Chappapeela Chiefs - Navy",
@@ -567,7 +594,7 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7083",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7083-legendz-baseball-stablier.jpg?v=1"
   },
   "otc:7084": {
    "key": "otc:7084",
@@ -614,6 +641,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7098",
    "logo": ""
   },
+  "otc:7100": {
+   "key": "otc:7100",
+   "name": "Pontchartrain Patriots",
+   "city": "Madisonville",
+   "state": "LA",
+   "ageClass": "12U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7100",
+   "logo": ""
+  },
   "otc:7103": {
    "key": "otc:7103",
    "name": "Saints - Bozeman",
@@ -648,6 +684,15 @@
    "state": "LA",
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7115",
+   "logo": ""
+  },
+  "otc:7117": {
+   "key": "otc:7117",
+   "name": "La Diamond Cutters",
+   "city": "Franklinton",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7117",
    "logo": ""
   },
   "otc:7121": {
@@ -803,6 +848,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7156",
    "logo": ""
   },
+  "otc:7157": {
+   "key": "otc:7157",
+   "name": "Louisiana Lions",
+   "city": "Denham Springs",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7157",
+   "logo": ""
+  },
   "otc:7158": {
    "key": "otc:7158",
    "name": "Slidell Raptors",
@@ -820,6 +874,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7160",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7160-party-animals.jpeg?v=1"
+  },
+  "otc:7162": {
+   "key": "otc:7162",
+   "name": "Voodoo Baseball - Gold",
+   "city": "Youngsville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7162",
+   "logo": ""
   },
   "otc:7165": {
    "key": "otc:7165",
@@ -1305,7 +1368,16 @@
    "state": "LA",
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7289",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7289-lba-naturals-blue.jpg?v=1"
+  },
+  "otc:7294": {
+   "key": "otc:7294",
+   "name": "LBA Naturals - Blue",
+   "city": "Schriever",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7294",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7294-lba-naturals-blue.jpg?v=1"
   },
   "otc:7296": {
    "key": "otc:7296",
@@ -1324,6 +1396,15 @@
    "ageClass": "13U-AAA 54/80",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7299",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7299-acadiana-blue-jays.jpeg?v=1"
+  },
+  "otc:7300": {
+   "key": "otc:7300",
+   "name": "Louisiana Kinetic Baseball",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7300",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7300-louisiana-kinetic-baseball.png?v=1"
   },
   "otc:7302": {
    "key": "otc:7302",
@@ -1361,6 +1442,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7307",
    "logo": ""
   },
+  "otc:7311": {
+   "key": "otc:7311",
+   "name": "MS RedHawks",
+   "city": "Sumrall",
+   "state": "MS",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7311",
+   "logo": ""
+  },
+  "otc:7316": {
+   "key": "otc:7316",
+   "name": "S.L. Select - Savoie",
+   "city": "Houma",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7316",
+   "logo": ""
+  },
   "otc:7317": {
    "key": "otc:7317",
    "name": "LA Diamond Dawgs",
@@ -1387,6 +1486,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7320",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7320-la-nationals-bourgeois.jpg?v=1"
+  },
+  "otc:7322": {
+   "key": "otc:7322",
+   "name": "LA Kings",
+   "city": "Lafayette",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7322",
+   "logo": ""
   },
   "otc:7323": {
    "key": "otc:7323",
@@ -1451,6 +1559,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7340",
    "logo": ""
   },
+  "otc:7342": {
+   "key": "otc:7342",
+   "name": "NOLA Chill",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7342",
+   "logo": ""
+  },
   "otc:7345": {
    "key": "otc:7345",
    "name": "Team Louisiana Navy",
@@ -1476,6 +1593,33 @@
    "state": "LA",
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7349",
+   "logo": ""
+  },
+  "otc:7351": {
+   "key": "otc:7351",
+   "name": "New Orleans Sun Devils",
+   "city": "Kenner",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7351",
+   "logo": ""
+  },
+  "otc:7362": {
+   "key": "otc:7362",
+   "name": "CannonBallers",
+   "city": "Laurel",
+   "state": "MS",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7362",
+   "logo": ""
+  },
+  "otc:7364": {
+   "key": "otc:7364",
+   "name": "Nola Monarchs",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7364",
    "logo": ""
   }
  },
@@ -5373,6 +5517,546 @@
      "teamB": "otc:7307",
      "scoreA": 4,
      "scoreB": 3
+    }
+   ]
+  },
+  "1145": {
+   "id": "1145",
+   "name": "Mashing For Our Military - Hammond!",
+   "startDate": "2026-11-07",
+   "endDate": "2026-11-08",
+   "final": false,
+   "teamKeys": [
+    "otc:6939",
+    "otc:6951",
+    "otc:6953",
+    "otc:6968",
+    "otc:6978",
+    "otc:6979",
+    "otc:6980",
+    "otc:6997",
+    "otc:7001",
+    "otc:7004",
+    "otc:7006",
+    "otc:7007",
+    "otc:7017",
+    "otc:7022",
+    "otc:7023",
+    "otc:7027",
+    "otc:7032",
+    "otc:7045",
+    "otc:7049",
+    "otc:7059",
+    "otc:7063",
+    "otc:7083",
+    "otc:7096",
+    "otc:7100",
+    "otc:7103",
+    "otc:7117",
+    "otc:7131",
+    "otc:7152",
+    "otc:7157",
+    "otc:7160",
+    "otc:7162",
+    "otc:7188",
+    "otc:7218",
+    "otc:7256",
+    "otc:7272",
+    "otc:7289",
+    "otc:7294",
+    "otc:7300",
+    "otc:7311",
+    "otc:7316",
+    "otc:7322",
+    "otc:7342",
+    "otc:7351",
+    "otc:7362",
+    "otc:7364"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6997",
+     "teamB": "otc:6939",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6939",
+     "teamB": "otc:7160",
+     "scoreA": 2,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7023",
+     "teamB": "otc:6951",
+     "scoreA": 4,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6951",
+     "teamB": "otc:7045",
+     "scoreA": 5,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:6953",
+     "scoreA": 6,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:7027",
+     "scoreA": 17,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:6968",
+     "teamB": "otc:7152",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7188",
+     "teamB": "otc:6968",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:6978",
+     "teamB": "otc:6980",
+     "scoreA": 15,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7001",
+     "teamB": "otc:6978",
+     "scoreA": 3,
+     "scoreB": 22
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7006",
+     "teamB": "otc:6979",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6979",
+     "teamB": "otc:7131",
+     "scoreA": 9,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:6980",
+     "teamB": "otc:7256",
+     "scoreA": 15,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7049",
+     "teamB": "otc:6997",
+     "scoreA": 24,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7256",
+     "teamB": "otc:7001",
+     "scoreA": 3,
+     "scoreB": 24
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7004",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7004",
+     "teamB": "otc:7162",
+     "scoreA": 12,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7131",
+     "teamB": "otc:7006",
+     "scoreA": 18,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7007",
+     "teamB": "otc:7059",
+     "scoreA": 3,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7342",
+     "teamB": "otc:7007",
+     "scoreA": 2,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7322",
+     "teamB": "otc:7017",
+     "scoreA": 6,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7096",
+     "teamB": "otc:7022",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7022",
+     "teamB": "otc:7100",
+     "scoreA": 0,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7289",
+     "teamB": "otc:7023",
+     "scoreA": 1,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7049",
+     "scoreA": 7,
+     "scoreB": 19
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7032",
+     "teamB": "otc:7362",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7045",
+     "teamB": "otc:7316",
+     "scoreA": 12,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7059",
+     "teamB": "otc:7342",
+     "scoreA": 15,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7162",
+     "teamB": "otc:7063",
+     "scoreA": 14,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7063",
+     "teamB": "otc:7300",
+     "scoreA": 4,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7083",
+     "teamB": "otc:7311",
+     "scoreA": 2,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7351",
+     "teamB": "otc:7083",
+     "scoreA": 9,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7152",
+     "teamB": "otc:7096",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7100",
+     "teamB": "otc:7188",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7272",
+     "teamB": "otc:7103",
+     "scoreA": 7,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7117",
+     "teamB": "otc:7294",
+     "scoreA": 1,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7364",
+     "teamB": "otc:7117",
+     "scoreA": 12,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7218",
+     "teamB": "otc:7157",
+     "scoreA": 4,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7160",
+     "teamB": "otc:7322",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7294",
+     "teamB": "otc:7218",
+     "scoreA": 3,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7300",
+     "teamB": "otc:7272",
+     "scoreA": 0,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7316",
+     "teamB": "otc:7289",
+     "scoreA": 0,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7311",
+     "teamB": "otc:7351",
+     "scoreA": 4,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7362",
+     "teamB": "otc:7364",
+     "scoreA": 10,
+     "scoreB": 9
     }
    ]
   },
