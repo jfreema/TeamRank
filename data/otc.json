@@ -5855,6 +5855,17 @@
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7157",
+     "teamB": "otc:7032",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7032",
      "teamB": "otc:7362",
      "scoreA": 6,

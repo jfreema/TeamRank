@@ -54657,6 +54657,17 @@
      "eventName": "Chase N’ Gobblers",
      "date": "2026-11-07",
      "division": "12U-B",
+     "teamA": "gs:31743",
+     "teamB": "gs:32456",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "gs",
+     "eventId": "4729",
+     "eventName": "Chase N’ Gobblers",
+     "date": "2026-11-07",
+     "division": "12U-B",
      "teamA": "gs:32741",
      "teamB": "gs:31743",
      "scoreA": 3,
