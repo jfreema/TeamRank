@@ -160,7 +160,7 @@
    "id": "728020",
    "name": "Nov 7-8 UACS Fall State Tournament",
    "startDate": "2026-11-07",
-   "endDate": "2026-11-07",
+   "endDate": "2026-11-08",
    "final": false,
    "teamKeys": [
     "uacs:carrollton-select|11",
@@ -248,6 +248,72 @@
      "teamB": "uacs:cba-red|11",
      "scoreA": 8,
      "scoreB": 0
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:new-orleans-renegades-howell|11",
+     "teamB": "uacs:destrehan-cannons|11",
+     "scoreA": 7,
+     "scoreB": 5
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:party-animals|11",
+     "teamB": "uacs:carrollton-select|11",
+     "scoreA": 1,
+     "scoreB": 17
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:louisiana-catahoulas|11",
+     "teamB": "uacs:cba-red|11",
+     "scoreA": 9,
+     "scoreB": 2
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:new-orleans-renegades-cunningham|11",
+     "teamB": "uacs:new-orleans-renegades-howell|11",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:louisiana-catahoulas|11",
+     "teamB": "uacs:carrollton-select|11",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "uacs",
+     "eventId": "728020",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "11u-Open",
+     "teamA": "uacs:new-orleans-renegades-howell|11",
+     "teamB": "uacs:louisiana-catahoulas|11",
+     "scoreA": 5,
+     "scoreB": 6
     }
    ]
   },
@@ -255,7 +321,7 @@
    "id": "728022",
    "name": "Nov 7-8 UACS Fall State Tournament",
    "startDate": "2026-11-07",
-   "endDate": "2026-11-07",
+   "endDate": "2026-11-08",
    "final": false,
    "teamKeys": [
     "uacs:bandits|12",
@@ -355,6 +421,61 @@
      "teamB": "uacs:farm-system-prospects-hebert|12",
      "scoreA": 5,
      "scoreB": 4
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "12u-Open",
+     "teamA": "uacs:diamond|12",
+     "teamB": "uacs:stars-and-stripes|12",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "12u-Open",
+     "teamA": "uacs:farm-system-prospects-hebert|12",
+     "teamB": "uacs:cba-blue|12",
+     "scoreA": 7,
+     "scoreB": 9
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "12u-Open",
+     "teamA": "uacs:bandits|12",
+     "teamB": "uacs:new-orleans-naturals-blue|12",
+     "scoreA": 18,
+     "scoreB": 4
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "12u-Open",
+     "teamA": "uacs:myb-navy|12",
+     "teamB": "uacs:st-bernard-braves|12",
+     "scoreA": 9,
+     "scoreB": 3
+    },
+    {
+     "source": "uacs",
+     "eventId": "728022",
+     "eventName": "Nov 7-8 UACS Fall State Tournament",
+     "date": "2026-11-08",
+     "division": "12u-Open",
+     "teamA": "uacs:bandits|12",
+     "teamB": "uacs:stars-and-stripes|12",
+     "scoreA": 11,
+     "scoreB": 2
     }
    ]
   },

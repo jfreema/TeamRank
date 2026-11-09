@@ -5592,6 +5592,17 @@
      "date": "2026-11-07",
      "division": "10U-AA",
      "teamA": "otc:6939",
+     "teamB": "otc:7027",
+     "scoreA": 9,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6939",
      "teamB": "otc:7160",
      "scoreA": 2,
      "scoreB": 13
@@ -5614,9 +5625,31 @@
      "date": "2026-11-07",
      "division": "12U-AA",
      "teamA": "otc:6951",
+     "teamB": "otc:7023",
+     "scoreA": 6,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6951",
      "teamB": "otc:7045",
      "scoreA": 5,
      "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6951",
+     "teamB": "otc:7316",
+     "scoreA": 9,
+     "scoreB": 8
     },
     {
      "source": "otc",
@@ -5645,6 +5678,39 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:7300",
+     "scoreA": 12,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:7322",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7100",
+     "teamB": "otc:6968",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "12U-OPEN",
      "teamA": "otc:6968",
      "teamB": "otc:7152",
@@ -5661,6 +5727,17 @@
      "teamB": "otc:6968",
      "scoreA": 3,
      "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:6968",
+     "teamB": "otc:7188",
+     "scoreA": 5,
+     "scoreB": 0
     },
     {
      "source": "otc",
@@ -5689,11 +5766,44 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:6978",
+     "teamB": "otc:7342",
+     "scoreA": 4,
+     "scoreB": 19
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "12U-AA",
      "teamA": "otc:7006",
      "teamB": "otc:6979",
      "scoreA": 1,
      "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6979",
+     "teamB": "otc:7006",
+     "scoreA": 17,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:6979",
+     "teamB": "otc:7045",
+     "scoreA": 9,
+     "scoreB": 8
     },
     {
      "source": "otc",
@@ -5722,6 +5832,28 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7311",
+     "teamB": "otc:6980",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7017",
+     "teamB": "otc:6997",
+     "scoreA": 11,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "10U-AA",
      "teamA": "otc:7049",
      "teamB": "otc:6997",
@@ -5734,10 +5866,43 @@
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
      "division": "11U-AA",
+     "teamA": "otc:7059",
+     "teamB": "otc:7001",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7001",
+     "teamB": "otc:7256",
+     "scoreA": 20,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
      "teamA": "otc:7256",
      "teamB": "otc:7001",
      "scoreA": 3,
      "scoreB": 24
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7004",
+     "teamB": "otc:7049",
+     "scoreA": 12,
+     "scoreB": 9
     },
     {
      "source": "otc",
@@ -5760,6 +5925,28 @@
      "teamB": "otc:7162",
      "scoreA": 12,
      "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7272",
+     "teamB": "otc:7004",
+     "scoreA": 6,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7004",
+     "teamB": "otc:7322",
+     "scoreA": 12,
+     "scoreB": 4
     },
     {
      "source": "otc",
@@ -5799,11 +5986,55 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7351",
+     "teamB": "otc:7007",
+     "scoreA": 12,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:7017",
+     "scoreA": 2,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7017",
+     "scoreA": 12,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "10U-AA",
      "teamA": "otc:7322",
      "teamB": "otc:7017",
      "scoreA": 6,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7096",
+     "teamB": "otc:7022",
+     "scoreA": 4,
+     "scoreB": 5
     },
     {
      "source": "otc",
@@ -5832,11 +6063,33 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7100",
+     "teamB": "otc:7022",
+     "scoreA": 13,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "12U-AA",
      "teamA": "otc:7289",
      "teamB": "otc:7023",
      "scoreA": 1,
      "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7023",
+     "teamB": "otc:7289",
+     "scoreA": 6,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -5876,6 +6129,28 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7364",
+     "teamB": "otc:7032",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-AA",
+     "teamA": "otc:7131",
+     "teamB": "otc:7045",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "12U-AA",
      "teamA": "otc:7045",
      "teamB": "otc:7316",
@@ -5889,9 +6164,31 @@
      "date": "2026-11-07",
      "division": "11U-AA",
      "teamA": "otc:7059",
+     "teamB": "otc:7311",
+     "scoreA": 2,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7059",
      "teamB": "otc:7342",
      "scoreA": 15,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7103",
+     "teamB": "otc:7063",
+     "scoreA": 20,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -5932,6 +6229,17 @@
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
      "division": "11U-AA",
+     "teamA": "otc:7342",
+     "teamB": "otc:7083",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
      "teamA": "otc:7351",
      "teamB": "otc:7083",
      "scoreA": 9,
@@ -5965,6 +6273,17 @@
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
      "division": "10U-AA",
+     "teamA": "otc:7162",
+     "teamB": "otc:7103",
+     "scoreA": 1,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
      "teamA": "otc:7272",
      "teamB": "otc:7103",
      "scoreA": 7,
@@ -5987,10 +6306,32 @@
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7362",
+     "teamB": "otc:7117",
+     "scoreA": 5,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7364",
      "teamB": "otc:7117",
      "scoreA": 12,
      "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "12U-OPEN",
+     "teamA": "otc:7152",
+     "teamB": "otc:7188",
+     "scoreA": 1,
+     "scoreB": 9
     },
     {
      "source": "otc",
@@ -6002,6 +6343,39 @@
      "teamB": "otc:7157",
      "scoreA": 4,
      "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7218",
+     "teamB": "otc:7157",
+     "scoreA": 2,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7362",
+     "teamB": "otc:7157",
+     "scoreA": 11,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "10U-AA",
+     "teamA": "otc:7322",
+     "teamB": "otc:7160",
+     "scoreA": 7,
+     "scoreB": 6
     },
     {
      "source": "otc",
@@ -6052,11 +6426,55 @@
      "eventId": "1145",
      "eventName": "Mashing For Our Military - Hammond!",
      "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7294",
+     "teamB": "otc:7364",
+     "scoreA": 1,
+     "scoreB": 17
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7351",
+     "teamB": "otc:7311",
+     "scoreA": 6,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
      "division": "11U-AA",
      "teamA": "otc:7311",
      "teamB": "otc:7351",
      "scoreA": 4,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "11U-AA",
+     "teamA": "otc:7342",
+     "teamB": "otc:7351",
+     "scoreA": 5,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1145",
+     "eventName": "Mashing For Our Military - Hammond!",
+     "date": "2026-11-07",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7364",
+     "teamB": "otc:7362",
+     "scoreA": 0,
+     "scoreB": 10
     },
     {
      "source": "otc",
