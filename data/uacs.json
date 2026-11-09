@@ -6,7 +6,7 @@
    "key": "uacs:bandits|12",
    "name": "Bandits 12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -14,7 +14,7 @@
    "key": "uacs:carrollton-select|11",
    "name": "Carrollton Select 11U",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -22,7 +22,7 @@
    "key": "uacs:cba-blue|12",
    "name": "CBA Blue 12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -30,7 +30,7 @@
    "key": "uacs:cba-red|11",
    "name": "CBA Red 11u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -38,7 +38,7 @@
    "key": "uacs:destrehan-cannons|11",
    "name": "Destrehan Cannons 11u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -46,7 +46,7 @@
    "key": "uacs:diamond|12",
    "name": "Diamond Baseball 12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -54,7 +54,7 @@
    "key": "uacs:farm-system-prospects-hebert|12",
    "name": "Farm System Prospects 11U - Hebert",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -62,7 +62,7 @@
    "key": "uacs:louisiana-catahoulas|11",
    "name": "Louisiana Catahoulas 11u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -86,7 +86,7 @@
    "key": "uacs:new-orleans-naturals-blue|12",
    "name": "New Orleans Naturals Blue-12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -94,7 +94,7 @@
    "key": "uacs:new-orleans-renegades-cunningham|11",
    "name": "New Orleans Renegades-Cunningham",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -102,7 +102,7 @@
    "key": "uacs:new-orleans-renegades-howell|11",
    "name": "New Orleans Renegades 11U Howell",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -110,7 +110,7 @@
    "key": "uacs:party-animals|11",
    "name": "Party Animals 11u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "11u-Open",
    "url": "https://www.uacssports.com/schedule/728020/11u-Open"
   },
@@ -142,7 +142,7 @@
    "key": "uacs:st-bernard-braves|12",
    "name": "St Bernard Braves-12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   },
@@ -150,7 +150,7 @@
    "key": "uacs:stars-and-stripes|12",
    "name": "Stars & Stripes 12u",
    "city": "",
-   "state": "",
+   "state": "LA",
    "ageClass": "12u-Open",
    "url": "https://www.uacssports.com/schedule/728022/12u-Open"
   }
