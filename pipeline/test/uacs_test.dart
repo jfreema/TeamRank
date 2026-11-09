@@ -42,6 +42,31 @@ void main() {
     expect(saints.name, 'Saints-12u');
   });
 
+  test('a field linked to a map place with no address gets its state from the Locations list', () {
+    // Fall State Tournament, Nov 7-8: the game links go to a Google Maps
+    // place and only the Locations list has the field's address.
+    final game = row('1', 'Sat 11/7', 'CBA Blue 12u', '9', 'Saints-12u', '4').replaceFirst(
+        RegExp(r'href="[^"]*"'), 'href="https://www.google.com/maps/place/Eastbank+Bridge+Park/@29.94,-90.37,17z"');
+    final noAddress = row('2', 'Sat 11/7', 'MYB Green 12u', '3', 'CBA Blue 12u', '2')
+        .replaceFirst(RegExp(r'href="[^"]*"'), 'href="https://www.google.com/maps/place/Somewhere"')
+        .replaceFirst('CPC/F-2', 'Unlisted field');
+    final locations = '''
+<div id="ctl00_ContentPlaceHolder1_StandingsResultsControl_LocationsGrid"><table><tbody>
+<tr id="l_ctl00__0">
+ <td><a id="l_ctl04_LocationLink" href="https://www.google.com/maps/place/Eastbank+Bridge+Park/@29.94,-90.37,17z"><span id="l_ctl04_ScheduleLabel">CPC/F-1</span>&nbsp;<i></i></a></td>
+ <td><span id="l_ctl04_LocationLabel">Eastbank Bridge Park</span></td>
+ <td><span id="l_ctl04_FieldLabel">CPC/F-1</span>&nbsp;</td>
+ <td><span id="l_ctl04_AddressLabel">13244 River Rd</span><br /><span id="l_ctl04_Address2Label">Destrehan,LA 70047</span></td>
+</tr><tr></tr>
+</tbody></table></div>''';
+    final d = UacsScraper.parseDivision(page(game + noAddress, '') + locations, '728020', season)!;
+    expect(d.games, hasLength(2));
+    String stateOf(String key) => d.teams.firstWhere((t) => t.key == key).state;
+    expect(stateOf('uacs:cba-blue|12'), 'LA');
+    expect(stateOf('uacs:saints|12'), 'LA');
+    expect(stateOf('uacs:myb-green|12'), '', reason: 'its field is not in the Locations list');
+  });
+
   test('a switched-off division gives nothing', () {
     const body = '<div id="TitlePanel"><h1>Aug 29-30 UACS Fall Kick-Off</h1></div>'
         'The League Administrator has de-activated the Standings &amp; Schedule for the Division';

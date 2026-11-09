@@ -83,6 +83,16 @@ class UacsScraper {
       return t;
     }
 
+    // The Locations list names each field (as the games show it) with its
+    // address. Some tournaments link a game's field to a map place with no
+    // address in it, and then the field's state comes from this list.
+    final fieldStates = <String, String>{};
+    for (final row in doc.querySelectorAll('[id\$="LocationsGrid"] tr')) {
+      final field = _text(row.querySelector('[id\$="_ScheduleLabel"]'));
+      final state = _stateIn(_text(row.querySelector('[id\$="_Address2Label"]')));
+      if (field.isNotEmpty && state.isNotEmpty) fieldStates[field] = state;
+    }
+
     final games = <Game>[];
     final seen = <String>{};
     // The mobile grids hold the same games as the desktop ones, with the
@@ -94,8 +104,9 @@ class UacsScraper {
       final hs = int.tryParse(part('HomeScoreLabel')), as = int.tryParse(part('AwayScoreLabel'));
       final date = _date(part('DateLabel'), season);
       if (home.isEmpty || away.isEmpty || hs == null || as == null || date == null) continue;
-      final where = Uri.decodeFull(row.querySelector('[id\$="_LocationLink"]')?.attributes['href'] ?? '');
-      final state = RegExp(r',\s*([A-Z]{2})\s+\d{5}').firstMatch(where)?.group(1) ?? '';
+      final link = row.querySelector('[id\$="_LocationLink"]')?.attributes['href'] ?? '';
+      var state = _stateIn(Uri.decodeFull(link));
+      if (state.isEmpty) state = fieldStates[part('LocationLabel')] ?? '';
       final key = '$date|${part('TimeLabel')}|$home|$away|${part('LocationLabel')}';
       if (!seen.add(key)) continue;
       games.add(Game(
@@ -121,6 +132,10 @@ class UacsScraper {
     final year = month >= season.start.month ? season.start.year : season.end.year;
     return isoDate(DateTime(year, month, day));
   }
+
+  /// The state in an address like `Covington,LA 70433`.
+  static String _stateIn(String address) =>
+      RegExp(r',\s*([A-Z]{2})\s+\d{5}').firstMatch(address)?.group(1) ?? '';
 
   static String _text(Element? e) => (e?.text ?? '').replaceAll(RegExp(r'\s+'), ' ').trim();
 }
