@@ -62652,10 +62652,10 @@
   },
   "4984": {
    "id": "4984",
-   "name": "",
+   "name": "SCHOOL'S OUT SLUGFEST",
    "startDate": "2027-05-22",
    "endDate": "2027-05-23",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },

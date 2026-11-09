@@ -4665,6 +4665,15 @@
    "url": "https://youth.2dsports.org/team/details/2026-27-season/8c90c829-6890-4c37-9509-4bb3b7e5ba8e",
    "logo": ""
   },
+  "2d:8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd": {
+   "key": "2d:8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd",
+   "name": "Lake Charles Halos 10U",
+   "city": "Lake Charles",
+   "state": "LA",
+   "ageClass": "10u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd",
+   "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/lake-charles-halos-10u-6a835c4097007.webp"
+  },
   "2d:8cd24458-29a2-4029-b808-29bdab3f3b76": {
    "key": "2d:8cd24458-29a2-4029-b808-29bdab3f3b76",
    "name": "Elite Baseball",
@@ -5602,6 +5611,15 @@
    "ageClass": "10u AAA",
    "url": "https://youth.2dsports.org/team/details/2026-27-season/a572dd03-d31b-4fde-8f78-6edcec3c97fd",
    "logo": "https://nyc3.digitaloceanspaces.com/m1.pb365/youth.2dsports.org/6e966dad-1443-4ad1-914e-b5b1340cd6c0/files/images/teams/la-storm-7u-65158e44ca834.jpeg"
+  },
+  "2d:a57af3b3-f0a9-4c19-8673-f871d29be07c": {
+   "key": "2d:a57af3b3-f0a9-4c19-8673-f871d29be07c",
+   "name": "CBA Sticks 12u-Gary",
+   "city": "Dequincy",
+   "state": "LA",
+   "ageClass": "12u AA",
+   "url": "https://youth.2dsports.org/team/details/2026-27-season/a57af3b3-f0a9-4c19-8673-f871d29be07c",
+   "logo": ""
   },
   "2d:a583f8ca-d81d-470a-a3d6-6c7bb8b6e43c": {
    "key": "2d:a583f8ca-d81d-470a-a3d6-6c7bb8b6e43c",
@@ -18739,6 +18757,245 @@
      "teamB": "2d:bb83aa8a-cd2a-409e-aee3-d10b42429988",
      "scoreA": 5,
      "scoreB": 6
+    }
+   ]
+  },
+  "1852": {
+   "id": "1852",
+   "name": "SWLA Sunday Fall League #5",
+   "startDate": "2026-11-08",
+   "endDate": "2026-11-08",
+   "final": false,
+   "teamKeys": [
+    "2d:055086e2-195e-4c27-b605-41d4db8f2d08",
+    "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+    "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+    "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+    "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+    "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+    "2d:8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd",
+    "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+    "2d:9572b2b0-4935-42ee-b6a1-9a2d7687ed16",
+    "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+    "2d:a57af3b3-f0a9-4c19-8673-f871d29be07c",
+    "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+    "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+    "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+    "2d:cbe97f2c-1b69-420d-87f3-f79d78290a62",
+    "2d:e0437e1f-3657-4f97-843a-130c06f3e4e4",
+    "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+    "2d:e4561f4d-83e5-47f3-b323-0183d02898e4",
+    "2d:f6018775-7e26-48d7-9ba0-33185e4c647f"
+   ],
+   "games": [
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+     "teamB": "2d:8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd",
+     "scoreA": 13,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:cbe97f2c-1b69-420d-87f3-f79d78290a62",
+     "teamB": "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+     "scoreA": 2,
+     "scoreB": 13
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+     "teamB": "2d:8ca8b6a7-41d0-4597-a2dc-b19f2ccfcbfd",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:e0437e1f-3657-4f97-843a-130c06f3e4e4",
+     "teamB": "2d:c78337dc-a3c4-4834-a78c-efdf2efd66f8",
+     "scoreA": 3,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:7371596d-8c4c-43d7-a280-7b007ad30d4a",
+     "teamB": "2d:e04479b6-be5d-49ab-a467-82837adf73bf",
+     "scoreA": 3,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "10u Open",
+     "teamA": "2d:cbe97f2c-1b69-420d-87f3-f79d78290a62",
+     "teamB": "2d:e0437e1f-3657-4f97-843a-130c06f3e4e4",
+     "scoreA": 6,
+     "scoreB": 12
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "11u Open",
+     "teamA": "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+     "teamB": "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "11u Open",
+     "teamA": "2d:aa6437b9-f818-4112-a42e-017d294c160d",
+     "teamB": "2d:9572b2b0-4935-42ee-b6a1-9a2d7687ed16",
+     "scoreA": 1,
+     "scoreB": 6
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "11u Open",
+     "teamA": "2d:866399fb-c150-4da1-881f-e6f0d4ad3fff",
+     "teamB": "2d:9572b2b0-4935-42ee-b6a1-9a2d7687ed16",
+     "scoreA": 3,
+     "scoreB": 3
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:a57af3b3-f0a9-4c19-8673-f871d29be07c",
+     "teamB": "2d:e4561f4d-83e5-47f3-b323-0183d02898e4",
+     "scoreA": 2,
+     "scoreB": 10
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+     "teamB": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+     "teamB": "2d:a57af3b3-f0a9-4c19-8673-f871d29be07c",
+     "scoreA": 16,
+     "scoreB": 0
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
+     "teamB": "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:e4561f4d-83e5-47f3-b323-0183d02898e4",
+     "teamB": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:b5c5b097-cf88-4ac0-9195-72b7ee70c20d",
+     "teamB": "2d:62f78355-69f8-4336-9987-06d45c2f1bd8",
+     "scoreA": 14,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "12u Open",
+     "teamA": "2d:46622eaf-ef0f-4ebc-a899-d4a0feb66e0e",
+     "teamB": "2d:a3f7b931-2489-40ff-8e7b-1fe36312ec71",
+     "scoreA": 4,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "14u Open",
+     "teamA": "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+     "teamB": "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "14u Open",
+     "teamA": "2d:f6018775-7e26-48d7-9ba0-33185e4c647f",
+     "teamB": "2d:055086e2-195e-4c27-b605-41d4db8f2d08",
+     "scoreA": 10,
+     "scoreB": 2
+    },
+    {
+     "source": "2d",
+     "eventId": "1852",
+     "eventName": "SWLA Sunday Fall League #5",
+     "date": "2026-11-08",
+     "division": "14u Open",
+     "teamA": "2d:055086e2-195e-4c27-b605-41d4db8f2d08",
+     "teamB": "2d:8fa84892-229e-4830-a8a2-be625c36dd4c",
+     "scoreA": 4,
+     "scoreB": 10
     }
    ]
   },
