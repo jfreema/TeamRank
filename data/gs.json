@@ -8278,7 +8278,7 @@
    "name": "Kindred Baseball 12U",
    "city": "Biloxi",
    "state": "MS",
-   "ageClass": "12 & Under A",
+   "ageClass": "12 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32635",
    "logo": ""
   },
@@ -10089,7 +10089,7 @@
    "state": "LA",
    "ageClass": "10 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/33624",
-   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/33624-gladiators-baseball-10u.jpg?v=1"
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/33624-gladiators-baseball-10u.png?v=2"
   },
   "gs:33643": {
    "key": "gs:33643",
@@ -31874,7 +31874,7 @@
    "name": "Diamond Kings Invitational II - SAT. Only",
    "startDate": "2026-11-07",
    "endDate": "2026-11-07",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31295",
     "gs:31442",
@@ -54551,7 +54551,7 @@
    "name": "Chase N’ Gobblers",
    "startDate": "2026-11-07",
    "endDate": "2026-11-07",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31194",
     "gs:31200",
