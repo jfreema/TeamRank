@@ -322,9 +322,9 @@
    "name": "Central Cyclone",
    "city": "Central",
    "state": "LA",
-   "ageClass": "12U-AA",
+   "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7023",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7023-central-cyclone.png?v=1"
   },
   "otc:7025": {
    "key": "otc:7025",
@@ -1492,7 +1492,7 @@
    "name": "LA Kings",
    "city": "Lafayette",
    "state": "LA",
-   "ageClass": "10U-AA",
+   "ageClass": "10U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7322",
    "logo": ""
   },
@@ -5525,7 +5525,7 @@
    "name": "Mashing For Our Military - Hammond!",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6939",
     "otc:6951",

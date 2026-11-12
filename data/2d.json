@@ -14019,7 +14019,7 @@
    "name": "Chisenhall Fall Championship",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:001fb08d-f924-40a3-9bdb-b6a8ca1c2c2d",
     "2d:02e9c6db-5b73-47c1-9610-f9861dcf55f0",
@@ -18765,7 +18765,7 @@
    "name": "SWLA Sunday Fall League #5",
    "startDate": "2026-11-08",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:055086e2-195e-4c27-b605-41d4db8f2d08",
     "2d:07d215ca-16fa-43cf-b1eb-4a7a78ecd422",
@@ -21562,7 +21562,7 @@
    "name": "Hammond America Fall Championship Sponsored by University Donuts",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:0d51ea14-6a54-4eef-9aaf-9f3f43da4a21",
     "2d:104ed3a0-d63a-4e51-9fa5-1778d7f29f27",
@@ -30128,7 +30128,7 @@
    "name": "Gulfport Fall Finale",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:07795b18-0e82-4996-a403-f868199c36d3",
     "2d:0be8843b-3e49-4eae-81f8-1312721af528",
@@ -32146,7 +32146,7 @@
    "name": "SETX Chambers County Fall Finale",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:38ee5032-5a7c-4a13-a3d6-f3e4b48a44df",
     "2d:426c5a05-74c0-4229-92bc-30ad279fd153",
@@ -33000,7 +33000,7 @@
    "name": "American Hero's Fall Championship",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:01d4a069-1574-4531-9ccd-c28307fb56c2",
     "2d:086246c4-4a6d-40f1-a6d7-c5753229a44d",
@@ -44025,7 +44025,7 @@
    "name": "Daphne Fall Championship",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:019cf1c2-752a-4662-8a10-958504a0d1ee",
     "2d:036e0ad5-b255-4343-85b4-0ca9a0821017",
@@ -49339,7 +49339,7 @@
    "name": "Nashville Fall Finale",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:35c0bf47-6c4a-4e14-acd3-ead23cb496e0",
     "2d:a08dbba8-ac9c-442f-8a24-4451d8125963",

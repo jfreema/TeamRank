@@ -5350,12 +5350,12 @@
   },
   "gs:31669": {
    "key": "gs:31669",
-   "name": "Bayou Bombers",
+   "name": "Bayou Bombers 9u",
    "city": "Farmerville",
    "state": "LA",
    "ageClass": "9 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/31669",
-   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/31669-bayou-bombers-9u.png?v=2"
+   "logo": ""
   },
   "gs:31671": {
    "key": "gs:31671",
@@ -9313,7 +9313,7 @@
    "name": "Stateline Bombers",
    "city": "Irvington",
    "state": "AL",
-   "ageClass": "13 & Under A",
+   "ageClass": "13 & Under AA",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/33118",
    "logo": ""
   },
@@ -28610,7 +28610,7 @@
    "name": "Coastal Mississippi Salute to Service",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31077",
     "gs:31156",
@@ -63897,6 +63897,168 @@
    "name": "",
    "startDate": "2027-06-26",
    "endDate": "2027-06-27",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5123": {
+   "id": "5123",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5124": {
+   "id": "5124",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5125": {
+   "id": "5125",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5126": {
+   "id": "5126",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5127": {
+   "id": "5127",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5128": {
+   "id": "5128",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5129": {
+   "id": "5129",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5130": {
+   "id": "5130",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5131": {
+   "id": "5131",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5132": {
+   "id": "5132",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5133": {
+   "id": "5133",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5134": {
+   "id": "5134",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5135": {
+   "id": "5135",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5136": {
+   "id": "5136",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5137": {
+   "id": "5137",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5138": {
+   "id": "5138",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5139": {
+   "id": "5139",
+   "name": "",
+   "startDate": "",
+   "endDate": "",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5140": {
+   "id": "5140",
+   "name": "",
+   "startDate": "2027-04-24",
+   "endDate": "2027-04-25",
    "final": true,
    "teamKeys": [],
    "games": []

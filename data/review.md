@@ -257,7 +257,7 @@ They played in the same event or their names give different ages, so they are pr
 - `2d:36fa7eec-1da7-42b9-9ffa-794b6f6f354d` Union Stingers (Union, MS; 2 events) / `gs:25714` Union Stingers (Union, MS; 0 events) / `gs:30934` Union Stingers (Union, MS; 4 events) / `gs:31537` Union Stingers (Union, MS; 2 events)
 - `2d:37905c0e-8185-4f77-bbc4-466ac3a813e2` USA Prime Deep South (Daphne, AL; 1 events) / `2d:edee8185-74af-4adc-ba7d-bcfe6c03d8ae` USA Prime Deep South 14u (Daphne, AL; 5 events)
 - `2d:408ea015-a2d1-4ba3-a94d-ea4a8e813352` MVP 14u Prospects (Aledo, TX; 1 events) / `2d:bfc1bd36-7012-413c-9166-16955e6fbc4f` MVP Prospects (Aledo, TX; 1 events)
-- `2d:411ef915-3119-4168-b0f6-6848528fb408` Bayou Bombers (Farmerville, LA; 4 events) / `gs:31669` Bayou Bombers (Farmerville, LA; 2 events) / `gs:31746` Bayou Bombers 10U (Farmerville, LA; 2 events)
+- `2d:411ef915-3119-4168-b0f6-6848528fb408` Bayou Bombers (Farmerville, LA; 4 events) / `gs:31746` Bayou Bombers 10U (Farmerville, LA; 2 events)
 - `2d:414124b7-b7d0-466c-9522-ed08fffd124d` Mansfield Horned Frogs-13U (Mansfield, TX; 1 events) / `2d:4342f48b-5d88-4c3f-a8f0-ea57df37b92c` Mansfield Horned Frogs-14u (Mansfield, TX; 1 events) / `2d:4c80a934-c58e-462a-aeca-73064112f0b1` Mansfield Horned Frogs-11U (Mansfield, TX; 1 events)
 - `2d:43f01ae1-9da1-4031-9a37-5b0cded51a91` NBA Cannons (Nashville, TN; 1 events) / `2d:f9786f4c-fba1-4e6d-8c8a-3d83cd6009a9` NBA Cannons (Nashville, TN; 1 events)
 - `2d:44d34995-bae8-4ba9-947f-eec6a1e64b5c` Boro Bats (Murfreesboro, TN; 2 events) / `2d:f6105057-7afc-43e6-b509-db3729d81f0e` Boro Bats (Murfreesboro, TN; 1 events)
@@ -499,7 +499,7 @@ Add a `merge` entry if these are the same team.
 - `gs:32106` Thundercats (Colbert Heights, AL; 2 events) / `gs:32399` Thundercats (Ellisville, MS; 2 events)
 - `gs:32479` Mississippi Heat (Saltillo, MS; 1 events) / `gs:33330` Mississippi Heat (Guntown, MS; 1 events)
 
-## Possible duplicates: similar name, same hometown (483)
+## Possible duplicates: similar name, same hometown (485)
 
 Add a `merge` entry if these are the same team.
 
@@ -584,6 +584,7 @@ Add a `merge` entry if these are the same team.
 - `2d:3c10e13f-9a21-424a-976e-804f11a4bfec` Alabama Baseball Club (Mobile, AL; 4 events) / `gs:27179` Coastal Alabama Dirtbags (mobile, AL; 0 events)
 - `2d:3eaa9435-9227-4290-833a-03e489857452` SBC - Sterlington Baseball Club 14u (STERLINGTON, LA; 2 events) / `gs:27845` SBC (Sterlington, LA; 0 events)
 - `2d:406dcc93-a851-48ba-9ebe-f4f2827da8b1` Blues Elite 14u (Cottontown, TN; 2 events) / `2d:cd3d35f9-0f26-4a61-a17f-5958017157d0` Blues Elite 12U Prime (Cottontown, TN; 3 events)
+- `2d:411ef915-3119-4168-b0f6-6848528fb408` Bayou Bombers (Farmerville, LA; 4 events) / `gs:31669` Bayou Bombers 9u (Farmerville, LA; 2 events)
 - `2d:42495193-f9c4-48aa-9199-00eb78780fc8` BNBTX-Cerros (Fort Worth, TX; 1 events) / `2d:6c098257-4d34-415f-8ca1-95b7e3e660fa` BNBTX (Fort Worth, TX; 2 events)
 - `2d:472a1fb3-9d1e-4bb3-bd14-9112bd1414c7` Louisiana Nationals - Wilson (Livingston, LA; 2 events) / `2d:c2cd3cf8-e265-44c6-8768-b4fcf16df22b` Louisiana Nationals 13u (Livingston, LA; 1 events)
 - `2d:472a1fb3-9d1e-4bb3-bd14-9112bd1414c7` Louisiana Nationals - Wilson (Livingston, LA; 2 events) / `2d:c9087f95-6f6c-4071-8aba-4d84ccc825a8` Louisiana Nationals 11u (Livingston, LA; 1 events)
@@ -861,6 +862,7 @@ Add a `merge` entry if these are the same team.
 - `gs:31666` Motivators 11U (Hattiesburg, MS; 2 events) / `gs:32268` Motivators 9U - Ewoldt (Hattiesburg, MS; 1 events)
 - `gs:31666` Motivators 11U (Hattiesburg, MS; 2 events) / `gs:32588` Motivators 14U Douglas (Hattiesburg, MS; 2 events)
 - `gs:31666` Motivators 11U (Hattiesburg, MS; 2 events) / `gs:32659` Motivators 14U - West (Hattiesburg, MS; 1 events)
+- `gs:31669` Bayou Bombers 9u (Farmerville, LA; 2 events) / `gs:31746` Bayou Bombers 10U (Farmerville, LA; 2 events)
 - `gs:31675` Total Threat Baseball - Kendrick (Flowood, MS; 5 events) / `gs:31800` Total Threat Baseball (Flowood, MS; 3 events)
 - `gs:31727` MS Yankees - 10U Silver (Madison, MS; 2 events) / `gs:31869` Ms Yankees - 12 Silver (Madison, MS; 3 events)
 - `gs:31727` MS Yankees - 10U Silver (Madison, MS; 2 events) / `gs:31953` MS Yankees 11 Silver (Madison, MS; 1 events)

@@ -161,7 +161,7 @@
    "name": "Nov 7-8 UACS Fall State Tournament",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "uacs:carrollton-select|11",
     "uacs:cba-red|11",
@@ -322,7 +322,7 @@
    "name": "Nov 7-8 UACS Fall State Tournament",
    "startDate": "2026-11-07",
    "endDate": "2026-11-08",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "uacs:bandits|12",
     "uacs:cba-blue|12",
