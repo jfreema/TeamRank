@@ -87,6 +87,8 @@
     "otc:7200": "Knights Knation New Orleans",
     "otc:7003": "Marucci Legacy NOLA 12u"
   },
-  "levels": {},
+  "levels": {
+    "otc:7023": "AA"
+  },
   "exclude": []
 }
