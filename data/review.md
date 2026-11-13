@@ -392,7 +392,7 @@ They played in the same event or their names give different ages, so they are pr
 - `gs:33100` CBC Braves-11U SANFORD (Petal, MS; 3 events) / `gs:33227` CBC Braves -12U SANFORD (Petal, MS; 2 events)
 - `gs:33113` Gladiators Baseball 11u (Grayson, LA; 3 events) / `gs:33624` Gladiators Baseball 10u (Grayson, LA; 2 events)
 
-## Possible duplicates: same name, different hometown (102)
+## Possible duplicates: same name, different hometown (101)
 
 Add a `merge` entry if these are the same team.
 
@@ -405,7 +405,6 @@ Add a `merge` entry if these are the same team.
 - `2d:42757229-a96b-41a6-b4da-ab10d24c2192` Mandeville Revolution (Mandeville, LA; 1 events) / `2d:75b19aa7-be2d-4dd5-b4db-8997153ca998` Mandeville Revolution (Covington, LA; 1 events) / `gs:28732` Mandeville Revolution (Mandeville, LA; 0 events) / `otc:7031` Mandeville Revolution (Mandeville, LA; 1 events) / `otc:7032` Mandeville Revolution (Mandeville, LA; 1 events) / `otc:7034` Mandeville Revolution (Mandeville, LA; 4 events) / `otc:7035` Mandeville Revolution (Mandeville, LA; 3 events)
 - `2d:91bf5aca-3ba3-40cf-9f25-6230fb44c5e8` Chappapeela Chiefs (Ponchatoula, LA; 2 events) / `2d:c467ab22-5424-4f86-abfd-eeb2eb324997` Chappapeela Chiefs (Ponchatoula, LA; 2 events) / `otc:7063` Chappapeela Chiefs (Ponchatoula, LA; 1 events) / `otc:7067` Chappapeela Chiefs (Hammond, LA; 2 events)
 - `2d:4d4f8d32-4171-4c9f-810c-a2a01b0d48bc` Hammond Yankees (Ponchatoula, LA; 1 events) / `otc:7069` Hammond Yankees (Hammond, LA; 4 events)
-- `2d:d26cbda7-bc68-4364-ab51-4a88725250c9` Pontchartrain Patriots (Covington, LA; 1 events) / `otc:7100` Pontchartrain Patriots (Madisonville, LA; 1 events)
 - `2d:89c17657-ed9b-48c9-b90a-debabb652e95` LA Outlaws 11u (Bossier City, LA; 2 events) / `2d:9d07abc8-cc2b-418f-98ab-d6d04ad2ed6b` LA Outlaws Baseball (Ruston, LA; 3 events) / `gs:31072` LA Outlaws Baseball (Choudrant, LA; 2 events) / `otc:7133` LA Outlaws (Walker, LA; 2 events)
 - `2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9` Renegades 12u (Ragley, LA; 2 events) / `2d:cb5c1658-c6d2-43c6-aec9-1929a9f5f4bf` Renegades 14u (Ragley, LA; 3 events) / `otc:7144` Renegades (New Orleans, LA; 1 events)
 - `2d:35d77a98-fa24-4230-a4e7-5cff8dc22797` Southern Chargers (Prairieville, LA; 1 events) / `2d:d622ebbe-47d2-41c1-9dc5-beeda568bebd` Southern Chargers 10u (Gonzales, LA; 2 events) / `otc:7153` Southern Chargers (Prairieville, LA; 1 events)
