@@ -85,12 +85,12 @@
   },
   "otc:6964": {
    "key": "otc:6964",
-   "name": "Nola Drip",
+   "name": "Jefferson Legends",
    "city": "Jefferson",
    "state": "LA",
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6964",
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6964-nola-drip.png?v=1"
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6964-jefferson-legends.png?v=1"
   },
   "otc:6967": {
    "key": "otc:6967",
@@ -154,6 +154,24 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6981",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6981-la-nationals-wilson.jpg?v=1"
+  },
+  "otc:6985": {
+   "key": "otc:6985",
+   "name": "Southern Sting",
+   "city": "Lockport",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6985",
+   "logo": ""
+  },
+  "otc:6986": {
+   "key": "otc:6986",
+   "name": "Southern Legion Baseball",
+   "city": "Morgan City",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6986",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6986-southern-legion-baseball.png?v=4"
   },
   "otc:6987": {
    "key": "otc:6987",
@@ -254,6 +272,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7007",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7007-lega-c-baseball.png?v=1"
   },
+  "otc:7008": {
+   "key": "otc:7008",
+   "name": "Huntsmen Gray",
+   "city": "Thibodaux",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7008",
+   "logo": ""
+  },
   "otc:7012": {
    "key": "otc:7012",
    "name": "MS Jays",
@@ -262,6 +289,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7012",
    "logo": ""
+  },
+  "otc:7014": {
+   "key": "otc:7014",
+   "name": "The Show",
+   "city": "Amite",
+   "state": "LA",
+   "ageClass": "9U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7014",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7014-the-show.png?v=2"
   },
   "otc:7015": {
    "key": "otc:7015",
@@ -298,6 +334,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7018",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7018-tri-city-sluggers.jpg?v=1"
+  },
+  "otc:7019": {
+   "key": "otc:7019",
+   "name": "Chappapeela Chiefs - Green",
+   "city": "Hammond",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7019",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7019-chappapeela-chiefs-green.jpeg?v=1"
   },
   "otc:7020": {
    "key": "otc:7020",
@@ -524,6 +569,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7063",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7063-chappapeela-chiefs.png?v=1"
   },
+  "otc:7065": {
+   "key": "otc:7065",
+   "name": "Chappapeela Chiefs",
+   "city": "Hammond",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7065",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7065-chappapeela-chiefs.png?v=1"
+  },
   "otc:7066": {
    "key": "otc:7066",
    "name": "Chappapeela Chiefs - Navy",
@@ -574,7 +628,7 @@
    "name": "Legendz Baseball - Elam/Peay",
    "city": "Zachary",
    "state": "LA",
-   "ageClass": "10U-AA",
+   "ageClass": "10U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7080",
    "logo": ""
   },
@@ -776,6 +830,33 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7135",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7135-reign-baseball.jpg?v=1"
   },
+  "otc:7137": {
+   "key": "otc:7137",
+   "name": "LA Lagniappes",
+   "city": "Hahnville",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7137",
+   "logo": ""
+  },
+  "otc:7138": {
+   "key": "otc:7138",
+   "name": "Southern Chargers",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7138",
+   "logo": ""
+  },
+  "otc:7141": {
+   "key": "otc:7141",
+   "name": "Diamond Baseball - Gold",
+   "city": "Gretna",
+   "state": "LA",
+   "ageClass": "10U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7141",
+   "logo": ""
+  },
   "otc:7142": {
    "key": "otc:7142",
    "name": "New Orleans Naturals",
@@ -810,6 +891,15 @@
    "state": "LA",
    "ageClass": "11U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7148",
+   "logo": ""
+  },
+  "otc:7151": {
+   "key": "otc:7151",
+   "name": "LA Bulls - Crotwell",
+   "city": "Livingston",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7151",
    "logo": ""
   },
   "otc:7152": {
@@ -1091,6 +1181,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7194",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7194-baton-rouge-astros-terrell.png?v=1"
   },
+  "otc:7195": {
+   "key": "otc:7195",
+   "name": "Baton Rouge Astros - Cothron",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7195",
+   "logo": ""
+  },
   "otc:7197": {
    "key": "otc:7197",
    "name": "Northshore Mariners",
@@ -1144,6 +1243,15 @@
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7208",
    "logo": ""
+  },
+  "otc:7214": {
+   "key": "otc:7214",
+   "name": "Marucci Legacy NOLA",
+   "city": "Westwego",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7214",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7214-marucci-legacy-nola.png?v=1"
   },
   "otc:7215": {
    "key": "otc:7215",
@@ -1298,6 +1406,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7254",
    "logo": ""
   },
+  "otc:7255": {
+   "key": "otc:7255",
+   "name": "LA Mariners - Shnider",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7255",
+   "logo": ""
+  },
   "otc:7256": {
    "key": "otc:7256",
    "name": "DS Rockies",
@@ -1315,6 +1432,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7257",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7257-jaguars-baseball.jpeg?v=2"
+  },
+  "otc:7259": {
+   "key": "otc:7259",
+   "name": "MYB Gators Green",
+   "city": "Madisonville",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7259",
+   "logo": ""
   },
   "otc:7260": {
    "key": "otc:7260",
@@ -1342,6 +1468,15 @@
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7265",
    "logo": ""
+  },
+  "otc:7267": {
+   "key": "otc:7267",
+   "name": "Belle Chasse Cardinals",
+   "city": "Belle Chasse",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7267",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7267-belle-chasse-cardinals.jpeg?v=1"
   },
   "otc:7272": {
    "key": "otc:7272",
@@ -1386,7 +1521,7 @@
    "state": "LA",
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7296",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7296-lba-naturals-blue.jpg?v=1"
   },
   "otc:7299": {
    "key": "otc:7299",
@@ -1449,6 +1584,24 @@
    "state": "MS",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7311",
+   "logo": ""
+  },
+  "otc:7313": {
+   "key": "otc:7313",
+   "name": "Knights BR - Herring",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7313",
+   "logo": ""
+  },
+  "otc:7314": {
+   "key": "otc:7314",
+   "name": "Knights BR Wallet",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "12U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7314",
    "logo": ""
   },
   "otc:7316": {
@@ -1568,6 +1721,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7342",
    "logo": ""
   },
+  "otc:7343": {
+   "key": "otc:7343",
+   "name": "LAK Lugnuts - BD",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7343",
+   "logo": ""
+  },
   "otc:7345": {
    "key": "otc:7345",
    "name": "Team Louisiana Navy",
@@ -1576,6 +1738,15 @@
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7345",
    "logo": ""
+  },
+  "otc:7346": {
+   "key": "otc:7346",
+   "name": "LA Storm",
+   "city": "Lafayette",
+   "state": "LA",
+   "ageClass": "12U-AAA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7346",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7346-la-storm.jpeg?v=1"
   },
   "otc:7348": {
    "key": "otc:7348",
@@ -1602,6 +1773,33 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7351",
+   "logo": ""
+  },
+  "otc:7355": {
+   "key": "otc:7355",
+   "name": "Ascension Select - White",
+   "city": "Gonzales",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7355",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7355-ascension-select-white.png?v=1"
+  },
+  "otc:7357": {
+   "key": "otc:7357",
+   "name": "Acadiana Cajuns",
+   "city": "Carencro",
+   "state": "LA",
+   "ageClass": "14U-OPEN 60/90",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7357",
+   "logo": ""
+  },
+  "otc:7361": {
+   "key": "otc:7361",
+   "name": "Northshore Elite",
+   "city": "Slidell",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7361",
    "logo": ""
   },
   "otc:7362": {
@@ -6497,6 +6695,689 @@
      "teamB": "otc:7364",
      "scoreA": 10,
      "scoreB": 9
+    }
+   ]
+  },
+  "1146": {
+   "id": "1146",
+   "name": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+   "startDate": "2026-11-14",
+   "endDate": "2026-11-15",
+   "final": false,
+   "teamKeys": [
+    "otc:6939",
+    "otc:6952",
+    "otc:6953",
+    "otc:6964",
+    "otc:6980",
+    "otc:6981",
+    "otc:6985",
+    "otc:6986",
+    "otc:7008",
+    "otc:7014",
+    "otc:7016",
+    "otc:7019",
+    "otc:7020",
+    "otc:7022",
+    "otc:7025",
+    "otc:7027",
+    "otc:7031",
+    "otc:7041",
+    "otc:7050",
+    "otc:7056",
+    "otc:7060",
+    "otc:7061",
+    "otc:7065",
+    "otc:7066",
+    "otc:7071",
+    "otc:7074",
+    "otc:7080",
+    "otc:7083",
+    "otc:7134",
+    "otc:7137",
+    "otc:7138",
+    "otc:7141",
+    "otc:7151",
+    "otc:7169",
+    "otc:7173",
+    "otc:7177",
+    "otc:7188",
+    "otc:7195",
+    "otc:7197",
+    "otc:7201",
+    "otc:7214",
+    "otc:7229",
+    "otc:7252",
+    "otc:7255",
+    "otc:7257",
+    "otc:7259",
+    "otc:7267",
+    "otc:7296",
+    "otc:7313",
+    "otc:7314",
+    "otc:7319",
+    "otc:7343",
+    "otc:7346",
+    "otc:7355",
+    "otc:7357",
+    "otc:7361"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7027",
+     "teamB": "otc:6939",
+     "scoreA": 2,
+     "scoreB": 19
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:6939",
+     "teamB": "otc:7201",
+     "scoreA": 30,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:6952",
+     "teamB": "otc:6981",
+     "scoreA": 8,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7197",
+     "teamB": "otc:6952",
+     "scoreA": 13,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:6953",
+     "teamB": "otc:7014",
+     "scoreA": 3,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7259",
+     "teamB": "otc:6953",
+     "scoreA": 9,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:6964",
+     "teamB": "otc:7050",
+     "scoreA": 4,
+     "scoreB": 18
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7065",
+     "teamB": "otc:6964",
+     "scoreA": 12,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7141",
+     "teamB": "otc:6980",
+     "scoreA": 18,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:6980",
+     "teamB": "otc:7151",
+     "scoreA": 3,
+     "scoreB": 18
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:6981",
+     "teamB": "otc:7259",
+     "scoreA": 3,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:6985",
+     "teamB": "otc:7041",
+     "scoreA": 1,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7214",
+     "teamB": "otc:6985",
+     "scoreA": 1,
+     "scoreB": 30
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:6986",
+     "teamB": "otc:7080",
+     "scoreA": 2,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7151",
+     "teamB": "otc:6986",
+     "scoreA": 9,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7319",
+     "teamB": "otc:7008",
+     "scoreA": 12,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7008",
+     "teamB": "otc:7343",
+     "scoreA": 2,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7014",
+     "teamB": "otc:7197",
+     "scoreA": 13,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7016",
+     "teamB": "otc:7022",
+     "scoreA": 11,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7314",
+     "teamB": "otc:7016",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7019",
+     "teamB": "otc:7137",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7169",
+     "teamB": "otc:7019",
+     "scoreA": 2,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7020",
+     "teamB": "otc:7025",
+     "scoreA": 13,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7138",
+     "teamB": "otc:7020",
+     "scoreA": 10,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7022",
+     "teamB": "otc:7061",
+     "scoreA": 6,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7025",
+     "teamB": "otc:7083",
+     "scoreA": 2,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7074",
+     "teamB": "otc:7027",
+     "scoreA": 27,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7031",
+     "teamB": "otc:7296",
+     "scoreA": 1,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7357",
+     "teamB": "otc:7031",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7041",
+     "teamB": "otc:7214",
+     "scoreA": 18,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7050",
+     "teamB": "otc:7252",
+     "scoreA": 12,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7056",
+     "teamB": "otc:7134",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7355",
+     "teamB": "otc:7056",
+     "scoreA": 13,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7201",
+     "teamB": "otc:7060",
+     "scoreA": 7,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7060",
+     "teamB": "otc:7257",
+     "scoreA": 13,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7061",
+     "teamB": "otc:7314",
+     "scoreA": 4,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7361",
+     "teamB": "otc:7065",
+     "scoreA": 12,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7195",
+     "teamB": "otc:7066",
+     "scoreA": 8,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7066",
+     "teamB": "otc:7255",
+     "scoreA": 3,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7134",
+     "teamB": "otc:7071",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7071",
+     "teamB": "otc:7188",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "10U-AA",
+     "teamA": "otc:7257",
+     "teamB": "otc:7074",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7080",
+     "teamB": "otc:7141",
+     "scoreA": 8,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7083",
+     "teamB": "otc:7229",
+     "scoreA": 11,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7137",
+     "teamB": "otc:7267",
+     "scoreA": 7,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "11U-AA",
+     "teamA": "otc:7229",
+     "teamB": "otc:7138",
+     "scoreA": 3,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7267",
+     "teamB": "otc:7169",
+     "scoreA": 2,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7177",
+     "teamB": "otc:7173",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7173",
+     "teamB": "otc:7346",
+     "scoreA": 12,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-OPEN",
+     "teamA": "otc:7346",
+     "teamB": "otc:7177",
+     "scoreA": 0,
+     "scoreB": 18
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7188",
+     "teamB": "otc:7355",
+     "scoreA": 1,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "13U-AA 54/80",
+     "teamA": "otc:7255",
+     "teamB": "otc:7195",
+     "scoreA": 17,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "12U-AA",
+     "teamA": "otc:7252",
+     "teamB": "otc:7361",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7296",
+     "teamB": "otc:7357",
+     "scoreA": 15,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7313",
+     "teamB": "otc:7319",
+     "scoreA": 11,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1146",
+     "eventName": "OTC Sports Fall State Championships! Sponsored by Cheramie Farms!",
+     "date": "2026-11-14",
+     "division": "14U-OPEN 60/90",
+     "teamA": "otc:7343",
+     "teamB": "otc:7313",
+     "scoreA": 8,
+     "scoreB": 2
     }
    ]
   },
