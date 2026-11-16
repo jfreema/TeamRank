@@ -196,7 +196,7 @@ Same name and hometown, never in the same event. Undo one with a `split` entry.
 - `2d:2b197707-f5cd-4b1f-8576-732de74b4ad5` New Orleans Renegades 11u Howell (Kenner, LA; 1 events) = `uacs:new-orleans-renegades-howell|11` New Orleans Renegades 11U Howell (, LA; 1 events)
 - `otc:7061` St Bernard Braves (Meraux, LA; 2 events) = `uacs:st-bernard-braves|12` St Bernard Braves-12u (, LA; 1 events)
 
-## Not merged: same name and hometown (212)
+## Not merged: same name and hometown (211)
 
 They played in the same event or their names give different ages, so they are probably different squads. Add a `names` entry to tell them apart, or a `merge` entry if they are one team.
 
@@ -293,7 +293,7 @@ They played in the same event or their names give different ages, so they are pr
 - `2d:592e333d-ce39-4fc0-8059-fadffa4cfaa7` Tornado Athletics Blue 13u (Sulphur, LA; 1 events) / `2d:cfe6f0dd-a6f7-43c5-be60-95f896db6908` Tornado Athletics Blue (Sulphur, LA; 1 events)
 - `2d:5fb236d6-89bf-4fc0-b918-4c8fbe496ff9` Renegades 12u (Ragley, LA; 2 events) / `2d:cb5c1658-c6d2-43c6-aec9-1929a9f5f4bf` Renegades 14u (Ragley, LA; 3 events)
 - `2d:62787b53-f398-4617-b9b8-3de7dd79fe02` Mobtown Baseball (Mobile, AL; 1 events) / `2d:eaf494f1-cf1b-4b7c-8306-679b54076828` Mobtown Baseball 14U (Mobile, AL; 3 events) / `2d:ec0fdf9c-6f28-4e85-a1d6-ce8002183286` Mobtown Baseball Club (Mobile, AL; 2 events)
-- `2d:62f32053-36ca-44ea-bea3-dfea4e2ae281` Prime Baseball (Gulfport, MS; 3 events) / `gs:32647` PRIME BASEBALL (Gulfport, MS; 1 events) / `gs:32648` PRIME BASEBALL (Gulfport, MS; 7 events)
+- `2d:62f32053-36ca-44ea-bea3-dfea4e2ae281` Prime Baseball (Gulfport, MS; 3 events) / `gs:32646` PRIME BASEBALL (Gulfport, MS; 1 events) / `gs:32647` PRIME BASEBALL (Gulfport, MS; 1 events) / `gs:32648` PRIME BASEBALL (Gulfport, MS; 7 events)
 - `2d:62f78355-69f8-4336-9987-06d45c2f1bd8` Prime Courville 12u (Kinder, LA; 2 events) / `2d:866399fb-c150-4da1-881f-e6f0d4ad3fff` Prime Courville 11u (Kinder, LA; 2 events)
 - `2d:6451baf8-169e-4abd-a714-63955f12a3ad` EA Bears Andrus (Celina, TX; 1 events) / `2d:9fb53375-83cf-428a-be80-bf66c72b1643` EA Bears Andrus (Celina, TX; 1 events)
 - `2d:655eb85a-0eff-4b6b-9efd-cb6f24be9857` Prospects 11u (Texarkana, TX; 1 events) / `2d:8872cd00-c2b1-4550-a9ae-cb235c865f2c` Prospects (Texarkana, TX; 1 events)
@@ -411,9 +411,8 @@ They played in the same event or their names give different ages, so they are pr
 - `gs:32584` BE360 (Meadville, MS; 3 events) / `gs:32585` BE360 (Meadville, MS; 3 events)
 - `gs:32975` StateLine Bombers 12U (Irvington, AL; 3 events) / `gs:33118` Stateline Bombers (Irvington, AL; 3 events)
 - `gs:33100` CBC Braves-11U SANFORD (Petal, MS; 3 events) / `gs:33227` CBC Braves -12U SANFORD (Petal, MS; 3 events)
-- `gs:33113` Gladiators Baseball 11u (Grayson, LA; 4 events) / `gs:33624` Gladiators Baseball 10u (Grayson, LA; 3 events)
 
-## Possible duplicates: same name, different hometown (103)
+## Possible duplicates: same name, different hometown (104)
 
 Add a `merge` entry if these are the same team.
 
@@ -520,8 +519,9 @@ Add a `merge` entry if these are the same team.
 - `gs:31493` MS Yankees - 14u Silver (Madison, MS; 3 events) / `gs:31727` MS Yankees - 10U Silver (Madison, MS; 2 events) / `gs:31971` Ms Yankees - 13U Silver (Madison, MS, MS; 3 events)
 - `gs:32106` Thundercats (Colbert Heights, AL; 2 events) / `gs:32399` Thundercats (Ellisville, MS; 2 events)
 - `gs:32479` Mississippi Heat (Saltillo, MS; 1 events) / `gs:33330` Mississippi Heat (Guntown, MS; 1 events)
+- `gs:33113` Gladiators Baseball 11u (Columbia, LA; 4 events) / `gs:33624` Gladiators Baseball 10u (Grayson, LA; 3 events)
 
-## Possible duplicates: similar name, same hometown (512)
+## Possible duplicates: similar name, same hometown (514)
 
 Add a `merge` entry if these are the same team.
 
@@ -755,6 +755,7 @@ Add a `merge` entry if these are the same team.
 - `2d:d87762ee-deee-47e4-b1f9-716a6f1f7f43` Reign Baseball (Chalmette, LA; 1 events) / `gs:32056` Reign Baseball Black (Chalmette, LA; 1 events)
 - `2d:d87762ee-deee-47e4-b1f9-716a6f1f7f43` Reign Baseball (Chalmette, LA; 1 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 2 events)
 - `2d:d9689b02-daa0-49f9-ae8d-b478bc7c52b1` Commodores (Gulfport, MS; 1 events) / `gs:32318` Commodores 9U (Gulfport, MS; 0 events)
+- `2d:e18c1cc3-10f4-440a-aec4-42cbda095832` Elite Baseball (Mobile, AL; 2 events) / `gs:32097` Elite Baseball 9U (Mobile, AL; 1 events)
 - `2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f` USA Scout National MS (Flowood, MS; 1 events) / `gs:31766` 8U USA Scout National MS- Team Nike (Flowood, MS; 1 events)
 - `2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f` USA Scout National MS (Flowood, MS; 1 events) / `gs:31767` 9U USA Scout National MS- Team Nike (Flowood, MS; 1 events)
 - `2d:e46b2def-0888-49b0-ba89-5e3aba6e1f8f` USA Scout National MS (Flowood, MS; 1 events) / `gs:31772` 12U USA Scout National MS - Team Nike (Flowood, MS; 1 events)
@@ -925,6 +926,7 @@ Add a `merge` entry if these are the same team.
 - `gs:32053` Reign Baseball (Chalmette, LA; 2 events) / `gs:32057` Reign Baseball Purple (Chalmette, LA; 2 events)
 - `gs:32072` Mississippi Heat Missiles (Columbia, MS; 4 events) / `gs:32094` Mississippi Heat Missiles 10u- White (Columbia, MS; 1 events)
 - `gs:32072` Mississippi Heat Missiles (Columbia, MS; 4 events) / `gs:32095` Mississippi Heat Missiles-White (Columbia, MS; 0 events)
+- `gs:32096` Elite Baseball (Mobile, AL; 3 events) / `gs:32097` Elite Baseball 9U (Mobile, AL; 1 events)
 - `gs:32105` CBA Reds 13u (Clinton, MS; 2 events) / `gs:32761` CBA Reds - Black (Clinton, MS; 2 events)
 - `gs:32227` Roe City Baseball (Monroe, LA; 2 events) / `gs:32983` Roe City Baseball 9u (Monroe, LA; 3 events)
 - `gs:32247` Canes 10u (Oxford, MS; 1 events) / `gs:33225` Canes 14U - Oxford (Oxford, MS; 1 events)
