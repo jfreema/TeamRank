@@ -2488,7 +2488,7 @@
   },
   "gs:30964": {
    "key": "gs:30964",
-   "name": "Rising Stars 10u - Gulf Coast",
+   "name": "Rising Stars 10u - Cuevas",
    "city": "Gulfport",
    "state": "MS",
    "ageClass": "10 & Under AAA",
@@ -6637,12 +6637,12 @@
   },
   "gs:32014": {
    "key": "gs:32014",
-   "name": "10u SIP Combest",
+   "name": "Rising Stars 10U - Combest",
    "city": "Gulfport",
    "state": "MS",
    "ageClass": "10 & Under A",
    "url": "https://grandslamtournaments.com/baseball/Teams/Details/32014",
-   "logo": ""
+   "logo": "https://grandslam.blob.core.windows.net/documents/images/Teams/a4ed5b81ebb947a9bc0c729ffc7834b7.png?t=639304587394730000"
   },
   "gs:32015": {
    "key": "gs:32015",
@@ -59512,7 +59512,7 @@
    "name": "FALL FINALE CHAMPIONSHIP NIT",
    "startDate": "2026-11-14",
    "endDate": "2026-11-14",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31413",
     "gs:31684",
@@ -66977,19 +66977,19 @@
   },
   "4976": {
    "id": "4976",
-   "name": "",
+   "name": "Coastal MS Spring Thaw Classic NIT",
    "startDate": "2027-02-27",
    "endDate": "2027-02-28",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
   "4977": {
    "id": "4977",
-   "name": "",
+   "name": "Spring Fling Kick Off",
    "startDate": "2027-03-06",
    "endDate": "2027-03-07",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
@@ -67013,10 +67013,10 @@
   },
   "4980": {
    "id": "4980",
-   "name": "",
+   "name": "Coastal MS GOING BANANAS BASEBALL BASH",
    "startDate": "2027-04-10",
    "endDate": "2027-04-11",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },
