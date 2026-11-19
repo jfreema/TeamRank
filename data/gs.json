@@ -30066,7 +30066,7 @@
    "name": "Coastal Mississippi Fall NIT Championship",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30851",
     "gs:30934",
@@ -57670,7 +57670,7 @@
    "name": "MS Fall State",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31194",
     "gs:31232",
@@ -63576,7 +63576,7 @@
    "name": "South MS - Last Call For Fall Ball",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:30745",
     "gs:30836",
@@ -65485,7 +65485,7 @@
    "name": "North Louisiana Military Salute in Da Boot",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31462",
     "gs:31669",
@@ -66995,10 +66995,10 @@
   },
   "4978": {
    "id": "4978",
-   "name": "",
+   "name": "Coastal MS Lucky Swings & Diamond Things",
    "startDate": "2027-03-20",
    "endDate": "2027-03-21",
-   "final": true,
+   "final": false,
    "teamKeys": [],
    "games": []
   },

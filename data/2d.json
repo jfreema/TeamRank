@@ -9986,7 +9986,7 @@
    "name": "Youth Southeast Cup - powered by Turtle Box Speakers",
    "startDate": "2026-11-13",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:0d238593-7437-464f-9fbb-562aa0ba33c8",
     "2d:0dd5133e-b99f-4b45-accf-83dcabb6ceb3",
@@ -19684,7 +19684,7 @@
    "name": "SWLA Fall Finale",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:00c41652-b4c4-4f1f-b445-a3729cdd3878",
     "2d:03902356-f78d-4ef4-9a92-a5b0297465c3",
@@ -26029,7 +26029,7 @@
    "name": "Hammond America Fall Finale",
    "startDate": "2026-11-14",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "2d:104ed3a0-d63a-4e51-9fa5-1778d7f29f27",
     "2d:21ed7e16-265a-448f-bf0f-90c92b029a80",
@@ -51019,7 +51019,7 @@
    "name": "SWLA Fall League Free Agents",
    "startDate": "2026-11-13",
    "endDate": "2026-11-15",
-   "final": false,
+   "final": true,
    "teamKeys": [],
    "games": []
   },
