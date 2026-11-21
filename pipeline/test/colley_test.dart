@@ -36,17 +36,19 @@ void main() {
   test('a bigger win counts more, up to the cap', () {
     final close = colleyRatings(2, [Result(0, 1, 3, 2)]);
     final big = colleyRatings(2, [Result(0, 1, 9, 2)]);
-    final capped = colleyRatings(2, [Result(0, 1, 12, 2)]);
-    final blowout = colleyRatings(2, [Result(0, 1, 20, 0)]);
+    final capped = colleyRatings(2, [Result(0, 1, 22, 2)]);
+    final blowout = colleyRatings(2, [Result(0, 1, 30, 0)]);
     expect(big[0], greaterThan(close[0]));
     expect(capped[0], greaterThan(big[0]));
-    expect(blowout[0], closeTo(capped[0], 1e-12), reason: 'no credit past 10 runs');
+    expect(blowout[0], closeTo(capped[0], 1e-12), reason: 'no credit past 20 runs');
   });
 
   test('a one-run win still counts as most of a win', () {
     expect(winShare(3, 2), closeTo(0.64, 1e-9));
     expect(winShare(2, 3), closeTo(0.36, 1e-9));
-    expect(winShare(15, 0), 1);
+    expect(winShare(15, 0), lessThan(1), reason: 'the cap is 20 runs');
+    expect(winShare(20, 0), 1);
+    expect(winShare(11, 1), closeTo(0.64 + 0.36 * 9 / 19, 1e-9));
     expect(winShare(4, 4), 0.5);
   });
 

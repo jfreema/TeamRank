@@ -23,17 +23,18 @@ class Result {
       weight: weight, lossScale: lossScale, shareBonus: bonus);
 }
 
-/// How much of a win a result is worth, from 0.5 (a tie) to 1. A win is
-/// worth at least [baseWin] and the rest grows with the run differential up
-/// to [marginCap] runs, so winning matters most, winning big matters some,
-/// and running up the score past the cap gains nothing.
-const baseWin = 0.6, marginCap = 10;
+/// How much of a win a result is worth, from 0.5 (a tie) to 1. A one-run
+/// win is worth [oneRunWin] (the loser keeps the rest) and the share grows
+/// evenly with the run differential to a full win at [marginCap] runs, so
+/// winning matters most, winning big matters some, and running up the score
+/// past the cap gains nothing.
+const oneRunWin = 0.64, marginCap = 20;
 
 double winShare(int scoreFor, int scoreAgainst) {
   final diff = scoreFor - scoreAgainst;
   if (diff == 0) return 0.5;
-  final m = min(diff.abs(), marginCap) / marginCap;
-  final win = baseWin + (1 - baseWin) * m;
+  final m = (min(diff.abs(), marginCap) - 1) / (marginCap - 1);
+  final win = oneRunWin + (1 - oneRunWin) * m;
   return diff > 0 ? win : 1 - win;
 }
 
@@ -44,7 +45,7 @@ double winShare(int scoreFor, int scoreAgainst) {
 /// opponent's rating depends on its own opponents, and theirs on theirs, all
 /// the way through the schedule: beating a team that beat good teams is
 /// worth a lot, and beating a winless team is worth little. A win counts as
-/// [winShare] of a win (0.8 for one run, a full win at 10 or more runs), and
+/// [winShare] of a win (0.64 for one run, a full win at [marginCap] or more runs), and
 /// the loser gets the rest. Ties count as half a win each.
 ///
 /// Solves `C r = b` where `C[i][i] = 2 + games_i`, `C[i][j] = -games(i,j)` and
