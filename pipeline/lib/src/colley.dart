@@ -24,16 +24,20 @@ class Result {
 }
 
 /// How much of a win a result is worth, from 0.5 (a tie) to 1. A one-run
-/// win is worth [oneRunWin] (the loser keeps the rest) and the share grows
-/// evenly with the run differential to a full win at [marginCap] runs, so
-/// winning matters most, winning big matters some, and running up the score
-/// past the cap gains nothing.
-const oneRunWin = 0.64, marginCap = 20;
+/// win is worth [oneRunWin] (the loser keeps the rest). The share climbs
+/// [kneeShare] of the way to a full win by [kneeRuns] runs, then the rest of
+/// the way more slowly, reaching a full win at [marginCap] runs. So winning
+/// matters most, winning big matters some, runs past [kneeRuns] still help
+/// but less (Jared's diminishing returns), and past the cap nothing is gained.
+const oneRunWin = 0.64, kneeRuns = 10, kneeShare = 0.75, marginCap = 20;
 
 double winShare(int scoreFor, int scoreAgainst) {
   final diff = scoreFor - scoreAgainst;
   if (diff == 0) return 0.5;
-  final m = (min(diff.abs(), marginCap) - 1) / (marginCap - 1);
+  final d = min(diff.abs(), marginCap);
+  final m = d <= kneeRuns
+      ? kneeShare * (d - 1) / (kneeRuns - 1)
+      : kneeShare + (1 - kneeShare) * (d - kneeRuns) / (marginCap - kneeRuns);
   final win = oneRunWin + (1 - oneRunWin) * m;
   return diff > 0 ? win : 1 - win;
 }

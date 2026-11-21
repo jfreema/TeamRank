@@ -48,7 +48,12 @@ void main() {
     expect(winShare(2, 3), closeTo(0.36, 1e-9));
     expect(winShare(15, 0), lessThan(1), reason: 'the cap is 20 runs');
     expect(winShare(20, 0), 1);
-    expect(winShare(11, 1), closeTo(0.64 + 0.36 * 9 / 19, 1e-9));
+    expect(winShare(11, 1), closeTo(0.91, 1e-9), reason: 'three quarters of the way by 10 runs');
+    expect(winShare(1, 11), closeTo(0.09, 1e-9));
+    expect(winShare(15, 0), closeTo(0.955, 1e-9));
+    final early = winShare(5, 0) - winShare(4, 0), late = winShare(15, 0) - winShare(14, 0);
+    expect(late, greaterThan(0), reason: 'runs 11-20 still help');
+    expect(late, lessThan(early), reason: 'but less than runs 2-10');
     expect(winShare(4, 4), 0.5);
   });
 
