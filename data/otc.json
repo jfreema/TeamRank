@@ -74,6 +74,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6958",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6958-bobcats.png?v=1"
   },
+  "otc:6960": {
+   "key": "otc:6960",
+   "name": "New Orleans Spice",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6960",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6960-new-orleans-spice.png?v=1"
+  },
   "otc:6963": {
    "key": "otc:6963",
    "name": "Mandeville Mavericks",
@@ -155,6 +164,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6981",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6981-la-nationals-wilson.jpg?v=1"
   },
+  "otc:6984": {
+   "key": "otc:6984",
+   "name": "SL Tarpons",
+   "city": "Cut Off",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/6984",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6984-sl-tarpons.jpg?v=1"
+  },
   "otc:6985": {
    "key": "otc:6985",
    "name": "Southern Sting",
@@ -226,6 +244,15 @@
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/6997",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/6997-la-havoc-price.jpeg?v=1"
+  },
+  "otc:7000": {
+   "key": "otc:7000",
+   "name": "New Orleans Spice",
+   "city": "Kenner",
+   "state": "LA",
+   "ageClass": "10U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7000",
+   "logo": ""
   },
   "otc:7001": {
    "key": "otc:7001",
@@ -364,12 +391,12 @@
   },
   "otc:7023": {
    "key": "otc:7023",
-   "name": "Central Cyclone",
+   "name": "Central Cyclone 12U",
    "city": "Central",
    "state": "LA",
    "ageClass": "12U-AAA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7023",
-   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7023-central-cyclone.png?v=1"
+   "logo": ""
   },
   "otc:7025": {
    "key": "otc:7025",
@@ -720,6 +747,15 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7105",
+   "logo": ""
+  },
+  "otc:7109": {
+   "key": "otc:7109",
+   "name": "Saints - Morrow",
+   "city": "Prairieville",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7109",
    "logo": ""
   },
   "otc:7112": {
@@ -1082,6 +1118,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7178",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7178-myb-gators-navy.png?v=1"
   },
+  "otc:7180": {
+   "key": "otc:7180",
+   "name": "Naturals Red",
+   "city": "New Orleans",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7180",
+   "logo": ""
+  },
   "otc:7181": {
    "key": "otc:7181",
    "name": "Pelicans - Linxwiler",
@@ -1116,7 +1161,7 @@
    "state": "LA",
    "ageClass": "11U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7185",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7185-lba-naturals-white-br.jpg?v=1"
   },
   "otc:7186": {
    "key": "otc:7186",
@@ -1134,7 +1179,7 @@
    "state": "LA",
    "ageClass": "10U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7187",
-   "logo": ""
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7187-lba-naturals-green-br.jpg?v=1"
   },
   "otc:7188": {
    "key": "otc:7188",
@@ -1496,6 +1541,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7284",
    "logo": ""
   },
+  "otc:7285": {
+   "key": "otc:7285",
+   "name": "LBA Naturals - Blue",
+   "city": "Schriever",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7285",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7285-lba-naturals-blue.jpg?v=1"
+  },
   "otc:7289": {
    "key": "otc:7289",
    "name": "LBA Naturals - Blue",
@@ -1504,6 +1558,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7289",
    "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7289-lba-naturals-blue.jpg?v=1"
+  },
+  "otc:7293": {
+   "key": "otc:7293",
+   "name": "LBA Naturals - Black",
+   "city": "Schriever",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7293",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7293-lba-naturals-black.jpg?v=1"
   },
   "otc:7294": {
    "key": "otc:7294",
@@ -1549,6 +1612,15 @@
    "ageClass": "12U-AA",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7302",
    "logo": ""
+  },
+  "otc:7303": {
+   "key": "otc:7303",
+   "name": "Sandlot Baseball Painter",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7303",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7303-sandlot-baseball-painter.jpeg?v=2"
   },
   "otc:7305": {
    "key": "otc:7305",
@@ -1685,6 +1757,24 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7329",
    "logo": ""
   },
+  "otc:7334": {
+   "key": "otc:7334",
+   "name": "LAK Lugnuts - TL",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "13U-AAA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7334",
+   "logo": ""
+  },
+  "otc:7335": {
+   "key": "otc:7335",
+   "name": "Central Cyclone",
+   "city": "Baton Rouge",
+   "state": "LA",
+   "ageClass": "13U-AA 54/80",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7335",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7335-central-cyclone.png?v=3"
+  },
   "otc:7336": {
    "key": "otc:7336",
    "name": "Jesters Baseball",
@@ -1729,6 +1819,15 @@
    "ageClass": "14U-OPEN 60/90",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7343",
    "logo": ""
+  },
+  "otc:7344": {
+   "key": "otc:7344",
+   "name": "Alpha Baseball",
+   "city": "Rayne",
+   "state": "LA",
+   "ageClass": "12U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7344",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7344-alpha-baseball.png?v=1"
   },
   "otc:7345": {
    "key": "otc:7345",
@@ -1793,6 +1892,15 @@
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7357",
    "logo": ""
   },
+  "otc:7359": {
+   "key": "otc:7359",
+   "name": "Nola Warriors",
+   "city": "Metairie",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7359",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7359-nola-warriors.png?v=1"
+  },
   "otc:7361": {
    "key": "otc:7361",
    "name": "Northshore Elite",
@@ -1819,6 +1927,15 @@
    "ageClass": "13U-AAA 54/80",
    "url": "https://offthecrosssports.com/Baseball/Teams/Details/7364",
    "logo": ""
+  },
+  "otc:7374": {
+   "key": "otc:7374",
+   "name": "SL Tarpons",
+   "city": "Larose",
+   "state": "LA",
+   "ageClass": "11U-AA",
+   "url": "https://offthecrosssports.com/Baseball/Teams/Details/7374",
+   "logo": "https://offthechain.blob.core.windows.net/documents/images/Teams/7374-sl-tarpons.jpg?v=1"
   }
  },
  "events": {
@@ -7931,6 +8048,161 @@
     }
    ]
   },
+  "1147": {
+   "id": "1147",
+   "name": "Rally Cap Rumble!",
+   "startDate": "2026-11-21",
+   "endDate": "2026-11-22",
+   "final": false,
+   "teamKeys": [
+    "otc:6942",
+    "otc:6956",
+    "otc:6963",
+    "otc:6984",
+    "otc:6997",
+    "otc:7000",
+    "otc:7025",
+    "otc:7074",
+    "otc:7187",
+    "otc:7192",
+    "otc:7359",
+    "otc:7374"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:6984",
+     "teamB": "otc:6942",
+     "scoreA": 22,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:6942",
+     "teamB": "otc:7000",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:6956",
+     "teamB": "otc:7192",
+     "scoreA": 7,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7374",
+     "teamB": "otc:6956",
+     "scoreA": 1,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:6963",
+     "teamB": "otc:7025",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7192",
+     "teamB": "otc:6963",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:7074",
+     "teamB": "otc:6984",
+     "scoreA": 22,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:7000",
+     "teamB": "otc:6997",
+     "scoreA": 7,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:6997",
+     "teamB": "otc:7187",
+     "scoreA": 19,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7025",
+     "teamB": "otc:7359",
+     "scoreA": 1,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:7187",
+     "teamB": "otc:7074",
+     "scoreA": 2,
+     "scoreB": 23
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7359",
+     "teamB": "otc:7374",
+     "scoreA": 20,
+     "scoreB": 0
+    }
+   ]
+  },
   "1152": {
    "id": "1152",
    "name": "The Central Wallbanger!",
@@ -9199,6 +9471,185 @@
     }
    ]
   },
+  "1158": {
+   "id": "1158",
+   "name": "Vibing At Tha Villa",
+   "startDate": "2026-11-21",
+   "endDate": "2026-11-22",
+   "final": false,
+   "teamKeys": [
+    "otc:6960",
+    "otc:7006",
+    "otc:7023",
+    "otc:7109",
+    "otc:7117",
+    "otc:7165",
+    "otc:7184",
+    "otc:7222",
+    "otc:7293",
+    "otc:7302",
+    "otc:7303",
+    "otc:7334",
+    "otc:7335",
+    "otc:7344"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7293",
+     "teamB": "otc:6960",
+     "scoreA": 14,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:6960",
+     "teamB": "otc:7334",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7006",
+     "teamB": "otc:7222",
+     "scoreA": 1,
+     "scoreB": 20
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7344",
+     "teamB": "otc:7006",
+     "scoreA": 15,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7023",
+     "teamB": "otc:7117",
+     "scoreA": 0,
+     "scoreB": 13
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7303",
+     "teamB": "otc:7023",
+     "scoreA": 5,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7117",
+     "teamB": "otc:7109",
+     "scoreA": 8,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7109",
+     "teamB": "otc:7303",
+     "scoreA": 8,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7165",
+     "teamB": "otc:7293",
+     "scoreA": 4,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7335",
+     "teamB": "otc:7165",
+     "scoreA": 5,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7302",
+     "teamB": "otc:7184",
+     "scoreA": 5,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7184",
+     "teamB": "otc:7344",
+     "scoreA": 3,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7222",
+     "teamB": "otc:7302",
+     "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7334",
+     "teamB": "otc:7335",
+     "scoreA": 6,
+     "scoreB": 6
+    }
+   ]
+  },
   "1164": {
    "id": "1164",
    "name": "Battle For Bayou Country!",
@@ -9506,6 +9957,161 @@
      "teamB": "otc:7188",
      "scoreA": 11,
      "scoreB": 7
+    }
+   ]
+  },
+  "1167": {
+   "id": "1167",
+   "name": "Bayou Country Swamp Slam!",
+   "startDate": "2026-11-21",
+   "endDate": "2026-11-22",
+   "final": false,
+   "teamKeys": [
+    "otc:6988",
+    "otc:7020",
+    "otc:7046",
+    "otc:7056",
+    "otc:7180",
+    "otc:7185",
+    "otc:7215",
+    "otc:7216",
+    "otc:7285",
+    "otc:7316",
+    "otc:7322",
+    "otc:7336"
+   ],
+   "games": [
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7215",
+     "teamB": "otc:6988",
+     "scoreA": 14,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:6988",
+     "teamB": "otc:7316",
+     "scoreA": 6,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7020",
+     "teamB": "otc:7185",
+     "scoreA": 8,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7216",
+     "teamB": "otc:7020",
+     "scoreA": 19,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7046",
+     "teamB": "otc:7285",
+     "scoreA": 5,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7322",
+     "teamB": "otc:7046",
+     "scoreA": 6,
+     "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7056",
+     "teamB": "otc:7180",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7316",
+     "teamB": "otc:7056",
+     "scoreA": 4,
+     "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7180",
+     "teamB": "otc:7336",
+     "scoreA": 9,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7185",
+     "teamB": "otc:7216",
+     "scoreA": 6,
+     "scoreB": 14
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7336",
+     "teamB": "otc:7215",
+     "scoreA": 4,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7285",
+     "teamB": "otc:7322",
+     "scoreA": 20,
+     "scoreB": 21
     }
    ]
   }
