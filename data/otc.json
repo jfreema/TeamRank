@@ -8077,6 +8077,17 @@
      "division": "10U-AA",
      "teamA": "otc:6984",
      "teamB": "otc:6942",
+     "scoreA": 17,
+     "scoreB": 9
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:6984",
+     "teamB": "otc:6942",
      "scoreA": 22,
      "scoreB": 9
     },
@@ -8097,6 +8108,17 @@
      "eventName": "Rally Cap Rumble!",
      "date": "2026-11-21",
      "division": "11U-AA",
+     "teamA": "otc:7192",
+     "teamB": "otc:6956",
+     "scoreA": 8,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
      "teamA": "otc:6956",
      "teamB": "otc:7192",
      "scoreA": 7,
@@ -8108,10 +8130,32 @@
      "eventName": "Rally Cap Rumble!",
      "date": "2026-11-21",
      "division": "11U-AA",
+     "teamA": "otc:6956",
+     "teamB": "otc:7374",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
      "teamA": "otc:7374",
      "teamB": "otc:6956",
      "scoreA": 1,
      "scoreB": 16
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:6963",
+     "teamB": "otc:7025",
+     "scoreA": 6,
+     "scoreB": 3
     },
     {
      "source": "otc",
@@ -8134,6 +8178,28 @@
      "teamB": "otc:6963",
      "scoreA": 8,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7359",
+     "teamB": "otc:6963",
+     "scoreA": 14,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:7000",
+     "teamB": "otc:6984",
+     "scoreA": 8,
+     "scoreB": 0
     },
     {
      "source": "otc",
@@ -8163,10 +8229,43 @@
      "eventName": "Rally Cap Rumble!",
      "date": "2026-11-21",
      "division": "10U-AA",
+     "teamA": "otc:7074",
+     "teamB": "otc:6997",
+     "scoreA": 3,
+     "scoreB": 2
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:6997",
+     "teamB": "otc:7187",
+     "scoreA": 12,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
      "teamA": "otc:6997",
      "teamB": "otc:7187",
      "scoreA": 19,
      "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "10U-AA",
+     "teamA": "otc:7000",
+     "teamB": "otc:7074",
+     "scoreA": 5,
+     "scoreB": 10
     },
     {
      "source": "otc",
@@ -8189,6 +8288,17 @@
      "teamB": "otc:7074",
      "scoreA": 2,
      "scoreB": 23
+    },
+    {
+     "source": "otc",
+     "eventId": "1147",
+     "eventName": "Rally Cap Rumble!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7359",
+     "teamB": "otc:7192",
+     "scoreA": 7,
+     "scoreB": 5
     },
     {
      "source": "otc",
@@ -9500,6 +9610,39 @@
      "eventName": "Vibing At Tha Villa",
      "date": "2026-11-21",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7117",
+     "teamB": "otc:6960",
+     "scoreA": 8,
+     "scoreB": 10
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7165",
+     "teamB": "otc:6960",
+     "scoreA": 3,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:6960",
+     "teamB": "otc:7293",
+     "scoreA": 0,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7293",
      "teamB": "otc:6960",
      "scoreA": 14,
@@ -9533,9 +9676,31 @@
      "eventName": "Vibing At Tha Villa",
      "date": "2026-11-21",
      "division": "12U-AA",
+     "teamA": "otc:7302",
+     "teamB": "otc:7006",
+     "scoreA": 15,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
      "teamA": "otc:7344",
      "teamB": "otc:7006",
      "scoreA": 15,
+     "scoreB": 0
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7109",
+     "teamB": "otc:7023",
+     "scoreA": 10,
      "scoreB": 0
     },
     {
@@ -9577,10 +9742,32 @@
      "eventName": "Vibing At Tha Villa",
      "date": "2026-11-21",
      "division": "13U-OPEN 54/80",
+     "teamA": "otc:7293",
+     "teamB": "otc:7109",
+     "scoreA": 11,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
      "teamA": "otc:7109",
      "teamB": "otc:7303",
      "scoreA": 8,
      "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7117",
+     "teamB": "otc:7334",
+     "scoreA": 7,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -9610,10 +9797,32 @@
      "eventName": "Vibing At Tha Villa",
      "date": "2026-11-21",
      "division": "12U-AA",
+     "teamA": "otc:7222",
+     "teamB": "otc:7184",
+     "scoreA": 1,
+     "scoreB": 12
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
      "teamA": "otc:7302",
      "teamB": "otc:7184",
      "scoreA": 5,
      "scoreB": 8
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7344",
+     "teamB": "otc:7184",
+     "scoreA": 0,
+     "scoreB": 11
     },
     {
      "source": "otc",
@@ -9635,6 +9844,39 @@
      "teamA": "otc:7222",
      "teamB": "otc:7302",
      "scoreA": 4,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7222",
+     "teamB": "otc:7302",
+     "scoreA": 9,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7293",
+     "teamB": "otc:7335",
+     "scoreA": 11,
+     "scoreB": 6
+    },
+    {
+     "source": "otc",
+     "eventId": "1158",
+     "eventName": "Vibing At Tha Villa",
+     "date": "2026-11-21",
+     "division": "13U-OPEN 54/80",
+     "teamA": "otc:7334",
+     "teamB": "otc:7303",
+     "scoreA": 11,
      "scoreB": 3
     },
     {
@@ -9987,6 +10229,17 @@
      "eventName": "Bayou Country Swamp Slam!",
      "date": "2026-11-21",
      "division": "12U-AA",
+     "teamA": "otc:7180",
+     "teamB": "otc:6988",
+     "scoreA": 7,
+     "scoreB": 4
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
      "teamA": "otc:7215",
      "teamB": "otc:6988",
      "scoreA": 14,
@@ -10009,10 +10262,43 @@
      "eventName": "Bayou Country Swamp Slam!",
      "date": "2026-11-21",
      "division": "11U-AA",
+     "teamA": "otc:7046",
+     "teamB": "otc:7020",
+     "scoreA": 3,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7020",
+     "teamB": "otc:7185",
+     "scoreA": 13,
+     "scoreB": 1
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
      "teamA": "otc:7020",
      "teamB": "otc:7185",
      "scoreA": 8,
      "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7216",
+     "teamB": "otc:7020",
+     "scoreA": 4,
+     "scoreB": 2
     },
     {
      "source": "otc",
@@ -10075,6 +10361,28 @@
      "eventName": "Bayou Country Swamp Slam!",
      "date": "2026-11-21",
      "division": "12U-AA",
+     "teamA": "otc:7056",
+     "teamB": "otc:7316",
+     "scoreA": 7,
+     "scoreB": 11
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7215",
+     "teamB": "otc:7180",
+     "scoreA": 12,
+     "scoreB": 7
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
      "teamA": "otc:7180",
      "teamB": "otc:7336",
      "scoreA": 9,
@@ -10097,6 +10405,17 @@
      "eventName": "Bayou Country Swamp Slam!",
      "date": "2026-11-21",
      "division": "12U-AA",
+     "teamA": "otc:7316",
+     "teamB": "otc:7215",
+     "scoreA": 7,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
      "teamA": "otc:7336",
      "teamB": "otc:7215",
      "scoreA": 4,
@@ -10108,10 +10427,43 @@
      "eventName": "Bayou Country Swamp Slam!",
      "date": "2026-11-21",
      "division": "11U-AA",
+     "teamA": "otc:7216",
+     "teamB": "otc:7285",
+     "scoreA": 6,
+     "scoreB": 5
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
+     "teamA": "otc:7285",
+     "teamB": "otc:7322",
+     "scoreA": 10,
+     "scoreB": 3
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "11U-AA",
      "teamA": "otc:7285",
      "teamB": "otc:7322",
      "scoreA": 20,
      "scoreB": 21
+    },
+    {
+     "source": "otc",
+     "eventId": "1167",
+     "eventName": "Bayou Country Swamp Slam!",
+     "date": "2026-11-21",
+     "division": "12U-AA",
+     "teamA": "otc:7316",
+     "teamB": "otc:7336",
+     "scoreA": 7,
+     "scoreB": 6
     }
    ]
   }
