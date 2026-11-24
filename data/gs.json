@@ -66269,7 +66269,7 @@
    "name": "Battle at The Panther Den",
    "startDate": "2026-11-21",
    "endDate": "2026-11-21",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "gs:31387",
     "gs:31535",
@@ -69059,6 +69059,105 @@
    "name": "",
    "startDate": "2027-04-23",
    "endDate": "2027-04-25",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5189": {
+   "id": "5189",
+   "name": "",
+   "startDate": "2027-06-24",
+   "endDate": "2027-06-27",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5190": {
+   "id": "5190",
+   "name": "",
+   "startDate": "2027-02-20",
+   "endDate": "2027-02-20",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5191": {
+   "id": "5191",
+   "name": "",
+   "startDate": "2027-02-27",
+   "endDate": "2027-02-27",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5192": {
+   "id": "5192",
+   "name": "",
+   "startDate": "2027-03-20",
+   "endDate": "2027-03-20",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5193": {
+   "id": "5193",
+   "name": "",
+   "startDate": "2027-04-17",
+   "endDate": "2027-04-17",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5194": {
+   "id": "5194",
+   "name": "",
+   "startDate": "2027-05-29",
+   "endDate": "2027-05-29",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5195": {
+   "id": "5195",
+   "name": "",
+   "startDate": "2026-12-05",
+   "endDate": "2026-12-05",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5196": {
+   "id": "5196",
+   "name": "",
+   "startDate": "2027-04-02",
+   "endDate": "2027-04-03",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5197": {
+   "id": "5197",
+   "name": "",
+   "startDate": "2027-04-16",
+   "endDate": "2027-04-17",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5198": {
+   "id": "5198",
+   "name": "",
+   "startDate": "2027-05-07",
+   "endDate": "2027-05-09",
+   "final": true,
+   "teamKeys": [],
+   "games": []
+  },
+  "5199": {
+   "id": "5199",
+   "name": "",
+   "startDate": "2027-05-21",
+   "endDate": "2027-05-23",
    "final": true,
    "teamKeys": [],
    "games": []
