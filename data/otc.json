@@ -8053,7 +8053,7 @@
    "name": "Rally Cap Rumble!",
    "startDate": "2026-11-21",
    "endDate": "2026-11-22",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6942",
     "otc:6956",
@@ -9586,7 +9586,7 @@
    "name": "Vibing At Tha Villa",
    "startDate": "2026-11-21",
    "endDate": "2026-11-22",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6960",
     "otc:7006",
@@ -10207,7 +10207,7 @@
    "name": "Bayou Country Swamp Slam!",
    "startDate": "2026-11-21",
    "endDate": "2026-11-22",
-   "final": false,
+   "final": true,
    "teamKeys": [
     "otc:6988",
     "otc:7020",
